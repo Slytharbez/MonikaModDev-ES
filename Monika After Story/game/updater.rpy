@@ -10,7 +10,7 @@ default persistent._mas_just_updated = False
 #define mas_updater.unstable = "http://unstable.monikaafterstory.com/updates.json"
 
 # new s3 links
-define mas_updater.regular = "http://d2vycydjjutzqv.cloudfront.net/updates.json"
+define mas_updater.regular = "http://mas-updates.encodersclubservicies.dpdns.org/updates.json"
 define mas_updater.unstable = "http://dzfsgufpiee38.cloudfront.net/updates.json"
 
 define mas_updater.force = False
