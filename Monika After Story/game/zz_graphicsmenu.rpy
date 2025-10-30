@@ -336,7 +336,7 @@ screen mas_gmenu_confirm(sel_rend):
             yalign .5
             spacing 30
 
-            label _("Switch renderer to " + sel_rend + "?"):
+            label _("Switch renderer to [sel_rend]?"):
                 style "confirm_prompt"
                 xalign 0.5
 
