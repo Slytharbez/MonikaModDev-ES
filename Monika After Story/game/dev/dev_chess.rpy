@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_chess_moves_test",
             category=["dev"],
-            prompt="CHESS SPECIAL MOVES AND PROMOTIONS",
+            prompt=_("CHESS SPECIAL MOVES AND PROMOTIONS"),
             pool=True,
             unlocked=True
         )

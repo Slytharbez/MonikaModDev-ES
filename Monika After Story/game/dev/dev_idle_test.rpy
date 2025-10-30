@@ -5,7 +5,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='dev_idle_test',
-            prompt="TEST IDLE MODE",
+            prompt=_("TEST IDLE MODE"),
             category=['dev'],
             pool=True,
             unlocked=True,

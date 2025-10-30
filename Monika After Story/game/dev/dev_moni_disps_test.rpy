@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_moni_disps_test",
             category=["dev"],
-            prompt="MONIKA'S DISPLAYABLES TESTS",
+            prompt=_("MONIKA'S DISPLAYABLES TESTS"),
             pool=True,
             unlocked=True
         )

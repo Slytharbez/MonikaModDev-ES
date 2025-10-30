@@ -72,7 +72,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ptod_console_testing",
             category=["dev"],
-            prompt="TEST PTOD CONSOLE",
+            prompt=_("TEST PTOD CONSOLE"),
             pool=True,
             unlocked=True
         )
@@ -120,7 +120,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ptod_console_testing_lines",
             category=["dev"],
-            prompt="TEST PTOD CONSOLE MAX",
+            prompt=_("TEST PTOD CONSOLE MAX"),
             pool=True,
             unlocked=True
         )
@@ -166,7 +166,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ptod_console_testing_line_break",
             category=["dev"],
-            prompt="TEST PTOD CONSOLE LINE BREAK",
+            prompt=_("TEST PTOD CONSOLE LINE BREAK"),
             pool=True,
             unlocked=True
         )
@@ -206,7 +206,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ptod_console_testing_block",
             category=["dev"],
-            prompt="TEST PTOD CONSOLE BLOCK",
+            prompt=_("TEST PTOD CONSOLE BLOCK"),
             pool=True,
             unlocked=True
         )

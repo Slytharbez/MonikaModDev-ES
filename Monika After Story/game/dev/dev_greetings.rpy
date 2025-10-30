@@ -130,7 +130,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_gre_sampler",
             category=["dev"],
-            prompt="SAMPLE GRE",
+            prompt=_("SAMPLE GRE"),
             pool=True,
             unlocked=True
         )

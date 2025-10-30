@@ -7,7 +7,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_exp_previewer",
             category=["dev"],
-            prompt="EXP PREVIEW",
+            prompt=_("EXP PREVIEW"),
             pool=True,
             unlocked=True
         )
@@ -169,114 +169,115 @@ init 999 python:
         ### sprite code maps
         SEL_TX_MAP = {
             "arms": {
-                "1": "Resting on Hands",
-                "2": "Crossed",
-                "3": "Rest Left, Point Right",
-                "4": "Point Right",
-                "5": "Leaning",
-                "6": "Down",
-                "7": "Down Left, Point Right",
+                "1": _("Resting on Hands"),
+                "2": _("Crossed"),
+                "3": _("Rest Left, Point Right"),
+                "4": _("Point Right"),
+                "5": _("Leaning"),
+                "6": _("Down"),
+                "7": _("Down Left, Point Right"),
             },
             "eyes": {
-                "e": "Normal",
-                "w": "Wide",
-                "s": "Sparkle",
-                "t": "Smug",
-                "c": "Crazy",
-                "r": "Look Right",
-                "l": "Look Left",
-                "h": "Closed (Happy)",
-                "d": "Closed (Sad)",
-                "k": "Wink Left",
-                "n": "Wink Right",
-                "f": "Soft",
-                "m": "Smug Left",
-                "g": "Smug Right",
+                "e": _("Normal"),
+                "w": _("Wide"),
+                "s": _("Sparkle"),
+                "t": _("Smug"),
+                "c": _("Crazy"),
+                "r": _("Look Right"),
+                "l": _("Look Left"),
+                "h": _("Closed (Happy)"),
+                "d": _("Closed (Sad)"),
+                "k": _("Wink Left"),
+                "n": _("Wink Right"),
+                "f": _("Soft"),
+                "m": _("Smug Left"),
+                "g": _("Smug Right"),
             },
             "eyebrows": {
-                "f": "Furrowed",
-                "u": "Up",
-                "k": "Knit",
-                "s": "Straight",
-                "t": "Thinking"
+                "f": _("Furrowed"),
+                "u": _("Up"),
+                "k": _("Knit"),
+                "s": _("Straight"),
+                "t": _("Thinking")
             },
             "nose": {
-                "nd": "Default"
+                "nd": _("Default")
             },
             "eyebags": {
-                "ebd": "Default"
+                "ebd": _("Default")
             },
             "blush": {
-                "bl": "Line Blush",
-                "bs": "Shade Blush",
-                "bf": "Full Blush"
+                "bl": _("Line Blush"),
+                "bs": _("Shade Blush"),
+                "bf": _("Full Blush")
             },
             "tears": {
-                "ts": "Streaming Tears",
-                "td": "Dried Tears",
-                "tp": "Pooled Tears",
-                "tu": "Tearing Up",
-                "tl": "Tearing Up (Left)",
-                "tr": "Tearing Up (Right)",
+                "ts": _("Streaming Tears"),
+                "td": _("Dried Tears"),
+                "tp": _("Pooled Tears"),
+                "tu": _("Tearing Up"),
+                "tl": _("Tearing Up (Left)"),
+                "tr": _("Tearing Up (Right)"),
             #    "th": "Closed Happy Tears",
             #    "tc": "Closed Sad Tears",
             },
             "sweat": {
-                "sdl": "Left Sweat Drop",
-                "sdr": "Right Sweat Drop"
+                "sdl": _("Left Sweat Drop"),
+                "sdr": _("Right Sweat Drop")
             },
             # "emote": {
             #     "ec": "Confusion"
             # },
             "mouth": {
-                "a": "Smile",
-                "b": "Open Smile",
-                "c": "Straight / Smirk",
-                "d": "Small Open",
-                "o": "Gasp",
-                "u": "Smug",
-                "w": "Wide Open",
-                "x": "Grit Teeth",
-                "p": "Pout",
-                "t": "Triangle",
+                "a": _("Smile"),
+                "b": _("Open Smile"),
+                "c": _("Straight / Smirk"),
+                "d": _("Small Open"),
+                "o": _("Gasp"),
+                "u": _("Smug"),
+                "w": _("Wide Open"),
+                "x": _("Grit Teeth"),
+                "p": _("Pout"),
+                "t": _("Triangle"),
+            #    "g": "Disgust",
             #    "g": "Disgust",
             },
             "torso": {
-                "def": "School Uniform",
-                "blazerless": "S. Uniform (Blazerless)",
-                "marisa": "Witch Costume",
-                "rin": "Neko Costume",
-                "santa": "Santa Monika",
-                "sundress_white": "Sundress (White)",
-                "blackdress": "Formal Dress (Black)",
+                "def": _("School Uniform"),
+                "blazerless": _("S. Uniform (Blazerless)"),
+                "marisa": _("Witch Costume"),
+                "rin": _("Neko Costume"),
+                "santa": _("Santa Monika"),
+                "sundress_white": _("Sundress (White)"),
+                "blackdress": _("Formal Dress (Black)"),
             },
             "hair": {
-                "def": "Ponytail",
-                "down": "Down",
+                "def": _("Ponytail"),
+                "down": _("Down"),
             #    "bun": "Bun"
             },
             "time": {
-                "day": "Day",
-                "sunset": "Sunset",
-                "night": "Night",
+                "day": _("Day"),
+                "sunset": _("Sunset"),
+                "night": _("Night"),
             }
         }
 
         ### Text map
         LABELS = [
-            "Pose: ",
-            "Eyes: ",
-            "Eyebrows: ",
-            "Nose: ",
-            "Eyebags: ",
-            "Blush: ",
-            "Tears: ",
-            "Sweat: ",
+            _("Pose: "),
+            _("Eyes: "),
+            _("Eyebrows: "),
+            _("Nose: "),
+            _("Eyebags: "),
+            _("Blush: "),
+            _("Tears: "),
+            _("Sweat: "),
             # "Emote: ",
-            "Mouth: ",
-            "Clothes: ",
-            "Hair: ",
-            "Filter: "
+            _("Mouth: "),
+            _("Clothes: "),
+            _("Hair: "),
+            _("Filter: ")
         ]
 
         ROWS = len(LABELS)
@@ -968,7 +969,7 @@ init 999 python:
             spr_code = self._get_spr_code(key, nose=False)
 
             if spr_code is None:
-                return "None"
+                return _("None")
 
             return self.SEL_TX_MAP[key][spr_code]
 
@@ -1188,7 +1189,7 @@ init 999 python:
             # Spr code render
             spr_code_text_color = self.SPR_FOUND
             spr_code_text = Text(
-                "Sprite Code: " + self.curr_spr_code,
+                renpy.translation.translate_string("Sprite Code: ") + self.curr_spr_code,
                 font=gui.default_font,
                 size=self.TEXT_SIZE,
                 color=spr_code_text_color,

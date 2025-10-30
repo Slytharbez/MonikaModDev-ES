@@ -5,7 +5,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_mas_max_zoom",
             category=["dev"],
-            prompt="TEST TRANSITION MAX ZOOM",
+            prompt=_("TEST TRANSITION MAX ZOOM"),
             pool=True,
             unlocked=True
         )
@@ -23,7 +23,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_mas_min_zoom",
             category=["dev"],
-            prompt="TEST TRANSITION MIN ZOOM",
+            prompt=_("TEST TRANSITION MIN ZOOM"),
             pool=True,
             unlocked=True
         )

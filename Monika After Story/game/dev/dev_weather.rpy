@@ -6,7 +6,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_change_weather",
             category=["dev"],
-            prompt="TEST WEATHER CHANGE",
+            prompt=_("TEST WEATHER CHANGE"),
             pool=True,
             unlocked=True
         )
@@ -67,7 +67,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_weather_sampler",
             category=["dev"],
-            prompt="SAMPLE WEATHER",
+            prompt=_("SAMPLE WEATHER"),
             pool=True,
             unlocked=True
         )

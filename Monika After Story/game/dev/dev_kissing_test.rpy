@@ -6,7 +6,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_mas_kiss",
             category=["dev"],
-            prompt="TEST KISS",
+            prompt=_("TEST KISS"),
             pool=True,
             unlocked=True
         )

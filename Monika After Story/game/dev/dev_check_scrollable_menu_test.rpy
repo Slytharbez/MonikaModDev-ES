@@ -5,7 +5,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_check_scrollable_menu_test",
             category=["dev"],
-            prompt="TEST CHECK SCROLLABLE MENU",
+            prompt=_("TEST CHECK SCROLLABLE MENU"),
             pool=True,
             unlocked=True
         )
@@ -101,7 +101,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_check_scrollable_menu_sample",
             category=["dev"],
-            prompt="SAMPLE CHECK SCROLLABLE MENU",
+            prompt=_("SAMPLE CHECK SCROLLABLE MENU"),
             pool=True,
             unlocked=True
         )

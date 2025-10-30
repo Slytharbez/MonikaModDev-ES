@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_pausedisplayable_test",
             category=["dev"],
-            prompt="TEST PAUSEDISPLAYABLE",
+            prompt=_("TEST PAUSEDISPLAYABLE"),
             pool=True,
             unlocked=True
         )

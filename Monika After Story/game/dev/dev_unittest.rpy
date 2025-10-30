@@ -429,7 +429,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_unit_tests",
             category=["dev"],
-            prompt="UNIT TESTS",
+            prompt=_("UNIT TESTS"),
             pool=True,
             unlocked=True
         )

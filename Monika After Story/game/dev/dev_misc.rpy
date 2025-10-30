@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ev_ctx_start",
             category=["dev"],
-            prompt="TEST EVENT CONTEXT",
+            prompt=_("TEST EVENT CONTEXT"),
             pool=True,
             unlocked=True
         )
@@ -41,7 +41,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_dev_ev_ctx",
-            prompt="DEV BYE, CTX TEST",
+            prompt=_("DEV BYE, CTX TEST"),
             pool=True,
             unlocked=True
         ),
@@ -70,7 +70,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ev_ctx_restart_start",
             category=["dev"],
-            prompt="TEST EVENT CONTEXT (restart)",
+            prompt=_("TEST EVENT CONTEXT (restart)"),
             pool=True,
             unlocked=True
         )
@@ -109,7 +109,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ev_ctx_invalid_start",
             category=["dev"],
-            prompt="TEST EVENT CONTEXT (invalid ctx data)",
+            prompt=_("TEST EVENT CONTEXT (invalid ctx data)"),
             pool=True,
             unlocked=True
         )

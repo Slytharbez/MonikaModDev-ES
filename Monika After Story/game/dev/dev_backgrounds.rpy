@@ -399,7 +399,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_bg_test_noflt_prog",
             category=["dev"],
-            prompt="BG TEST NO FLT PROG",
+            prompt=_("BG TEST NO FLT PROG"),
             pool=True,
             unlocked=True
         )

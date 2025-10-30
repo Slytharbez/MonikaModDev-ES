@@ -105,7 +105,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_mouse_tracker",
             category=["dev"],
-            prompt="TOGGLE MOUSE TRACKING",
+            prompt=_("TOGGLE MOUSE TRACKING"),
             pool=True,
             unlocked=True
         )
@@ -153,7 +153,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_render_screen_info",
             category=["dev"],
-            prompt="SHOW CUSTOM SCREEN RENDER INFO",
+            prompt=_("SHOW CUSTOM SCREEN RENDER INFO"),
             pool=True,
             unlocked=True
         )
@@ -173,7 +173,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_hold_still_monika",
             category=["dev"],
-            prompt="HAVE MONIKA HOLD STILL",
+            prompt=_("HAVE MONIKA HOLD STILL"),
             pool=True,
             unlocked=True
         )
@@ -324,7 +324,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_clickzone_tests",
             category=["dev"],
-            prompt="CLICKZONE TEST",
+            prompt=_("CLICKZONE TEST"),
             pool=True,
             unlocked=True
         )

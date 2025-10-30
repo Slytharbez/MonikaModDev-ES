@@ -5,7 +5,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_xp_calc_test",
             category=["dev"],
-            prompt="TEST XP CALC",
+            prompt=_("TEST XP CALC"),
             pool=True,
             unlocked=True
         )
@@ -46,7 +46,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_xp_grant_test",
             category=["dev"],
-            prompt="TEST XP GRANT",
+            prompt=_("TEST XP GRANT"),
             pool=True,
             unlocked=True
         )

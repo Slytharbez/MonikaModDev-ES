@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ds_invoke_testing",
             category=["dev"],
-            prompt="TEST INVOKE IN THREAD",
+            prompt=_("TEST INVOKE IN THREAD"),
             pool=True,
             unlocked=True
         )
