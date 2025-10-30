@@ -316,16 +316,18 @@ label monika_showpoem:
     python:
         #We'll store the base DDLC poems here
         poems_list = [
-            ("Hole in Wall (Part 1)", poem_m1, False, False),
-            ("Hole in Wall (Part 2)", poem_m21, False, False),
-            ("Save Me", poem_m2, False, False),
-            ("The Lady Who Knows Everything", poem_m3, False, False),
-            ("Happy End", poem_m4, False, False)
+            (_("Hole in Wall (Part 1)"), poem_m1, False, False),
+            (_("Hole in Wall (Part 2)"), poem_m21, False, False),
+            (_("Save Me"), poem_m2, False, False),
+            (_("The Lady Who Knows Everything"), poem_m3, False, False),
+            (_("Happy End"), poem_m4, False, False)
         ]
 
-        ret_back = ("Nevermind", False, False, False, 20)
+        ret_back = (_("Nevermind"), False, False, False, 20)
         #Extend the new poems
         poems_list.extend(mas_poems.getSeenPoemsMenu())
+        # Sort alphabetically by translated prompt
+        poems_list = sorted(poems_list, key=lambda x: renpy.translation.translate_string(x[0]).lower())
 
         renpy.say(m, "Which poem would you like to read?", interact=False)
 
