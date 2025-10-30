@@ -366,11 +366,11 @@ label game_hangman:
         is_window_sayori_visible = False
 
         # instruction text and other sensitive stuff
-        instruct_txt = (
+        instruct_txt = __(
             "Guess a letter: (Type {0}'!' to give up)"
         )
 
-        instruct_txt = instruct_txt.format("'?' to repeat the hint, ")
+        instruct_txt = instruct_txt.format(__("'?' to repeat the hint, "))
         store.mas_hangman.game_name = "Hangman"
 
 label mas_hangman_game_select_diff:
