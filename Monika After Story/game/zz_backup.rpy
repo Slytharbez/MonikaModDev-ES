@@ -815,7 +815,7 @@ label mas_backups_could_not_copy:
     python:
         import os
         store.mas_utils.trywrite(
-            os.path.normcase(renpy.config.basedir + "/characters/recovery.txt"),
+            os.path.normcase(renpy.config.basedir + "/characters/" + _("recovery.txt")),
             "".join([
                 "1. Navigate to '",
                 renpy.config.savedir,
