@@ -199,8 +199,8 @@ label mas_farewell_start:
             # build a prompt list
             bye_prompt_list = sorted([
                 (ev.prompt, ev, False, False)
-                for k,ev in bye_pool_events.iteritems()
-            ])
+                for k,ev in bye_pool_events.items()
+            ], key=lambda x: Event.getSortPrompt(x[1]))
 
             most_used_fare = sorted(bye_pool_events.values(), key=Event.getSortShownCount)[-1]
 
@@ -438,7 +438,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_to_class",
             unlocked=True,
-            prompt="I'm going to class.",
+            prompt=_("I'm going to class."),
             pool=True
         ),
         code="BYE"
@@ -495,7 +495,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_to_work",
             unlocked=True,
-            prompt="I'm going to work.",
+            prompt=_("I'm going to work."),
             pool=True
         ),
         code="BYE"
@@ -552,7 +552,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_sleep",
             unlocked=True,
-            prompt="I'm going to sleep.",
+            prompt=_("I'm going to sleep."),
             pool=True
         ),
         code="BYE"
@@ -1030,7 +1030,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_long_absence",
             unlocked=True,
-            prompt="I'll be going away for a while.",
+            prompt=_("I'll be going away for a while."),
             pool=True
         ),
         code="BYE"
@@ -1167,7 +1167,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_going_somewhere",
             unlocked=True,
-            prompt="I'm going to take you somewhere.",
+            prompt=_("I'm going to take you somewhere."),
             pool=True
         ),
         code="BYE"
@@ -1333,7 +1333,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_game",
             unlocked=True,
-            prompt="I'm going to play another game.",
+            prompt=_("I'm going to play another game."),
             pool=True
         ),
         code="BYE"
@@ -1422,7 +1422,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_eat",
             unlocked=True,
-            prompt="I'm going to go eat...",
+            prompt=_("I'm going to go eat..."),
             pool=True
         ),
         code="BYE"
@@ -1684,7 +1684,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_housework",
             unlocked=True,
-            prompt="I'm going to do some housework.",
+            prompt=_("I'm going to do some housework."),
             pool=True
         ),
         code="BYE"
@@ -1719,7 +1719,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_prompt_restart",
             unlocked=True,
-            prompt="I'm going to restart.",
+            prompt=_("I'm going to restart."),
             pool=True
         ),
         code="BYE"
@@ -1743,7 +1743,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_prompt_workout",
-            prompt="I'm going to work out.",
+            prompt=_("I'm going to work out."),
             unlocked=True,
             pool=True
         ),
@@ -1781,7 +1781,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_going_shopping",
-            prompt="I'm going shopping.",
+            prompt=_("I'm going shopping."),
             unlocked=True,
             pool=True
         ),
@@ -1817,7 +1817,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_prompt_hangout",
-            prompt="I'm going to hang out with friends.",
+            prompt=_("I'm going to hang out with friends."),
             unlocked=True,
             pool=True
         ),
