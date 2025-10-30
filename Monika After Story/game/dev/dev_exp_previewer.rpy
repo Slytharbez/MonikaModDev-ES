@@ -543,7 +543,7 @@ init 999 python:
 
             # Reset button
             self.button_reset = MASButtonDisplayable.create_stb(
-                "Reset",
+                "Reiniciar" if _preferences.language == "spanish" else "Reset",
                 False,
                 self.BUTTON_X_RESET,
                 self.BUTTON_Y_RESET,
