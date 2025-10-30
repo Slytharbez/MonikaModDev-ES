@@ -38,6 +38,13 @@ default preferences.afm_time = 15
 default preferences.music_volume = 0.75
 default preferences.sfx_volume = 0.75
 
+define config.default_language = "spanish"
+
+init -990 python:
+    if _preferences.language != "spanish":
+        _preferences.language = "spanish"
+
+
 
 #define config.gl_resize = False
 init 50 python:
@@ -132,6 +139,8 @@ init python:
     #build.classify("game/**.rpy",build.name) #Optional line to include plaintext scripts
     build.classify("game/*.rpyc",build.name) #Serialized scripts must be included
     build.classify("game/dev/*.*",None) #But not the dev folder
+    build.classify("game/tl/**/dev/**", None)
+    build.classify("game/tl/**", build.name)
     build.classify("README.html",build.name) #Included help file for mod installation
     build.classify("game/python-packages/**",build.name)#Additional python pacakges
     build.classify("CustomIcon**.**",build.name)
