@@ -77,7 +77,7 @@ If you wish to add more dialogue to the space room, navigate to script-topics.rp
 
 Example new dialogue code block:
 ```renpy
-init 5 python: # This adds the event to the list of things Monika can talk about
+init 5 python:
     addEvent(
         Event(
             persistent.event_database,
@@ -94,7 +94,7 @@ label monika_example:
    m 2rtc "I feel like this doesn't actually belong here..."
    m 1etc "Why would somebody just add the example template directly into the mod?"
    m 2tsd "They really shouldn't be allowed to contribute to this repository anymore."
-return # Ends the current dialogue and returns Monika to being idle
+return # Ends the current dialogue
 ```
 **For full explanations and details on all the possible keywords for Event, check the documentation for Event located in `definitions.rpy`**
 
