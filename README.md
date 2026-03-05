@@ -90,11 +90,11 @@ init 5 python:
     )
 
 label monika_example:
-   m 3eua "This is an example topic."
-   m 2rtc "I feel like this doesn't actually belong here..."
-   m 1etc "Why would somebody just add the example template directly into the mod?"
-   m 2tsd "They really shouldn't be allowed to contribute to this repository anymore."
-return # Ends the current dialogue
+    m 3eua "This is an example topic."
+    m 2rtc "I feel like this doesn't actually belong here..."
+    m 1etc "Why would somebody just add the example template directly into the mod?"
+    m 2tsd "They really shouldn't be allowed to contribute to this repository anymore."
+    return # Ends the current dialogue
 ```
 **For full explanations and details on all the possible keywords for Event, check the documentation for Event located in `definitions.rpy`**
 
