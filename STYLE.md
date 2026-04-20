@@ -1,154 +1,133 @@
-# Coding Style
+# 🎨 Estilo de Código (Coding Style)
 
-We don't have a strict style guideline, but here's a couple of conventions
-we like to follow:
+El equipo de desarrollo oficial de MAS no tiene pautas de estilo extremadamente estrictas, pero aquí hay algunas convenciones que se recomienda seguir para mantener la consistencia en el repositorio:
 
-### Indentation
+## 🗂️ Sangría (Indentation)
 
-**Four-space indents.**
+* **Sangrías de cuatro espacios (Four-space indents).** No utilices tabulaciones.
 
-### Labels
+## 🏷️ Etiquetas (Labels)
 
-Label names should be lowercase and separated with underscores (`monika_twitter`). 
-If you use many labels for a related subprogram, prefix them with `mas` and the
-name of your subprogram (i.e: `mas_coolfungame_flowstart`). **Exceptions to
-this rule:** Monika topics/greetings/farewells, although this may changed in
-the future.
+Los nombres de las etiquetas deben estar en minúsculas y separados por guiones bajos (`monika_twitter`).
+Si utilizas muchas etiquetas para un subprograma o flujo relacionado, prefíjalas con `mas` y el nombre de tu subprograma (ej: `mas_coolfungame_flowstart`).
 
-Certain prefixes are reserved:
+> [!NOTE]
+> **Excepciones a esta regla:** Temas de conversación (topics), saludos y despedidas de Monika, aunque esto podría cambiar en el futuro.
 
-- `greeting` - used for regular greetings
-- `i_greeting` - used for special interactive greetings
-- `ch30` - used for key chapter 30 labels
-- `monika` - used for nearly every monika topic
-- `joke` - used for the jokes system
-- `m_joke` - also used for the jokes sytem
-- `mas_poem` - used for poemgame system
-- `game` - used for most of the minigames
-- `vv` - used for update-related material
-- `v` - also used for update-related material
-- `bye` - used for farewells
+Ciertos prefijos están reservados:
 
-There may be more, so in general, be mindful of the labels you use.
+* 💬 `greeting` - Usado para saludos regulares.
+* 🤝 `i_greeting` - Usado para saludos interactivos especiales.
+* 📖 `ch30` - Usado para etiquetas clave del capítulo 30.
+* 💚 `monika` - Usado para casi todos los temas (topics) de Monika.
+* 🎭 `joke` - Usado para el sistema de chistes.
+* 🃏 `m_joke` - También usado para el sistema de chistes.
+* ✍️ `mas_poem` - Usado para el sistema del juego de poemas.
+* 🎮 `game` - Usado para la mayoría de los minijuegos.
+* 🔄 `vv` - Usado para material relacionado con actualizaciones.
+* 📁 `v` - También usado para material relacionado con actualizaciones.
+* 👋 `bye` - Usado para despedidas (farewells).
 
+Puede haber más, así que en general, sé consciente de las etiquetas que utilizas.
 
-### Store
+## 📦 Almacenamiento (Store)
 
-In Renpy, stores are like namespaces, except you can't have nested ones. We
-recommend grouping related data, constants, and functions in stores to avoid
-messing with the global namespace.
+En Ren'Py, los `stores` son como espacios de nombres (namespaces), excepto que no se pueden tener anidados. Se recomienda agrupar datos relacionados, constantes y funciones en stores para evitar interferir con el espacio de nombres global.
 
-To create a store:
+Para crear un store:
 ```python
 init python in mas_store_name:
     var1 = 1
     var2 = 2
     ...
 
-# or
+# o bien
 define mas_store_name.var1 = 1
 define mas_store_name.var2 = 2
 ```
 
-To access a store:
+Para acceder a un store:
 ```python
 store.mas_store_name.var1 = 1
 
-# or
+# o bien
 python:
     import store.mas_store_name as mas_store_name
     mas_store_name.var1 = 1
 ```
 
-We use several different stores to group different data. When deciding to make
-a new store, ensure that it is not already in use. Prefix your store names
-with `mas_`.
+El proyecto utiliza varios stores diferentes para agrupar distintas clases de datos. Al decidir crear un nuevo store, asegúrate de que no esté ya en uso. Prefija los nombres de tus stores con `mas_`.
 
-`persistent` is like a store, but its a special one that gets saved to disk.
-**Only use this if you need to save data from multiple sessions** 
-More on this later...
+> [!IMPORTANT]
+> `persistent` es similar a un store, pero es especial ya que se guarda en el disco duro. **Solo usa esto si necesitas guardar datos entre múltiples sesiones del juego.** Más sobre esto más adelante...
 
-### Functions
+## ⚙️ Funciones
 
-If a function is very specific to a subprogram or flow, consider making it in 
-a store and importing it when necessary. If a function can be generalized for
-many use cases, then make it in a regular `init python` block (which makes it
-global). **Prefix global functions with mas**
+Si una función es muy específica de un subprograma o flujo, considera crearla dentro de un store e importarla cuando sea necesario. Si una función se puede generalizar para muchos casos de uso, entonces créala en un bloque `init python` normal (lo que la hace global).
 
-For documentation, either block comments (#) or doc strings (""") are fine. We
-don't enforce a particular way of documenting functions, but noting what the
-function does, its input and output vars, what it returns, and variables it
-assumes would be a good start:
+**Prefija las funciones globales con `mas_`** (por ejemplo, `mas_nombre_funcion`).
+
+Para la documentación, tanto los comentarios en bloque (`#`) como los docstrings (`"""`) están bien. No se exige una forma particular de documentar las funciones, pero indicar qué hace la función, sus variables de entrada y salida, qué devuelve y qué variables asume, sería un buen comienzo:
 
 ```python
 def mas_someKindOfFunction(var1, var2, var3=None):
     """
-    This function does some kind of thing. Use with caution.
+    Esta función hace algún tipo de cosa. Úsala con precaución.
 
-    IN:
-        var1 - value of something
-        var3 - like the most value of something
-            (Default: None)
+    ENTRADA (IN):
+        var1 - valor de algo
+        var3 - el valor máximo de algo
+            (Predeterminado: None)
 
-    OUT:
-        var2 - contains modified reference to something
+    SALIDA (OUT):
+        var2 - contiene la referencia modificada a algo
 
-    RETURNS:
-        a copy of var2
+    DEVUELVE (RETURNS):
+        una copia de var2
 
-    ASSUMES:
+    ASUME (ASSUMES):
         persistent.var4 
     """
 ```
-For function names, either camelCase or lowercase_underscores are fine.
 
-### Persistent
+> [!NOTE]
+> Para los nombres de las funciones, tanto `camelCase` como `minúsculas_con_guion_bajo` (snake_case) están bien.
 
-This store-like thing saves data to disk and is how renpy keeps track of data.
-Because its already loaded with data from the stock game, **avoid using this
-if you can**. (I.e: instead of using a persistent to check if an event has been
-seen, use `renpy.seen_label` or `seen_event`.
+## 💾 Variables Persistentes (Persistent)
 
-**Prefix all persistent variable names with `_mas_`.** (We are currently in 
-progress of converting all currently created `persistent` values to be prefixed
-correctly)
+Este elemento similar a un store guarda datos en el disco y es la forma en que Ren'Py hace un seguimiento de los datos guardados.
 
-### Constants
+> [!WARNING]
+> Debido a que ya viene cargado con datos del juego base, **evita usarlo si puedes**. Por ejemplo, en lugar de usar un persistent para verificar si se ha visto un evento, usa `renpy.seen_label` o `seen_event`.
 
-Define constants instead of literals when you're using them multiple times. 
-Use UPPERCASE_UNDERSCORES for naming.
+**Prefija todos los nombres de variables persistentes con `_mas_`.** (Actualmente el equipo oficial está en proceso de convertir todas las variables `persistent` creadas hasta ahora para que tengan este prefijo correctamente).
 
-**An exception to this is literals used in screens**. If a screen is **not**
-called with `nopredict`, then use literals when you can, as renpy optimizes 
-screens with literals.
+## 🔒 Constantes
 
-### Variables
+Define constantes en lugar de valores literales cuando las uses múltiples veces. Usa `MAYÚSCULAS_CON_GUION_BAJO` para nombrarlas.
 
-Make these descriptive please. It doesn't need to be Java-like, just enough so
-its somewhat easy to figure out what it is. Using abbreviations or acronyms is
-fine. Use lowercase_underscores for naming.
+> [!IMPORTANT]
+> **Una excepción a esto son los valores literales usados en pantallas (screens).** Si una pantalla **no** se llama con `nopredict`, entonces usa literales siempre que puedas, ya que Ren'Py optimiza mejor las pantallas que contienen valores literales directamente.
 
-### Comments
+## 🔢 Variables
 
-Please write comments. Even though python is readable as is, knowing the
-high level reason why we are doing something or the high level effects of
-doing something is helpful. 
+Por favor, haz que los nombres de las variables sean descriptivos. No es necesario que parezca Java, solo lo suficiente para que sea fácil entender qué almacena. El uso de abreviaturas o acrónimos está bien. Usa `minúsculas_con_guion_bajo` para nombrarlas.
 
-### Line Length
+## 💬 Comentarios
 
-Again, not really enforced, but keep them reasonable. I personally limit to 80
-columns, but beyond that to probably 120 is fine. 
-**The exception is Renpy code.** Renpy code cannot always be broken up into 
-multiple lines.
+Por favor, escribe comentarios. Aunque Python es bastante legible por sí mismo, conocer el propósito general o los efectos globales de hacer algo resulta de gran ayuda.
 
-### Assets
+## 📏 Longitud de Línea
 
-Any assets you use must be in the `mod_assets/` folder. If you have a ton of 
-assets, group them into a subfolder.
+De nuevo, no es algo estrictamente obligatorio, pero mantenlas dentro de un límite razonable. Se recomienda limitarse a 80 columnas, pero hasta unas 120 está bien.
 
-### 3rd-party Packages
+> [!NOTE]
+> **La excepción es el código de Ren'Py.** El código de Ren'Py no siempre se puede dividir en múltiples líneas sin romper su lógica.
 
-If you can do it without using an external package, then do it without the
-external package. Exceptions must be discussed with the dev team. If whatever
-library you want to add is more than a megabyte, it almost certainly will **not**
-be allowed.
+## 📁 Recursos (Assets)
+
+Cualquier recurso (imagen, audio, etc.) que utilices debe estar en la carpeta `mod_assets/`. Si tienes una gran cantidad de recursos, agrúpalos en una subcarpeta dedicada.
+
+## 🔌 Librerías de Terceros (3rd-party Packages)
+
+Si puedes resolverlo sin usar un paquete externo, hazlo sin el paquete externo. Las excepciones deben discutirse con el equipo de desarrollo oficial. Si la librería que deseas agregar pesa más de un megabyte, es casi seguro que **no** será permitida.

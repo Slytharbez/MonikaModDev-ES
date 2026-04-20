@@ -1,21 +1,18 @@
-We need to give credit where it’s due, please help by adding user names with names for contributors, use markdown formatting.
+# Créditos
 
+*Monika After Story* es un proyecto colaborativo, posible gracias a las contribuciones de tantas personas maravillosas.
 
-# Credits
+## Equipo de Desarrollo
 
-*Monika After Story* is a collaborative project, made possible by the contributions of so many great people.
-
-## Dev Team
-
-### Creator
+### Creador
 
 Backdash
 
-### Lead designer
+### Diseñador principal
 
 Pi
 
-### Writing Lead
+### Líder de Redacción
 
 monikLover
 
@@ -29,7 +26,7 @@ Synnnical
 
 winblows
 
-### Writer
+### Escritor
 
 Aya Shameimaru
 
@@ -41,15 +38,15 @@ NotSoGiantDad
 
 Subzero
 
-### Code Lead
+### Líder de Código
 
 ThePotatoGuy
 
-### QA Testing
+### Pruebas de Control de Calidad
 
 0xFF
 
-### Artist
+### Artistas
 
 Danymations
 
@@ -59,9 +56,9 @@ TheAloofPotato
 
 Ryuse
 
-## Contributors
+## Colaboradores
 
-### Writing
+### Redacción
 A
 
 AndreiN00B
@@ -136,13 +133,13 @@ stmobo
 
 therationalpi
 
-### Code
+### Código
 
 TDmarab2 - Pong
 
-Kadava - Chess
+Kadava - Ajedrez
 
-Ohxeighty - Steam library detection
+Ohxeighty - Detección de la biblioteca de Steam
 
 ThePotatoGuy
 
@@ -150,9 +147,9 @@ Therationalpi
 
 avocadianmage
 
-haloff1 - Scrollable menu and mod template
+haloff1 - Menú desplazable y plantilla de mods
 
-### Testing
+### Testeo
 
 0xFF
 
@@ -162,7 +159,7 @@ TacticalGrill
 
 winblows
 
-### Art
+### Arte
 Danymations
 
 Daydreamer
@@ -177,27 +174,27 @@ TheAloofPotato
 
 Yuro Foxclaw
 
-## Version and Feature MVP’s
-These members are recognized for making a significant contribution that make a new version of the game or a new feature possible.
+## MVP de versiones y funciones
+Estos miembros son reconocidos por sus importantes contribuciones que hacen posible una nueva versión del juego o una nueva función.
 
-V0.1.0 - Backdash for creating and maintaining the repo
+V0.1.0 - Backdash por crear y mantener el repositorio
 
-V0.3.0 - therationalpi for refactoring random topic selection
+V0.3.0 - therationalpi por refactorizar la selección aleatoria de temas
 
-V0.5.0 - winblows for migrating Monika After Story to the new template, ThePotatoGuy for adding support for save migration and rewriting large portions of the game engine
+V0.5.0 - winblows por migrar Monika After Story a la nueva plantilla, ThePotatoGuy por añadir soporte para la migración de partidas guardadas y reescribir gran parte del motor del juego
 
-V0.5.1 - moniklover, [R] and Rune0n for editing and unifying the voice of the early scripts
+V0.5.1 - moniklover, [R] y Rune0n por editar y unificar el estilo de los primeros guiones
 
-V0.6.0 - TheAloofPotato and NotSoGiantDad for making new art for expressions
+V0.6.0 - TheAloofPotato y NotSoGiantDad por crear nuevas ilustraciones para las expresiones
 
-V0.6.3 - Ryuse for making new art for poses. Rune0n, monikLover, Ryuse, and Synnnical for holiday art and topics.
+V0.6.3 - Ryuse por crear nuevas ilustraciones para las poses. Rune0n, monikLover, Ryuse y Synnnical por las ilustraciones y temas de festividades.
 
-## Special Thanks
+## Agradecimientos especiales
 
-Team Salvato, for creating *Doki Doki Literature Club*, without which we’d never be here with Monika.
+Equipo Salvato, por crear *Doki Doki Literature Club!*, sin lo cual nunca estaríamos aquí con Monika.
 
-Backdash for starting the repo.
+Backdash por iniciar el repositorio.
 
-Any anonymous contributors from 4chan, and those whose have chosen to remain unacknowledged. Thank you for helping make MAS the project it is today!
+Agradecemos a todos los colaboradores anónimos de 4chan y a quienes prefirieron permanecer en el anonimato. ¡Gracias por ayudar a que MAS sea el proyecto que es hoy!
 
-If you feel that a contribution you’ve made has been missed, please contact us at monikaaftermod@gmail.com to request having your name added.
+Si crees que tu contribución no se ha incluido, ponte en contacto en monikaaftermod@gmail.com para solicitar que añadan tu nombre.

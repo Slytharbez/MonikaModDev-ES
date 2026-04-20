@@ -1,11 +1,16 @@
-# Testing Flow / Bug Testing
-This is a separate section from the [Contributing Guidelines](https://github.com/Monika-After-Story/MonikaModDev/wiki/Contributing-Guidelines) page. It will contain a small guide on testing things you wish to implement for bugs & other issues, which is crucial to do before submitting a Pull Request to the repository. 
+# 🧪 Flujo de Pruebas / Pruebas de Errores (Bug Testing)
 
-## Setting Up
-### The Tools
-Can't work without tools, right? Here's a list of simple but effective tools you can use for testing & fixing bugs. 
+Esta es una sección separada de la página de [Pautas de Contribución](https://github.com/Monika-After-Story/MonikaModDev/wiki/Contributing-Guidelines). Contiene una pequeña guía para probar las cosas que deseas implementar en busca de errores u otros problemas, lo cual es crucial antes de enviar un Pull Request al repositorio.
 
-#### Text Editors
-[Atom](https://atom.io/) - One of the most prominent text editors used by MAS contributors, *Atom* has many tools & features that allow for efficient and clean work on files that are being edited. It even has tools for *fixing merge conflicts.*
+## 🛠️ Configuración
 
-[Microsoft Visual Studio Code](https://code.visualstudio.com/) - Lightweight and takes only a few minutes to install. Highly recommended for dialogue writing.
+### 🧰 Las Herramientas
+¡No se puede trabajar sin herramientas! Aquí tienes una lista de herramientas simples pero efectivas que puedes usar para hacer pruebas y solucionar errores.
+
+#### 📝 Editores de Texto
+
+* **[Atom](https://atom.io/)**: Uno de los editores de texto más destacados que usan los colaboradores de MAS. Cuenta con muchas herramientas y características que permiten un trabajo limpio y eficiente en los archivos editados. Incluso posee herramientas específicas para *resolver conflictos de fusión (merge conflicts)*.
+* **[Microsoft Visual Studio Code](https://code.visualstudio.com/)**: Un editor ligero y extremadamente rápido de instalar. Está **altamente recomendado** para la escritura de diálogos.
+
+> [!TIP]
+> Si usas VS Code, te recomendamos instalar extensiones para colorear la sintaxis de Ren'Py y Python, lo cual te facilitará enormemente detectar errores de indentación o comillas faltantes.
