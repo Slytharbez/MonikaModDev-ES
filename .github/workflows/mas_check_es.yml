@@ -19,7 +19,7 @@ jobs:
     name: ci_build
 
     # The type of runner that the job will run on
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     env:
       SDL_AUDIODRIVER: dummy # handles ALSA issues
@@ -29,22 +29,33 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v2.2.1
+      # Check if changes are within the Monika After Story folder
+      - name: Path Filter
+        id: filter
+        uses: dorny/paths-filter@v2
         with:
-          # Version range or exact version of a Python version to use, using SemVer's version range syntax.
-          python-version: 2.7.18 # optional, default is 3.x
+          filters: |
+            mas:
+              - 'Monika After Story/**'
+
+      - name: Setup Python 2.7 (Legacy)
+        if: steps.filter.outputs.mas == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python2-minimal
+          sudo ln -sf /usr/bin/python2 /usr/bin/python
 
       # get/dl renpy src
       - name: cache rpy source
+        if: steps.filter.outputs.mas == 'true'
         id: cache-rpy
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
             path: renpy/
             key: ${{ runner.os }}-rpy
 
       - name: Download rpy source
-        if: steps.cache-rpy.outputs.cache-hit != 'true'
+        if: steps.filter.outputs.mas == 'true' && steps.cache-rpy.outputs.cache-hit != 'true'
         run: |
           wget https://www.renpy.org/dl/6.99.12.4/renpy-6.99.12.4-sdk.tar.bz2
           tar xf renpy-6.99.12.4-sdk.tar.bz2
@@ -53,14 +64,15 @@ jobs:
 
       # get/download base mas
       - name: cache base MAS
+        if: steps.filter.outputs.mas == 'true'
         id: cache-mas
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
             path: mas0105/
             key: ${{ runner.os }}-mas
 
       - name: Download base MAS
-        if: steps.cache-mas.outputs.cache-hit != 'true'
+        if: steps.filter.outputs.mas == 'true' && steps.cache-mas.outputs.cache-hit != 'true'
         run: |
           wget https://s3-us-west-2.amazonaws.com/monika-after-story/ddlc/mas.zip
           mkdir mas0105
@@ -74,25 +86,29 @@ jobs:
 
       # copy files over
       - name: copy source over
+        if: steps.filter.outputs.mas == 'true'
         run: cp -Rf Monika\ After\ Story/* mas0105/
 
       # touch file for unstable so it doesn't raise exceptions for some things
       - name: exception skip for unstable
-        if: github.ref == 'refs/heads/unstable'
+        if: steps.filter.outputs.mas == 'true' && github.ref == 'refs/heads/unstable'
         run: touch mas0105/trb
 
       # run sprite checkers
       - name: check sprites
+        if: steps.filter.outputs.mas == 'true'
         run: python tools/ghactions.py
 
       # lint renpy
       - name: rpy lint
+        if: steps.filter.outputs.mas == 'true'
         run: |
           cd renpy
           ./renpy.sh "../mas0105/" lint | grep -E -v "^$|Could not find image \(monika [0-9][^[:space:]]+ corresponding to attributes on say statement\.|'monika [0-9][^[:space:]]+' is not an image\.|The image named 'monika [0-9][^[:space:]]+ was not declared\."
 
       # distribute
       - name: rpy distribute
+        if: steps.filter.outputs.mas == 'true'
         run: |
           cd renpy
           ./renpy.sh launcher distribute "../mas0105/" --package Mod
