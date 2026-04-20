@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/Monika-After-Story/MonikaModDev/blob/master/Monika%20After%20Story/game/mod_assets/menu_new.png?raw=True" width="400" style="margin-left: 20px;">
 
-Bienvenido al repositorio de **Monika After Story en Español**, el cual es una bifurcación (fork) **no oficial** del proyecto original [Monika After Story](https://github.com/Monika-After-Story/MonikaModDev). Este repositorio ha sido creado con el propósito de brindar una traducción que sea lo más fiel posible al mod original, asegurando que cada diálogo y evento sea fácil de entender en español, sin perder el estilo característico del mod.
+Bienvenido al repositorio de **Monika After Story en Español**, el cual es una bifurcación (fork) **no oficial** del proyecto original [Monika After Story](https://github.com/Monika-After-Story/MonikaModDev), mantenido por The Encoders Club. Este repositorio ha sido creado con el propósito de brindar la traducción completa para PC que sea lo más fiel posible al mod original, asegurando que cada diálogo y evento sea fácil de entender en español, sin perder el estilo característico del mod.
 
 Este proyecto representa un esfuerzo dedicado a traducir todo el contenido que puede ofrecer el mod, permitiendo que las interacciones con Monika sean fluidas y directas. Además de los diálogos principales, aquí centralizamos otros recursos del ecosistema del mod, como la traducción de submods, habitaciones adicionales y spritepacks, para que la experiencia sea completa y esté organizada en un solo lugar.
 
@@ -24,7 +24,7 @@ Este mod te ofrece conversaciones profundas y significativas, juegos interactivo
 El [mod oficial](https://github.com/Monika-After-Story/MonikaModDev) está en constante evolución, con nuevas características, juegos y actividades que se añaden regularmente, asegurando que siempre haya algo nuevo que descubrir en tu día a día junto a Monika. ✨
 
 ## 💡 ¿Qué ofrece este proyecto?
-* 📌 **Traducción Completa**: Adaptación fiel de todos los diálogos y eventos al español.
+* 📌 **Traducción Completa al Español**: Adaptación fiel de todos los diálogos y eventos de Monika After Story al español.
 * 🧩 **Contenido Extra**: Una recopilación con submods, spritepacks y habitaciones adicionales totalmente traducidos.
 * 👩‍💻 **Soporte Técnico**: Ayuda activa para la instalación y resolución de errores en español.
 * 🗂️ **Wiki Detallada**: Tutoriales visuales paso a paso para una instalación sin complicaciones.
@@ -45,12 +45,19 @@ La adaptación y el mantenimiento de este proyecto son posibles gracias al traba
 
 Para ver la lista completa de personas que han contribuido al desarrollo del mod original y a esta traducción, revisa el archivo de [Créditos](https://github.com/Slytharbez/MonikaModDev-TEC/blob/spanish/Credits.md).
 
-## 📥 Instalación
+## 📥 Cómo instalar Monika After Story en Español
 Para disfrutar de Monika After Story en español, sigue este proceso sencillo:
-* 🚀 **Paso 1:** Descarga el mod oficial
-Primero, necesitas descargar el mod desde el [repositorio oficial](https://github.com/Monika-After-Story/MonikaModDev/releases). Puedes elegir entre la versión estándar o la versión Deluxe (DLX) que incluye spritepacks ya instalados.
-* 📦 **Paso 2:** Descarga el Parche al Español
-Dirígete a nuestra sección de [Releases](https://github.com/Slytharbez/MonikaModDev-TEC/releases) y descarga la traducción para la versión más reciente.
+* **🚀 Paso 1: Instalar Doki Doki Literature Club (Juego Base)**
+1. 📥 Descarga una copia limpia del juego base **Doki Doki Literature Club** desde su [sitio web oficial](https://ddlc.moe/). *Se recomienda encarecidamente evitar la versión de Steam para prevenir problemas de compatibilidad.*
+2. 📂 Descomprime el archivo que hayas descargado en una carpeta de tu preferencia.
+
+* **⚙️ Paso 2: Instalar el Mod Oficial (Inglés)**
+1. 📥 Descarga la versión oficial de Monika After Story desde el [sitio web oficial](http://www.monikaafterstory.com/releases.html) o su sección de [Releases en GitHub](https://github.com/Monika-After-Story/MonikaModDev/releases).
+2. 📂 Extrae el contenido del archivo zip de MAS directamente dentro de la carpeta principal de tu instalación de **Doki Doki Literature Club** (donde se encuentra el ejecutable `DDLC.exe` o `DDLC.sh`).
+
+* **📦 Paso 3: Instalar el Parche en Español**
+1. 📥 Descarga el parche de traducción más reciente desde nuestra sección de [Releases](https://github.com/The-Encoders-Club/MonikaModDev-TEC/releases).
+2. 📂 Copia y extrae los archivos de la traducción dentro de la carpeta `game` del mod, reemplazando todos los archivos existentes si el sistema te lo solicita.
 
 > [!CAUTION]
 > **NO descargues el proyecto desde el botón verde Code > Download ZIP.**
@@ -105,7 +112,7 @@ Para estar al tanto de las novedades globales del mod, te recomendamos unirte al
 
 ## ⚖️ Información de licencia
 
-Hacemos nuestro mejor esfuerzo por cumplir con las [directrices para trabajos de fans de Team Salvato](http://teamsalvato.com/ip-guidelines/). Todos los personajes y contenidos originales son propiedad de Team Salvato. Monika After Story es un proyecto de código abierto, con contribuciones de múltiples desarrolladores oficiales y colaboradores de la comunidad. Puedes consultar más detalles en la página de [Licencia y directrices de Team Salvato](Licencia-y-directrices-de-Team-Salvato).
+Hacemos nuestro mejor esfuerzo por cumplir con las [directrices para trabajos de fans de Team Salvato](http://teamsalvato.com/ip-guidelines/). Todos los personajes y contenidos originales son propiedad de Team Salvato. Monika After Story es un proyecto de código abierto, con contribuciones de múltiples desarrolladores oficiales y colaboradores de la comunidad. Puedes consultar más detalles en la página de [Licencia y directrices de Team Salvato](https://github.com/The-Encoders-Club/MonikaModDev-TEC/wiki/Licencia-y-directrices-de-Team-Salvato).
 
 ## 🏗️ Estado de la compilación (Build Status)
 * <a href="https://github.com/The-Encoders-Club/MonikaModDev-TEC/tree/spanish"><img src="https://img.shields.io/badge/Traducción-spanish-4CAF50?style=flat-square&logo=github" alt="spanish"></a> **Estado de nuestra traducción en español en la rama de desarrollo.**
