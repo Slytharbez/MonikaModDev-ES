@@ -1286,11 +1286,11 @@ label v0_11_3(version="v0_11_3"):
         #We'll also get rid of hehehe.txt if it's still here
         try:
             os.rename(
-                renpy.config.basedir + "/hehehe.txt",
-                renpy.config.basedir + "/characters/ehehe.txt"
+                renpy.config.basedir + "/" + _("hehehe.txt"),
+                renpy.config.basedir + "/characters/" + _("ehehe.txt")
             )
         except:
-            mas_utils.trydel(renpy.config.basedir + "/hehehe.txt")
+            mas_utils.trydel(renpy.config.basedir + "/" + _("hehehe.txt"))
 
         # add to the default unlocked pool topics
         pool_unlock_list = [
@@ -2486,7 +2486,7 @@ label v0_9_1(version="v0_9_1"):
         if plush_ev is not None:
             plush_ev.unlocked = False
             plush_ev.category = None
-            plush_ev.prompt = "monika_plushie"
+            plush_ev.prompt= "monika_plushie"
 
         if renpy.seen_label("monika_driving"):
             mas_unlockEVL("monika_vehicle","EVE")

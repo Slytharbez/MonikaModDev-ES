@@ -1287,7 +1287,12 @@ python early:
             #
             # Special function we use to get a lowercased version of the prompt
             # for sorting purposes
-            return renpy.substitute(ev.prompt).lower()
+            prompt_str = renpy.substitute(ev.prompt)
+            try:
+                prompt_str = renpy.translation.translate_string(prompt_str)
+            except Exception:
+                pass
+            return prompt_str.lower().lstrip(u"┬í┬┐ ")
 
         @staticmethod
         def getSortShownCount(ev):
@@ -5758,8 +5763,8 @@ init -1 python:
             True is apology is present, False otherwise
         """
         return (
-            store.mas_utils.is_file_present('/characters/imsorry')
-            or store.mas_utils.is_file_present('/characters/imsorry.txt')
+            store.mas_utils.is_file_present('/characters/' + _("imsorry"))
+            or store.mas_utils.is_file_present('/characters/' + _("imsorry.txt"))
         )
 
     def mas_cvToHM(mins):
@@ -6586,19 +6591,19 @@ init 2 python:
         #Set morning
         if 4 <= curr_hour <= 11:
             store.mas_globals.time_of_day_4state = "morning"
-            store.mas_globals.time_of_day_3state = "morning"
+            store.mas_globals.time_of_day_3state = _("morning")
 
         elif 12 <= curr_hour <= 16:
             store.mas_globals.time_of_day_4state = "afternoon"
-            store.mas_globals.time_of_day_3state = "afternoon"
+            store.mas_globals.time_of_day_3state = _("afternoon")
 
         elif 17 <= curr_hour <= 20:
             store.mas_globals.time_of_day_4state = "evening"
-            store.mas_globals.time_of_day_3state = "evening"
+            store.mas_globals.time_of_day_3state = _("evening")
 
         else:
             store.mas_globals.time_of_day_4state = "night"
-            store.mas_globals.time_of_day_3state = "evening"
+            store.mas_globals.time_of_day_3state = _("evening")
 
     def mas_seenLabels(label_list, seen_all=False):
         """
@@ -8343,7 +8348,7 @@ init -1 python in mas_randchat:
             displayable string that reprsents the current random chatter
             setting
         """
-        return SLIDER_MAP_DISP.get(slider_value, "UNKNOWN")
+        return _(SLIDER_MAP_DISP.get(slider_value, "UNKNOWN"))
 
 
     def setWaitingTime():

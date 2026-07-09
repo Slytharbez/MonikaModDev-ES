@@ -87,7 +87,7 @@ label mas_mood_start:
 
         # build menu list
         mood_menu_items = [
-            (mas_moods.mood_db[k].prompt, k, False, False)
+            (_(mas_moods.mood_db[k].prompt), k, False, False)
             for k in filtered_moods
         ]
 
@@ -525,7 +525,7 @@ label mas_mood_lazy:
         m 1eka "I can totally understand those days where you wake up and just don't want to do anything."
         m 1rksdla "Hopefully you don't actually have anything pressing coming soon."
 
-        $ line = "I know how tempting it can be to just stay in bed and not get up sometimes..."
+        $ line = _("I know how tempting it can be to just stay in bed and not get up sometimes...")
         if mas_isMoniEnamored(higher=True):
             $ line += "{w=0.5} {nw}"
         m 3hksdlb "[line]"
@@ -709,10 +709,10 @@ label mas_mood_bored:
     return
 
 init 5 python:
-    addEvent(Event(persistent._mas_mood_database,eventlabel="mas_mood_crying",prompt="...like crying.",category=[store.mas_moods.TYPE_BAD],unlocked=True),code="MOO")
+    addEvent(Event(persistent._mas_mood_database,eventlabel="mas_mood_crying",prompt=_("...like crying."),category=[store.mas_moods.TYPE_BAD],unlocked=True),code="MOO")
 
 label mas_mood_crying:
-    $ line_start = "And"
+    $ line_start = _("And")
     m 1eksdld "[player]!"
 
     m 3eksdlc "Are you okay?{nw}"
@@ -768,7 +768,7 @@ label mas_mood_uok:
         "Everything's fine.":
             m 1ekc "..."
             m 1ekd "Okay [player], if you say so..."
-            $ line_start = "But"
+            $ line_start = _("But")
     return
 
 init 5 python:
@@ -989,11 +989,12 @@ label mas_mood_loved:
     $ has_family = persistent._mas_pm_have_fam and not persistent._mas_pm_no_talk_fam
     if has_family or persistent._mas_pm_has_friends:
         if has_family and persistent._mas_pm_has_friends:
-            $ fnf_str = "friends and family"
+            $ fnf_str = _("friends and family")
         elif has_family:
-            $ fnf_str = "family"
+            $ fnf_str = _("family")
         else:
-            $ fnf_str = "friends"
+            $ fnf_str = _("friends")
+
 
         m 3eub "And I'm sure it's not just me that makes you feel loved, but your [fnf_str] as well!"
 

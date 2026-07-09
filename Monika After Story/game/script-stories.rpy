@@ -33,7 +33,7 @@ init -1 python in mas_stories:
     TYPE_SCARY = "scary"
 
     # pane constant
-    STORY_RETURN = "Nevermind"
+    STORY_RETURN = _("Nevermind")
     story_database = dict()
 
     #Time between story unlocks of the same type (in hours). Changes over sessions, but also changes after the next story unlocks
@@ -188,16 +188,16 @@ label monika_short_stories_menu:
         stories_menu_items.sort()
 
         #Add new story
-        stories_menu_items.insert(0, ("A new story", mas_stories.UNLOCK_NEW, True, False))
+        stories_menu_items.insert(0, (_("A new story"), mas_stories.UNLOCK_NEW, True, False))
 
         # build switch button
         #TODO: Build a generalized switch for more than just two items
         if story_type == mas_stories.TYPE_SCARY:
-            switch_str = "short"
+            switch_str = _("short")
         else:
-            switch_str = "scary"
+            switch_str = _("scary")
 
-        switch_item = ("I'd like to hear a " + switch_str + " story", "monika_short_stories_menu", False, False, 20)
+        switch_item = (_("I'd like to hear a {0} story").format(switch_str), "monika_short_stories_menu", False, False, 20)
 
         final_item = (mas_stories.STORY_RETURN, False, False, False, 0)
 
@@ -205,11 +205,11 @@ label monika_short_stories_menu:
     show monika 1eua at t21
 
     if story_type == mas_stories.TYPE_SCARY:
-        $ which = "Witch"
+        $ which = _("Witch")
     else:
-        $ which = "Which"
+        $ which = _("Which")
 
-    $ renpy.say(m, which + " story would you like to hear?" + end, interact=False)
+    $ renpy.say(m, _("{0} story would you like to hear?").format(which) + end, interact=False)
 
     # call scrollable pane
     call screen mas_gen_scrollable_menu(stories_menu_items, mas_ui.SCROLLABLE_MENU_TXT_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, switch_item, final_item)
@@ -236,7 +236,7 @@ label monika_short_stories_menu:
             if story_to_push == mas_stories.UNLOCK_NEW:
                 if not can_unlock_story:
                     show monika at t11
-                    $ _story_type = story_type if story_type != 'normal' else 'short'
+                    $ _story_type = _(story_type) if story_type != 'normal' else _('short')
                     m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
                     m 1eka "If you give me some time I might be able to think of one soon...but in the meantime, I can always tell you an old one again~"
                     show monika 1eua
@@ -668,7 +668,7 @@ label mas_story_genie_regret:
     m 1eka "As for me..."
     m 1rksdlc "Who knows what would have happened in my world if I hadn't done anything..."
 
-    $ placeholder = " at least"
+    $ placeholder = _(" at least")
     if persistent.clearall:
         $ placeholder = ""
         m 1eua "You've gotten to know each and every club member here, so I'd guess you don't regret missing out on anything."

@@ -199,8 +199,8 @@ label mas_farewell_start:
             # build a prompt list
             bye_prompt_list = sorted([
                 (ev.prompt, ev, False, False)
-                for k,ev in bye_pool_events.iteritems()
-            ])
+                for k,ev in bye_pool_events.items()
+            ], key=lambda x: Event.getSortPrompt(x[1]))
 
             most_used_fare = sorted(bye_pool_events.values(), key=Event.getSortShownCount)[-1]
 

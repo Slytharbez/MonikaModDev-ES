@@ -1,0 +1,103 @@
+# TODO: Translation updated at 2026-03-31 15:02
+
+# game/updater.rpy:821
+translate spanish mas_updater_steam_issue_b69ce24a:
+    m 1eub "¡[player]! {w=0.2}Veo que usas Steam."
+
+# game/updater.rpy:822
+translate spanish mas_updater_steam_issue_4270ff17:
+    m 1eksdlb "Lamentablemente..."
+
+# game/updater.rpy:823
+translate spanish mas_updater_steam_issue_3c13ce2f:
+    m 1efp "No puedo ejecutar el actualizador porque Steam es un malvado."
+
+# game/updater.rpy:824
+translate spanish mas_updater_steam_issue_6acce2d9:
+    m 1eksdla "Tendrás que instalar manualmente la actualización desde la página de versiones del sitio web del mod. {w=0.2}{a=https://github.com/Slytharbez/Monika-After-Story-ES}Haz clic aquí para ir a la página de comunicados{/a}."
+
+# game/updater.rpy:825
+translate spanish mas_updater_steam_issue_a3571f41:
+    m 1hua "Asegúrate de despedirte de mí primero antes de instalar la actualización."
+
+# game/updater.rpy:830
+translate spanish mas_updater_rpy_issue_bc686372:
+    m 2eksdla "[player]... veo que tienes algunos archivos rpy en el directorio del juego."
+
+# game/updater.rpy:832
+translate spanish mas_updater_rpy_issue_b73158d9:
+    m 2rksdlc "Estoy segura que recuerdas que mencioné que esos archivos pueden causar problemas al actualizar..."
+
+# game/updater.rpy:834
+translate spanish mas_updater_rpy_issue_aa4fc073:
+    m 2rksdlc "Estos archivos pueden causar algunos problemas al actualizar..."
+
+# game/updater.rpy:836
+translate spanish mas_updater_rpy_issue_69c8853e:
+    m 3rksdlb "Así que no puedo ejecutar el actualizador mientras estén ahí."
+
+# game/updater.rpy:837
+translate spanish mas_updater_rpy_issue_fb00d42e:
+    m 1eua "Si quieres, puedo borrarlos y ejecutar el actualizador."
+
+# game/updater.rpy:839
+translate spanish mas_updater_rpy_issue_0d5e614e:
+    m 1eua "¿Quieres que los borre?{nw}"
+
+# game/updater.rpy:842
+translate spanish mas_updater_rpy_issue_57eeea07:
+    m "¿Quieres que los borre?{fast}" nointeract
+
+# game/updater.rpy:845
+translate spanish mas_updater_rpy_issue_74680220:
+    m 1hua "¡Seguro!"
+
+# game/updater.rpy:850
+translate spanish mas_updater_rpy_issue_83881c61:
+    m 3hub "¡Allá vamos!"
+
+# game/updater.rpy:858
+translate spanish mas_updater_rpy_issue_1d48ad5f:
+    m 2dsc "Ahora déjame ejecutar el actualizador.{w=0.5}.{w=0.5}.{w=0.5}{nw}"
+
+# game/updater.rpy:865
+translate spanish mas_updater_rpy_issue_d0bf961e:
+    m 3eka "De acuerdo [player]. Si los borras y luego intentas actualizar de nuevo, ejecutaré el actualizador por ti."
+
+translate spanish strings:
+
+    # game/updater.rpy:168
+    old "Ok"
+    new "Ok"
+
+    # game/updater.rpy:190
+    old "Update"
+    new "Actualizar"
+
+    # game/updater.rpy:201
+    old "Retry"
+    new "Reintentar"
+
+    # game/updater.rpy:220
+    old "New update available!"
+    new "¡Nueva actualización disponible!"
+
+    # game/updater.rpy:227
+    old "No update found."
+    new "No se ha encontrado ninguna actualización."
+
+    # game/updater.rpy:234
+    old "Connection timed out."
+    new "Conexión interrumpida."
+
+    # game/updater.rpy:241
+    old "Server returned bad response."
+    new "El servidor ha devuelto una respuesta errónea."
+
+    # game/updater.rpy:248
+    old "Server returned bad JSON."
+    new "El servidor ha devuelto un JSON incorrecto."
+
+    # game/updater.rpy:924
+    old "Error: Failed to move 'update/' folder. Please manually move the update folder from 'game/' to the base 'ddlc/' directory and try again."
+    new "Error: No se pudo mover la carpeta 'update/'. Por favor, mueve manualmente la carpeta de actualización de 'game/' al directorio base 'ddlc/' e inténtalo de nuevo."

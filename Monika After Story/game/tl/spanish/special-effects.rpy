@@ -1,0 +1,8 @@
+﻿# TODO: Translation updated at 2026-03-31 15:02
+
+# game/special-effects.rpy:1069
+translate spanish monika_kissing_motion_22268334:
+
+    # "chu~{fast}{w=1}{nw}"
+    "chu~{fast}{w=1}{nw}"
+

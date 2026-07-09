@@ -214,7 +214,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_sing_song_pool",
-            prompt="Can you sing me a song?",
+            prompt=_("Can you sing me a song?"),
             category=["music"],
             pool=True,
             aff_range=(mas_aff.NORMAL,None),
@@ -228,7 +228,7 @@ label monika_sing_song_pool:
     # do we have both long and short songs
     $ have_both_types = False
     # song type string to use in the switch dlg
-    $ switch_str = "full"
+    $ switch_str = _("full")
     # so we can {fast} the renpy.say line after the first time
     $ end = ""
 
@@ -246,18 +246,24 @@ label monika_sing_song_pool_menu:
         else:
             space = 20
 
-        ret_back = ("Nevermind", False, False, False, space)
-        switch = ("I'd like to hear a [switch_str] song instead", "monika_sing_song_pool_menu", False, False, 20)
+        ret_back = (_("Nevermind"), False, False, False, space)
+        switch_str_translated = renpy.translation.translate_string(_(switch_str))
+        switch_prompt = renpy.translation.translate_string(_("I'd like to hear a {0} song instead")).format(switch_str_translated)
+        switch = (switch_prompt, "monika_sing_song_pool_menu", False, False, 20)
 
         unlocked_song_list = mas_songs.getUnlockedSongs(length=song_length)
-        unlocked_song_list.sort()
+        def get_translated_prompt(item):
+            translated = renpy.translation.translate_string(item[0])
+            return translated.lstrip(u"┬í┬┐ ")
+        unlocked_song_list.sort(key=get_translated_prompt)
 
         if mas_isO31():
-            which = "Witch"
+            which = renpy.translation.translate_string(_("Witch"))
         else:
-            which = "Which"
+            which = renpy.translation.translate_string(_("Which"))
 
-        renpy.say(m, "[which] song would you like me to sing?[end]", interact=False)
+        say_prompt = renpy.translation.translate_string(_("{0} song would you like me to sing?")).format(which) + end
+        renpy.say(m, say_prompt, interact=False)
 
     if have_both_types:
         call screen mas_gen_scrollable_menu(unlocked_song_list, mas_ui.SCROLLABLE_MENU_TXT_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, switch, ret_back)
@@ -270,11 +276,11 @@ label monika_sing_song_pool_menu:
         if sel_song == "monika_sing_song_pool_menu":
             if song_length == "short":
                 $ song_length = "long"
-                $ switch_str = "short"
+                $ switch_str = _("short")
 
             else:
                 $ song_length = "short"
-                $ switch_str = "full"
+                $ switch_str = _("full")
 
             $ end = "{fast}"
             $ _history_list.pop()
@@ -296,7 +302,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_sing_song_analysis",
-            prompt="Let's talk about a song",
+            prompt=_("Let's talk about a song"),
             category=["music"],
             pool=True,
             unlocked=False,
@@ -307,17 +313,17 @@ init 5 python:
 
 label monika_sing_song_analysis:
     python:
-        ret_back = ("Nevermind.", False, False, False, 20)
+        ret_back = (_("Nevermind."), False, False, False, 20)
 
         unlocked_analyses = mas_songs.getUnlockedSongAnalyses()
 
         if mas_isO31():
-            which = "Witch"
+            which = _("Witch")
         else:
-            which = "Which"
+            which = _("Which")
 
     show monika 1eua at t21
-    $ renpy.say(m, "[which] song would you like to talk about?", interact=False)
+    $ renpy.say(m, _("{0} song would you like to talk about?").format(which), interact=False)
 
     call screen mas_gen_scrollable_menu(unlocked_analyses, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, ret_back)
 
@@ -338,7 +344,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_sing_song_rerandom",
-            prompt="Can you sing a song on your own again?",
+            prompt=_("Can you sing a song on your own again?"),
             category=['music'],
             pool=True,
             unlocked=False,
@@ -349,8 +355,8 @@ init 5 python:
 
 label mas_sing_song_rerandom:
     python:
-        mas_bookmarks_derand.initial_ask_text_multiple = "Which song do you want me to sing occasionally?"
-        mas_bookmarks_derand.initial_ask_text_one = "If you want me to sing this occasionally again, just select the song, [player]."
+        mas_bookmarks_derand.initial_ask_text_multiple = _("Which song do you want me to sing occasionally?")
+        mas_bookmarks_derand.initial_ask_text_one = _("If you want me to sing this occasionally again, just select the song, [player].")
         mas_bookmarks_derand.caller_label = "mas_sing_song_rerandom"
         mas_bookmarks_derand.persist_var = persistent._mas_player_derandomed_songs
 
@@ -2089,7 +2095,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="mas_monika_plays_yr",
             category=['monika','music'],
-            prompt="Can you play 'Your Reality' for me?",
+            prompt=_("Can you play 'Your Reality' for me?"),
             unlocked=False,
             pool=True,
             rules={"no_unlock": None, "bookmark_rule": store.mas_bookmarks_derand.WHITELIST}
@@ -2198,7 +2204,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="mas_monika_plays_or",
             category=['monika','music'],
-            prompt="Can you play 'Our Reality' for me?",
+            prompt=_("Can you play 'Our Reality' for me?"),
             unlocked=False,
             pool=True,
             rules={"no_unlock": None, "bookmark_rule": store.mas_bookmarks_derand.WHITELIST}
@@ -2210,11 +2216,11 @@ label mas_monika_plays_or(skip_leadin=False):
         m 3eua "Sure, let me just get the piano.{w=0.5}.{w=0.5}.{nw}"
 
     if persistent.gender == "F":
-        $ gen = "her"
+        $ gen = _("her")
     elif persistent.gender == "M":
-        $ gen = "his"
+        $ gen = _("his")
     else:
-        $ gen = "their"
+        $ gen = _("their")
 
     window hide
     call mas_timed_text_events_prep

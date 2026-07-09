@@ -246,7 +246,7 @@ label mas_pick_a_game:
                         _("Challenge accepted!"),
                     ]
 
-                game_quip = renpy.substitute(renpy.random.choice(begin_quips))
+                game_quip = renpy.substitute(renpy.translation.translate_string(renpy.random.choice(begin_quips)))
 
 
             if mas_isMoniBroken():

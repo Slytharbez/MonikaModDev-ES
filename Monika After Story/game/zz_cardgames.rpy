@@ -5192,61 +5192,61 @@ screen nou_gui():
             )
             and player.hand
         ):
-            $ top_card = game.discardpile[-1]
+            $ top_card, ordered_colors = game.discardpile[-1], (sorted([(_("Red"), "red"), (_("Blue"), "blue"), (_("Green"), "green"), (_("Yellow"), "yellow")], key=lambda x: renpy.translation.translate_string(x[0]).lower()) if _preferences.language else [(_("Red"), "red"), (_("Blue"), "blue"), (_("Green"), "green"), (_("Yellow"), "yellow")])
 
-            textbutton _("Red"):
+            textbutton (_("Red") if False else ordered_colors[0][0]):
                 xminimum 230
                 action If(
                     player.played_card,
                     true = [
-                        SetField(top_card, "color", "red"),
+                        SetField(top_card, "color", "red" if False else ordered_colors[0][1]),
                         Function(fn_end_turn, player, monika),
                         Return([])
                     ],
                     false = [
-                        SetField(top_card, "color", "red"),
+                        SetField(top_card, "color", "red" if False else ordered_colors[0][1]),
                         Return([])
                     ]
                 )
-            textbutton _("Blue"):
+            textbutton (_("Blue") if False else ordered_colors[1][0]):
                 xminimum 230
                 action If(
                     player.played_card,
                     true = [
-                        SetField(top_card, "color", "blue"),
+                        SetField(top_card, "color", "blue" if False else ordered_colors[1][1]),
                         Function(fn_end_turn, player, monika),
                         Return([])
                     ],
                     false = [
-                        SetField(top_card, "color", "blue"),
+                        SetField(top_card, "color", "blue" if False else ordered_colors[1][1]),
                         Return([])
                     ]
                 )
-            textbutton _("Green"):
+            textbutton (_("Green") if False else ordered_colors[2][0]):
                 xminimum 230
                 action If(
                     player.played_card,
                     true = [
-                        SetField(top_card, "color", "green"),
+                        SetField(top_card, "color", "green" if False else ordered_colors[2][1]),
                         Function(fn_end_turn, player, monika),
                         Return([])
                     ],
                     false = [
-                        SetField(top_card, "color", "green"),
+                        SetField(top_card, "color", "green" if False else ordered_colors[2][1]),
                         Return([])
                     ]
                 )
-            textbutton _("Yellow"):
+            textbutton (_("Yellow") if False else ordered_colors[3][0]):
                 xminimum 230
                 action If(
                     player.played_card,
                     true = [
-                        SetField(top_card, "color", "yellow"),
+                        SetField(top_card, "color", "yellow" if False else ordered_colors[3][1]),
                         Function(fn_end_turn, player, monika),
                         Return([])
                     ],
                     false = [
-                        SetField(top_card, "color", "yellow"),
+                        SetField(top_card, "color", "yellow" if False else ordered_colors[3][1]),
                         Return([])
                     ]
                 )

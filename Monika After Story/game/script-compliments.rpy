@@ -55,7 +55,7 @@ init 22 python in mas_compliments:
         """
         global thanks_quip, __last_called_callback
 
-        thanks_quip = renpy.substitute(renpy.random.choice(thanking_quips))
+        thanks_quip = renpy.substitute(renpy.translation.translate_string(renpy.random.choice(thanking_quips)))
 
         _now = datetime.datetime.now()
         if __last_called_callback is not None:
@@ -77,7 +77,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="monika_compliments",
             category=['monika', 'romance'],
-            prompt="I want to tell you something...",
+            prompt=_("I want to tell you something..."),
             pool=True,
             unlocked=True
         )
@@ -89,20 +89,20 @@ label monika_compliments:
         Event.checkEvents(mas_compliments.compliment_database)
 
         # build menu list
-        compliments_menu_items = [
-            (ev.prompt, ev_label, not seen_event(ev_label), False)
-            for ev_label, ev in mas_compliments.compliment_database.iteritems()
-            if (
-                Event._filterEvent(ev, unlocked=True, aff=mas_curr_affection, flag_ban=EV_FLAG_HFM)
-                and ev.checkConditional()
-            )
-        ]
+        compliments_menu_items = []
+        for ev_lbl, ev in mas_compliments.compliment_database.iteritems():
+            try:
+                if (Event._filterEvent(ev, unlocked=True, aff=mas_curr_affection, flag_ban=EV_FLAG_HFM)
+                        and ev.checkConditional()):
+                    compliments_menu_items.append((ev.prompt, ev_lbl, not seen_event(ev_lbl), False))
+            except Exception:
+                pass
 
         # also sort this list
-        compliments_menu_items.sort()
+        compliments_menu_items.sort(key=lambda x: renpy.translation.translate_string(x[0]).lower().lstrip(u"┬í┬┐ "))
 
         # final quit item
-        final_item = ("Oh nevermind.", False, False, False, 20)
+        final_item = (_("Oh nevermind."), False, False, False, 20)
 
     # move Monika to the left
     show monika at t21
@@ -594,7 +594,7 @@ label mas_compliment_smile_3:
             _("I can't help but smile when I think of you."),
             _("I can't wait to see your beautiful smile."),
         ]
-        smile_quip = random.choice(smile_quips)
+        smile_quip = renpy.translation.translate_string(random.choice(smile_quips))
 
     m 1eub "[mas_compliments.thanks_quip]"
     m 1hua "[smile_quip]"
@@ -686,7 +686,7 @@ label mas_compliment_cute_3:
             _("You'll always be my cutie~"),
             _("You can be a cutie a lot of the time too~"),
         ]
-        cute_quip = random.choice(cute_quips)
+        cute_quip = renpy.translation.translate_string(random.choice(cute_quips))
 
     m 1ekbsa "Ehehe, thanks [player]..."
     m 1hubfa "[cute_quip]"
@@ -914,7 +914,7 @@ label mas_compliment_thinking_of_you_3:
             _("You're always on my mind too!"),
             _("I'm always thinking about you too!"),
         ]
-        thinking_of_you_quip = random.choice(thinking_of_you_quips)
+        thinking_of_you_quip = renpy.translation.translate_string(random.choice(thinking_of_you_quips))
 
     m 1ekbsa "Aww thanks, [player]..."
     m 3hubfb "[thinking_of_you_quip]"
@@ -969,7 +969,7 @@ label mas_compliment_humor_3:
             _("Just knowing that makes me happy~"),
             _("I'll always try to brighten your day~"),
         ]
-        humor_quip = random.choice(humor_quips)
+        humor_quip = renpy.translation.translate_string(random.choice(humor_quips))
 
     m 1hubsb "[mas_compliments.thanks_quip]"
     m 1hubsu "[humor_quip]"
@@ -1048,6 +1048,12 @@ label mas_compliment_missed:
         absence_length = mas_getAbsenceLength()
         mas_flagEVL("mas_compliment_missed", "CMP", EV_FLAG_HFM)
 
+        missed_quip_long = renpy.translation.translate_string(random.choice(missed_quips_long))
+        missed_quip_short = renpy.translation.translate_string(random.choice(missed_quips_short))
+        missed_quip_upset_short = renpy.translation.translate_string(random.choice(missed_quips_upset_short))
+        missed_quip_upset_long = renpy.translation.translate_string(random.choice(missed_quips_upset_long))
+        missed_quip_dis = renpy.translation.translate_string(random.choice(missed_quips_dis))
+
     if mas_isMoniNormal(higher=True):
         if absence_length >= datetime.timedelta(days=3):
             if absence_length >= datetime.timedelta(days=7):
@@ -1057,11 +1063,11 @@ label mas_compliment_missed:
                 $ hugchance = 15
 
             m 1fka "I missed you so much, [mas_get_player_nickname()]!"
-            m 3fka "[renpy.substitute(random.choice(missed_quips_long))]"
+            m 3fka "[renpy.substitute(missed_quip_long)]"
 
         else:
             m 1fka "I missed you too, [mas_get_player_nickname()]!"
-            m 3hub "[renpy.substitute(random.choice(missed_quips_short))]"
+            m 3hub "[renpy.substitute(missed_quip_short)]"
 
         if (
             mas_isMoniEnamored(higher=True)
@@ -1103,16 +1109,16 @@ label mas_compliment_missed:
         m 2ekbla "I...{w=0.5}I missed you too."
 
         if absence_length >= datetime.timedelta(days=3):
-            m 2ekd "[renpy.substitute(random.choice(missed_quips_upset_long))]"
+            m 2ekd "[renpy.substitute(missed_quip_upset_long)]"
 
         else:
-            m 2eka "[renpy.substitute(random.choice(missed_quips_upset_short))]"
+            m 2eka "[renpy.substitute(missed_quip_upset_short)]"
 
         $ mas_moni_idle_disp.force_by_code("2eka", duration=10, skip_dissolve=True)
 
     elif mas_isMoniDis():
         m 6dkc "..."
-        m 6rktpd "[renpy.substitute(random.choice(missed_quips_dis))]"
+        m 6rktpd "[renpy.substitute(missed_quip_dis)]"
 
         if absence_length >= datetime.timedelta(days=3):
             m 6dktdc "...But at least you haven't forgetten about me...{w=0.5}yet."
@@ -1146,7 +1152,7 @@ label mas_compliment_spending_time:
                 _("Just being near you makes me so happy~"),
                 _("Nothing makes me happier than being next to you~"),
             ]
-            spending_time_quip = random.choice(spending_time_quips)
+            spending_time_quip = renpy.translation.translate_string(random.choice(spending_time_quips))
 
         m 3hubsb "[mas_compliments.thanks_quip]"
         m 1ekbsu "[spending_time_quip]"
@@ -1154,16 +1160,16 @@ label mas_compliment_spending_time:
 
 label mas_compliment_spending_time_2:
     python:
-        dlg_line = ""
+        dlg_line = _("")
 
         if renpy.seen_label("monika_holdme_prep"):
-            dlg_line = ", holds me close"
+            dlg_line = _(", holds me close")
 
             if persistent._mas_filereacts_historic:
-                dlg_line += ", and even gives me nice gifts"
+                dlg_line += _(", and even gives me nice gifts")
 
         elif persistent._mas_filereacts_historic:
-            dlg_line = ", gives me nice gifts"
+            dlg_line = _(", gives me nice gifts")
 
     m 1eub "I love spending time with you too, [player]!"
     m 3ekbla "I know I say it a lot, but I really mean it when I say that you're the center of my world."
@@ -1249,7 +1255,7 @@ label mas_compliment_sweet_repeat:
             _("Hearing that always warms my heart, [player]!"),
             _("You make me feel so loved, [player]!"),
         ]
-        sweet_quip = renpy.substitute(random.choice(sweet_quips))
+        sweet_quip = renpy.substitute(renpy.translation.translate_string(random.choice(sweet_quips)))
 
     m 3hubsb "[sweet_quip]"
     m 1hubfu "...But I could never be as sweet as you~"
@@ -1319,7 +1325,7 @@ label mas_compliment_outfit_repeat:
                 _("I'm happy you like this cosplay!"),
                 _("I'm happy to cosplay for you!"),
             ]
-            cosplay_quip = random.choice(cosplay_quips)
+            cosplay_quip = renpy.translation.translate_string(random.choice(cosplay_quips))
 
         m 3hubsb "[cosplay_quip]"
 
@@ -1329,7 +1335,7 @@ label mas_compliment_outfit_repeat:
                 _("I'm glad you like how I look with this!"),
                 _("I'm happy you like how I look in this!"),
             ]
-            clothes_quip = random.choice(clothes_quips)
+            clothes_quip = renpy.translation.translate_string(random.choice(clothes_quips))
 
         m 3hubsb "[clothes_quip]"
 
@@ -1340,7 +1346,7 @@ label mas_compliment_outfit_repeat:
                 _("Would you like a closer look?"),
                 _("Would you like a little peek?~"),
             ]
-            lingerie_quip = random.choice(lingerie_quips)
+            lingerie_quip = renpy.translation.translate_string(random.choice(lingerie_quips))
 
         m 2kubsu "[lingerie_quip]"
         show monika 5hublb at t11 zorder MAS_MONIKA_Z with dissolve_monika
@@ -1353,7 +1359,7 @@ label mas_compliment_outfit_repeat:
                 _("I'm sure you look good too!"),
                 _("I love this outfit!")
             ]
-            other_quip = random.choice(other_quips)
+            other_quip = renpy.translation.translate_string(random.choice(other_quips))
 
         m 3hubsb "[other_quip]"
 
