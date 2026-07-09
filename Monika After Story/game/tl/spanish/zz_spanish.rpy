@@ -17,43 +17,29 @@ init -1000 python:
     store._log_tl["spanish"] = {
 
         "I'm sorry, but an uncaught exception occurred.": "Lo sentimos, pero ha ocurrido una excepción no controlada.",
-
         "-- Full Traceback ------------------------------------------------------------": "-- Rastreo Completo ------------------------------------------------------------",
-
         "Full traceback:": "Rastreo Completo:",
-
         "While running game code:": "Mientras se ejecutaba el código del juego:",
-
         "While loading the script.": "Mientras se cargaba el script.",
-
         "Before loading the script.": "Antes de cargar el script.",
-
         "After loading the script.": "Después de cargar el script.",
-
         "While executing init code:": "Mientras se ejecutaba el código de inicialización:",
-
         "After initialization, but before game start.": "Después de la inicialización, pero antes de iniciar el juego.",
-
         ", line ": ", línea ",
-
         ", in ": ", en ",
-
         "  File \"": "  Archivo \"",
-
         "File \"": "Archivo \"",
-
         "Exception: ": "Excepción: ",
-
         "ScriptError: ": "Error en Script: ",
-
         "ParseError: ": "Error de Análisis: ",
-
         "TypeError: ": "Error de Tipo: ",
-
         "AttributeError: ": "Error de Atributo: ",
-
-        "SyntaxError: ": "Error de Sintaxis: "
-
+        "SyntaxError: ": "Error de Sintaxis: ",
+        "FileNotFoundError: ": "Error de Archivo No Encontrado: ",
+        "NameError: ": "Error de Nombre: ",
+        "ValueError: ": "Error de Valor: ",
+        "KeyError: ": "Error de Clave: "
+        
     }
 
     if not hasattr(store, '_register_log_translations'):
@@ -143,21 +129,14 @@ init -1000 python:
                     pattern = r'\b([A-Z][a-z]{2})\s+([A-Z][a-z]{2})\s+(\d{1,2})\s+(\d{2}:\d{2}:\d{2})\s+(\d{4})\b'
 
                     days_es = {
-
                         "Mon": "Lun", "Tue": "Mar", "Wed": "Mié", "Thu": "Jue", 
-
                         "Fri": "Vie", "Sat": "Sáb", "Sun": "Dom"
-
                     }
 
                     months_es = {
-
                         "Jan": "Ene", "Feb": "Feb", "Mar": "Mar", "Apr": "Abr",
-
                         "May": "May", "Jun": "Jun", "Jul": "Jul", "Aug": "Ago",
-
                         "Sep": "Sep", "Oct": "Oct", "Nov": "Nov", "Dec": "Dic"
-
                     }
 
                     def replace_date(match):
@@ -180,66 +159,115 @@ init -1000 python:
 
         store._translate_mirror_text = _translate_mirror_text
 
+        # Monkeypatch python's traceback module to automatically translate tracebacks
+
+        try:
+
+            import traceback
+
+            if not hasattr(traceback, "_original_format_exception"):
+
+                traceback._original_format_exception = traceback.format_exception
+
+                def _spanish_format_exception(*args, **kwargs):
+
+                    res = traceback._original_format_exception(*args, **kwargs)
+
+                    if isinstance(res, list):
+
+                        return [_translate_mirror_text(s) for s in res]
+
+                    return _translate_mirror_text(res)
+
+                traceback.format_exception = _spanish_format_exception
+
+            if not hasattr(traceback, "_original_format_tb"):
+
+                traceback._original_format_tb = traceback.format_tb
+
+                def _spanish_format_tb(*args, **kwargs):
+
+                    res = traceback._original_format_tb(*args, **kwargs)
+
+                    if isinstance(res, list):
+
+                        return [_translate_mirror_text(s) for s in res]
+
+                    return _translate_mirror_text(res)
+
+                traceback.format_tb = _spanish_format_tb
+
+            if not hasattr(traceback, "_original_format_list"):
+
+                traceback._original_format_list = traceback.format_list
+
+                def _spanish_format_list(*args, **kwargs):
+
+                    res = traceback._original_format_list(*args, **kwargs)
+
+                    if isinstance(res, list):
+
+                        return [_translate_mirror_text(s) for s in res]
+
+                    return _translate_mirror_text(res)
+
+                traceback.format_list = _spanish_format_list
+
+            if not hasattr(traceback, "_original_format_exception_only"):
+
+                traceback._original_format_exception_only = traceback.format_exception_only
+
+                def _spanish_format_exception_only(*args, **kwargs):
+
+                    res = traceback._original_format_exception_only(*args, **kwargs)
+
+                    if isinstance(res, list):
+
+                        return [_translate_mirror_text(s) for s in res]
+
+                    return _translate_mirror_text(res)
+
+                traceback.format_exception_only = _spanish_format_exception_only
+
+        except Exception:
+
+            pass
+
     # 2. Register Spanish translation strings dynamically by intercepting
-
     # renpy.translation.translate_string. This avoids adding duplicates to
-
     # the translation mappings which causes "A translation ... already exists"
-
     # exceptions when common.rpy is processed normally.
 
     try:
 
         early_translations = {
 
+            "While running game code:": "Durante la ejecución del código:",
+            "Full traceback:": "Rastreo completo:",
             "An exception has occurred.": "Ha ocurrido una excepción.",
-
             "Rollback": "Volver atrás",
-
             "Attempts a roll back to a prior time, allowing you to save or choose a different choice.": "Intenta volver a un momento anterior y permite guardar o escoger una opción diferente.",
-
             "Ignore": "Ignorar",
-
             "Ignores the exception, allowing you to continue.": "Ignora la excepción y permite continuar.",
-
             "Ignores the exception, allowing you to continue. This often leads to additional errors.": "Ignora la excepción y permite continuar. Suele conllevar más errores.",
-
             "Reload": "Recargar",
-
             "Reloads the game from disk, saving and restoring game state if possible.": "Recarga el juego desde el disco, guardando y restaurando la partida si es posible.",
-
             "Console": "Consola",
-
             "Opens a console to allow debugging the problem.": "Abre una consola y permite depurar el problema.",
-
             "Quit": "Salir",
-
             "Quits the game.": "Salir del juego.",
-
             "Open": "Abrir",
-
             "Opens the traceback.txt file in a text editor.": "Abre el archivo de rastreo 'traceback.txt' en un editor de texto.",
-
             "Copy": "Copiar",
-
             "Copies the traceback.txt file to the clipboard.": "Copia el archivo traceback.txt al portapapeles.",
-
             "Copy BBCode": "Copiar BBCode",
-
             "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.": "Copia el archivo traceback.txt en el portapapeles como BBcode para foros como https://lemmasoft.renai.us/.",
-
             "Copy Markdown": "Copiar Markdown",
-
             "Copies the traceback.txt file to the clipboard as Markdown for Discord.": "Copia el archivo traceback.txt al portapapeles como Markdown para Discord.",
-
             "Parsing the script failed.": "Error en el análisis del código.",
-
             "Opens the errors.txt file in a text editor.": "Abre el archivo de errores 'errors.txt' en un editor de texto.",
-
             "Copies the errors.txt file to the clipboard.": "Copia el archivo errors.txt al portapapeles.",
-
             "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.": "Copia el archivo errors.txt en el portapapeles como BBcode para foros como https://lemmasoft.renai.us/.",
-
             "Copies the errors.txt file to the clipboard as Markdown for Discord.": "Copia el archivo errors.txt al portapapeles como Markdown para Discord."
 
         }
@@ -279,25 +307,15 @@ init -1000 python:
         pass
 
 default o_a = "o"
-
 default un_una = "un"
-
 default el_la = "el"
-
 default lo_la = "lo"
-
 default e_a = "e"
-
 default uno_una = "uno"
-
 default el_ella = "él"
-
 default cap_el_ella = "Él"
-
 default al_ala = "al"
-
 default del_dela = "del"
-
 default dormilon_dormilona = "dormilón"
 
 init 1 python:
@@ -307,35 +325,20 @@ init 1 python:
     if _pronoun_map is not None:
 
         _pronoun_map.update({
-
             "o_a": {"M": "o", "F": "a", "X": "e"},    # Ej: list[o_a] -> listo / lista / liste
-
             "un_una": {"M": "un", "F": "una", "X": "un"}, # Ej: [un_una] chico -> un / una / un
-
             "el_la": {"M": "el", "F": "la", "X": "le"},   # Ej: [el_la] mejor -> el / la / le
-
             "lo_la": {"M": "lo", "F": "la", "X": "le"},   # Ej: [lo_la] veo -> lo / la / le
-
             "e_a": {"M": "e", "F": "a", "X": "e"},     # Ej: est[e_a] -> este / esta / este
-
             "uno_una": {"M": "uno", "F": "una", "X": "une"}, # Ej: [uno_una] -> uno / una / une
-
             "el_ella": {"M": "él", "F": "ella", "X": "elle"},
-
             "cap_el_ella": {"M": "Él", "F": "Ella", "X": "Elle"},
-
             "al_ala": {"M": "al", "F": "a la", "X": "al"},  # Ej: [al_ala] otro -> al / a la / al
-
             "del_dela": {"M": "del", "F": "de la", "X": "del"}, # Ej: [del_dela] otro -> del / de la / del
-
             "hero": {"M": "héroe", "F": "heroína", "X": "héroe"},  # Ej: mi [hero] -> mi héroe / mi heroína
-
             "buen_buena": {"M": "buen", "F": "buena", "X": "buene"},  # Ej: [buen_buena] chic[o_a] -> buen chico / buena chica
-
             "dormilon_dormilona": {"M": "dormilón", "F": "dormilona", "X": "dormilón"},
-
             "_a": {"M": "", "F": "a", "X": ""}, # Ej: trabajador[_a] -> trabajador / trabajadora / trabajador
-
         })
 
 init 10 python:
@@ -371,13 +374,9 @@ init 999 python:
             Event.lockInit("prompt", ev=ev)
 
 # =============================================================================
-
 # DICCIONARIO EXPLÍCITO DE CATEGORÍAS DE CONVERSACIÓN
-
 # Se usa en event-handler.rpy para traducir las categorías del menú "Hablar".
-
 # Más fiable que _() para strings dinámicos en Python blocks de Ren'Py.
-
 # =============================================================================
 
 init 5 python:
@@ -387,107 +386,56 @@ init 5 python:
         # game/script-topics.rpy y otros - categorías con _()
 
         "advice":           "consejos",
-
         "affection":        "afecto",
-
         "anniversary":      "aniversario",
-
         "apology":          "disculpa",
-
         "appearance":       "apariencia",
-
         "art":              "arte",
-
         "be right back":    "ya regreso",
-
         "clothes":          "ropa",
-
         "club members":     "integrantes del club",
-
         "compliment":       "cumplidos",
-
         "creepy":           "espeluznante",
-
         "ddlc":             "ddlc",
-
         "development":      "desarrollo",
-
         "farewell":         "despedida",
-
         "fashion":          "moda",
-
         "food":             "comida",
-
         "funny":            "divertido",
-
         "games":            "juegos",
-
         "grammar tips":     "consejos de gramática",
-
         "holidays":         "festividades",
-
         "life":             "vida",
-
         "literature":       "literatura",
-
         "literature club":  "club de literatura",
-
         "location":         "ubicación",
-
         "media":            "multimedia",
-
         "misc":             "otros",
-
         "mod":              "mod",
-
         "monika":           "monika",
-
         "music":            "música",
-
         "nature":           "naturaleza",
-
         "philosophy":       "filosofía",
-
         "psychology":       "psicología",
-
         "python tips":      "consejos de Python",
-
         "romance":          "romance",
-
         "school":           "escuela",
-
         "science":          "ciencia",
-
         "society":          "sociedad",
-
         "song":             "canción",
-
         "sports":           "deportes",
-
         "spring":           "primavera",
-
         "story":            "historia",
-
         "summer":           "verano",
-
         "supplies":         "suministros",
-
         "technology":       "tecnología",
-
         "trivia":           "curiosidades",
-
         "us":               "nosotr[o_a]s",
-
         "weather":          "clima",
-
         "winter":           "invierno",
-
         "writing":          "escritura",
-
         "writing tips":     "consejos de escritura",
-
         "you":              "tú"
-
     }
 
     def mas_get_cat_label(cat):
@@ -533,15 +481,10 @@ init 5 python:
         if _preferences.language == "spanish":
 
             return {
-
                 "red": "rojo",
-
                 "blue": "azul",
-
                 "green": "verde",
-
                 "yellow": "amarillo"
-
             }.get(color, color)
 
         return color
@@ -575,35 +518,20 @@ init 5 python:
             color_lower = color.lower()
 
             translations = {
-
                 "blue": "azules",
-
                 "brown": "marrones",
-
                 "green": "verdes",
-
                 "hazel": "avellana",
-
                 "gray": "grises",
-
                 "black": "negros",
-
                 "mesmerizing": "fascinantes",
-
                 "beautiful": "hermosos",
-
                 "enchanting": "encantadores",
-
                 "red": "rojos",
-
                 "purple": "morados",
-
                 "violet": "violetas",
-
                 "amber": "ámbar",
-
                 "yellow": "amarillos"
-
             }
 
             return translations.get(color_lower, color)
@@ -613,87 +541,59 @@ init 5 python:
 translate spanish strings:
 
     # game/screens.rpy:718
-
     old "Save"
-
     new "Guardar"
 
     # game/screens.rpy:2289
-
     old "No"
-
     new "No"
 
     # game/screens.rpy:2372
-
     old "Cancel"
-
     new "Cancelar"
 
     # game/screens.rpy:2398
-
     old "No."
-
     new "No."
 
     # game/chess.rpy:3274
-
     old "Done"
-
     new "Listo"
 
     # game/event-handler.rpy:3334
-
     old "Nevermind"
-
     new "No importa"
 
     # =========================================================================
-
     # OPCIONES DE MENÚ Y DIÁLOGOS GLOBALES / DUPLICADOS
-
     # =========================================================================
 
     # game/event-handler.rpy (multiple locations)
-
     old "Sure, [m_name]."
-
     new "Por supuesto, [m_name]."
 
     # game/event-handler.rpy (multiple locations)
-
     old "Yeah."
-
     new "Sí."
 
     # game/screens.rpy (multiple locations)
-
     old "Okay"
-
     new "Okey"
 
     # game/screens.rpy (multiple locations)
-
     old "Okay."
-
     new "Okey."
 
     # game/screens.rpy (multiple locations)
-
     old "Yes"
-
     new "Sí"
 
     # game/screens.rpy (multiple locations)
-
     old "Yes."
-
     new "Sí."
 
     # game/script-holidays.rpy (multiple locations)
-
     old "holiday"
-
     new "un día festivo"
 
 init 999 python:
@@ -733,11 +633,8 @@ init 999 python:
     def _strip_spanish_accents(s):
 
         mapping = {
-
             u'á': u'a', u'é': u'e', u'í': u'i', u'ó': u'o', u'ú': u'u',
-
             u'ü': u'u', u'ñ': u'n'
-
         }
 
         res = []
@@ -929,7 +826,7 @@ init 999 python:
             store.mas_other_notif_quips = [
                 "¡Tengo algo de qué hablar, [player]!",
                 "¡Tengo algo que decirte, [player]!",
-                "Oye [player], quiero decirte algo.",
+                "Hey [player], quiero decirte algo.",
                 "¿Tienes un minuto, [player]?"
             ]
         else:
@@ -949,18 +846,23 @@ init 999 python:
 
 
 # =============================================================================
-
 # SALUDO SEGÚN LA HORA DEL DÍA
-
 # En inglés: "Good morning / afternoon / evening" → En español necesita formas
-
 # distintas: "Buenos días", "Buenas tardes", "Buenas noches"
-
 # Se sobreescribe el prompt del evento monika_good_tod de forma dinámica.
-
 # =============================================================================
 
 python early:
+
+    # Python compatibility for basestring
+
+    try:
+
+        basestring
+
+    except NameError:
+
+        basestring = str
 
     try:
 
@@ -977,129 +879,67 @@ python early:
     log_strings_translations = {
 
         "LOAD": "CARGAR",
-
         "Loading from backup": "Cargando desde copia de seguridad",
-
         "DATA HAS BEEN RESET": "LOS DATOS HAN SIDO REINICIADOS",
-
         "Loading from system": "Cargando desde el sistema",
-
         "LOAD?": "¿CARGAR?",
-
         "MISMATCHES": "DISCREPANCIAS",
-
         "LOAD COMPLETE": "CARGA COMPLETA",
-
         "SAVE": "GUARDAR",
-
         "SET BACKUP": "CREAR COPIA DE SEGURIDAD",
-
         "FAILED TO BACKUP, CURRENT DATA IS BAD": "FALLO AL CREAR COPIA DE SEGURIDAD, LOS DATOS ACTUALES NO SON VÁLIDOS",
-
         "!FREEZE!": "¡CONGELADO!",
-
         "!BYPASS!": "¡IGNORAR!",
-
         "capped loss": "pérdida limitada",
-
         "10 year diff": "diferencia de 10 años",
-
         "she missed you": "te extrañó",
-
         "VERSION:": "VERSIÓN:",
-
         " - build: ": " - compilación: ",
-
         "build:": "compilación:",
-
         "!ERROR! T_T": "¡ERROR! T_T",
-
         "persistent was corrupted! : ": "¡El archivo persistent estaba dañado! : ",
-
         " was corrupted: ": " estaba dañado: ",
-
         "no working backups found": "no se encontraron copias de seguridad funcionales",
-
         "working backup found: ": "copia de seguridad funcional encontrada: ",
-
         "no backups available": "no hay copias de seguridad disponibles",
-
         "Failed to rename existing persistent: ": "Fallo al renombrar el persistent existente: ",
-
         "Failed to copy backup persistent: ": "Fallo al copiar la copia de seguridad del persistent: ",
-
         "Failed to copy persistent to special: ": "Fallo al copiar el persistent al archivo especial: ",
-
         "Permission denied": "Permiso denegado",
-
         "Access is denied": "Acceso denegado",
-
         "No such file or directory": "No existe el archivo o directorio",
-
         "Attempting to load ": "Intentando cargar ",
-
         " loaded successfully.": " cargado correctamente.",
-
         " loaded successfully!": " cargado con éxito!",
-
         "Loading PNM ": "Cargando PNM ",
-
         "Failed to load file at ": "Error al cargar el archivo en ",
-
         "Failed to load json at ": "Fallo al cargar el archivo json en ",
-
         "Load failed.": "Error al cargar.",
-
         "load failed.": "error al cargar.",
-
         "verifying hair maps...": "verificando mapas de cabello...",
-
         "hair map verification complete!": "¡verificación de mapas de cabello completada!",
-
         "creating reactions for gifts...": "creando reacciones para regalos...",
-
         "gift reactions created successfully!": "¡reacciones de regalos creadas con éxito!",
-
         "reading JSON at ": "leyendo JSON en ",
-
         "loading ": "cargando ",
-
         " sprite object ": " objeto sprite ",
-
         " loaded successfully!": " cargado con éxito!",
-
         " loaded successfully! DRY RUN": " cargado con éxito! PRUEBA EN SECO",
-
         "Pose Map ": "Mapa de poses ",
-
         "Filter object ": "Objeto de filtro ",
-
         "Highlight object ": "Objeto de resaltado ",
-
         "Highlight Split object ": "Objeto de división de resaltado ",
-
         "Highlight object for key ": "Objeto de resaltado para la clave ",
-
         "mapping loaded successfully!": "¡mapeo cargado con éxito!",
-
         "Pose Arms ": "Brazos de pose ",
-
         "Arm ": "Brazo ",
-
         "hair_map loaded successfully!": "¡hair_map cargado con éxito!",
-
         "ex_props loaded successfully!": "¡ex_props cargados con éxito!",
-
         "sel_info loaded successfully!": "sel_info cargado con éxito!",
-
         "outfit mode data loaded successfully!": "¡datos de modo de atuendo cargados con éxito!",
-
         "INSTALLED SUBMODS:": "SUBMODS INSTALADOS:",
-
         "Background Object: ": "Objeto Background: ",
-
         "\nFilter System:\n\n": "\nSistema de filtros:\n\n",
-
         "\n\nRaw Filter Manager Data:\n": "\n\nDatos brutos del gestor de filtros:\n"
 
     }
