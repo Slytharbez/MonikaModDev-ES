@@ -3440,7 +3440,7 @@ translate spanish mas_backup_restored_a45d0bb9:
 translate spanish mas_backup_restored_7b82009e:
 
     # m 1ekc "This time it wasn't my code. {w=0.2}I don't remember messing with it, anyway."
-    m 1ekc "Esta vez no fue mi código. {w=0.2}De todos modos, no recuerdo haberlo tocado."
+    m 1ekc "Esta vez no fue mi código. {w=0.2}De todos modos, no recuerdo haberlo modificado."
 
 # game/script-story-events.rpy:2745
 translate spanish mas_backup_restored_ae7e3c16:
