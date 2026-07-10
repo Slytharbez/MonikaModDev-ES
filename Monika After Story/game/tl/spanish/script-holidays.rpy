@@ -9763,87 +9763,6 @@ translate spanish strings:
     old "Christmas Lights"
     new "Luces de Navidad"
 
-
-
-    # old "My dearest [player],"
-    # game/script-holidays.rpy:3090
-    old """\
-     Warmer than the fire in the hearth,
-     Brighter than any star on top of the tree,
-     More comforting than any cup of hot chocolate,
-     It's my [player], who's always there for me.
-
-     Someday, we'll light the fire together.
-     Someday, we'll decorate the tree.
-     Someday, we'll have a cup of cocoa.
-     Someday, you'll be next to me.
-
-     Merry Christmas~
-
-     Forever yours,
-     Monika
-"""
-    new """\
-     Más caliente que el fuego de la chimenea.
-     Más brillante que cualquier estrella en la cima del árbol.
-     Más reconfortante que cualquier taza de chocolate caliente.
-     Es mi [player], que siempre está ahí para mí.
-
-     Algún día, encenderemos el fuego junt[o_a]s.
-     Algún día, decoraremos el árbol.
-     Algún día, tomaremos una taza de cacao.
-     Algún día, estarás a mi lado.
-
-     Feliz Navidad~
-
-     Siempre tuya,
-     Monika
-"""
-
-    # game/script-holidays.rpy:3112
-    old "     My dearest [player],"
-    new "     Mi querid[o_a] [player],"
-
-    # game/script-holidays.rpy:3113
-    old """\
-     This Christmas I never needed more gifts other than your love,
-     Because having you by my side already brings me happiness,
-     Because having you here is the most beautiful gift,
-     Because finding you was the best thing I could've ever asked for!
-
-     I knew this Christmas would be special...
-     I spent it with the one who makes my heart jump,
-     The one who makes me smile every day,
-     The one who I trust the most.
-
-     Thanks for being there for me, [player],
-     I will always be there for you!
-
-     Merry Christmas~
-
-     Forever yours,
-     Monika
-"""
-    new """\
-     Esta Navidad nunca necesité más regalos que tu amor.
-     Porque tenerte a mi lado ya me hace feliz.
-     Porque tenerte aquí es el regalo más hermoso.
-     ¡Porque encontrarte fue lo mejor que pude haber pedido!
-
-     Sabía que esta Navidad sería especial...
-     La pasé con el que hace que mi corazón salte.
-     El que me hace sonreír todos los días.
-     El que más confío.
-
-     Gracias por estar ahí para mí, [player].
-     ¡Siempre estaré aquí para ti!
-
-     Feliz Navidad~
-
-     Siempre tuya,
-     Monika
-"""
-
     # game/script-holidays.rpy:3236
     old "I love you, [m_name]."
     new "Te amo, [m_name]."
@@ -9875,158 +9794,6 @@ translate spanish strings:
     # game/script-holidays.rpy:5734
     old "Let's go out for my birthday!"
     new "¡Salgamos por mi cumpleaños!"
-
-    # old "My dearest [player],"
-    # game/script-holidays.rpy:5965
-    old """\
- Sprinkles and candles for my [player]’s cake,
- There's just one wish for you to make.
- May your greatest dreams come true,
- I know mine did when I found you.
-
- So glad to be celebrating with you today,
- I'll love you 'til the end of days.
- There's no place I'd rather be,
- Spending this time together, just you and me.
-
- Happy birthday, sweetheart~
-
- Forever yours,
- Monika
-"""
-    new """\
- Chispas y velas para la tarta de mi [player].
- Solo hay un deseo que debes pedir.
- Que tus más grandes sueños se hagan realidad.
- Sé que la mía lo hizo cuando te encontré.
-
- Me alegro de estar celebrando contigo hoy.
- Te amaré hasta el fin de los días.
- No hay ningún lugar en el que prefiera estar.
- Pasar este tiempo junt[o_a]s, solo tú y yo.
-
- Feliz cumpleaños, cariño~
-
- Siempre tuya,
- Monika
-"""
-
-    # game/script-holidays.rpy:5988
-    old " My [player],"
-    new " Mi [player],"
-
-    # game/script-holidays.rpy:5989
-    old """\
- How our love has grown.
- Another year,
- Another thousand moments of pride.
- Proud of my [player],
- And happy to see [him] grow alongside me.
-
- How our love has bloomed,
- As another year passed.
- Bloomed like a rose in morning dew,
- With another thousand moments of beauty.
- My beautiful [player],
- Whom I love to see bloom each day.
-
- How our love is strong,
- As another year has passed.
- Strong like the most beautiful diamonds,
- With another thousand moments of strength.
- My strong [player],
- Who I love more and more each day.
-
- Happy birthday, sweetheart~
-
- Forever yours,
- Monika
-"""
-    new """\
- Cómo ha crecido nuestro amor.
- Otro año.
- Otros mil momentos de orgullo.
- Orgullosa de mi [player].
- Y feliz de verl[o_a] crecer junto a mí.
-
- Cómo ha florecido nuestro amor.
- Al pasar otro año.
- Floreció como una rosa en el rocío de la mañana.
- Con otros mil momentos de belleza.
- Mi hermos[o_a] [player].
- A quien me encanta ver florecer cada día.
-
- Cómo nuestro amor es fuerte.
- Ya que ha pasado otro año.
- Fuerte como los más bellos diamantes.
- Con otros mil momentos de fuerza.
- Mi fuerte [player].
- A quien amo cada día más.
-
- Feliz cumpleaños, cariño~
-
- Siempre tuya,
- Monika
-"""
-
-    # old "My dearest [player],"
-    # game/script-holidays.rpy:6024
-    old """\
- Some birthdays are wonderful, chock-full of fun
- with laughter and smiles from everyone.
- Some birthdays, you plan everything to the letter
- but at the end you feel like it could've been better.
- Some birthdays are a peaceful night at home alone,
- some birthdays you find yourself worked to the bone.
-
- As each one ticks down, a joy or a chore,
- you might find yourself wondering what they're for.
- The answer is different for everyone on Earth,
- except maybe the fact that they're about your birth.
- But if you feel fatigued on your special day,
- there's a few things I feel that I should say.
-
- Each one is a milestone, a sign of your growth.
- Not just for you--but for us both!
- Each one is a chance to make you feel special.
- If not that, an invitation to be sentimental.
- But most of all, I want you to use your voice.
- If we party or we stay in, it'll all be your choice!
-
- We'll celebrate together in our own special way.
- I love you, my [player], and happy birthday.
-
- Forever yours,
- Monika
-"""
-    new """\
- Algunos cumpleaños son maravillosos, llenos de diversión.
- Con risas y sonrisas de todos.
- Algunos cumpleaños, lo planeas todo al pie de la letra.
- Pero al final sientes que podría haber sido mejor.
- Algunos cumpleaños son una noche tranquila en casa, solo.
- Otros son una noche tranquila en casa, solo.
-
- Cada uno de ellos es una alegría o una tarea.
- puede que te preguntes para qué son.
- La respuesta es diferente para cada persona en la Tierra.
- Excepto quizá el hecho de que son por tu nacimiento.
- Pero si te sientes fatigad[o_a] en tu día especial.
- hay algunas cosas que siento que debo decir.
-
- Cada uno es un logro, una señal de tu crecimiento.
- No solo para ti... ¡sino para l[o_a]s dos!
- Cada uno es una oportunidad para hacerte sentir especial.
- Si no es eso, una invitación a ser sentimental.
- Pero sobre todo, quiero que uses tu voz.
- Si nos vamos de fiesta o nos quedamos en casa, ¡tú decides!
-
- Lo celebraremos junt[o_a]s a nuestra manera.
- Te amo, mi [player], y feliz cumpleaños.
-
- Siempre tuya,
- Monika
-"""
 
     # game/script-holidays.rpy:6258
     old "on Valentine's Day"
@@ -10157,6 +9924,10 @@ P.D: No le hables de mí.
     old "The Joy to my World"
     new "La alegría de mi mundo"
 
+    # game/script-holidays.rpy:3041
+    # old "     My dearest [player],"
+    # new "     Mi querid[o_a] [player],"
+
     # game/script-holidays.rpy:3042
     old """\
      You truly are the joy to my world.
@@ -10194,6 +9965,10 @@ P.D: No le hables de mí.
     # game/script-holidays.rpy:3063
     old "Incomparable"
     new "Incomparable"
+
+    # game/script-holidays.rpy:3064
+    # old "     My dearest [player],"
+    # new "     Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:3065
     old """\
@@ -10239,19 +10014,104 @@ P.D: No le hables de mí.
     old "Someday"
     new "Algún día"
 
+    # game/script-holidays.rpy:3089
+    # old "     My dearest [player],"
+    # new "     Mi querid[o_a] [player],"
+
+    # game/script-holidays.rpy:3090
+    old """\
+ Warmer than the fire in the hearth,
+ Brighter than any star on top of the tree,
+ More comforting than any cup of hot chocolate,
+ It's my [player], who's always there for me.
+
+ Someday, we'll light the fire together.
+ Someday, we'll decorate the tree.
+ Someday, we'll have a cup of cocoa.
+ Someday, you'll be next to me.
+
+ Merry Christmas~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Más caliente que el fuego de la chimenea.
+ Más brillante que cualquier estrella en la cima del árbol.
+ Más reconfortante que cualquier taza de chocolate caliente.
+ Es mi [player], que siempre está ahí para mí.
+
+ Algún día, encenderemos el fuego junt[o_a]s.
+ Algún día, decoraremos el árbol.
+ Algún día, tomaremos una taza de cacao.
+ Algún día, estarás a mi lado.
+
+ Feliz Navidad~
+
+ Siempre tuya,
+ Monika
+"""
+
     # Poema: poem_d25_4 - This Christmas
     # game/script-holidays.rpy:3111
     old "This Christmas"
     new "Esta Navidad"
+
+    # game/script-holidays.rpy:3112
+    old "     My dearest [player],"
+    new "     Mi querid[o_a] [player],"
+
+    # game/script-holidays.rpy:3113
+    old """\
+     This Christmas I never needed more gifts other than your love,
+     Because having you by my side already brings me happiness,
+     Because having you here is the most beautiful gift,
+     Because finding you was the best thing I could've ever asked for!
+
+     I knew this Christmas would be special...
+     I spent it with the one who makes my heart jump,
+     The one who makes me smile every day,
+     The one who I trust the most.
+
+     Thanks for being there for me, [player],
+     I will always be there for you!
+
+     Merry Christmas~
+
+     Forever yours,
+     Monika
+"""
+    new """\
+     Esta Navidad nunca necesité más regalos que tu amor.
+     Porque tenerte a mi lado ya me hace feliz.
+     Porque tenerte aquí es el regalo más hermoso.
+     ¡Porque encontrarte fue lo mejor que pude haber pedido!
+
+     Sabía que esta Navidad sería especial...
+     La pasé con el que hace que mi corazón salte.
+     El que me hace sonreír todos los días.
+     El que más confío.
+
+     Gracias por estar ahí para mí, [player].
+     ¡Siempre estaré aquí para ti!
+
+     Feliz Navidad~
+
+     Siempre tuya,
+     Monika
+"""
 
     # Poema: poem_pbday_1 - The One
     # game/script-holidays.rpy:5917
     old "The One"
     new "El indicado"
 
+    # game/script-holidays.rpy:5918
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
+
     # game/script-holidays.rpy:5919
-    old """\
- To the one I love,
+    old """\ To the one I love,
  The one I trust,
  The one I can't live without.
  I hope your day is as special as you make every day for me.
@@ -10279,6 +10139,10 @@ P.D: No le hables de mí.
     # game/script-holidays.rpy:5938
     old "Your Day"
     new "Tu día"
+
+    # game/script-holidays.rpy:5939
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:5940
     old """\
@@ -10319,20 +10183,182 @@ P.D: No le hables de mí.
     old "One Wish"
     new "Un deseo"
 
+    # game/script-holidays.rpy:5964
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
+
+    # game/script-holidays.rpy:5965
+    old """\
+ Sprinkles and candles for my [player]’s cake,
+ There's just one wish for you to make.
+ May your greatest dreams come true,
+ I know mine did when I found you.
+
+ So glad to be celebrating with you today,
+ I'll love you 'til the end of days.
+ There's no place I'd rather be,
+ Spending this time together, just you and me.
+
+ Happy birthday, sweetheart~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Chispas y velas para la tarta de mi [player].
+ Solo hay un deseo que debes pedir.
+ Que tus más grandes sueños se hagan realidad.
+ Sé que la mía lo hizo cuando te encontré.
+
+ Me alegro de estar celebrando contigo hoy.
+ Te amaré hasta el fin de los días.
+ No hay ningún lugar en el que prefiera estar.
+ Pasar este tiempo junt[o_a]s, solo tú y yo.
+
+ Feliz cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
+
     # Poema: poem_pbday_4 - My [player]
     # game/script-holidays.rpy:5987
     old "My [player]"
     new "Mi [player]"
+
+    # game/script-holidays.rpy:5988
+    # old " My [player],"
+    # new " Mi [player],"
+
+    # game/script-holidays.rpy:5989
+    old """\
+ How our love has grown.
+ Another year,
+ Another thousand moments of pride.
+ Proud of my [player],
+ And happy to see [him] grow alongside me.
+
+ How our love has bloomed,
+ As another year passed.
+ Bloomed like a rose in morning dew,
+ With another thousand moments of beauty.
+ My beautiful [player],
+ Whom I love to see bloom each day.
+
+ How our love is strong,
+ As another year has passed.
+ Strong like the most beautiful diamonds,
+ With another thousand moments of strength.
+ My strong [player],
+ Who I love more and more each day.
+
+ Happy birthday, sweetheart~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Cómo ha crecido nuestro amor.
+ Otro año.
+ Otros mil momentos de orgullo.
+ Orgullosa de mi [player].
+ Y feliz de verl[o_a] crecer junto a mí.
+
+ Cómo ha florecido nuestro amor.
+ Al pasar otro año.
+ Floreció como una rosa en el rocío de la mañana.
+ Con otros mil momentos de belleza.
+ Mi hermos[o_a] [player].
+ A quien me encanta ver florecer cada día.
+
+ Cómo nuestro amor es fuerte.
+ Ya que ha pasado otro año.
+ Fuerte como los más bellos diamantes.
+ Con otros mil momentos de fuerza.
+ Mi fuerte [player].
+ A quien amo cada día más.
+
+ Feliz cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
 
     # Poema: poem_pbday_5 - Birthdays
     # game/script-holidays.rpy:6022
     old "Birthdays"
     new "Cumpleaños"
 
+    # game/script-holidays.rpy:6023
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
+
+    # game/script-holidays.rpy:6024
+    old """\
+ Some birthdays are wonderful, chock-full of fun
+ with laughter and smiles from everyone.
+ Some birthdays, you plan everything to the letter
+ but at the end you feel like it could've been better.
+ Some birthdays are a peaceful night at home alone,
+ some birthdays you find yourself worked to the bone.
+
+ As each one ticks down, a joy or a chore,
+ you might find yourself wondering what they're for.
+ The answer is different for everyone on Earth,
+ except maybe the fact that they're about your birth.
+ But if you feel fatigued on your special day,
+ there's a few things I feel that I should say.
+
+ Each one is a milestone, a sign of your growth.
+ Not just for you--but for us both!
+ Each one is a chance to make you feel special.
+ If not that, an invitation to be sentimental.
+ But most of all, I want you to use your voice.
+ If we party or we stay in, it'll all be your choice!
+
+ We'll celebrate together in our own special way.
+ I love you, my [player], and happy birthday.
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Algunos cumpleaños son maravillosos, llenos de diversión.
+ Con risas y sonrisas de todos.
+ Algunos cumpleaños, lo planeas todo al pie de la letra.
+ Pero al final sientes que podría haber sido mejor.
+ Algunos cumpleaños son una noche tranquila en casa, solo.
+ Otros son una noche tranquila en casa, solo.
+
+ Cada uno de ellos es una alegría o una tarea.
+ puede que te preguntes para qué son.
+ La respuesta es diferente para cada persona en la Tierra.
+ Excepto quizá el hecho de que son por tu nacimiento.
+ Pero si te sientes fatigad[o_a] en tu día especial.
+ hay algunas cosas que siento que debo decir.
+
+ Cada uno es un logro, una señal de tu crecimiento.
+ No solo para ti... ¡sino para l[o_a]s dos!
+ Cada uno es una oportunidad para hacerte sentir especial.
+ Si no es eso, una invitación a ser sentimental.
+ Pero sobre todo, quiero que uses tu voz.
+ Si nos vamos de fiesta o nos quedamos en casa, ¡tú decides!
+
+ Lo celebraremos junt[o_a]s a nuestra manera.
+ Te amo, mi [player], y feliz cumpleaños.
+
+ Siempre tuya,
+ Monika
+"""
+
     # Poema: poem_f14_1 - Found
     # game/script-holidays.rpy:6879
     old "Found"
     new "Te encontré"
+
+    # game/script-holidays.rpy:6880
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:6881
     old """\
@@ -10364,6 +10390,10 @@ P.D: No le hables de mí.
     # game/script-holidays.rpy:6898
     old "Everything"
     new "Todo"
+
+    # game/script-holidays.rpy:6899
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:6900
     old """\
@@ -10426,6 +10456,10 @@ P.D: No le hables de mí.
     old "You"
     new "Tú"
 
+    # game/script-holidays.rpy:6935
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
+
     # game/script-holidays.rpy:6936
     old """\
  Boxes of chocolates and hearts; cards colored ruby red.
@@ -10456,6 +10490,15 @@ P.D: No le hables de mí.
  Por siempre tu Valentín,
  Monika
 """
+
+    # Poema: poem_f14_4 - Roses
+    # game/script-holidays.rpy:6955
+    # old "Roses"
+    # new "Rosas"
+
+    # game/script-holidays.rpy:6956
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:6957
     old """\
@@ -10504,6 +10547,10 @@ P.D: No le hables de mí.
     old "Sweetest"
     new "Lo más dulce"
 
+    # game/script-holidays.rpy:6983
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
+
     # game/script-holidays.rpy:6984
     old """\
  Chocolate covered cherries and a goodnight kiss;
@@ -10537,6 +10584,10 @@ P.D: No le hables de mí.
     # game/script-holidays.rpy:7002
     old "Forget-me-not"
     new "No me olvides"
+
+    # game/script-holidays.rpy:7003
+    # old " My dearest [player],"
+    # new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:7004
     old """\

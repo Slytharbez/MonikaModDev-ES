@@ -6,6 +6,7 @@ translate spanish strings:
     old "Hole in Wall"
     new "Agujero en la pared"
 
+    # Poema: poem_m1 - Hole in Wall (Part 1)
     # game/zz_poems.rpy:319
     old "Hole in Wall (Part 1)"
     new "Agujero en la pared (parte 1)"
@@ -43,6 +44,7 @@ Ahora me doy cuenta de que no estaba mirando dentro.
 Estaba mirando fuera.
 Y él, al otro lado, era quien miraba dentro."""
 
+    # Poema: poem_m21 - Hole in Wall (Part 2)
     # game/zz_poems.rpy:320
     old "Hole in Wall (Part 2)"
     new "Agujero en la pared (parte 2)"
@@ -76,6 +78,7 @@ Está ahí mismo. Él está ahí mismo.
 
 Me trago mis miedos y empuño el bolígrafo."""
 
+    # Poema: poem_m2 - Save Me
     # game/zz_poems.rpy:321
     old "Save Me"
     new "Sálvame"
@@ -125,6 +128,7 @@ y sin sentido\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 Cárgame
     """
 
+    # Poema: poem_m3 - The Lady Who Knows Everything
     # game/zz_poems.rpy:322
     old "The Lady Who Knows Everything"
     new "La Dama que Todo lo Sabe"
@@ -216,6 +220,7 @@ Tu leyenda no existe.\"
 
 Con un soplo, me vuelve a arrojar al aire y cabalgo a lomos del viento."""
 
+    # Poema: poem_m4 - Happy End
     # game/zz_poems.rpy:323
     old "Happy End"
     new "Final Feliz"
