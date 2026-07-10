@@ -202,8 +202,6 @@ translate spanish strings:
     old "S-type Ribbon"
     new "Cinta tipo S"
 
-    # game/zz_selector.rpy:828
-    # old "Remove" (Already in common.rpy)
     # game/zz_selector.rpy:3190
     old "Filter"
     new "Filtro"
@@ -211,6 +209,30 @@ translate spanish strings:
     # game/zz_selector.rpy:3355
     old "Show All"
     new "Mostrar todo"
+
+    # game/zz_selector.rpy:3367
+    old "Bow"
+    new "Lazo"
+
+    # game/zz_selector.rpy:3367
+    old "Bunny scrunchie"
+    new "Coletero de conejita"
+
+    # game/zz_selector.rpy:3367
+    old "Mini ribbon"
+    new "Mini cinta"
+
+    # game/zz_selector.rpy:3367
+    old "Ribbon"
+    new "Cinta"
+
+    # game/zz_selector.rpy:3367
+    old "Twin ribbons"
+    new "Par de cintas"
+
+    # game/zz_selector.rpy:3425
+    old "Search for..."
+    new "Buscar..."
 
     # game/zz_selector.rpy:3437
     old "Search..."
@@ -228,8 +250,6 @@ translate spanish strings:
     old "Restore"
     new "Restaurar"
 
-    # game/zz_selector.rpy:3528
-    # old "Cancel" (Already in screens.rpy)
     # game/zz_selector.rpy:3972
     old "Which {0} would you like me to wear?"
     new "¿Qué {0} te gustaría que use?"

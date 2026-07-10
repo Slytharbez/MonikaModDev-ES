@@ -2887,24 +2887,26 @@ init -1 python:
                 st - st for renpy render
                 at - at for renpy render
             """
+            # translate display name via Ren'Py translation system
+            _disp_name = renpy.translation.translate_string(self.selectable.display_name)
             # lets initially check if the pure text renders nicely
             _render = self._check_display_name(
-                self.selectable.display_name,
+                _disp_name,
                 st,
                 at
             )
 
             if _render:
                 self.item_name = [
-                    self._display_name(False, self.selectable.display_name)
+                    self._display_name(False, _disp_name)
                 ]
                 self.item_name_hover = [
-                    self._display_name(True, self.selectable.display_name)
+                    self._display_name(True, _disp_name)
                 ]
                 return
 
             # if we got a None, the text is too long.
-            _lines = self._split_render(self.selectable.display_name, st, at)
+            _lines = self._split_render(_disp_name, st, at)
             # NOTE: rather than rewriting split_render, decided to just
             # use the returned lines and overwrite the render list
             self.item_name = [

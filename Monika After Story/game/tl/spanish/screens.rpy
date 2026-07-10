@@ -488,6 +488,10 @@ translate spanish strings:
     old "Mute"
     new "Silenciar"
 
+    # game/screens.rpy:1926
+    old "Click 'Help' for the complete list."
+    new "Haz clic en 'Ayuda' para ver la lista completa."
+
     # game/screens.rpy:1929
     old "+"
     new "+"
