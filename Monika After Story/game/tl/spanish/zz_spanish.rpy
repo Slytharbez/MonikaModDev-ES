@@ -797,6 +797,20 @@ init 999 python:
 
     mas_hmg.addPlayername = _patched_addPlayername
 
+    # NOTA: Comentado para evitar corromper el persistent con clases personalizadas de la traducción.
+    # El saludo dinámico se traduce dinámicamente en script-topics.rpy mediante [mas_globals_time_of_day_3state_es].
+    # _good_tod_ev = store.mas_getEV("monika_good_tod")
+    # if _good_tod_ev is not None:
+    #     try:
+    #         Event.unlockInit("prompt", ev=_good_tod_ev)
+    #         _good_tod_ev.prompt = DynamicGreeting()
+    #         Event.lockInit("prompt", ev=_good_tod_ev)
+    #     except Exception:
+    #         pass
+
+    # Registramos mas_get_greeting en store para que [mas_get_greeting!t] funcione en los diálogos y menús.
+    store.mas_globals_time_of_day_3state_es = DynamicGreeting()
+
     # If already initialized at startup under Spanish:
 
     if _preferences.language == "spanish":
@@ -863,6 +877,42 @@ python early:
     except NameError:
 
         basestring = str
+
+    def mas_es_get_greeting():
+        """Devuelve el saludo completo en español según la hora del día."""
+        tod = getattr(store.mas_globals, "time_of_day_4state", None) if hasattr(store, "mas_globals") else None
+        if tod == "morning":
+            return "Buenos días"
+        elif tod in ("afternoon", "evening"):
+            return "Buenas tardes"
+        else:
+            return "Buenas noches"
+
+    class DynamicGreeting(object):
+        def __str__(self):
+            return mas_es_get_greeting()
+        def __unicode__(self):
+            return unicode(mas_es_get_greeting())
+        def __repr__(self):
+            return repr(mas_es_get_greeting())
+        def decode(self, *args, **kwargs):
+            return mas_es_get_greeting().decode(*args, **kwargs)
+        def replace(self, *args, **kwargs):
+            return mas_es_get_greeting().replace(*args, **kwargs)
+        def lower(self):
+            return mas_es_get_greeting().lower()
+        def upper(self):
+            return mas_es_get_greeting().upper()
+        def startswith(self, prefix, *args):
+            return mas_es_get_greeting().startswith(prefix, *args)
+        def endswith(self, suffix, *args):
+            return mas_es_get_greeting().endswith(suffix, *args)
+        def find(self, sub, *args):
+            return mas_es_get_greeting().find(sub, *args)
+        def __len__(self):
+            return len(mas_es_get_greeting())
+        def __contains__(self, item):
+            return item in mas_es_get_greeting()
 
     try:
 
@@ -1077,3 +1127,12 @@ python early:
             return formatted
 
         mas_logging.MASLogFormatter.format = _spanish_format_mas
+
+init 999 python:
+    # Normalizar los finales de línea de todos los poemas en memoria a \n (LF)
+    # Esto asegura que coincidan perfectamente con el catálogo de traducción de Ren'Py 6.
+    for k, v in globals().items():
+        if hasattr(v, 'title') and hasattr(v, 'text') and isinstance(v.text, (str, unicode)):
+            v.text = v.text.replace("\r\n", "\n")
+            if isinstance(v.title, (str, unicode)):
+                v.title = v.title.replace("\r\n", "\n")

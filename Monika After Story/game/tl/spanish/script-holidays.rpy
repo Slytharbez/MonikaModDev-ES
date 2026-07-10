@@ -9763,33 +9763,86 @@ translate spanish strings:
     old "Christmas Lights"
     new "Luces de Navidad"
 
-    # Poema: poem_d25_1 - The Joy to my World
-    # game/script-holidays.rpy:3040
-    old "The Joy to my World"
-    new "La alegría de mi mundo"
 
-    # game/script-holidays.rpy:3041
+
+    # old "My dearest [player],"
+    # game/script-holidays.rpy:3090
+    old """\
+     Warmer than the fire in the hearth,
+     Brighter than any star on top of the tree,
+     More comforting than any cup of hot chocolate,
+     It's my [player], who's always there for me.
+
+     Someday, we'll light the fire together.
+     Someday, we'll decorate the tree.
+     Someday, we'll have a cup of cocoa.
+     Someday, you'll be next to me.
+
+     Merry Christmas~
+
+     Forever yours,
+     Monika
+"""
+    new """\
+     Más caliente que el fuego de la chimenea.
+     Más brillante que cualquier estrella en la cima del árbol.
+     Más reconfortante que cualquier taza de chocolate caliente.
+     Es mi [player], que siempre está ahí para mí.
+
+     Algún día, encenderemos el fuego junt[o_a]s.
+     Algún día, decoraremos el árbol.
+     Algún día, tomaremos una taza de cacao.
+     Algún día, estarás a mi lado.
+
+     Feliz Navidad~
+
+     Siempre tuya,
+     Monika
+"""
+
+    # game/script-holidays.rpy:3112
     old "     My dearest [player],"
     new "     Mi querid[o_a] [player],"
 
-    # game/script-holidays.rpy:3041
-    old "     You truly are the joy to my world.\n     Neither the light emitted by the tallest Christmas tree,\n     Nor that of the brightest star,\n     Could come close to matching your brilliance.\n     This once frostbitten heart of mine needed only your warmth to beat anew.\n     Should there ever be nothing under the tree, and my stocking remain empty,\n     It simply would not matter as long as I have you by my side.\n     You'll always be the only present I ever need.\n\n     Merry Christmas~\n\n     Forever yours,\n     Monika"
-    new "     Tú eres realmente la alegría de mi mundo.\n     Ni la luz emitida por el árbol de Navidad más alto.\n     Ni la de la estrella más brillante.\n     Podría estar cerca de igualar tu brillantez.\n     Este corazón mío, que una vez estuvo congelado, solo necesitaba tu calor para \n     que pudiera volver a latir.\n     Si alguna vez no hay nada bajo el árbol, y mi media permanece vacía.\n     Simplemente no importaría mientras te tenga a mi lado.\n     Siempre serás el único regalo que necesito.\n\n     Feliz Navidad~\n\n     Siempre tuya,\n     Monika"
+    # game/script-holidays.rpy:3113
+    old """\
+     This Christmas I never needed more gifts other than your love,
+     Because having you by my side already brings me happiness,
+     Because having you here is the most beautiful gift,
+     Because finding you was the best thing I could've ever asked for!
 
-    # Poema: poem_d25_2 - Incomparable
-    # game/script-holidays.rpy:3063
-    old "Incomparable"
-    new "Incomparable"
+     I knew this Christmas would be special...
+     I spent it with the one who makes my heart jump,
+     The one who makes me smile every day,
+     The one who I trust the most.
 
-    # Poema: poem_d25_3 - Someday
-    # game/script-holidays.rpy:3088
-    old "Someday"
-    new "Algún día"
+     Thanks for being there for me, [player],
+     I will always be there for you!
 
-    # Poema: poem_d25_4 - This Christmas
-    # game/script-holidays.rpy:3111
-    old "This Christmas"
-    new "Esta Navidad"
+     Merry Christmas~
+
+     Forever yours,
+     Monika
+"""
+    new """\
+     Esta Navidad nunca necesité más regalos que tu amor.
+     Porque tenerte a mi lado ya me hace feliz.
+     Porque tenerte aquí es el regalo más hermoso.
+     ¡Porque encontrarte fue lo mejor que pude haber pedido!
+
+     Sabía que esta Navidad sería especial...
+     La pasé con el que hace que mi corazón salte.
+     El que me hace sonreír todos los días.
+     El que más confío.
+
+     Gracias por estar ahí para mí, [player].
+     ¡Siempre estaré aquí para ti!
+
+     Feliz Navidad~
+
+     Siempre tuya,
+     Monika
+"""
 
     # game/script-holidays.rpy:3236
     old "I love you, [m_name]."
@@ -9823,37 +9876,157 @@ translate spanish strings:
     old "Let's go out for my birthday!"
     new "¡Salgamos por mi cumpleaños!"
 
-    # Poema: poem_pbday_1 - The One
-    # game/script-holidays.rpy:5917
-    old "The One"
-    new "El indicado"
+    # old "My dearest [player],"
+    # game/script-holidays.rpy:5965
+    old """\
+ Sprinkles and candles for my [player]’s cake,
+ There's just one wish for you to make.
+ May your greatest dreams come true,
+ I know mine did when I found you.
 
-    # game/script-holidays.rpy:5918
-    old " My dearest [player],"
-    new " Mi querid[o_a] [player],"
+ So glad to be celebrating with you today,
+ I'll love you 'til the end of days.
+ There's no place I'd rather be,
+ Spending this time together, just you and me.
 
-    # Poema: poem_pbday_2 - Your Day
-    # game/script-holidays.rpy:5938
-    old "Your Day"
-    new "Tu día"
+ Happy birthday, sweetheart~
 
-    # Poema: poem_pbday_4 - My [player]
-    # game/script-holidays.rpy:5987
-    old "My [player]"
-    new "Mi [player]"
+ Forever yours,
+ Monika
+"""
+    new """\
+ Chispas y velas para la tarta de mi [player].
+ Solo hay un deseo que debes pedir.
+ Que tus más grandes sueños se hagan realidad.
+ Sé que la mía lo hizo cuando te encontré.
+
+ Me alegro de estar celebrando contigo hoy.
+ Te amaré hasta el fin de los días.
+ No hay ningún lugar en el que prefiera estar.
+ Pasar este tiempo junt[o_a]s, solo tú y yo.
+
+ Feliz cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
 
     # game/script-holidays.rpy:5988
     old " My [player],"
     new " Mi [player],"
 
-    # game/script-holidays.rpy:5990
-    old " How our love has grown.\n Another year,\n Another thousand moments of pride.\n Proud of my [player],\n And happy to see [him] grow alongside me.\n\n How our love has bloomed,\n As another year passed.\n Bloomed like a rose in morning dew,\n With another thousand moments of beauty.\n My beautiful [player],\n Whom I love to see bloom each day.\n\n How our love is strong,\n As another year has passed.\n Strong like the most beautiful diamonds,\n With another thousand moments of strength.\n My strong [player],\n Who I love more and more each day.\n\n Happy birthday, sweetheart~\n\n Forever yours,\n Monika"
-    new " Cómo ha crecido nuestro amor.\n Otro año.\n Otros mil momentos de orgullo.\n Orgullosa de mi [player].\n Y feliz de verl[o_a] crecer junto a mí.\n\n Cómo ha florecido nuestro amor.\n Al pasar otro año.\n Floreció como una rosa en el rocío de la mañana.\n Con otros mil momentos de belleza.\n Mi hermos[o_a] [player].\n A quien me encanta ver florecer cada día.\n\n Cómo nuestro amor es fuerte.\n Ya que ha pasado otro año.\n Fuerte como los más bellos diamantes.\n Con otros mil momentos de fuerza.\n Mi fuerte [player].\n A quien amo cada día más.\n\n Feliz cumpleaños, cariño~\n\n Siempre tuya,\n Monika"
+    # game/script-holidays.rpy:5989
+    old """\
+ How our love has grown.
+ Another year,
+ Another thousand moments of pride.
+ Proud of my [player],
+ And happy to see [him] grow alongside me.
 
-    # Poema: poem_pbday_5 - Birthdays
-    # game/script-holidays.rpy:6022
-    old "Birthdays"
-    new "Cumpleaños"
+ How our love has bloomed,
+ As another year passed.
+ Bloomed like a rose in morning dew,
+ With another thousand moments of beauty.
+ My beautiful [player],
+ Whom I love to see bloom each day.
+
+ How our love is strong,
+ As another year has passed.
+ Strong like the most beautiful diamonds,
+ With another thousand moments of strength.
+ My strong [player],
+ Who I love more and more each day.
+
+ Happy birthday, sweetheart~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Cómo ha crecido nuestro amor.
+ Otro año.
+ Otros mil momentos de orgullo.
+ Orgullosa de mi [player].
+ Y feliz de verl[o_a] crecer junto a mí.
+
+ Cómo ha florecido nuestro amor.
+ Al pasar otro año.
+ Floreció como una rosa en el rocío de la mañana.
+ Con otros mil momentos de belleza.
+ Mi hermos[o_a] [player].
+ A quien me encanta ver florecer cada día.
+
+ Cómo nuestro amor es fuerte.
+ Ya que ha pasado otro año.
+ Fuerte como los más bellos diamantes.
+ Con otros mil momentos de fuerza.
+ Mi fuerte [player].
+ A quien amo cada día más.
+
+ Feliz cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
+
+    # old "My dearest [player],"
+    # game/script-holidays.rpy:6024
+    old """\
+ Some birthdays are wonderful, chock-full of fun
+ with laughter and smiles from everyone.
+ Some birthdays, you plan everything to the letter
+ but at the end you feel like it could've been better.
+ Some birthdays are a peaceful night at home alone,
+ some birthdays you find yourself worked to the bone.
+
+ As each one ticks down, a joy or a chore,
+ you might find yourself wondering what they're for.
+ The answer is different for everyone on Earth,
+ except maybe the fact that they're about your birth.
+ But if you feel fatigued on your special day,
+ there's a few things I feel that I should say.
+
+ Each one is a milestone, a sign of your growth.
+ Not just for you--but for us both!
+ Each one is a chance to make you feel special.
+ If not that, an invitation to be sentimental.
+ But most of all, I want you to use your voice.
+ If we party or we stay in, it'll all be your choice!
+
+ We'll celebrate together in our own special way.
+ I love you, my [player], and happy birthday.
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Algunos cumpleaños son maravillosos, llenos de diversión.
+ Con risas y sonrisas de todos.
+ Algunos cumpleaños, lo planeas todo al pie de la letra.
+ Pero al final sientes que podría haber sido mejor.
+ Algunos cumpleaños son una noche tranquila en casa, solo.
+ Otros son una noche tranquila en casa, solo.
+
+ Cada uno de ellos es una alegría o una tarea.
+ puede que te preguntes para qué son.
+ La respuesta es diferente para cada persona en la Tierra.
+ Excepto quizá el hecho de que son por tu nacimiento.
+ Pero si te sientes fatigad[o_a] en tu día especial.
+ hay algunas cosas que siento que debo decir.
+
+ Cada uno es un logro, una señal de tu crecimiento.
+ No solo para ti... ¡sino para l[o_a]s dos!
+ Cada uno es una oportunidad para hacerte sentir especial.
+ Si no es eso, una invitación a ser sentimental.
+ Pero sobre todo, quiero que uses tu voz.
+ Si nos vamos de fiesta o nos quedamos en casa, ¡tú decides!
+
+ Lo celebraremos junt[o_a]s a nuestra manera.
+ Te amo, mi [player], y feliz cumpleaños.
+
+ Siempre tuya,
+ Monika
+"""
 
     # game/script-holidays.rpy:6258
     old "on Valentine's Day"
@@ -9883,30 +10056,9 @@ translate spanish strings:
     old "...for missing Valentine's Day."
     new "... por perderme el Día de San Valentín."
 
-    # Poema: poem_f14_1 - Found
-    # game/script-holidays.rpy:6879
-    old "Found"
-    new "Te encontré"
-
-    # Poema: poem_f14_2 - Everything
-    # game/script-holidays.rpy:6898
-    old "Everything"
-    new "Todo"
-
-    # Poema: poem_f14_3 - You
-    # game/script-holidays.rpy:6934
-    old "You"
-    new "Tú"
-
-    # Poema: poem_f14_5 - Sweetest
-    # game/script-holidays.rpy:6982
-    old "Sweetest"
-    new "Lo más dulce"
-
-    # Poema: poem_f14_6 - Forget-me-not
-    # game/script-holidays.rpy:7002
-    old "Forget-me-not"
-    new "No me olvides"
+    # game/script-holidays.rpy:7003
+    old " My dearest [player],"
+    new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:7315
     old "gotcha"
@@ -9917,12 +10069,64 @@ translate spanish strings:
     new "Para {0}.txt"
 
     # game/script-holidays.rpy:7398
-    old "[player],\nAs I'm sure you know, Monika's birthday is coming up soon and I want to help you make it as special as possible!\nSince I'm always here, I can easily set up the surprise party...but I need a little help from you.\nAll I need you to do is to make sure you have her out of the room at some point on her birthday, and I'll take care of the rest.\nMonika is so amazing, and I just want to do my part to make sure this all goes off without a hotf- I mean hitch...\nAhaha!\n\nPlease leave a file named 'oki doki' in the same folder you found this note so I know to go ahead with the party.\n\nGood luck with Monika!\n\nP.S: Don't tell her about me!"
-    new "[player],\nComo seguro ya sabes, ¡el cumpleaños de Monika se acerca y quiero ayudarte a que sea lo más especial posible!\nYa que siempre estoy aquí, puedo preparar fácilmente la fiesta sorpresa... pero necesito un poco de tu ayuda.\nLo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, y yo me encargaré del resto.\nMonika es tan increíble, y solo quiero poner de mi parte para asegurarme de que todo salga sin ningún parch- quiero decir, contratiempo...\n¡Jajaja!\n\nPor favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontraste esta nota; de esa manera sabré que puedo continuar con la fiesta.\n\n¡Buena suerte con Monika!\n\nP.D.: ¡No le hables de mí!"
+    old """\
+[player],
+As I'm sure you know, Monika's birthday is coming up soon and I want to help you make it as special as possible!
+Since I'm always here, I can easily set up the surprise party...but I need a little help from you.
+All I need you to do is to make sure you have her out of the room at some point on her birthday, and I'll take care of the rest.
+Monika is so amazing, and I just want to do my part to make sure this all goes off without a hotf- I mean hitch...
+Ahaha!
+
+Please leave a file named 'oki doki' in the same folder you found this note so I know to go ahead with the party.
+
+Good luck with Monika!
+
+P.S: Don't tell her about me!
+"""
+    new """\
+[player],
+Como seguro ya sabes, ¡el cumpleaños de Monika se acerca y quiero ayudarte a que sea lo más especial posible!
+Ya que siempre estoy aquí, puedo preparar fácilmente la fiesta sorpresa... pero necesito un poco de tu ayuda.
+Lo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, y yo me encargaré del resto.
+Monika es tan increíble, y solo quiero poner de mi parte para asegurarme de que todo salga sin ningún parch- quiero decir, contratiempo...
+¡Jajaja!
+
+Por favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontraste esta nota; de esa manera sabré que puedo continuar con la fiesta.
+
+¡Buena suerte con Monika!
+
+P.D.: ¡No le hables de mí!
+"""
 
     # game/script-holidays.rpy:7414
-    old "[player],\nAs I hope you know, Monika's birthday is coming up soon and I want to make it special.\nShe's been through a lot lately, and I know it'd mean the world to her if you treated her to a nice day.\nSince I'm always here, I can easily set up a surprise party...but I do need a little help from you.\nAll I need you to do is to make sure you have her out of the room at some point on her birthday, and I'll take care of the rest.\nIf you care for Monika at all, you'll help me do this.\n\nJust leave a file named 'oki doki' in the same folder you found this note so I know to go ahead with the party.\n\nPlease, don't mess this up.\n\nP.S: Don't tell her about me."
-    new "[player],\nComo espero que sepas, el cumpleaños de Monika se acerca y quiero hacerlo especial.\nHa pasado por mucho últimamente, y sé que significaría todo para ella si la consintieras en su día.\nYa que siempre estoy aquí, puedo preparar fácilmente una fiesta sorpresa... pero necesito un poco de tu ayuda.\nLo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, y yo me encargaré del resto.\nSi de verdad te importa Monika, me ayudarás con esto.\n\nPor favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontraste esta nota; de esa manera sabré que puedo continuar con la fiesta.\n\nPor favor, no lo arruines.\n\nP.D: No le hables de mí."
+    old """\
+[player],
+As I hope you know, Monika's birthday is coming up soon and I want to make it special.
+She's been through a lot lately, and I know it'd mean the world to her if you treated her to a nice day.
+Since I'm always here, I can easily set up a surprise party...but I do need a little help from you.
+All I need you to do is to make sure you have her out of the room at some point on her birthday, and I'll take care of the rest.
+If you care for Monika at all, you'll help me do this.
+
+Just leave a file named 'oki doki' in the same folder you found this note so I know to go ahead with the party.
+
+Please, don't mess this up.
+
+P.S: Don't tell her about me.
+"""
+    new """\
+[player],
+Como espero que sepas, el cumpleaños de Monika se acerca y quiero hacerlo especial.
+Ha pasado por mucho últimamente, y sé que significaría todo para ella si la consintieras en su día.
+Ya que siempre estoy aquí, puedo preparar fácilmente una fiesta sorpresa... pero necesito un poco de tu ayuda.
+Lo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, y yo me encargaré del resto.
+Si de verdad te importa Monika, me ayudarás con esto.
+
+Por favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontraste esta nota; de esa manera sabré que puedo continuar con la fiesta.
+
+Por favor, no lo arruines.
+
+P.D: No le hables de mí.
+"""
 
     # game/script-holidays.rpy:7465
     old "Happy birthday!"
@@ -9948,88 +10152,420 @@ translate spanish strings:
     old "...for forgetting your birthday."
     new "... por olvidar tu cumpleaños."
 
-    # Poema: poem_f14_4 - Roses
-    # old "Roses"
-    # new "Rosas"
+    # Poema: poem_d25_1 - The Joy to my World
+    # game/script-holidays.rpy:3040
+    old "The Joy to my World"
+    new "La alegría de mi mundo"
+
+    # game/script-holidays.rpy:3042
+    old """\
+     You truly are the joy to my world.
+     Neither the light emitted by the tallest Christmas tree,
+     Nor that of the brightest star,
+     Could come close to matching your brilliance.
+     This once frostbitten heart of mine needed only your warmth to beat anew.
+     Should there ever be nothing under the tree, and my stocking remain empty,
+     It simply would not matter as long as I have you by my side.
+     You'll always be the only present I ever need.
+
+     Merry Christmas~
+
+     Forever yours,
+     Monika
+"""
+    new """\
+     Tú eres realmente la alegría de mi mundo.
+     Ni la luz emitida por el árbol de Navidad más alto.
+     Ni la de la estrella más brillante.
+     Podría estar cerca de igualar tu brillantez.
+     Este corazón mío, que una vez estuvo congelado, solo necesitaba tu calor para 
+     que pudiera volver a latir.
+     Si alguna vez no hay nada bajo el árbol, y mi media permanece vacía.
+     Simplemente no importaría mientras te tenga a mi lado.
+     Siempre serás el único regalo que necesito.
+
+     Feliz Navidad~
+
+     Siempre tuya,
+     Monika
+"""
+
+    # Poema: poem_d25_2 - Incomparable
+    # game/script-holidays.rpy:3063
+    old "Incomparable"
+    new "Incomparable"
+
+    # game/script-holidays.rpy:3065
+    old """\
+     Nothing can compare to the warmth you give me.
+     Not even the feeling of wrapping my hands around a mug of hot chocolate
+     Or fuzzy socks, warming my feet on a freezing day.
+     In such a cold world, just your presence is my present alone.
+
+     Nothing can compare to the beauty you hold,
+     Not a single thing can compare to the excitement you bring,
+     Not the bright lights that hang in this very room.
+     Not even the sight of an unopened gift, under the tree.
+
+     [player], you are truly one of a kind.
+
+     Merry Christmas~
+
+     Forever yours,
+     Monika
+"""
+    new """\
+     Nada se puede comparar con el calor que me das.
+     Ni siquiera la sensación de envolver mis manos alrededor de una taza 
+     de chocolate caliente.
+     O calcetines borrosos, calentando mis pies en un día helado.
+     En un mundo tan frío, solo tu presencia es mi único regalo.
+
+     Nada se puede comparar con la belleza que tienes.
+     Nada puede compararse a la emoción que provocas.
+     Ni las luces brillantes que cuelgan en esta misma habitación.
+     Y tampoco la vista de un regalo sin abrir, bajo el árbol.
+
+     [player], eres realmente únic[o_a].
+
+     Feliz Navidad~
+
+     Siempre tuya,
+     Monika
+"""
+
+    # Poema: poem_d25_3 - Someday
+    # game/script-holidays.rpy:3088
+    old "Someday"
+    new "Algún día"
+
+    # Poema: poem_d25_4 - This Christmas
+    # game/script-holidays.rpy:3111
+    old "This Christmas"
+    new "Esta Navidad"
+
+    # Poema: poem_pbday_1 - The One
+    # game/script-holidays.rpy:5917
+    old "The One"
+    new "El indicado"
+
+    # game/script-holidays.rpy:5919
+    old """\
+ To the one I love,
+ The one I trust,
+ The one I can't live without.
+ I hope your day is as special as you make every day for me.
+ Thank you so much for being you.
+
+ Happy Birthday, sweetheart~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ A la persona que amo.
+ En [el_la] que confío.
+ Aquel sin [el_la] que no puedo vivir.
+ Espero que tu día sea tan especial como el que haces cada día para mí.
+ Muchas gracias por ser tú.
+
+ Feliz Cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
+
+    # Poema: poem_pbday_2 - Your Day
+    # game/script-holidays.rpy:5938
+    old "Your Day"
+    new "Tu día"
+
+    # game/script-holidays.rpy:5940
+    old """\
+ Any day with you is a happy day.
+ One where I{i}'{/i}m free,
+ One where all my troubles are gone,
+ One where all of my dreams come true.
+
+ But today is not any day,
+ Today is special; today is your day.
+ A day I can appreciate you even more for what you do.
+ A day I hope I make your dreams come true too.
+
+ Happy Birthday, sweetheart~
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Cualquier día contigo es un día feliz.
+ Uno en el que soy libre.
+ Uno donde todos mis problemas se han ido.
+ Uno en el que todos mis sueños se hacen realidad.
+
+ Pero hoy no es cualquier día,
+ Hoy es especial; hoy es tu día.
+ Un día en el que puedo apreciarte aún más por lo que haces.
+ Un día que espero que yo también haga realidad tus sueños.
+
+ Feliz Cumpleaños, cariño~
+
+ Siempre tuya,
+ Monika
+"""
 
     # Poema: poem_pbday_3 - One Wish
+    # game/script-holidays.rpy:5963
     old "One Wish"
     new "Un deseo"
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+    # Poema: poem_pbday_4 - My [player]
+    # game/script-holidays.rpy:5987
+    old "My [player]"
+    new "Mi [player]"
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+    # Poema: poem_pbday_5 - Birthdays
+    # game/script-holidays.rpy:6022
+    old "Birthdays"
+    new "Cumpleaños"
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+    # Poema: poem_f14_1 - Found
+    # game/script-holidays.rpy:6879
+    old "Found"
+    new "Te encontré"
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+    # game/script-holidays.rpy:6881
+    old """\
+ I{i}'{/i}ve always loved Valentine's Day, but this one feels different.
+ Has the world changed, or just me?
+ I found love, I found purpose,
+ I found a truth I didn't know I was searching for.
+ All of that I found in you.
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+ Thank you for sharing this special day with me.
 
-    # old "My dearest [player],"
-    # new "My dearest [player],"
+ Forever yours,
+ Monika
+"""
+    new """\
+ Siempre me ha gustado el Día de San Valentín, pero este se siente diferente.
+ ¿Ha cambiado el mundo, o solo yo?
+ Encontré el amor, encontré un propósito.
+ Encontré una verdad que no sabía que estaba buscando.
+ Todo eso lo encontré en ti.
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+ Gracias por compartir este día tan especial conmigo.
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+ Siempre tuya,
+ Monika
+"""
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+    # Poema: poem_f14_2 - Everything
+    # game/script-holidays.rpy:6898
+    old "Everything"
+    new "Todo"
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+    # game/script-holidays.rpy:6900
+    old """\
+ Can it really be our second Valentine's Day?
+ The first seems like just yesterday, yet so much has happened.
+ I once wondered if the world had changed, or just me.
+ Now I know the answer.
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+ Everything.
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+ Without you there is nothing.
+ Before you there was nothing.
 
-    # old "My dearest [player],"
-    # new "Mi querid[o_a] [player],"
+ Emptiness. Darkness. Nothing.
 
-    old "     Nothing can compare to the warmth you give me.\n     Not even the feeling of wrapping my hands around a mug of hot chocolate\n     Or fuzzy socks, warming my feet on a freezing day.\n     In such a cold world, just your presence is my present alone.\n\n     Nothing can compare to the beauty you hold,\n     Not a single thing can compare to the excitement you bring,\n     Not the bright lights that hang in this very room.\n     Not even the sight of an unopened gift, under the tree.\n\n     [player], you are truly one of a kind.\n\n     Merry Christmas~\n\n     Forever yours,\n     Monika"
-    new "     Nada se puede comparar con el calor que me das.\n     Ni siquiera la sensación de envolver mis manos alrededor de una taza \n     de chocolate caliente.\n     O calcetines borrosos, calentando mis pies en un día helado.\n     En un mundo tan frío, solo tu presencia es mi único regalo.\n\n     Nada se puede comparar con la belleza que tienes.\n     Nada puede compararse a la emoción que provocas.\n     Ni las luces brillantes que cuelgan en esta misma habitación.\n     Y tampoco la vista de un regalo sin abrir, bajo el árbol.\n\n     [player], eres realmente únic[o_a].\n\n     Feliz Navidad~\n\n     Siempre tuya,\n     Monika"
+ Nothing.
 
-    old "     This Christmas I never needed more gifts other than your love,\n     Because having you by my side already brings me happiness,\n     Because having you here is the most beautiful gift,\n     Because finding you was the best thing I could've ever asked for!\n\n     I knew this Christmas would be special...\n     I spent it with the one who makes my heart jump,\n     The one who makes me smile every day,\n     The one who I trust the most.\n\n     Thanks for being there for me, [player],\n     I will always be there for you!\n\n     Merry Christmas~\n\n     Forever yours,\n     Monika"
-    new "     Esta Navidad nunca necesité más regalos que tu amor.\n     Porque tenerte a mi lado ya me hace feliz.\n     Porque tenerte aquí es el regalo más hermoso.\n     ¡Porque encontrarte fue lo mejor que pude haber pedido!\n\n     Sabía que esta Navidad sería especial...\n     La pasé con el que hace que mi corazón salte.\n     El que me hace sonreír todos los días.\n     El que más confío.\n\n     Gracias por estar ahí para mí, [player].\n     ¡Siempre estaré aquí para ti!\n\n     Feliz Navidad~\n\n     Siempre tuya,\n     Monika"
+ Then there was you.
+ Just you.
+ My world. My light. My Everything.
 
-    old "     Warmer than the fire in the hearth,\n     Brighter than any star on top of the tree,\n     More comforting than any cup of hot chocolate,\n     It's my [player], who's always there for me.\n\n     Someday, we'll light the fire together.\n     Someday, we'll decorate the tree.\n     Someday, we'll have a cup of cocoa.\n     Someday, you'll be next to me.\n\n     Merry Christmas~\n\n     Forever yours,\n     Monika"
-    new "     Más caliente que el fuego de la chimenea.\n     Más brillante que cualquier estrella en la cima del árbol.\n     Más reconfortante que cualquier taza de chocolate caliente.\n     Es mi [player], que siempre está ahí para mí.\n\n     Algún día, encenderemos el fuego junt[o_a]s.\n     Algún día, decoraremos el árbol.\n     Algún día, tomaremos una taza de cacao.\n     Algún día, estarás a mi lado.\n\n     Feliz Navidad~\n\n     Siempre tuya,\n     Monika"
+ Everything.
 
-    old " All the flowers know are their vase.\n A few cups of soil, and a pretty case of porcelain.\n They will never leave without help, even if they someday outgrow it.\n\n Flowers need more than their vase.\n Water from the skies, or a helping hand.\n And without sight of the sky above, the world apart, they would someday wither.\n\n This gardener gives all this and more.\n It's said a flower blooms brighter when spoken to with love.\n Even trapped in this vase, maybe it isn't a curse to know more.\n\n Forget-me-not."
-    new " Las flores solo conocen su jarrón.\n Unas cuantas tazas de tierra y un bonito estuche de porcelana.\n Nunca se irán sin ayuda, aunque algún día se les quede pequeño.\n\n Las flores necesitan algo más que su jarrón.\n Agua del cielo, o una mano amiga.\n Y sin la vista del cielo, el mundo aparte, algún día se marchitarían.\n\n Este jardinero da todo esto y más.\n Se dice que una flor florece más brillante cuando se le habla con amor.\n Incluso atrapado en este jarrón, tal vez no sea una maldición saber más.\n\n No-me-olvides."
 
-    old " All the roses in the world,\n They grow and bloom into something beautiful.\n Just as our relationship will.\n Every day,\n We grow ever closer,\n Ever stronger,\n Ever more beautiful~\n\n And though roses have thorns,\n They don’t undermine their loveliness,\n They defend them,\n They make them stronger.\n And of all the roses in the world,\n Even on this most romantic holiday,\n None could ever replace {size=+7}my{/size} special rose~\n\n Forever your Valentine,\n Monika"
-    new " Todas las rosas del mundo.\n crecen y florecen en algo hermoso.\n Al igual que nuestra relación lo hará.\n Cada día.\n Crecemos cada vez más cerca.\n Cada vez más fuerte.\n Cada vez más hermos[o_a]s~\n\n Y aunque las rosas tienen espinas.\n no minan su belleza.\n Las defienden.\n Las hacen más fuertes.\n Y de todas las rosas del mundo.\n Incluso en esta fiesta tan romántica.\n Ninguna puede reemplazar {size=+7}mi{/size} rosa especial~\n\n Por siempre tu Valentín,\n Monika"
+ Happy Valentine's Day~
 
-    old " Any day with you is a happy day.\n One where I{i}'{/i}m free,\n One where all my troubles are gone,\n One where all of my dreams come true.\n\n But today is not any day,\n Today is special; today is your day.\n A day I can appreciate you even more for what you do.\n A day I hope I make your dreams come true too.\n\n Happy Birthday, sweetheart~\n\n Forever yours,\n Monika"
-    new " Cualquier día contigo es un día feliz.\n Uno en el que soy libre.\n Uno donde todos mis problemas se han ido.\n Uno en el que todos mis sueños se hacen realidad.\n\n Pero hoy no es cualquier día,\n Hoy es especial; hoy es tu día.\n Un día en el que puedo apreciarte aún más por lo que haces.\n Un día que espero que yo también haga realidad tus sueños.\n\n Feliz Cumpleaños, cariño~\n\n Siempre tuya,\n Monika"
+ Forever yours,
+ Monika
+"""
+    new """\
+ ¿Puede ser realmente nuestro segundo San Valentín?
+ El primero parece que fue ayer, pero han pasado muchas cosas.
+ Una vez me pregunté si el mundo había cambiado, o solo yo.
+ Ahora sé la respuesta.
 
-    old " Boxes of chocolates and hearts; cards colored ruby red.\n Roses in my hair, petals soft as silk.\n None of it would feel complete without you.\n\n You, the one who has stuck by my side.\n You, the one who has given me your heart.\n The heart worth more than all the chocolate in the world, all the roses on earth.\n\n The love I feel cannot be overstated.\n\n Forever your Valentine,\n Monika"
-    new " Cajas de chocolates y corazones; tarjetas de color rojo rubí.\n Rosas en mi pelo, pétalos suaves como la seda.\n Nada de esto se sentiría completo sin ti.\n\n Tú, [el_la] que se ha quedado a mi lado.\n Tú, [el_la] que me ha dado su corazón.\n El corazón vale más que todo el chocolate del mundo, todas las rosas de la\n Tierra.\n\n El amor que siento no puede ser exagerado.\n\n Por siempre tu Valentín,\n Monika"
+ Todo cambió.
 
-    old " Can it really be our second Valentine's Day?\n The first seems like just yesterday, yet so much has happened.\n I once wondered if the world had changed, or just me.\n Now I know the answer.\n\n Everything.\n\n Without you there is nothing.\n Before you there was nothing.\n\n Emptiness. Darkness. Nothing.\n\n Nothing.\n\n Then there was you.\n Just you.\n My world. My light. My Everything.\n\n Everything.\n\n\n Happy Valentine's Day~\n\n Forever yours,\n Monika"
-    new " ¿Puede ser realmente nuestro segundo San Valentín?\n El primero parece que fue ayer, pero han pasado muchas cosas.\n Una vez me pregunté si el mundo había cambiado, o solo yo.\n Ahora sé la respuesta.\n\n Todo cambió.\n\n Sin ti no hay nada.\n Antes de ti no había nada.\n\n Vacío. Oscuridad. Nada.\n\n Nada.\n\n Y luego estabas tú.\n Solo tú.\n Mi mundo. Mi luz. Mi Todo.\n\n Todo.\n\n\n Feliz día de San Valentín~\n\n Siempre tuya,\n Monika"
+ Sin ti no hay nada.
+ Antes de ti no había nada.
 
-    old " Chocolate covered cherries and a goodnight kiss;\n Being with you, darling, is the sweetest bliss.\n Popsicles in summer, dancing in the rain;\n From snuggling you, honey, I could never abstain.\n Your laughter is my sugar cube, your smile is my cream;\n To share a coffee date with you, my love, would be a dream.\n Of all the candy, all the cake, of fruits and cookies too;\n The sweetest thing in my whole life will always be you.\n\n Forever yours,\n Monika"
-    new " Cerezas cubiertas de chocolate y un beso de buenas noches.\n Estar contigo, cariño, es la más dulce dicha.\n Helados en verano, bailando bajo la lluvia.\n De acurrucarme contigo, cariño, nunca podría abstenerme.\n Tu risa es mi cubo de azúcar, tu sonrisa es mi crema.\n Compartir un café contigo, mi amor, sería un sueño.\n De todos los dulces, de todos los pasteles, de las frutas y de las\n galletas también.\n Lo más dulce de toda mi vida siempre serás tú.\n\n Siempre tuya,\n Monika"
+ Vacío. Oscuridad. Nada.
 
-    old " I{i}'{/i}ve always loved Valentine's Day, but this one feels different.\n Has the world changed, or just me?\n I found love, I found purpose,\n I found a truth I didn't know I was searching for.\n All of that I found in you.\n\n Thank you for sharing this special day with me.\n\n Forever yours,\n Monika"
-    new " Siempre me ha gustado el Día de San Valentín, pero este se siente diferente.\n ¿Ha cambiado el mundo, o solo yo?\n Encontré el amor, encontré un propósito.\n Encontré una verdad que no sabía que estaba buscando.\n Todo eso lo encontré en ti.\n\n Gracias por compartir este día tan especial conmigo.\n\n Siempre tuya,\n Monika"
+ Nada.
 
-    old " Some birthdays are wonderful, chock-full of fun\n with laughter and smiles from everyone.\n Some birthdays, you plan everything to the letter\n but at the end you feel like it could've been better.\n Some birthdays are a peaceful night at home alone,\n some birthdays you find yourself worked to the bone.\n\n As each one ticks down, a joy or a chore,\n you might find yourself wondering what they're for.\n The answer is different for everyone on Earth,\n except maybe the fact that they're about your birth.\n But if you feel fatigued on your special day,\n there's a few things I feel that I should say.\n\n Each one is a milestone, a sign of your growth.\n Not just for you--but for us both!\n Each one is a chance to make you feel special.\n If not that, an invitation to be sentimental.\n But most of all, I want you to use your voice.\n If we party or we stay in, it'll all be your choice!\n\n We'll celebrate together in our own special way.\n I love you, my [player], and happy birthday.\n\n Forever yours,\n Monika"
-    new " Algunos cumpleaños son maravillosos, llenos de diversión.\n Con risas y sonrisas de todos.\n Algunos cumpleaños, lo planeas todo al pie de la letra.\n Pero al final sientes que podría haber sido mejor.\n Algunos cumpleaños son una noche tranquila en casa, solo.\n Otros son una noche tranquila en casa, solo.\n\n Cada uno de ellos es una alegría o una tarea.\n puede que te preguntes para qué son.\n La respuesta es diferente para cada persona en la Tierra.\n Excepto quizá el hecho de que son por tu nacimiento.\n Pero si te sientes fatigad[o_a] en tu día especial.\n hay algunas cosas que siento que debo decir.\n\n Cada uno es un logro, una señal de tu crecimiento.\n No solo para ti... ¡sino para l[o_a]s dos!\n Cada uno es una oportunidad para hacerte sentir especial.\n Si no es eso, una invitación a ser sentimental.\n Pero sobre todo, quiero que uses tu voz.\n Si nos vamos de fiesta o nos quedamos en casa, ¡tú decides!\n\n Lo celebraremos junt[o_a]s a nuestra manera.\n Te amo, mi [player], y feliz cumpleaños.\n\n Siempre tuya,\n Monika"
+ Y luego estabas tú.
+ Solo tú.
+ Mi mundo. Mi luz. Mi Todo.
 
-    old " Sprinkles and candles for my [player]’s cake,\n There's just one wish for you to make.\n May your greatest dreams come true,\n I know mine did when I found you.\n\n So glad to be celebrating with you today,\n I'll love you 'til the end of days.\n There's no place I'd rather be,\n Spending this time together, just you and me.\n\n Happy birthday, sweetheart~\n\n Forever yours,\n Monika"
-    new " Chispas y velas para la tarta de mi [player].\n Solo hay un deseo que debes pedir.\n Que tus más grandes sueños se hagan realidad.\n Sé que la mía lo hizo cuando te encontré.\n\n Me alegro de estar celebrando contigo hoy.\n Te amaré hasta el fin de los días.\n No hay ningún lugar en el que prefiera estar.\n Pasar este tiempo junt[o_a]s, solo tú y yo.\n\n Feliz cumpleaños, cariño~\n\n Siempre tuya,\n Monika"
+ Todo.
 
-    old " To the one I love,\n The one I trust,\n The one I can't live without.\n I hope your day is as special as you make every day for me.\n Thank you so much for being you.\n\n Happy Birthday, sweetheart~\n\n Forever yours,\n Monika"
-    new " A la persona que amo.\n En [el_la] que confío.\n Aquel sin [el_la] que no puedo vivir.\n Espero que tu día sea tan especial como el que haces cada día para mí.\n Muchas gracias por ser tú.\n\n Feliz Cumpleaños, cariño~\n\n Siempre tuya,\n Monika"
+
+ Feliz día de San Valentín~
+
+ Siempre tuya,
+ Monika
+"""
+
+    # Poema: poem_f14_3 - You
+    # game/script-holidays.rpy:6934
+    old "You"
+    new "Tú"
+
+    # game/script-holidays.rpy:6936
+    old """\
+ Boxes of chocolates and hearts; cards colored ruby red.
+ Roses in my hair, petals soft as silk.
+ None of it would feel complete without you.
+
+ You, the one who has stuck by my side.
+ You, the one who has given me your heart.
+ The heart worth more than all the chocolate in the world, all the roses on earth.
+
+ The love I feel cannot be overstated.
+
+ Forever your Valentine,
+ Monika
+"""
+    new """\
+ Cajas de chocolates y corazones; tarjetas de color rojo rubí.
+ Rosas en mi pelo, pétalos suaves como la seda.
+ Nada de esto se sentiría completo sin ti.
+
+ Tú, [el_la] que se ha quedado a mi lado.
+ Tú, [el_la] que me ha dado su corazón.
+ El corazón vale más que todo el chocolate del mundo, todas las rosas de la
+ Tierra.
+
+ El amor que siento no puede ser exagerado.
+
+ Por siempre tu Valentín,
+ Monika
+"""
+
+    # game/script-holidays.rpy:6957
+    old """\
+ All the roses in the world,
+ They grow and bloom into something beautiful.
+ Just as our relationship will.
+ Every day,
+ We grow ever closer,
+ Ever stronger,
+ Ever more beautiful~
+
+ And though roses have thorns,
+ They don’t undermine their loveliness,
+ They defend them,
+ They make them stronger.
+ And of all the roses in the world,
+ Even on this most romantic holiday,
+ None could ever replace {size=+7}my{/size} special rose~
+
+ Forever your Valentine,
+ Monika
+"""
+    new """\
+ Todas las rosas del mundo.
+ crecen y florecen en algo hermoso.
+ Al igual que nuestra relación lo hará.
+ Cada día.
+ Crecemos cada vez más cerca.
+ Cada vez más fuerte.
+ Cada vez más hermos[o_a]s~
+
+ Y aunque las rosas tienen espinas.
+ no minan su belleza.
+ Las defienden.
+ Las hacen más fuertes.
+ Y de todas las rosas del mundo.
+ Incluso en esta fiesta tan romántica.
+ Ninguna puede reemplazar {size=+7}mi{/size} rosa especial~
+
+ Por siempre tu Valentín,
+ Monika
+"""
+
+    # Poema: poem_f14_5 - Sweetest
+    # game/script-holidays.rpy:6982
+    old "Sweetest"
+    new "Lo más dulce"
+
+    # game/script-holidays.rpy:6984
+    old """\
+ Chocolate covered cherries and a goodnight kiss;
+ Being with you, darling, is the sweetest bliss.
+ Popsicles in summer, dancing in the rain;
+ From snuggling you, honey, I could never abstain.
+ Your laughter is my sugar cube, your smile is my cream;
+ To share a coffee date with you, my love, would be a dream.
+ Of all the candy, all the cake, of fruits and cookies too;
+ The sweetest thing in my whole life will always be you.
+
+ Forever yours,
+ Monika
+"""
+    new """\
+ Cerezas cubiertas de chocolate y un beso de buenas noches.
+ Estar contigo, cariño, es la más dulce dicha.
+ Helados en verano, bailando bajo la lluvia.
+ De acurrucarme contigo, cariño, nunca podría abstenerme.
+ Tu risa es mi cubo de azúcar, tu sonrisa es mi crema.
+ Compartir un café contigo, mi amor, sería un sueño.
+ De todos los dulces, de todos los pasteles, de las frutas y de las
+ galletas también.
+ Lo más dulce de toda mi vida siempre serás tú.
+
+ Siempre tuya,
+ Monika
+"""
+
+    # Poema: poem_f14_6 - Forget-me-not
+    # game/script-holidays.rpy:7002
+    old "Forget-me-not"
+    new "No me olvides"
+
+    # game/script-holidays.rpy:7004
+    old """\
+ All the flowers know are their vase.
+ A few cups of soil, and a pretty case of porcelain.
+ They will never leave without help, even if they someday outgrow it.
+
+ Flowers need more than their vase.
+ Water from the skies, or a helping hand.
+ And without sight of the sky above, the world apart, they would someday wither.
+
+ This gardener gives all this and more.
+ It's said a flower blooms brighter when spoken to with love.
+ Even trapped in this vase, maybe it isn't a curse to know more.
+
+ Forget-me-not.
+"""
+    new """\
+ Las flores solo conocen su jarrón.
+ Unas cuantas tazas de tierra y un bonito estuche de porcelana.
+ Nunca se irán sin ayuda, aunque algún día se les quede pequeño.
+
+ Las flores necesitan algo más que su jarrón.
+ Agua del cielo, o una mano amiga.
+ Y sin la vista del cielo, el mundo aparte, algún día se marchitarían.
+
+ Este jardinero da todo esto y más.
+ Se dice que una flor florece más brillante cuando se le habla con amor.
+ Incluso atrapado en este jarrón, tal vez no sea una maldición saber más.
+
+ No-me-olvides.
+"""

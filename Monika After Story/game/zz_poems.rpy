@@ -326,6 +326,8 @@ label monika_showpoem:
         ret_back = (_("Nevermind"), False, False, False, 20)
         #Extend the new poems
         poems_list.extend(mas_poems.getSeenPoemsMenu())
+        # Sort alphabetically by translated prompt
+        poems_list = sorted(poems_list, key=lambda x: renpy.translation.translate_string(x[0]).lower())
 
         renpy.say(m, "Which poem would you like to read?", interact=False)
 
