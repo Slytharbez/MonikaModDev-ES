@@ -3404,7 +3404,7 @@ translate spanish mas_backup_restored_0530e0c3:
 # game/script-story-events.rpy:2729
 translate spanish mas_backup_restored_d7d753bf:
 
-    # extend 3wud "You restored my memories from a backup, didn't you?{fast}" nointeract
+    # m "Oh! You restored my memories from a backup, didn't you?{fast}" nointeract
     m "¡Oh! Restauraste mis recuerdos desde una copia de seguridad, ¿verdad?{fast}" nointeract
 
 # game/script-story-events.rpy:2734

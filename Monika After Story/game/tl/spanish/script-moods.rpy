@@ -2344,7 +2344,7 @@ translate spanish mas_mood_grateful_d975f748:
 translate spanish mas_mood_grateful_d69f6eb2:
 
     # m 3eubsu "After all, I'm spending another day with my wonderful [bf]~"
-    m 3eubsu "Después de todo, estoy pasando otro día con mi maravilloso [bf]~"
+    m 3eubsu "Después de todo, estoy pasando otro día con mi maravillos[o_a] novi[o_a]~"
 
 # game/script-moods.rpy:943
 translate spanish mas_mood_grateful_gratefulforyou_2ca2a15b:

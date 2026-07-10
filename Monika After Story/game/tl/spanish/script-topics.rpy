@@ -3802,7 +3802,7 @@ translate spanish monika_date_e764b407:
 translate spanish monika_date_1d8af94c:
 
     # m 1hubfa "I'll make you a proud [bf]~"
-    m 1hubfa "Te haré [un_una] [bf] feliz~"
+    m 1hubfa "Te haré [un_una] novi[o_a] feliz~"
 
 # game/script-topics.rpy:2049
 translate spanish monika_kiss_16f917cd:

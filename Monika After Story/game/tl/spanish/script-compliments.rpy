@@ -1599,7 +1599,7 @@ translate spanish mas_compliment_sweet_ef6dd4cf:
 translate spanish mas_compliment_sweet_834b4b90:
 
     # m 1ekblb "I'm so happy to have such an amazing [bf] like you, [mas_get_player_nickname(exclude_names=[player])]~"
-    m 1ekblb "Estoy tan feliz de tener un [bf] tan increíble como tú, [mas_get_player_nickname(exclude_names=[player])]~"
+    m 1ekblb "Estoy tan feliz de tener [un_una] novi[o_a] tan increíble como tú, [mas_get_player_nickname(exclude_names=[player])]~"
 
 # game/script-compliments.rpy:1228
 translate spanish mas_compliment_sweet_0d8d0137:

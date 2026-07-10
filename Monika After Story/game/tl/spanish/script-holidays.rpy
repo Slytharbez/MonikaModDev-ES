@@ -9823,10 +9823,6 @@ translate spanish strings:
     old "...for missing Valentine's Day."
     new "... por perderme el Día de San Valentín."
 
-    # game/script-holidays.rpy:7003
-    old " My dearest [player],"
-    new " Mi querid[o_a] [player],"
-
     # game/script-holidays.rpy:7315
     old "gotcha"
     new "atrapad[o_a]"
@@ -9925,8 +9921,8 @@ P.D: No le hables de mí.
     new "La alegría de mi mundo"
 
     # game/script-holidays.rpy:3041
-    # old "     My dearest [player],"
-    # new "     Mi querid[o_a] [player],"
+    old "     My dearest [player],"
+    new "     Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:3042
     old """\
@@ -10058,8 +10054,8 @@ P.D: No le hables de mí.
     new "Esta Navidad"
 
     # game/script-holidays.rpy:3112
-    old "     My dearest [player],"
-    new "     Mi querid[o_a] [player],"
+    # old "     My dearest [player],"
+    # new "     Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:3113
     old """\
@@ -10107,8 +10103,8 @@ P.D: No le hables de mí.
     new "El indicado"
 
     # game/script-holidays.rpy:5918
-    # old " My dearest [player],"
-    # new " Mi querid[o_a] [player],"
+    old " My dearest [player],"
+    new " Mi querid[o_a] [player],"
 
     # game/script-holidays.rpy:5919
     old """\ To the one I love,
