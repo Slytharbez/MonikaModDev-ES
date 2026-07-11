@@ -166,6 +166,34 @@ translate spanish strings:
     old "Just what I had in mind!"
     new "¡Justo lo que tenía en mente!"
 
+    # game/zz_spriteobjects.rpy:705
+    old "Ponytail"
+    new "Coleta"
+
+    # game/zz_spriteobjects.rpy:709
+    old "Do you like my ponytail, [player]?"
+    new "¿Te gusta mi coleta, [player]?"
+
+    # game/zz_spriteobjects.rpy:735
+    old "Down"
+    new "Suelto"
+
+    # game/zz_spriteobjects.rpy:739
+    old "Feels nice to let my hair down..."
+    new "Se siente bien soltarme el cabello..."
+
+    # game/zz_spriteobjects.rpy:763
+    old "Down (Tied strand)"
+    new "Suelto con mechón atado"
+
+    # game/zz_spriteobjects.rpy:768
+    old "Looks cute, don't you think?"
+    new "Se ve lindo, ¿no crees?"
+
+    # game/zz_spriteobjects.rpy:793
+    old "Braided"
+    new "Trenzado"
+
     # game/zz_selector.rpy:713
     old "That hairstyle doesn't really work with my clothes."
     new "Ese peinado no combina con mi ropa."
@@ -272,7 +300,7 @@ translate spanish strings:
 
     # game/zz_selector.rpy:4256
     old "Which hair tie would you like me to use?"
-    new "¿Qué lazo para el cabello te gustaría que usara?"
+    new "¿Qué cinta para el cabello te gustaría que usara?"
 
     # game/zz_selector.rpy:4295
     old "Which hairclip would you like me to wear?"
@@ -295,13 +323,17 @@ translate spanish strings:
     new "collar"
 
     old "type_name_left-hair-clip"
-    new "pasador"
+    new "horquilla"
 
     old "type_name_ribbon"
     new "cinta"
 
     old "Remove"
     new "Quitar"
+
+    old "hairclip"
+    new "horquilla"
+
 
 
 
