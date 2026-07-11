@@ -5026,3 +5026,11 @@ translate spanish strings:
     # Scary stories prompts
     old "The Hunter"
     new "El Cazador"
+# TODO: Translation updated at 2026-07-11 10:08
+
+translate spanish strings:
+
+    # script-stories.rpy:198
+    old "scary"
+    new ""
+

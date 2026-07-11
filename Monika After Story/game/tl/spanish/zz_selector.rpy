@@ -281,3 +281,27 @@ translate spanish strings:
     # game/zz_selector.rpy:4330
     old "Which flower would you like me to put in my hair?"
     new "¿Qué flor te gustaría que me ponga en el cabello?"
+
+    old "type_name_choker"
+    new "gargantilla"
+
+    old "type_name_hat"
+    new "sombrero"
+
+    old "type_name_earrings"
+    new "aretes"
+
+    old "type_name_necklace"
+    new "collar"
+
+    old "type_name_left-hair-clip"
+    new "pasador"
+
+    old "type_name_ribbon"
+    new "cinta"
+
+    old "Remove"
+    new "Quitar"
+
+
+

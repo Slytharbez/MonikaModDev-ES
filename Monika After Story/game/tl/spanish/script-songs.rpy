@@ -818,7 +818,7 @@ translate spanish mas_song_nobody_makes_sense_1c0b0859:
     extend 1hub "{i}soredemo kimi to waratte itai~\n{size=-4}(pero aún espero poder seguir sonriendo contigo...) {/size}{/i}"
 
 # game/script-songs.rpy:815
-translate spanish mas_song_nobody_makes_sense_b177a0bd:
+translate spanish mas_song_nobody_makes_sense_a9691066:
 
     # m 3rksdld ""{i}~Even when our dreams have come true; even when we have become enlightened, in the end, we might still end up with loneliness~{/i}""
     m 3rksdld "{i}~Yume o kanaete mo satori hiraite mo, Kekkyoku wa kodoku kamo shirenai~ \n{size=-4}(Incluso cuando nuestros sueños se han hecho realidad; incluso cuando nos hayamos iluminado, al final, podríamos terminar con la soledad...) {/size}{/i}"
@@ -4382,3 +4382,21 @@ translate spanish strings:
     # game/script-songs.rpy:2223
     old "their"
     new "su"
+# TODO: Translation updated at 2026-07-11 10:08
+
+translate spanish mas_song_nobody_makes_sense_2ce8444f:
+
+    # extend 3hksdlb "{i}I still hope I could keep on smiling with you~{/i}"
+    extend 3hksdlb ""
+
+# game/script-songs.rpy:1500
+translate spanish mas_song_god_knows_3bdf0002:
+
+    # m 1eub "{i}~Forever on this railway~{/i}"
+    m 1eub ""
+
+# game/script-songs.rpy:1501
+translate spanish mas_song_god_knows_62098acf:
+
+    # m 1eubsa "{i}~As if we were God blessed~{/i}"
+    m 1eubsa ""

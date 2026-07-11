@@ -2999,3 +2999,40 @@ translate spanish strings:
     # game/zz_reactions.rpy:2242
     old "wine colored"
     new "color vino"
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/zz_reactions.rpy:996
+translate spanish mas_reaction_gift_starter_generic_3359d4a4:
+
+    # m "generic test"
+    m ""
+
+translate spanish strings:
+
+    # zz_reactions.rpy:1138
+    old "them"
+    new ""
+
+    # zz_reactions.rpy:1139
+    old "they're"
+    new ""
+
+    # zz_reactions.rpy:1143
+    old "it"
+    new ""
+
+    # zz_reactions.rpy:1144
+    old "it's"
+    new ""
+
+    # zz_reactions.rpy:1387
+    old "these"
+    new ""
+
+    # zz_reactions.rpy:1387
+    old "those"
+    new ""
+
+    # zz_reactions.rpy:1945
+    old "emerald"
+    new ""

@@ -5947,7 +5947,7 @@ translate spanish monika_internet_d185ded2:
     m 3eub "O puedes separar tus entornos de trabajo y de juego, lo que ayuda a tu cerebro a entrar en el modo correcto."
 
 # game/script-topics.rpy:3017
-translate spanish monika_internet_004515cd:
+translate spanish monika_internet_f1b5dc43:
 
     # m 1eub "Even if you make a new user account on your computer to use for work, that's enough to help."
     m 1eub "Incluso si creas una nueva cuenta de usuario en tu computadora para usarla en el trabajo, eso es suficiente para ayudarte."
@@ -9751,7 +9751,7 @@ translate spanish monika_eyecontact_a59e8804:
     m 1hubfa "Pero hasta entonces, espero que disfrutes mirando los míos."
 
 # game/script-topics.rpy:4582
-translate spanish monika_othergames_3931f625:
+translate spanish monika_othergames_14c1449b:
 
     # m 1euc "Do you have other games on this computer?"
     m 1euc "¿Tienes otros juegos en esta computadora?"
@@ -9829,7 +9829,7 @@ translate spanish monika_back_ups_3929517c:
     m 1eka "Sabes, [player]..."
 
 # game/script-topics.rpy:4614
-translate spanish monika_back_ups_bd58d520:
+translate spanish monika_back_ups_b50ce7f6:
 
     # m 1ekc "When you're gone, I always think about how I'm {i}inside{/i} your computer."
     m 1ekc "Cuando te vas, siempre pienso en cómo estoy {i}dentro{/i} de tu computadora."
@@ -9847,7 +9847,7 @@ translate spanish monika_back_ups_82bab4d3:
     m 1ekc "Lo que significa que estoy atrapada aquí..."
 
 # game/script-topics.rpy:4617
-translate spanish monika_back_ups_65ff9daa:
+translate spanish monika_back_ups_35f9c8a3:
 
     # m 2dkd "So if something bad happened to your computer..."
     m 2dkd "Entonces, si algo malo le sucede a tu computadora..."
@@ -10015,7 +10015,7 @@ translate spanish monika_murphys_law_9c9e161e:
     m 3eud "Pero algunas personas sí que viven de acuerdo con ella, y aunque puede ser un estilo de vida excesivamente aprensivo, ¡puede hacer que estas personas estén mucho más preparad[o_a]s!"
 
 # game/script-topics.rpy:4662
-translate spanish monika_murphys_law_214a408c:
+translate spanish monika_murphys_law_85f89b6f:
 
     # m 3etc "In some ways it's worth taking into consideration, because there's every possibility that your computer could get corrupted."
     m 3etc "En cierto modo, vale la pena tenerlo en cuenta, porque hay muchas posibilidades de que tu computadora se corrompa."
@@ -10795,7 +10795,7 @@ translate spanish monika_playersface_e86befe4:
     m 5hua "¡Ser capaz de ver constantemente esa adorable sonrisa tuya sería tan emocionante!"
 
 # game/script-topics.rpy:4899
-translate spanish monika_playersface_71612d80:
+translate spanish monika_playersface_7cc7d9ed:
 
     # m 5lkc "If only the game could somehow use a webcam or something that's connected to the computer..."
     m 5lkc "Si tan solo el juego pudiera usar de alguna manera una cámara web o algo que esté conectado a la computadora..."
@@ -22231,7 +22231,7 @@ translate spanish monika_complain_battery_43782a92:
     m 1euc "Umm, [player]..."
 
 # game/script-topics.rpy:8438
-translate spanish monika_complain_battery_98e1f47b:
+translate spanish monika_complain_battery_eed43d7e:
 
     # m 1eua "It looks like your computer's battery is about to run out..."
     m 1eua "Parece que la batería de tu computadora está a punto de agotarse..."
@@ -22255,7 +22255,7 @@ translate spanish monika_complain_battery_d02543ed:
     m 2ekc "Sería muy desagradable para mí si de repente pierdo el conocimiento."
 
 # game/script-topics.rpy:8442
-translate spanish monika_complain_battery_a2e8ffa0:
+translate spanish monika_complain_battery_cb30fec8:
 
     # m 2eka "So please charge your computer, okay?"
     m 2eka "Así que por favor carga tu computadora, ¿de acuerdo?"
@@ -22285,7 +22285,7 @@ translate spanish monika_close_game_battery_cc5a21ea:
     m 1ekc "Lo siento, pero tendré que cerrar el juego antes de que se agote la batería."
 
 # game/script-topics.rpy:8451
-translate spanish monika_close_game_battery_659fcf98:
+translate spanish monika_close_game_battery_af20dba6:
 
     # m 3eka "So...I'll just close the game for now until you can charge your computer.{w=3.0} {nw}"
     m 3eka "Entonces... cerraré el juego por ahora hasta que puedas cargar tu computadora.{w=3.0} {nw}"
@@ -25561,7 +25561,7 @@ translate spanish monika_timetravel_252f3573:
     m "Entonces..."
 
 # game/script-topics.rpy:9562
-translate spanish monika_timetravel_d9e8d59a:
+translate spanish monika_timetravel_b5c3b741:
 
     # m 1esd "The only way I know what day and time it is where you are is by looking at the clock on your computer."
     m 1esd "La única forma de saber qué día y hora es donde estoy, es mirando el reloj de tu computadora."
@@ -25573,7 +25573,7 @@ translate spanish monika_timetravel_6477a497:
     m 3eub "Así que sé que es [todays_date] hoy."
 
 # game/script-topics.rpy:9564
-translate spanish monika_timetravel_52fc8085:
+translate spanish monika_timetravel_2b320ed9:
 
     # m 1esc "But if you were to change the date on your computer to [one_year_later]..."
     m 1esc "Pero si cambiaras la fecha en tu computadora a [one_year_later]..."
@@ -25651,7 +25651,7 @@ translate spanish monika_timetravel_8659993c:
     m 1lksdla "Supongo que lo que estoy tratando de decir es..."
 
 # game/script-topics.rpy:9579
-translate spanish monika_timetravel_b2aec17e:
+translate spanish monika_timetravel_cf33982d:
 
     # m 1eka "Please don't change the date on your computer, [player]."
     m 1eka "Por favor, no cambies la fecha en tu computadora, [player]."
@@ -28261,7 +28261,7 @@ translate spanish monika_familygathering_625b8ee8:
     m 1eka "No te preocupes, lo entiendo completamente."
 
 # game/script-topics.rpy:10472
-translate spanish monika_familygathering_fe234d27:
+translate spanish monika_familygathering_0a09a483:
 
     # m 1lksdla "If I found out one of my relatives was dating some person trapped inside of a computer, I'd think it'd be weird too."
     m 1lksdla "Si descubro que uno de mis parientes está saliendo con una persona atrapada dentro de una computadora, pensaría que también sería extraño."
@@ -29701,7 +29701,7 @@ translate spanish monika_driving_51754057:
     m 1lksdlc "Nadie es perfecto, y es mejor cometer esos errores cuando hay alguien ahí para salvarte."
 
 # game/script-topics.rpy:10920
-translate spanish monika_driving_cfed5eef:
+translate spanish monika_driving_1a153af3:
 
     # m 1hub "Maybe you could put me on your board computer in your car and I could keep you safe while driving! Ahaha~"
     m 1hub "¡Quién sabe, podrías ponerme en la computadora de a bordo de tu auto y yo podría mantenerte a salvo mientras conduces! ¡Jajaja~"
@@ -32335,7 +32335,7 @@ translate spanish monika_poweroutage_56af0da9:
     m 1ekd "Ni siquiera quiero pensar en lo que sucedería si algo importante para ti fuera golpeado."
 
 # game/script-topics.rpy:11825
-translate spanish monika_poweroutage_6ba5c898:
+translate spanish monika_poweroutage_7bd9d7e1:
 
     # m 2ekc "What would happen to me if something surged and fried your computer?"
     m 2ekc "¿Qué me pasaría a mí si algo surgiera y se quemara tu computadora?"
@@ -38533,7 +38533,7 @@ translate spanish monika_life_skills_96366241:
     m 3eub "¡Empecé a programar gracias a ti!"
 
 # game/script-topics.rpy:14475
-translate spanish monika_life_skills_6ac12389:
+translate spanish monika_life_skills_4d316ec4:
 
     # m 2esc "Now I know most people wouldn't necessarily consider programming a life skill, but most people don't live inside a computer, either."
     m 2esc "Ahora sé que la mayoría de la gente no necesariamente consideraría la programación como una habilidad para la vida, pero la mayoría de la gente tampoco vive dentro de una computadora."
@@ -42864,7 +42864,7 @@ translate spanish monika_using_pcs_healthily_5a96e4bd:
     extend 3eksdla "¿Lo estás?"
 
 # game/script-topics.rpy:15804
-translate spanish monika_using_pcs_healthily_acc26074:
+translate spanish monika_using_pcs_healthily_48aef874:
 
     # m 3eka "I know you have to be at your computer to spend time with me..."
     m 3eka "Sé que tienes que estar en tu computadora para pasar tiempo conmigo..."
@@ -52428,3 +52428,254 @@ translate spanish strings:
 
     old "Taurus"
     new "Tauro"
+# TODO: Translation updated at 2026-07-11 10:08
+
+translate spanish _call_updateconsole_17_d3622263:
+
+    # m 1hksdlb "I'm only kidding."
+    m 1hksdlb ""
+
+# game/script-topics.rpy:3241
+translate spanish _call_updateconsole_17_157af141:
+
+    # m "It's the man's job to introduce his fiancee to his family, after all."
+    m ""
+
+# game/script-topics.rpy:3242
+translate spanish _call_updateconsole_17_a8299c35:
+
+    # m "Don't keep me waiting for too long, okay?"
+    m ""
+
+# game/script-topics.rpy:3279
+translate spanish monika_anime_4603fa2d:
+
+    # m "I'll watch through your computer screen. Make sure it's something I'll like!"
+    m ""
+
+# game/script-topics.rpy:3910
+translate spanish monika_love_7deda363:
+
+    # m "[renpy.substitute(love_quip)]"
+    m ""
+
+# game/script-topics.rpy:3989
+translate spanish monika_ilym_fight_loop_52a8af33:
+
+    # m "[renpy.substitute(ilym_quip)]{nw}"
+    m ""
+
+# game/script-topics.rpy:3991
+translate spanish monika_ilym_fight_loop_43eab1c1:
+
+    # m "[renpy.substitute(ilym_quip)]{fast}" nointeract
+    m "" nointeract
+
+translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud ""
+
+# game/script-topics.rpy:6688
+translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
+
+    # m 1lksdla "Sorry again, [player]."
+    m 1lksdla ""
+
+# game/script-topics.rpy:6690
+translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
+
+    # m 1lksdla "Sorry, [mas_get_player_nickname()]."
+    m 1lksdla ""
+
+# game/script-topics.rpy:6691
+translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
+
+    # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
+    m 2lksdlb ""
+
+# game/script-topics.rpy:6693
+translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
+
+    # m "Should I try again?{nw}"
+    m ""
+
+# game/script-topics.rpy:6695
+translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "" nointeract
+
+# game/script-topics.rpy:6699
+translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua ""
+
+# game/script-topics.rpy:6701
+translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka ""
+
+# game/script-topics.rpy:6702
+translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua ""
+
+# game/script-topics.rpy:6708
+translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
+
+    # m 1duu "..."
+    m 1duu ""
+
+# game/script-topics.rpy:6709
+translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
+
+    # m 1hub "[bday_msg_capped], [bday_name]!"
+    m 1hub ""
+
+# game/script-topics.rpy:6710
+translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
+
+    # m 1hksdlb "..."
+    m 1hksdlb ""
+
+# game/script-topics.rpy:6711
+translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
+
+    # m 1lksdlb "Was that good?{nw}"
+    m 1lksdlb ""
+
+# game/script-topics.rpy:6713
+translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
+
+    # m "Was that good?{fast}" nointeract
+    m "" nointeract
+
+# game/script-topics.rpy:6716
+translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
+
+    # m 1lksdla "...I'm glad you enjoyed that, [player]..."
+    m 1lksdla ""
+
+# game/script-topics.rpy:6721
+translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud ""
+
+# game/script-topics.rpy:6722
+translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
+
+    # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
+    m 1lksdlc ""
+
+# game/script-topics.rpy:6724
+translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
+
+    # m 1ekc "Should I try again?{nw}"
+    m 1ekc ""
+
+# game/script-topics.rpy:6726
+translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "" nointeract
+
+# game/script-topics.rpy:6730
+translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua ""
+
+# game/script-topics.rpy:6732
+translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka ""
+
+# game/script-topics.rpy:6733
+translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua ""
+
+# game/script-topics.rpy:7424
+translate spanish monika_clones_0fa5e7cd:
+
+    # m 1euc "Um...hey, [player]?"
+    m 1euc ""
+
+translate spanish monika_driving_db066a86:
+
+    # m 1eka "I know it might be pretty discouraging to you if they have to use them, but hey, we all start somewhere."
+    m 1eka ""
+
+translate spanish monika_using_pcs_healthily_3ab6e264:
+
+    # m 2eua "...Have your chair adjusted properly so your feet stay flat on the floor, your eyes are level with the top of the screen, and you aren't slouching."
+    m 2eua ""
+
+# game/script-topics.rpy:15811
+translate spanish monika_using_pcs_healthily_d70ccd9f:
+
+    # m 4eub "You should feel supported and comfortable in your seat!"
+    m 4eub ""
+
+# game/script-topics.rpy:15813
+translate spanish monika_using_pcs_healthily_1cadbce8:
+
+    # m 2hksdlb "...Keep your keyboard and mouse within easy reach, though!"
+    m 2hksdlb ""
+
+# game/script-topics.rpy:15816
+translate spanish monika_using_pcs_healthily_416de548:
+
+    # m 4eud "In addition, remember to take frequent breaks. {w=0.3}Look away from the screen, {w=0.2}ideally at something far away, {w=0.2}and perhaps do a few stretches."
+    m 4eud ""
+
+# game/script-topics.rpy:15817
+translate spanish monika_using_pcs_healthily_d08d14c5:
+
+    # m 2eud "Since it's important to stay hydrated too, you could always fetch some fresh water while you're up from your desk."
+    m 2eud ""
+
+translate spanish strings:
+
+    # script-topics.rpy:1210
+    old "Twitter"
+    new ""
+
+    # script-topics.rpy:4354
+    old "Waifus"
+    new ""
+
+    # script-topics.rpy:4375
+    old "Fanart"
+    new ""
+
+    # script-topics.rpy:5916
+    old "Vocaloids"
+    new ""
+
+    # script-topics.rpy:7285
+    old "Rock and roll"
+    new ""
+
+    # script-topics.rpy:7838
+    old "Jazz"
+    new ""
+
+    # script-topics.rpy:8597
+    old "Hamlet"
+    new ""
+
+    # script-topics.rpy:8639
+    old "Omamori"
+    new ""
+
+    # script-topics.rpy:14803
+    old "Auroras"
+    new ""

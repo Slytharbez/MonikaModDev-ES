@@ -804,9 +804,18 @@ translate spanish strings:
     old "Very Often"
     new "Frecuente"
 
-    # =========================================================================
-    # CHARLAS ALEATORIAS - valores dentro de corchetes (definitions.rpy SLIDER_MAP_DISP)
-    # =========================================================================
-
     old "Never"
     new "Nunca"
+
+    # screens.rpy:1251
+    old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    new "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+
+    # screens.rpy:1893
+    old "Fullscreen{#shortcut}"
+    new "Pantalla completa{#shortcut}"
+
+    # screens.rpy:2192
+    old "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    new "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+

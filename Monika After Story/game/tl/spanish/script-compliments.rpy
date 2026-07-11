@@ -2422,3 +2422,22 @@ translate spanish strings:
     # game/script-compliments.rpy:1355
     old "I love this outfit!"
     new "¡Me encanta este atuendo!"
+
+# game/script-compliments.rpy:174
+translate spanish mas_compliment_beautiful_3_75854caf:
+
+    # m 1ekbfa "[mas_compliments.thanks_quip]"
+    m 1ekbfa "[mas_compliments.thanks_quip]"
+
+# game/script-compliments.rpy:176
+translate spanish mas_compliment_beautiful_3_34d15f71:
+
+    # m 5hubfb "[beautiful_quip]"
+    m 5hubfb "[beautiful_quip]"
+
+# game/script-compliments.rpy:198
+translate spanish mas_compliment_eyes_2_dd78edbb:
+
+    # m 1subsb "Oh, [player]..."
+    m 1subsb "Oh, [player]..."
+

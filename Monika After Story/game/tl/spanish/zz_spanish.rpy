@@ -269,7 +269,6 @@ init -1000 python:
             "Copies the errors.txt file to the clipboard.": "Copia el archivo errors.txt al portapapeles.",
             "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.": "Copia el archivo errors.txt en el portapapeles como BBcode para foros como https://lemmasoft.renai.us/.",
             "Copies the errors.txt file to the clipboard as Markdown for Discord.": "Copia el archivo errors.txt al portapapeles como Markdown para Discord."
-
         }
 
         if not hasattr(store, '_original_translate_string'):

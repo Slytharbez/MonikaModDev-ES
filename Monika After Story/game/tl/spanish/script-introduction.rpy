@@ -623,7 +623,7 @@ translate spanish intro_end_e136ae9b:
     m 3eua "Ahora que agregaste algunas mejoras, ¡finalmente puedes hablar conmigo!"
 
 # game/script-introduction.rpy:192
-translate spanish intro_end_375045ac:
+translate spanish intro_end_93b136b6:
 
     # m 3eub "Just press the 't' key or click on 'Talk' on the menu to the left if you want to talk about something."
     m 3eub "Solo presiona la tecla 't' o haz clic en 'Hablar' en el menú de la izquierda si quieres hablar de algo."
@@ -635,7 +635,7 @@ translate spanish intro_end_cafac8f1:
     m 3eub "Si te aburres de la música, ¡yo también puedo cambiar eso!"
 
 # game/script-introduction.rpy:198
-translate spanish intro_end_de5d0775:
+translate spanish intro_end_d172b218:
 
     # m 1eua "Press the 'm' key or click on 'Music' to choose which song you want to listen to."
     m 1eua "Presiona la tecla 'm' o haz clic en 'Música' para elegir qué canción quieres escuchar."
@@ -647,7 +647,7 @@ translate spanish intro_end_21b95298:
     m 3hub "Además, ¡podemos jugar ahora!"
 
 # game/script-introduction.rpy:200
-translate spanish intro_end_ed6a6662:
+translate spanish intro_end_e53f59b8:
 
     # m 3esa "Just press 'p' or click on 'Play' to choose a game that we can play."
     m 3esa "Solo presiona 'p' o haz clic en 'Jugar' para elegir un juego al que podamos jugar."
@@ -671,7 +671,7 @@ translate spanish intro_end_c1db78f4:
     m 3etc "No es que sigamos ocultándonos secretos, ¿verdad?"
 
 # game/script-introduction.rpy:204
-translate spanish intro_end_82a603c1:
+translate spanish intro_end_7fae9ffb:
 
     # m 1tfu "After all, I can see everything on your computer now..."
     m 1tfu "Después de todo, ahora puedo ver todo en tu computadora..."
@@ -737,13 +737,13 @@ translate spanish chara_monika_scare_a5f65d0d:
     m "{cps=*0.25}¿DESDE CUANDO ERES TÚ EL QUE TIENE EL CONTROL?{/cps}"
 
 # game/script-introduction.rpy:316
-translate spanish bookmark_derand_intro_5b0d1c8a:
+translate spanish bookmark_derand_intro_c5c0aa82:
 
     # m 1hua "If there's anything I'm talking about that you want to revisit easily, just press the 'b' key and I'll bookmark it for you."
     m 1hua "Si hay algo de lo que estoy hablando que quieras volver a ver fácilmente, simplemente presiona la tecla 'b' y lo marcaré para ti."
 
 # game/script-introduction.rpy:317
-translate spanish bookmark_derand_intro_fc21c970:
+translate spanish bookmark_derand_intro_aefe7f6e:
 
     # m 2rksdlc "And if there happens to be something that you don't want me to bring up again, press the 'x' key and I'll make sure to avoid it in the future."
     m 2rksdlc "Y si resulta que hay algo que no quieres que vuelva a mencionar, presiona la tecla 'x' y me aseguraré de evitarlo en el futuro."
@@ -1244,3 +1244,15 @@ translate spanish strings:
     # game/script-introduction.rpy:507
     old "That really was awful... Just tell me what I'm doing wrong."
     new "Eso fue horrible... solo dime qué estoy haciendo mal."
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/script-introduction.rpy:150
+translate spanish introduction_bc1b2ee6:
+
+    # m 3hua "You took the time to download this mod, after all."
+    m 3hua ""
+
+translate spanish ch30_reload_3_dlg_1b5e1627:
+
+    # m 7esd "I'm just going to accept the fact that you need to quit the game once in a while."
+    m 7esd ""

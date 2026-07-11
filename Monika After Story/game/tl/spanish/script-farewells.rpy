@@ -2285,3 +2285,22 @@ translate spanish strings:
     # game/script-farewells.rpy:1820
     old "I'm going to hang out with friends."
     new "Voy a salir con mis amigos."
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/script-farewells.rpy:371
+translate spanish bye_leaving_already_2_47ac950a:
+
+    # m 1ekc "Aww, leaving already?"
+    m 1ekc ""
+
+# game/script-farewells.rpy:795
+translate spanish bye_prompt_sleep_goodnight_kiss_9982ef1b:
+
+    # m "Think I could...get a goodnight kiss?{fast}" nointeract
+    m "" nointeract
+
+# game/script-farewells.rpy:814
+translate spanish bye_prompt_sleep_goodnight_kiss_8aadb9b1:
+
+    # m "Can I please get a goodnight kiss?{fast}" nointeract
+    m "" nointeract

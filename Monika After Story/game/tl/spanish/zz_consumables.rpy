@@ -450,3 +450,11 @@ translate spanish strings:
     # game/definitions.rpy:6640
     old "an"
     new "un"
+# TODO: Translation updated at 2026-07-11 10:08
+
+translate spanish strings:
+
+    # zz_consumables.rpy:1147
+    old "Thanks, [player]~"
+    new ""
+

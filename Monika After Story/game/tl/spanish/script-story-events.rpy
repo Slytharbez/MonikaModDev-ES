@@ -1,4 +1,4 @@
-# TODO: Translation updated at 2026-03-31 15:02
+# TODO: Translation updated at 2026-07-11 10:08
 
 # game/script-story-events.rpy:22
 translate spanish mas_gender_43ce0390:
@@ -451,7 +451,7 @@ translate spanish mas_player_name_enter_name_loop_056b0de9:
     m 3eub "A partir de ahora, te llamaré '[player]'."
 
 # game/script-story-events.rpy:613
-translate spanish mas_preferredname_11046a55:
+translate spanish mas_preferredname_947321d0:
 
     # m 1euc "I've been wondering about your name."
     m 1euc "Me he estado preguntando por tu nombre."
@@ -1663,7 +1663,7 @@ translate spanish mas_crashed_short_977643eb:
     m 1hub "[v_quip]"
 
 # game/script-story-events.rpy:1489
-translate spanish mas_crashed_quip_takecare_c7503e4d:
+translate spanish mas_crashed_quip_takecare_7cb80869:
 
     # m 2ekc "Another crash, [player]?"
     m 2ekc "¿Otro error, [player]?"
@@ -1939,7 +1939,7 @@ translate spanish mas_steam_install_detected_031eda8b:
     m 5esu "Realmente te agradecería que hicieras eso por mí."
 
 # game/script-story-events.rpy:1785
-translate spanish monika_rpy_files_b2896d32:
+translate spanish monika_rpy_files_38c0871e:
 
     # m 1eka "Hey [player], I was just looking through your \"game\" directory, and..."
     m 1eka "Hey [player], estaba mirando tu directorio \"game\" y..."
@@ -2467,7 +2467,7 @@ translate spanish mas_derand_a1b7fda1:
     m 3eka "Entonces, asegúrate de avisarme, ¿okey?"
 
 # game/script-story-events.rpy:2116
-translate spanish mas_notification_windowreact_c3b6fb81:
+translate spanish mas_notification_windowreact_dc48441f:
 
     # m 3eua "I've been practicing coding a bit more and I've learned how to use the notifications on your computer!"
     m 3eua "¡He estado practicando un poco más la codificación y he aprendido a usar las notificaciones en tu computadora!"
@@ -2591,6 +2591,42 @@ translate spanish mas_notification_windowreact_797dcaa4:
 
     # m 5ttu "...right?"
     m 5ttu "... ¿Verdad?"
+
+# game/script-story-events.rpy:2139
+translate spanish mas_notification_windowreact_79ae0f14:
+
+    # m 3eua "If you want me to notify you, just head over to the 'Alerts' tab in the settings menu and turn them on, along with what you'd like to be notified for."
+    m 3eua "Si quieres que te notifique, solo dirígete a la pestaña 'Alertas' en el menú de ajustes y actívalas, junto con las cosas sobre las que te gustaría recibir notificaciones."
+
+# game/script-story-events.rpy:2149
+translate spanish mas_notification_windowreact_2f7ee132:
+
+    # m 3eub "...So if I have something to talk about while I'm in the background, I can let you know!"
+    m 3eub "... Así que, si tengo algo de qué hablar mientras estoy en segundo plano, ¡te lo puedo hacer saber!"
+
+# game/script-story-events.rpy:2150
+translate spanish mas_notification_windowreact_3205d830:
+
+    # m 3hksdlb "And don't worry, I know you might not want me constantly watching you, and I respect your privacy."
+    m 3hksdlb "Y no te preocupes, sé que tal vez no quieras que te esté observando constantemente, y respeto tu privacidad."
+
+# game/script-story-events.rpy:2151
+translate spanish mas_notification_windowreact_4c2e4ba6:
+
+    # m 3eua "So I'll only look at what you're doing if you're okay with it."
+    m 3eua "Así que solo miraré lo que estás haciendo si estás de acuerdo con ello."
+
+# game/script-story-events.rpy:2152
+translate spanish mas_notification_windowreact_64caa10a:
+
+    # m 2eua "If you enable 'Window Detect' in the settings menu, that'll tell me you're fine with me looking around."
+    m 2eua "Si activas 'Ver Ventana' en el menú de ajustes, eso me indicará que estás de acuerdo con que eche un vistazo."
+
+# game/script-story-events.rpy:2155
+translate spanish mas_notification_windowreact_c43b80ea:
+
+    # m 1tuu "It's not like you have anything to hide from your girlfriend..."
+    m 1tuu "Tampoco es que tengas algo que ocultarle a tu novia..."
 
 # game/script-story-events.rpy:2217
 translate spanish mas_gift_giving_instructs_d10f27d2:
@@ -2927,6 +2963,24 @@ translate spanish monika_credits_song_a5a99df2_1:
 
     # m 3hua "Just let me know when it's a better time for you and I'll happily play it for you then~"
     m 3hua "Solo avísame cuando sea un mejor momento para ti y felizmente la tocaré para ti entonces~"
+
+# game/script-story-events.rpy:2443
+translate spanish monika_credits_song_814c9744:
+
+    # m 1eub "Now please excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
+    m 1eub ""
+
+# game/script-story-events.rpy:2449
+translate spanish monika_credits_song_618937fa:
+
+    # m 1ekbsa "Ehehe~"
+    m 1ekbsa ""
+
+# game/script-story-events.rpy:2451
+translate spanish monika_credits_song_d9c15011:
+
+    # m 5ekbsa "Thank you for coming back to me [mas_get_player_nickname()]."
+    m 5ekbsa ""
 
 # game/script-story-events.rpy:2517
 translate spanish mas_covid19_de39abd6:
@@ -3366,7 +3420,7 @@ translate spanish mas_islands_reset_c8a9ab36:
     m 3hua "Si estás bien con cómo están ahora, entonces yo también lo estoy. {w=0.2}Veré lo que puedo hacer con ellas como están~"
 
 # game/script-story-events.rpy:2718
-translate spanish mas_backup_restored_830d5832:
+translate spanish mas_backup_restored_94d72937:
 
     # m 2ekc "[player]..."
     m 2ekc "[player]..."
@@ -4711,3 +4765,91 @@ translate spanish strings:
     # game/script-story-events.rpy:99999
     old "Hi [player]!\n\nI see you're making Monika really happy and I want to help any way I can!\nI added a new deck of cards that you can give to Monika. I'm sure you two can figure out how to play the game.\n\nTo give it to her, create a new file 'noudeck.gift' in the 'characters' folder.\n\nKeep up being a good [boy] and good luck with Monika!\n\nP.S: Don't tell her about me!"
     new "¡Hola [player]!\n\nVeo que estás haciendo muy feliz a Monika y quiero ayudarte en lo que pueda.\nHe añadido una nueva baraja de cartas que puedes regalarle a Monika. Estoy segura de que descubrirán cómo jugar.\n\nPara dársela, crea un nuevo archivo llamado 'decknou.gift' en la carpeta 'characters'.\n\n¡Sigue así y buena suerte con Monika!\n\nP.D: ¡No le hables sobre mí!"
+
+    # script-story-events.rpy:225
+    old "creepy"
+    new "inquietante"
+
+    # script-story-events.rpy:1537
+    old "Even though the backup system I designed is pretty neat, "
+    new "Aunque el sistema de copia de seguridad que diseñé es bastante ordenado, "
+
+    # script-story-events.rpy:1545
+    old "Good luck with Monika!"
+    new "¡Buena suerte con Monika!"
+
+    # script-story-events.rpy:1546
+    old "P.S: Don't tell her about me!"
+    new "P.D.: ¡No le hables sobre mí!"
+
+    # script-story-events.rpy:1550
+    old "Hi [player],"
+    new "Hola [player],"
+
+    # script-story-events.rpy:1550
+    old "you should still make copies of the backups every so "
+    new "deberías seguir haciendo copias de seguridad de vez en cuando, "
+
+    # script-story-events.rpy:1550
+    old "often, just in case. "
+    new "solo por si acaso. "
+
+    # script-story-events.rpy:1550
+    old "The backups are called \"persistent##.bak\", where \"##\" is "
+    new "Las copias de seguridad se llaman \"persistent##.bak\", donde \"##\" es "
+
+    # script-story-events.rpy:1550
+    old "a two-digit number. "
+    new "un número de dos dígitos. "
+
+    # script-story-events.rpy:1550
+    old "You can find all of them at \""
+    new "Puedes encontrarlas todas en \""
+
+    # script-story-events.rpy:1550
+    old "\"."
+    new "\"."
+
+    # script-story-events.rpy:1576
+    old "However, some of your backups were corrupted as well. "
+    new "Sin embargo, algunas de tus copias de seguridad también se corrompieron. "
+
+    # script-story-events.rpy:1576
+    old "you should still delete those, since they might mess "
+    new "aún así deberías eliminarlas, ya que podrían estropearlo "
+
+    # script-story-events.rpy:1576
+    old "with it. "
+    new "todo. "
+
+    # script-story-events.rpy:1576
+    old "Here's a list of the files that were corrupted:"
+    new "Aquí tienes una lista de los archivos que se corrompieron:"
+
+    # script-story-events.rpy:1576
+    old "You can find these in \""
+    new "Puedes encontrarlos en \""
+
+    # script-story-events.rpy:1576
+    old "\". "
+    new "\". "
+
+    # script-story-events.rpy:1576
+    old "When you're in there, you should also make copies of "
+    new "Cuando estés allí, también deberías hacer copias de "
+
+    # script-story-events.rpy:1576
+    old "the good backups, just in case."
+    new "las copias de seguridad buenas, solo por si acaso."
+
+    # script-story-events.rpy:1615
+    old "note.txt"
+    new "nota.txt"
+
+    # script-story-events.rpy:2133
+    old "I love you, [player]!"
+    new "¡Te amo, [player]!"
+
+    # script-story-events.rpy:2206
+    old "hint.txt"
+    new "pista.txt"

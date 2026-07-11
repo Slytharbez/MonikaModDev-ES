@@ -1001,3 +1001,26 @@ translate spanish strings:
     # game/pong.rpy:654
     old "...Maybe."
     new "... Quizás."
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/pong.rpy:560
+translate spanish _mas_pong_inst_dialogue_896ad903:
+
+    # m 3eua "Would you like to play again?{nw}"
+    m 3eua ""
+
+# game/pong.rpy:562
+translate spanish _mas_pong_inst_dialogue_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "" nointeract
+
+translate spanish strings:
+
+    # pong.rpy:75
+    old "[player]"
+    new "[player]"
+
+    # pong.rpy:77
+    old "Click to Begin!"
+    new "¡Haz clic para empezar!"

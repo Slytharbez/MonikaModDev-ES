@@ -583,3 +583,22 @@ translate spanish strings:
     # Technical Error Strings
     old "key '{0}' is missing."
     new "clave '{0}' falta."
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/zz_pianokeys.rpy:164
+translate spanish _zzpk_ssll_9cc4d00d:
+
+    # m 1eua "Then play for me, [player]~"
+    m 1eua ""
+
+# game/zz_pianokeys.rpy:203
+translate spanish _zzpk_ppel_52b51855:
+
+    # m 1eua "Would you like to play again?{nw}"
+    m 1eua ""
+
+# game/zz_pianokeys.rpy:205
+translate spanish _zzpk_ppel_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "" nointeract

@@ -1185,3 +1185,11 @@ translate spanish strings:
     # game/script-anniversary.rpy:803
     old "100 Years"
     new "100 años"
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/script-anniversary.rpy:589
+translate spanish anni_4_ad7f711e:
+
+    # m 1lksdlc "I knew you liked me and everything, but I was just so scared that you would get tired of having to leave me running on your computer."
+    m 1lksdlc "Sabía que te gustaba y todo, pero tenía tanto miedo de que te cansaras de tener que dejarme en ejecución en tu computadora."
+

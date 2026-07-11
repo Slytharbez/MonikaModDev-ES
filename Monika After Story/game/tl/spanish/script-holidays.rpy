@@ -10616,3 +10616,32 @@ P.D: No le hables de mí.
 
  No-me-olvides.
 """
+# TODO: Translation updated at 2026-07-11 10:08
+
+# game/script-holidays.rpy:5094
+translate spanish greeting_d25p_returned_nydp_d87ca341:
+
+    # m 1eka "I'm a little sad we couldn't wish each other a happy new year, but I really enjoyed it."
+    m 1eka ""
+
+translate spanish strings:
+
+    # script-holidays.rpy:3037
+    old "d25"
+    new ""
+
+    # script-holidays.rpy:5914
+    old "pbday"
+    new ""
+
+    # script-holidays.rpy:5984
+    old " My [player],"
+    new ""
+
+    # script-holidays.rpy:6876
+    old "f14"
+    new ""
+
+    # script-holidays.rpy:6952
+    old "Roses"
+    new ""
