@@ -337,7 +337,11 @@ init 1 python:
             "hero": {"M": "héroe", "F": "heroína", "X": "héroe"},  # Ej: mi [hero] -> mi héroe / mi heroína
             "buen_buena": {"M": "buen", "F": "buena", "X": "buene"},  # Ej: [buen_buena] chic[o_a] -> buen chico / buena chica
             "dormilon_dormilona": {"M": "dormilón", "F": "dormilona", "X": "dormilón"},
-            "_a": {"M": "", "F": "a", "X": ""}, # Ej: trabajador[_a] -> trabajador / trabajadora / trabajador
+            "or_ora": {"M": "or", "F": "ora", "X": "ore"}, # Ej: jugad[or_ora] -> jugador / jugadora / jugadore
+            "on_ona": {"M": "ón", "F": "ona", "X": "one"}, # Ej: campe[on_ona] -> campeón / campeona / campeone
+            "amigo_amiga": {"M": "amigo", "F": "amiga", "X": "amigue"},
+            "dor_dora": {"M": "dor", "F": "dora", "X": "dore"},
+            "tores": {"M": "tores", "F": "toras", "X": "tores"},
         })
 
 init 10 python:
