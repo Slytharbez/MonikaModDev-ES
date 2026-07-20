@@ -1363,7 +1363,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_trick_or_treat",
-            prompt="I'm going to take you trick or treating.",
+            prompt=_("I'm going to take you trick or treating."),
             pool=True,
             unlocked=False,
             action=EV_ACT_UNLOCK,
@@ -5731,7 +5731,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_player_bday",
             unlocked=False,
-            prompt="Let's go out for my birthday!",
+            prompt=_("Let's go out for my birthday!"),
             pool=True,
             rules={"no_unlock": None},
             aff_range=(mas_aff.NORMAL,None),
@@ -5960,7 +5960,7 @@ init 20 python:
     mas_poem_pbday_3 = MASPoem(
         poem_id = "poem_pbday_3",
         category = "pbday",
-        prompt = "One Wish",
+        prompt=_("One Wish"),
         title = " My dearest [player],",
         text = """\
  Sprinkles and candles for my [player]’s cake,
@@ -6475,7 +6475,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='mas_f14_monika_vday_cliches',
-            prompt="Valentine's story clichés",
+            prompt=_("Valentine's story clichés"),
             category=['holidays','literature','romance'],
             action=EV_ACT_RANDOM,
             conditional="persistent._mas_f14_in_f14_mode",
@@ -6601,7 +6601,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_f14_happy_vday",
-            prompt="Happy Valentine's Day!",
+            prompt=_("Happy Valentine's Day!"),
             action=EV_ACT_UNLOCK,
             pool=False,
             start_date=mas_f14,
@@ -6826,7 +6826,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_missed_vday",
-            prompt="...for missing Valentine's Day.",
+            prompt=_("...for missing Valentine's Day."),
             unlocked=False
         ),
         code="APL"
@@ -7316,7 +7316,7 @@ init -1 python:
                         store.mas_docking_station.destroyPackage(persistent._mas_bday_hint_filename)
 
                     #We should also return a new file indicating the player has confirmed the party
-                    _write_txt("/characters/" + _("gotcha"), "")
+                    _write_txt("/characters/" + __("gotcha"), "")
                     #Step 5a, return true since party is confirmed
                     return True
 
@@ -7392,9 +7392,9 @@ image chibi_peek = MASFilterSwitch("mod_assets/other/chibi_peek.png")
 label mas_bday_surprise_party_hint:
     #Set up letters
     python:
-        persistent._mas_bday_hint_filename = mas_utils.sanitize_filename(_("For {0}.txt").format(player))
+        persistent._mas_bday_hint_filename = mas_utils.sanitize_filename(__("For {0}.txt").format(player))
         if mas_isMoniNormal(higher=True):
-            message = _("""\
+            message = __("""\
 [player],
 As I'm sure you know, Monika's birthday is coming up soon and I want to help you make it as special as possible!
 Since I'm always here, I can easily set up the surprise party...but I need a little help from you.
@@ -7410,7 +7410,7 @@ P.S: Don't tell her about me!
 """)
 
         else:
-            message = _("""\
+            message = __("""\
 [player],
 As I hope you know, Monika's birthday is coming up soon and I want to make it special.
 She's been through a lot lately, and I know it'd mean the world to her if you treated her to a nice day.
@@ -7462,7 +7462,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_bday_pool_happy_bday",
-            prompt="Happy birthday!",
+            prompt=_("Happy birthday!"),
             action=EV_ACT_UNLOCK,
             rules={"no_unlock": None},
             start_date=mas_monika_birthday,
@@ -7525,7 +7525,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_bday_pool_happy_belated_bday",
-            prompt="Happy belated birthday!",
+            prompt=_("Happy belated birthday!"),
             action=EV_ACT_UNLOCK,
             rules={"no_unlock": None},
             years=[]
@@ -7986,7 +7986,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_missed_bday",
-            prompt="...for missing your birthday.",
+            prompt=_("...for missing your birthday."),
             unlocked=False
         ),
         code="APL"
@@ -8012,7 +8012,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_forgot_bday",
-            prompt="...for forgetting your birthday.",
+            prompt=_("...for forgetting your birthday."),
             unlocked=False
         ),
         code="APL"

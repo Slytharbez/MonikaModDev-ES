@@ -827,13 +827,13 @@ translate spanish mas_song_nobody_makes_sense_a9691066:
 translate spanish mas_song_nobody_makes_sense_86fbd078:
 
     # m 3eksdld "{i}~Even when we've turned into ghosts; even when we've returned to nothingness, {/i}{nw}"
-    m 3eksdld "{i}~Obake ni natte mo kyomu ni kaette mo, \n{size=-4}(Incluso cuando nos hemos convertido en fantasmas; incluso cuando volvamos a la nada,) {/size}{/i}{nw}"
+    m 3eksdld "{i}~Obake ni natte mo kyomu ni kaette mo, \n{size=-4}(Incluso cuando nos hemos convertido en fantasmas; incluso cuando volvamos a la nada) {/size}{/i}{nw}"
 
 # game/script-songs.rpy:817
-translate spanish mas_song_nobody_makes_sense_0fdfe998:
+translate spanish mas_song_nobody_makes_sense_2ce8444f:
 
-    # extend 3hksdlb "{i}soredemo kimi to waratte itai~{/i}"
-    extend 3hksdlb "{i}I still hope I could keep on smiling with you~\n{size=-4}(todavía espero poder seguir sonriendo contigo...) {/size}{/i}"
+    # extend 3hksdlb "{i}I still hope I could keep on smiling with you~{/i}"
+    extend 3hksdlb "{i}Soredemo kimi to waratte itai na~\n{size=-4}(Todavía espero poder seguir sonriendo contigo~) {/size}{/i}"
 
 # game/script-songs.rpy:818
 translate spanish mas_song_nobody_makes_sense_d68c0e32:
@@ -2677,16 +2677,16 @@ translate spanish mas_song_god_knows_52b9f4b1:
     # m 1hub "{i}~Nothing can shatter my soul because your way is my way~{/i}"
     m 1hub "{i}~Ima futari ni God bless~ \n{size=-4}(Nada puede destrozar mi alma porque tu camino es mi camino...) {/size}{/i}"
 
-# game/script-songs.rpy:1494
-translate spanish mas_song_god_knows_2839932f:
+# game/script-songs.rpy:1500
+translate spanish mas_song_god_knows_3bdf0002:
 
-    # m 1eub "{i}~On the lonely rail~{/i}"
+    # m 1eub "{i}~Forever on this railway~{/i}"
     m 1eub "{i}~On the lonely rail~ \n{size=-4}(Siempre en este ferrocarril...) {/size}{/i}"
 
-# game/script-songs.rpy:1495
-translate spanish mas_song_god_knows_d9630df9:
+# game/script-songs.rpy:1501
+translate spanish mas_song_god_knows_62098acf:
 
-    # m 1eubsa "{i}~Ima futari ni God bless~{/i}"
+    # m 1eubsa "{i}~As if we were God blessed~{/i}"
     m 1eubsa "{i}~Ima futari ni God bless~ \n{size=-4}(Como si fuéramos bendecidos por Dios...) {/size}{/i}"
 
 # game/script-songs.rpy:1496
@@ -4382,21 +4382,3 @@ translate spanish strings:
     # game/script-songs.rpy:2223
     old "their"
     new "su"
-# TODO: Translation updated at 2026-07-11 10:08
-
-translate spanish mas_song_nobody_makes_sense_2ce8444f:
-
-    # extend 3hksdlb "{i}I still hope I could keep on smiling with you~{/i}"
-    extend 3hksdlb ""
-
-# game/script-songs.rpy:1500
-translate spanish mas_song_god_knows_3bdf0002:
-
-    # m 1eub "{i}~Forever on this railway~{/i}"
-    m 1eub ""
-
-# game/script-songs.rpy:1501
-translate spanish mas_song_god_knows_62098acf:
-
-    # m 1eubsa "{i}~As if we were God blessed~{/i}"
-    m 1eubsa ""

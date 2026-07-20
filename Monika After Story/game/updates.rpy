@@ -659,7 +659,7 @@ label v0_12_5(version="v0_12_5"):
         if seen_event("monika_affection_nickname"):
             mas_setEVLPropValues(
                 "monika_affection_nickname",
-                prompt="Can I call you a different nickname?"
+                prompt=_("Can I call you a different nickname?")
             )
 
         if datetime.date.today() < datetime.date(2021, 12, 31) and persistent._mas_nye_spent_nye:

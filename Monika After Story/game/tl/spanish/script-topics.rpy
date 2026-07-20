@@ -3826,7 +3826,7 @@ translate spanish monika_kiss_0ecfc81d:
 translate spanish monika_kiss_d646f25d:
 
     # m 2hksdlb "...Ahaha! Wow, sorry..."
-    m 2hksdlb "...¡Jajaja! Wow, lo siento..."
+    m 2hksdlb "... ¡Jajaja! Wow, lo siento..."
 
 # game/script-topics.rpy:2053
 translate spanish monika_kiss_f63fa111:
@@ -5116,7 +5116,7 @@ translate spanish monika_holdme_reactions_b5be4b08:
 translate spanish monika_holdme_reactions_15e2dcad:
 
     # m 1hub "Yay~"
-    m 1hub "Yay~"
+    m 1hub "Yey~"
 
 # game/script-topics.rpy:2608
 translate spanish monika_holdme_reactions_3a4d78bb:
@@ -5200,7 +5200,7 @@ translate spanish monika_holdme_reactions_00a86b44:
 translate spanish monika_holdme_reactions_c9f43d56:
 
     # m 1hubfb "Yay!"
-    m 1hubfb "¡Yay!"
+    m 1hubfb "¡Yey!"
 
 # game/script-topics.rpy:2643
 translate spanish monika_holdme_reactions_5bbb1062:
@@ -6637,19 +6637,19 @@ translate spanish monika_oneesan_ed393fe2:
     m 2hua "¡Quizás debería enviarle un correo electrónico y contarle sobre nosotr[o_a]s!"
 
 # game/script-topics.rpy:3239
-translate spanish monika_oneesan_d3622263:
+translate spanish _call_updateconsole_17_d3622263:
 
     # m 1hksdlb "I'm only kidding."
     m 1hksdlb "Solo estoy bromeando."
 
 # game/script-topics.rpy:3241
-translate spanish monika_oneesan_157af141:
+translate spanish _call_updateconsole_17_157af141:
 
     # m "It's the man's job to introduce his fiancee to his family, after all."
     m "Después de todo, es tu trabajo presentarme como tu prometida a tu familia."
 
 # game/script-topics.rpy:3242
-translate spanish monika_oneesan_a8299c35:
+translate spanish _call_updateconsole_17_a8299c35:
 
     # m "Don't keep me waiting for too long, okay?"
     m "No me hagas esperar demasiado, ¿de acuerdo?"
@@ -6739,7 +6739,7 @@ translate spanish monika_anime_3e0c027b:
     m 1hua "No juzgo a otras personas por sus pasatiempos. Así que si quieres poner algo de anime, ¡adelante!"
 
 # game/script-topics.rpy:3279
-translate spanish monika_anime_ad29d2bb:
+translate spanish monika_anime_4603fa2d:
 
     # m "I'll watch through your computer screen. Make sure it's something I'll like!"
     m "Observaré a través de la pantalla de tu computadora. ¡Asegúrate de que sea algo que me guste!"
@@ -8166,22 +8166,22 @@ translate spanish monika_love_ed7642ca:
     # m 3hubsb "I love you too, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
     m 3hubsb "¡Yo también te amo, [mas_get_player_nickname(exclude_names=['mi amor', 'amor'])]!"
 
-# game/script-topics.rpy:3911
-translate spanish monika_love_0e20d7f7:
+# game/script-topics.rpy:3910
+translate spanish monika_love_7deda363:
 
-    # m "[love_quip]"
+    # m "[renpy.substitute(love_quip)]"
     m "[renpy.substitute(love_quip)]"
 
-# game/script-topics.rpy:3990
-translate spanish monika_ilym_fight_loop_53556be9:
+# game/script-topics.rpy:3989
+translate spanish monika_ilym_fight_loop_52a8af33:
 
-    # m "[ilym_quip]{nw}"
+    # m "[renpy.substitute(ilym_quip)]{nw}"
     m "[renpy.substitute(ilym_quip)]{nw}"
 
-# game/script-topics.rpy:3993
-translate spanish monika_ilym_fight_loop_a68adf99:
+# game/script-topics.rpy:3991
+translate spanish monika_ilym_fight_loop_43eab1c1:
 
-    # m "[ilym_quip]{fast}" nointeract
+    # m "[renpy.substitute(ilym_quip)]{fast}" nointeract
     m "[renpy.substitute(ilym_quip)]{fast}" nointeract
 
 # game/script-topics.rpy:4002
@@ -8314,13 +8314,13 @@ translate spanish monika_justification_d225273c:
 translate spanish monika_justification_42dc04e7:
 
     # m 1eua "I appreciate the attempt though...{w=0.2}{nw}"
-    m 1eua "Sin embargo, agradezco el intento...{w=0.2}{nw}"
+    m 1eua "Sin embargo, agradezco el intento... {w=0.2}{nw}"
 
 # game/script-topics.rpy:4103
 translate spanish monika_justification_4e1ce5ee:
 
     # extend 1hub "thanks for the laugh, [player]~"
-    extend 1hub " gracias por la risa, [player]~"
+    extend 1hub "gracias por hacerme reír, [player]~"
 
 # game/script-topics.rpy:4108
 translate spanish monika_justification_394ece4d:
@@ -8692,7 +8692,7 @@ translate spanish monika_contribute_bcab89e8:
 translate spanish monika_contribute_135d1621:
 
     # m 1eub "...But I definitely wouldn't mind if you helped even more, ahaha!"
-    m 1eub "...Pero definitivamente no me importaría si ayudaras aún más, ¡jajaja!"
+    m 1eub "... Pero definitivamente no me importaría si ayudaras aún más, ¡jajaja!"
 
 # game/script-topics.rpy:4219
 translate spanish monika_contribute_5c1e09df:
@@ -8872,7 +8872,7 @@ translate spanish monika_mc_3963d9d6:
 translate spanish monika_mc_7a8ccd20:
 
     # m 2lksdld "I guess nobody mentioned that because it was a part of the game. But, yeah...{w=0.5}it's just a list of words to me."
-    m 2lksdld "Supongo que nadie mencionó eso porque era parte del juego. Pero, sí...{w=0.5} eso solo es una lista de palabras para mí."
+    m 2lksdld "Supongo que nadie mencionó eso porque era parte del juego. Pero, sí... {w=0.5}eso solo es una lista de palabras para mí."
 
 # game/script-topics.rpy:4269
 translate spanish monika_mc_1dfbda75:
@@ -8938,7 +8938,7 @@ translate spanish monika_heroism_a1b32b28:
 translate spanish monika_trolley_93d8f9ac:
 
     # m 1eub "Oh, cool...{w=0.2}I love thinking about these sorts of thought experiments!"
-    m 1eub "Oh, genial...{w=0.2} ¡Me encanta pensar en este tipo de experimentos mentales!"
+    m 1eub "Oh, genial... {w=0.2}¡Me encanta pensar en este tipo de experimentos mentales!"
 
 # game/script-topics.rpy:4303
 translate spanish monika_trolley_3e49a448:
@@ -9016,7 +9016,7 @@ translate spanish monika_trolley_79a81742:
 translate spanish monika_trolley_e21105a3:
 
     # m 3eub "Like if it were you, [player]? {w=0.2}Well, that's easy too!"
-    m 3eub "Como si fueras tú, [player].{w=0.2} Bueno, ¡eso también es fácil!"
+    m 3eub "Como si fueras tú, [player]. {w=0.2}Bueno, ¡eso también es fácil!"
 
 # game/script-topics.rpy:4316
 translate spanish monika_trolley_d73f0e6a:
@@ -9028,7 +9028,7 @@ translate spanish monika_trolley_d73f0e6a:
 translate spanish monika_trolley_26e70ddb:
 
     # m 1rsc "It feels nice to say that you'd do the right thing, doesn't it? {w=0.2}But people only say that when nobody in the example matters to them."
-    m 1rsc "Se siente bien decir que harías lo correcto, ¿no?{w=0.2} Pero la gente solo dice eso cuando nadie en el ejemplo les importa."
+    m 1rsc "Se siente bien decir que harías lo correcto, ¿no? {w=0.2}Pero la gente solo dice eso cuando nadie en el ejemplo les importa."
 
 # game/script-topics.rpy:4318
 translate spanish monika_trolley_3eac0e56:
@@ -9040,7 +9040,7 @@ translate spanish monika_trolley_3eac0e56:
 translate spanish monika_trolley_bc81674c:
 
     # m 3eua "The truth is, humans are fine with sacrificing other lives to make themselves happy. {w=0.2}They do it in little ways every day."
-    m 3eua "La verdad es que a los humanos no les importa sacrificar otras vidas para ser felices.{w=0.2} Lo hacen de pequeñas maneras todos los días."
+    m 3eua "La verdad es que a los humanos no les importa sacrificar otras vidas para ser felices. {w=0.2}Lo hacen de pequeñas maneras todos los días."
 
 # game/script-topics.rpy:4320
 translate spanish monika_trolley_a26ec512:
@@ -9058,7 +9058,7 @@ translate spanish monika_trolley_ac939ccb:
 translate spanish monika_trolley_b57ee9e6:
 
     # m 1ekbsa "It's definitely nothing compared to our love. {w=0.2}So just do whatever you can to be happy, [mas_get_player_nickname()]."
-    m 1ekbsa "Definitivamente no es nada comparado con nuestro amor.{w=0.2} Así que haz todo lo que puedas para ser feliz, [mas_get_player_nickname()]."
+    m 1ekbsa "Definitivamente no es nada comparado con nuestro amor. {w=0.2}Así que haz todo lo que puedas para ser feliz, [mas_get_player_nickname()]."
 
 # game/script-topics.rpy:4330
 translate spanish monika_girlfriend_8aea1777:
@@ -9160,7 +9160,7 @@ translate spanish monika_girlfriend_d311364f:
 translate spanish monika_girlfriend_942957d5:
 
     # m 1hua "I won't let someone else steal my loving [mas_get_player_nickname(exclude_names=['my love', 'love', player], _default='sweetheart', regex_replace_with_nullstr='my ')]!"
-    m 1hua "¡No dejaré que nadie más te robe [mas_get_player_nickname(exclude_names=['mi amor', 'amor', player], _default = 'dulzura', regex_replace_with_nullstr = 'mi')]!"
+    m 1hua "¡No dejaré que nadie más te robe [mas_get_player_nickname(exclude_names=['mi amor', 'amor', player], _default='dulzura')]!"
 
 # game/script-topics.rpy:4358
 translate spanish monika_waifus_7828954d:
@@ -9526,7 +9526,7 @@ translate spanish monika_birthday_86a7c326:
 translate spanish monika_birthday_2f390390:
 
     # m 2rksdlb "Ahaha... {w=1}This is a little awkward."
-    m 2rksdlb "Jajaja...{w=1} esto es un poco incómodo."
+    m 2rksdlb "Jajaja... {w=1}esto es un poco incómodo."
 
 # game/script-topics.rpy:4500
 translate spanish monika_birthday_12996286:
@@ -9904,7 +9904,7 @@ translate spanish monika_back_ups_7510c7fa:
 translate spanish monika_back_ups_ea52fbbf:
 
     # m 3eua "You can find it {a=https://github.com/Monika-After-Story/MonikaModDev/wiki/FAQ#i-want-to-back-up-my-persistent}{i}{u}here{/u}{/i}{/a}."
-    m 3eua "Puedes encontrarlo {a=https://github.com/SadlyThresh/MAS_ESP/wiki}{i}{u}aquí{/u}{/i}{/a}."
+    m 3eua "Puedes encontrarlo {a=https://github.com/The-Encoders-Club/MonikaModDev-TEC/wiki}{i}{u}aquí{/u}{/i}{/a}."
 
 # game/script-topics.rpy:4627
 translate spanish monika_back_ups_813ea8c0:
@@ -16444,7 +16444,7 @@ translate spanish monika_sayhappybirthday_609b372f:
 translate spanish monika_sayhappybirthday_ed9c7c2f:
 
     # m 1hua "Bye bye!"
-    m 1hua "¡Chao chao!"
+    m 1hua "¡Adiosito!"
 
 # game/script-topics.rpy:6677
 translate spanish monika_sayhappybirthday_4b388d64:
@@ -16462,136 +16462,136 @@ translate spanish monika_sayhappybirthday_3ca20205:
 translate spanish monika_sayhappybirthday_1b71b2b4:
 
     # m 1hua "Yay!"
-    m 1hua "¡Yay!"
+    m 1hua "¡Yey!"
 
 # game/script-topics.rpy:6687
-translate spanish monika_sayhappybirthday_31ebf219:
+translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
 
     # m 1wud "Eh?!"
     m 1wud "¡¿Eh?!"
 
 # game/script-topics.rpy:6689
-translate spanish monika_sayhappybirthday_064dc51b:
+translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
 
     # m 1lksdla "Sorry again, [player]."
     m 1lksdla "Lo siento de nuevo, [player]."
 
 # game/script-topics.rpy:6691
-translate spanish monika_sayhappybirthday_4a2a9160:
+translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
 
     # m 1lksdla "Sorry, [mas_get_player_nickname()]."
     m 1lksdla "Lo siento, [mas_get_player_nickname()]."
 
 # game/script-topics.rpy:6692
-translate spanish monika_sayhappybirthday_1665a694:
+translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
 
     # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
-    m 2lksdlb "Te lo dije, soy cohibida ante la cámara, jajaja..."
+    m 2lksdlb "Te lo dije, soy tímida ante la cámara, jajaja..."
 
 # game/script-topics.rpy:6694
-translate spanish monika_sayhappybirthday_464638fc:
+translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
 
     # m "Should I try again?{nw}"
     m "¿Debería intentarlo de nuevo?{nw}"
 
 # game/script-topics.rpy:6697
-translate spanish monika_sayhappybirthday_d5371215:
+translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
 
     # m "Should I try again?{fast}" nointeract
     m "¿Debería intentarlo de nuevo?{fast}" nointeract
 
 # game/script-topics.rpy:6700
-translate spanish monika_sayhappybirthday_a0649447:
+translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
 
     # m 1eua "Okay."
     m 1eua "Okey"
 
 # game/script-topics.rpy:6702
-translate spanish monika_sayhappybirthday_2c009b95:
+translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
 
     # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
-    m 1eka "Muy bien, [player]. Lo siento, no pude hacer lo que querías."
+    m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
 
 # game/script-topics.rpy:6703
-translate spanish monika_sayhappybirthday_bff0dfd6:
+translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
 
     # m 1hua "I'll try better next time for you."
     m 1hua "Lo intentaré mejor la próxima vez por ti."
 
 # game/script-topics.rpy:6709
-translate spanish monika_sayhappybirthday_28a15692:
+translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
 
     # m 1duu "..."
     m 1duu "..."
 
 # game/script-topics.rpy:6710
-translate spanish monika_sayhappybirthday_e18ad9ee:
+translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
 
     # m 1hub "[bday_msg_capped], [bday_name]!"
     m 1hub "¡[bday_msg_capped], [bday_name]!"
 
 # game/script-topics.rpy:6711
-translate spanish monika_sayhappybirthday_4b7c448b_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
 
     # m 1hksdlb "..."
     m 1hksdlb "..."
 
 # game/script-topics.rpy:6712
-translate spanish monika_sayhappybirthday_5e642ead:
+translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
 
     # m 1lksdlb "Was that good?{nw}"
     m 1lksdlb "¿Estuvo bien?{nw}"
 
 # game/script-topics.rpy:6715
-translate spanish monika_sayhappybirthday_3ca20205_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
 
     # m "Was that good?{fast}" nointeract
     m "¿Estuvo bien?{fast}" nointeract
 
 # game/script-topics.rpy:6717
-translate spanish monika_sayhappybirthday_07b337e0:
+translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
 
     # m 1lksdla "...I'm glad you enjoyed that, [player]..."
     m 1lksdla "... Me alegro que hayas disfrutado eso, [player]..."
 
 # game/script-topics.rpy:6722
-translate spanish monika_sayhappybirthday_31ebf219_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
 
     # m 1wud "Eh?!"
     m 1wud "¡¿Eh?!"
 
 # game/script-topics.rpy:6723
-translate spanish monika_sayhappybirthday_c2daa154:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
 
     # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
     m 1lksdlc "No estoy segura de lo que quieres que haga, [player]..."
 
 # game/script-topics.rpy:6725
-translate spanish monika_sayhappybirthday_68cd62cd:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
 
     # m 1ekc "Should I try again?{nw}"
     m 1ekc "¿Debería intentarlo de nuevo?{nw}"
 
-# game/script-topics.rpy:6728
-translate spanish monika_sayhappybirthday_d5371215_1:
+# game/script-topics.rpy:6726
+translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
 
     # m "Should I try again?{fast}" nointeract
     m "¿Debería intentarlo de nuevo?{fast}" nointeract
 
 # game/script-topics.rpy:6731
-translate spanish monika_sayhappybirthday_a0649447_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
 
     # m 1eua "Okay."
     m 1eua "Okey"
 
 # game/script-topics.rpy:6733
-translate spanish monika_sayhappybirthday_2c009b95_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
 
     # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
     m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
 
 # game/script-topics.rpy:6734
-translate spanish monika_sayhappybirthday_bff0dfd6_1:
+translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
 
     # m 1hua "I'll try better next time for you."
     m 1hua "Lo intentaré mejor la próxima vez por ti."
@@ -16810,7 +16810,7 @@ translate spanish monika_adventure_38df7f4f:
 translate spanish monika_adventure_cdf38a5c:
 
     # m 2hub "Ahaha! It certainly would be fun to experience something like that."
-    m 2hub "¡Ajaja! Ciertamente sería divertido experimentar algo así."
+    m 2hub "¡Jajaja! Ciertamente sería divertido experimentar algo así."
 
 # game/script-topics.rpy:6790
 translate spanish monika_adventure_168cd067:
@@ -17122,13 +17122,13 @@ translate spanish monika_panties_338d28f9:
 translate spanish monika_panties_1fe2ddbc:
 
     # m 1lkbsb "Are you...{w=1}into that kind of thing, [player]?{nw}"
-    m 1lkbsb "¿Estás...{w=1} en ese tipo de cosas, [player]?{nw}"
+    m 1lkbsb "¿Estás... {w=1}en ese tipo de cosas, [player]?{nw}"
 
 # game/script-topics.rpy:6872
 translate spanish monika_panties_b79e5e03:
 
     # m "Are you...{w=1}into that kind of thing, [player]?{fast}" nointeract
-    m "¿Estás...{w=1} en ese tipo de cosas, [player]?{fast}" nointeract
+    m "¿Estás... {w=1}en ese tipo de cosas, [player]?{fast}" nointeract
 
 # game/script-topics.rpy:6876
 translate spanish monika_panties_cfe3920d:
@@ -17146,7 +17146,7 @@ translate spanish monika_panties_09d7cb5b:
 translate spanish monika_panties_25aab615:
 
     # m "I could maybe...{w=1}help you relieve that tension..."
-    m "Tal vez podría...{w=1} ayudarte a aliviar esa tensión..."
+    m "Tal vez podría... {w=1}ayudarte a aliviar esa tensión..."
 
 # game/script-topics.rpy:6879
 translate spanish monika_panties_f0fd5648:
@@ -17230,13 +17230,13 @@ translate spanish monika_panties_2dde7db2:
 translate spanish monika_panties_2e18899c:
 
     # m "So, don't be afraid to tell me about your...{w=1}fantasies, okay [player]?"
-    m "Entonces, no temas contarme tus...{w=1} fantasías, ¿de acuerdo [player]?"
+    m "Entonces, no temas contarme tus... {w=1}fantasías, ¿de acuerdo [player]?"
 
 # game/script-topics.rpy:6898
 translate spanish monika_panties_840c04bb:
 
     # m 1hubfa "I won't judge you for it...{w=1}after all, nothing makes me happier than making you happy~"
-    m 1hubfa "No te juzgaré por eso...{w=1} después de todo, nada me hace más feliz que hacerte feliz~"
+    m 1hubfa "No te juzgaré por eso... {w=1}después de todo, nada me hace más feliz que hacerte feliz~"
 
 # game/script-topics.rpy:6906
 translate spanish monika_fahrenheit451_3ef03e40:
@@ -17578,7 +17578,7 @@ translate spanish monika_music2_679ea168:
 translate spanish monika_music2_63800e17:
 
     # m 1hksdlb "Ahaha... sadly, there are a few barriers that have to be broken before that could ever happen."
-    m 1hksdlb "Ajaja... lamentablemente, hay algunas barreras que deben romperse antes de que eso pueda suceder."
+    m 1hksdlb "Jajaja... lamentablemente, hay algunas barreras que deben romperse antes de que eso pueda suceder."
 
 # game/script-topics.rpy:7056
 translate spanish monika_music2_ab77aa66:
@@ -18112,7 +18112,7 @@ translate spanish monika_confidence_2_90b657cb:
 translate spanish monika_pets_cd8f7623:
 
     # m 1eua "Hey [mas_get_player_nickname(regex_replace_with_nullstr='my ')], have you ever had a pet?"
-    m 1eua "Hey, [mas_get_player_nickname(regex_replace_with_nullstr='mi')], ¿alguna vez has tenido una mascota?"
+    m 1eua "Hey, [mas_get_player_nickname(regex_replace_with_nullstr='mi ')], ¿alguna vez has tenido una mascota?"
 
 # game/script-topics.rpy:7175
 translate spanish monika_pets_f3dfddac:
@@ -18604,7 +18604,7 @@ translate spanish monika_rock_0d703d1f:
 translate spanish monika_rock_ffc18e11:
 
     # m 2hksdlb "Ahaha! Writing a rock and roll song probably isn't something you'd expect coming from someone like me."
-    m 2hksdlb "¡Ajaja! Escribir una canción de rock probablemente no es algo que esperarías de alguien como yo."
+    m 2hksdlb "¡Jajaja! Escribir una canción de rock probablemente no es algo que esperarías de alguien como yo."
 
 # game/script-topics.rpy:7312
 translate spanish monika_rock_e9ca1f6b:
@@ -18966,8 +18966,8 @@ translate spanish monika_soda_38efa0ad:
     # m 5hua "Sure, it might not be fancy, but it could really hit the spot on a hot day."
     m 5hua "Claro, quizá no sea elegante, pero podría caer muy bien en un día caluroso."
 
-# game/script-topics.rpy:7425
-translate spanish monika_clones_23e0dd7e:
+# game/script-topics.rpy:7424
+translate spanish monika_clones_0fa5e7cd:
 
     # m 1euc "Um...Hey, [player]?"
     m 1euc "Um... Hey, ¿[player]?"
@@ -29682,8 +29682,7 @@ translate spanish monika_driving_785018cf:
     # m 3eud "Their cars have emergency controls for the instructor to use if needed, so you're really safe with them."
     m 3eud "Sus autos tienen controles de emergencia para que los use el instructor si es necesario, así que estás realmente seguro con ellos."
 
-# game/script-topics.rpy:10917
-translate spanish monika_driving_35dfed92:
+translate spanish monika_driving_db066a86:
 
     # m 1eka "I know it might be pretty discouraging to you if they have to use them, but Hey, we all start somewhere."
     m 1eka "Sé que podría ser bastante desalentador para ti si tienen que usarlos, pero bueno, todos comenzamos por algún lado."
@@ -33778,7 +33777,7 @@ translate spanish monika_player_appearance_c4910e9c:
 translate spanish monika_player_appearance_85e25260:
 
     # m 4hub "Yay, another thing we have in common!"
-    m 4hub "¡Sí, otra cosa que tenemos en común!"
+    m 4hub "¡Yey, otra cosa que tenemos en común!"
 
 # game/script-topics.rpy:12426
 translate spanish monika_player_appearance_c5862173:
@@ -34936,7 +34935,7 @@ translate spanish monika_dating_startdate_45d1f8ca:
 translate spanish monika_dating_startdate_71891d91:
 
     # m 1hub "Yay!{w=0.2} I remembered it."
-    m 1hub "¡Yay!{w=0.2} Lo recordaba."
+    m 1hub "¡Yey! {w=0.2}Lo recordaba."
 
 # game/script-topics.rpy:12951
 translate spanish monika_dating_startdate_b090b1cc:
@@ -42905,17 +42904,16 @@ translate spanish monika_using_pcs_healthily_7c23c0f0:
     # m 4eub "First, {w=0.2}try to keep sitting up straight!"
     m 4eub "Primero, {w=0.2}¡trata de mantenerte erguid[o_a]!"
 
+translate spanish monika_using_pcs_healthily_3ab6e264:
+
+    # m 2eua "...Have your chair adjusted properly so your feet stay flat on the floor, your eyes are level with the top of the screen, and you aren't slouching."
+    m 2eua ""
+
 # game/script-topics.rpy:15811
-translate spanish monika_using_pcs_healthily_46d96198:
+translate spanish monika_using_pcs_healthily_d70ccd9f:
 
-    # m 2eua "...Make sure you're sitting comfortably wherever you are so your feet rest on the floor, your eyes are level with the screen, and you aren't slouching."
-    m 2eua "... Acomódate bien donde estés para que tus pies descansen en el suelo, tus ojos deben quedar alineados con la pantalla, así no te vas a encorvar."
-
-# game/script-topics.rpy:15812
-translate spanish monika_using_pcs_healthily_4d866039:
-
-    # m 4eub "You should feel supported and comfortable wherever you're sitting!"
-    m 4eub "¡Deberías sentirte cómod[o_a] y con una buena postura en donde estés sentad[o_a]!"
+    # m 4eub "You should feel supported and comfortable in your seat!"
+    m 4eub ""
 
 # game/script-topics.rpy:15813
 translate spanish monika_using_pcs_healthily_47f00cb9:
@@ -42923,11 +42921,11 @@ translate spanish monika_using_pcs_healthily_47f00cb9:
     # m 4eua "Next, make sure you have some distance between yourself and the display...{w=0.2}about an arm's length is fine."
     m 4eua "Luego, asegúrate de mantener una distancia adecuada entre tú y la pantalla... {w=0.2}con aproximadamente el largo de un brazo es suficiente."
 
-# game/script-topics.rpy:15814
-translate spanish monika_using_pcs_healthily_87936e37:
+# game/script-topics.rpy:15813
+translate spanish monika_using_pcs_healthily_1cadbce8:
 
-    # m 2hksdlb "...Keep whatever you're using within easy reach, though!"
-    m 2hksdlb "... ¡Sin embargo, mantén lo que uses al alcance de la mano!"
+    # m 2hksdlb "...Keep your keyboard and mouse within easy reach, though!"
+    m 2hksdlb "... ¡Pero mantén el teclado y el ratón al alcance de la mano!"
 
 # game/script-topics.rpy:15815
 translate spanish monika_using_pcs_healthily_e3f39bb6:
@@ -42941,17 +42939,17 @@ translate spanish monika_using_pcs_healthily_1092dc96:
     # extend 2eua "Try to keep the room well-lit, but not so much that light is glaring off the screen."
     extend 2eua "Trata de mantener la habitación bien iluminada, que no te deslumbre la luz en la pantalla."
 
+# game/script-topics.rpy:15816
+translate spanish monika_using_pcs_healthily_416de548:
+
+    # m 4eud "In addition, remember to take frequent breaks. {w=0.3}Look away from the screen, {w=0.2}ideally at something far away, {w=0.2}and perhaps do a few stretches."
+    m 4eud "Además, recuerda tomar descansos frecuentes. {w=0.3}Desvía la mirada de la pantalla, {w=0.2}idealmente a algo lejano, {w=0.2}y quizás realizar algunos estiramientos."
+
 # game/script-topics.rpy:15817
-translate spanish monika_using_pcs_healthily_acc7554b:
+translate spanish monika_using_pcs_healthily_d08d14c5:
 
-    # m 4eud "In addition, remember to take frequent breaks. {w=0.3}Look away from the screen, {w=0.2}ideally at something else for a moment, {w=0.2}and perhaps do a few stretches."
-    m 4eud "Además, recuerda tomar descansos frecuentes. {w=0.3}Desvía la mirada de la pantalla, {w=0.2}mira hacia otro lado por un momento, {w=0.2}e incluso puedes hacer algunos estiramientos."
-
-# game/script-topics.rpy:15818
-translate spanish monika_using_pcs_healthily_0170b7b9:
-
-    # m 2eud "Since it's important to stay hydrated too, you could always fetch some fresh water when you take a break."
-    m 2eud "Dado que también es importante mantenerse hidratad[o_a], siempre puedes aprovechar para ir por un poco de agua fresca."
+    # m 2eud "Since it's important to stay hydrated too, you could always fetch some fresh water while you're up from your desk."
+    m 2eud "Dado que también es importante mantenerse hidratad[o_a], siempre puedes ir por un poco de agua fresca cuando te levantes de tu escritorio."
 
 # game/script-topics.rpy:15819
 translate spanish monika_using_pcs_healthily_9e7fa2fc:
@@ -49846,6 +49844,42 @@ translate spanish strings:
     old "Nihilism"
     new "Nihilismo"
 
+    # script-topics.rpy:1210
+    old "Twitter"
+    new "Twitter"
+
+    # script-topics.rpy:4354
+    old "Waifus"
+    new "Waifus"
+
+    # script-topics.rpy:4375
+    old "Fanart"
+    new "Fanart"
+
+    # script-topics.rpy:5916
+    old "Vocaloids"
+    new "Vocaloid"
+
+    # script-topics.rpy:7285
+    old "Rock and roll"
+    new "Rock and roll"
+
+    # script-topics.rpy:7838
+    old "Jazz"
+    new "Jazz"
+
+    # script-topics.rpy:8597
+    old "Hamlet"
+    new "Hamlet"
+
+    # script-topics.rpy:8639
+    old "Omamori"
+    new "Omamori"
+
+    # script-topics.rpy:14803
+    old "Auroras"
+    new "Auroras"
+
     # game/script-topics.rpy:1258
     old "Yuri's book"
     new "El libro de Yuri"
@@ -52338,6 +52372,9 @@ translate spanish strings:
     old "What's your starsign?"
     new "¿Cuál es tu signo zodiacal?"
 
+    old "Taurus"
+    new "Tauro"
+
     # game/script-topics.rpy:17719
     old "Gemini"
     new "Géminis"
@@ -52421,261 +52458,3 @@ translate spanish strings:
     # game/script-topics.rpy:18004
     old "Overton window"
     new "Ventana de Overton"
-
-    # Categorías y strings de interacción faltantes en script-topics
-
-    # Signos del zodiaco
-
-    old "Taurus"
-    new "Tauro"
-# TODO: Translation updated at 2026-07-11 10:08
-
-translate spanish _call_updateconsole_17_d3622263:
-
-    # m 1hksdlb "I'm only kidding."
-    m 1hksdlb ""
-
-# game/script-topics.rpy:3241
-translate spanish _call_updateconsole_17_157af141:
-
-    # m "It's the man's job to introduce his fiancee to his family, after all."
-    m ""
-
-# game/script-topics.rpy:3242
-translate spanish _call_updateconsole_17_a8299c35:
-
-    # m "Don't keep me waiting for too long, okay?"
-    m ""
-
-# game/script-topics.rpy:3279
-translate spanish monika_anime_4603fa2d:
-
-    # m "I'll watch through your computer screen. Make sure it's something I'll like!"
-    m ""
-
-# game/script-topics.rpy:3910
-translate spanish monika_love_7deda363:
-
-    # m "[renpy.substitute(love_quip)]"
-    m ""
-
-# game/script-topics.rpy:3989
-translate spanish monika_ilym_fight_loop_52a8af33:
-
-    # m "[renpy.substitute(ilym_quip)]{nw}"
-    m ""
-
-# game/script-topics.rpy:3991
-translate spanish monika_ilym_fight_loop_43eab1c1:
-
-    # m "[renpy.substitute(ilym_quip)]{fast}" nointeract
-    m "" nointeract
-
-translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
-
-    # m 1wud "Eh?!"
-    m 1wud ""
-
-# game/script-topics.rpy:6688
-translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
-
-    # m 1lksdla "Sorry again, [player]."
-    m 1lksdla ""
-
-# game/script-topics.rpy:6690
-translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
-
-    # m 1lksdla "Sorry, [mas_get_player_nickname()]."
-    m 1lksdla ""
-
-# game/script-topics.rpy:6691
-translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
-
-    # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
-    m 2lksdlb ""
-
-# game/script-topics.rpy:6693
-translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
-
-    # m "Should I try again?{nw}"
-    m ""
-
-# game/script-topics.rpy:6695
-translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
-
-    # m "Should I try again?{fast}" nointeract
-    m "" nointeract
-
-# game/script-topics.rpy:6699
-translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
-
-    # m 1eua "Okay."
-    m 1eua ""
-
-# game/script-topics.rpy:6701
-translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
-
-    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
-    m 1eka ""
-
-# game/script-topics.rpy:6702
-translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
-
-    # m 1hua "I'll try better next time for you."
-    m 1hua ""
-
-# game/script-topics.rpy:6708
-translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
-
-    # m 1duu "..."
-    m 1duu ""
-
-# game/script-topics.rpy:6709
-translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
-
-    # m 1hub "[bday_msg_capped], [bday_name]!"
-    m 1hub ""
-
-# game/script-topics.rpy:6710
-translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
-
-    # m 1hksdlb "..."
-    m 1hksdlb ""
-
-# game/script-topics.rpy:6711
-translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
-
-    # m 1lksdlb "Was that good?{nw}"
-    m 1lksdlb ""
-
-# game/script-topics.rpy:6713
-translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
-
-    # m "Was that good?{fast}" nointeract
-    m "" nointeract
-
-# game/script-topics.rpy:6716
-translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
-
-    # m 1lksdla "...I'm glad you enjoyed that, [player]..."
-    m 1lksdla ""
-
-# game/script-topics.rpy:6721
-translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
-
-    # m 1wud "Eh?!"
-    m 1wud ""
-
-# game/script-topics.rpy:6722
-translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
-
-    # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
-    m 1lksdlc ""
-
-# game/script-topics.rpy:6724
-translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
-
-    # m 1ekc "Should I try again?{nw}"
-    m 1ekc ""
-
-# game/script-topics.rpy:6726
-translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
-
-    # m "Should I try again?{fast}" nointeract
-    m "" nointeract
-
-# game/script-topics.rpy:6730
-translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
-
-    # m 1eua "Okay."
-    m 1eua ""
-
-# game/script-topics.rpy:6732
-translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
-
-    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
-    m 1eka ""
-
-# game/script-topics.rpy:6733
-translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
-
-    # m 1hua "I'll try better next time for you."
-    m 1hua ""
-
-# game/script-topics.rpy:7424
-translate spanish monika_clones_0fa5e7cd:
-
-    # m 1euc "Um...hey, [player]?"
-    m 1euc ""
-
-translate spanish monika_driving_db066a86:
-
-    # m 1eka "I know it might be pretty discouraging to you if they have to use them, but hey, we all start somewhere."
-    m 1eka ""
-
-translate spanish monika_using_pcs_healthily_3ab6e264:
-
-    # m 2eua "...Have your chair adjusted properly so your feet stay flat on the floor, your eyes are level with the top of the screen, and you aren't slouching."
-    m 2eua ""
-
-# game/script-topics.rpy:15811
-translate spanish monika_using_pcs_healthily_d70ccd9f:
-
-    # m 4eub "You should feel supported and comfortable in your seat!"
-    m 4eub ""
-
-# game/script-topics.rpy:15813
-translate spanish monika_using_pcs_healthily_1cadbce8:
-
-    # m 2hksdlb "...Keep your keyboard and mouse within easy reach, though!"
-    m 2hksdlb ""
-
-# game/script-topics.rpy:15816
-translate spanish monika_using_pcs_healthily_416de548:
-
-    # m 4eud "In addition, remember to take frequent breaks. {w=0.3}Look away from the screen, {w=0.2}ideally at something far away, {w=0.2}and perhaps do a few stretches."
-    m 4eud ""
-
-# game/script-topics.rpy:15817
-translate spanish monika_using_pcs_healthily_d08d14c5:
-
-    # m 2eud "Since it's important to stay hydrated too, you could always fetch some fresh water while you're up from your desk."
-    m 2eud ""
-
-translate spanish strings:
-
-    # script-topics.rpy:1210
-    old "Twitter"
-    new ""
-
-    # script-topics.rpy:4354
-    old "Waifus"
-    new ""
-
-    # script-topics.rpy:4375
-    old "Fanart"
-    new ""
-
-    # script-topics.rpy:5916
-    old "Vocaloids"
-    new ""
-
-    # script-topics.rpy:7285
-    old "Rock and roll"
-    new ""
-
-    # script-topics.rpy:7838
-    old "Jazz"
-    new ""
-
-    # script-topics.rpy:8597
-    old "Hamlet"
-    new ""
-
-    # script-topics.rpy:8639
-    old "Omamori"
-    new ""
-
-    # script-topics.rpy:14803
-    old "Auroras"
-    new ""

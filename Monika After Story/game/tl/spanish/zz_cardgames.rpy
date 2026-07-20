@@ -688,7 +688,7 @@ translate spanish mas_nou_game_end_ca9a653f_1:
 translate spanish mas_nou_game_end_0dbb251c_1:
 
     # m 1hub "Yay!"
-    m 1hub "¡Yay!"
+    m 1hub "¡Yey!"
 
 # game/zz_cardgames.rpy:4538
 translate spanish mas_nou_game_end_5aab7375_1:
@@ -886,7 +886,7 @@ translate spanish mas_nou_reaction_player_wins_round_cae3c1ae:
 translate spanish mas_nou_reaction_player_wins_round_4984f9df:
 
     # m 1hub "Yay, you won!~"
-    m 1hub "Bien, ¡ganaste!~"
+    m 1hub "Yey, ¡ganaste!~"
 
 # game/zz_cardgames.rpy:4679
 translate spanish mas_nou_reaction_player_wins_round_e9d21380:

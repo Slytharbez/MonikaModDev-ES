@@ -49,10 +49,10 @@ translate spanish mas_reaction_gift_connector2_a3dba887:
     m 1suo "Y aquí tenemos..."
 
 # game/zz_reactions.rpy:996
-translate spanish mas_reaction_gift_starter_generic_a9c0c330:
+translate spanish mas_reaction_gift_starter_generic_3359d4a4:
 
-    # m "Prueba genérica"
-    m "Prueba genérica"
+    # m "generic test"
+    m "prueba genérica"
 
 # game/zz_reactions.rpy:1002
 translate spanish mas_reaction_gift_starter_bday_142e3049:
@@ -1198,7 +1198,7 @@ translate spanish mas_reaction_candy_afa66aff:
 translate spanish mas_reaction_candy_50722bed:
 
     # m 1sua "You got me candy, [player], yay!"
-    m 1sua "Me trajiste dulces, [player], ¡yay!"
+    m 1sua "Me trajiste dulces, [player], ¡yey!"
 
 # game/zz_reactions.rpy:1647
 translate spanish mas_reaction_candy_48271c6d:
@@ -2839,6 +2839,34 @@ translate spanish strings:
     old "[its] wonderful!"
     new "¡Qué maravilloso!"
 
+    # zz_reactions.rpy:1138
+    old "them"
+    new "ellos"
+
+    # zz_reactions.rpy:1139
+    old "they're"
+    new ""
+
+    # zz_reactions.rpy:1143
+    old "it"
+    new ""
+
+    # zz_reactions.rpy:1144
+    old "it's"
+    new ""
+
+    # zz_reactions.rpy:1387
+    old "these"
+    new "éstos"
+
+    # zz_reactions.rpy:1387
+    old "those"
+    new "éstos"
+
+    # zz_reactions.rpy:1945
+    old "emerald"
+    new "esmeralda"
+
     # game/zz_reactions.rpy:1168
     old "I think it's really cute, [player]!"
     new "¡Creo que es muy lindo, [player]!"
@@ -2999,40 +3027,3 @@ translate spanish strings:
     # game/zz_reactions.rpy:2242
     old "wine colored"
     new "color vino"
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/zz_reactions.rpy:996
-translate spanish mas_reaction_gift_starter_generic_3359d4a4:
-
-    # m "generic test"
-    m ""
-
-translate spanish strings:
-
-    # zz_reactions.rpy:1138
-    old "them"
-    new ""
-
-    # zz_reactions.rpy:1139
-    old "they're"
-    new ""
-
-    # zz_reactions.rpy:1143
-    old "it"
-    new ""
-
-    # zz_reactions.rpy:1144
-    old "it's"
-    new ""
-
-    # zz_reactions.rpy:1387
-    old "these"
-    new ""
-
-    # zz_reactions.rpy:1387
-    old "those"
-    new ""
-
-    # zz_reactions.rpy:1945
-    old "emerald"
-    new ""

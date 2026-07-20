@@ -5614,7 +5614,7 @@ translate spanish greeting_d25p_returned_nydp_1a4a71fe:
     m 1wuo "¡Ha sido un viaje largo, [player]!"
 
 # game/script-holidays.rpy:5094
-translate spanish greeting_d25p_returned_nydp_5f44d7d2:
+translate spanish greeting_d25p_returned_nydp_d87ca341:
 
     # m 1eka "I little sad we couldn't wish each other a happy new year, but I really enjoyed it."
     m 1eka "Me entristece un poco que no pudiéramos desearnos un feliz año nuevo, pero realmente lo he disfrutado."
@@ -5725,7 +5725,7 @@ translate spanish mas_player_bday_surprise_8f243367:
 translate spanish mas_player_bday_surprise_0dbb251c:
 
     # m 1hub "Yay!"
-    m 1hub "¡Sii!"
+    m 1hub "¡Yey!"
 
 # game/script-holidays.rpy:5372
 translate spanish mas_player_bday_surprise_5a4d3329:
@@ -6319,7 +6319,7 @@ translate spanish bye_player_bday_7d089e9e:
 translate spanish bye_player_bday_db67e4b3:
 
     # m 3hub "Yay!"
-    m 3hub "¡Sii!"
+    m 3hub "¡Yey!"
 
 # game/script-holidays.rpy:5750
 translate spanish bye_player_bday_252f55a9:
@@ -10223,8 +10223,8 @@ P.D: No le hables de mí.
     new "Mi [player]"
 
     # game/script-holidays.rpy:5988
-    # old " My [player],"
-    # new " Mi [player],"
+    old " My [player],"
+    new " Mi [player],"
 
     # game/script-holidays.rpy:5989
     old """\
@@ -10489,8 +10489,8 @@ P.D: No le hables de mí.
 
     # Poema: poem_f14_4 - Roses
     # game/script-holidays.rpy:6955
-    # old "Roses"
-    # new "Rosas"
+    old "Roses"
+    new "Rosas"
 
     # game/script-holidays.rpy:6956
     # old " My dearest [player],"
@@ -10616,32 +10616,3 @@ P.D: No le hables de mí.
 
  No-me-olvides.
 """
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/script-holidays.rpy:5094
-translate spanish greeting_d25p_returned_nydp_d87ca341:
-
-    # m 1eka "I'm a little sad we couldn't wish each other a happy new year, but I really enjoyed it."
-    m 1eka ""
-
-translate spanish strings:
-
-    # script-holidays.rpy:3037
-    old "d25"
-    new ""
-
-    # script-holidays.rpy:5914
-    old "pbday"
-    new ""
-
-    # script-holidays.rpy:5984
-    old " My [player],"
-    new ""
-
-    # script-holidays.rpy:6876
-    old "f14"
-    new ""
-
-    # script-holidays.rpy:6952
-    old "Roses"
-    new ""

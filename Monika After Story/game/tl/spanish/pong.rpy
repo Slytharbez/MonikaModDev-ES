@@ -25,13 +25,13 @@ translate spanish game_pong_91482ad9:
     m 3eub "Estoy lista cuando tú lo estés~"
 
 # game/pong.rpy:560
-translate spanish demo_minigame_pong_896ad903:
+translate spanish _mas_pong_inst_dialogue_896ad903:
 
     # m 3eua "Would you like to play again?{nw}"
     m 3eua "¿Te gustaría jugar de nuevo?{nw}"
 
 # game/pong.rpy:563
-translate spanish demo_minigame_pong_32d0248c:
+translate spanish _mas_pong_inst_dialogue_32d0248c:
 
     # m "Would you like to play again?{fast}" nointeract
     m "¿Te gustaría jugar de nuevo?{fast}" nointeract
@@ -986,9 +986,13 @@ translate spanish mas_pong_dlg_winner_end_3201a8bc:
 
 translate spanish strings:
 
-    # game/pong.rpy:77
-    old "Tap to Begin!"
-    new "¡Toca la pantalla para empezar!"
+    # pong.rpy:75
+    old "[player]"
+    new "[player]"
+
+    # pong.rpy:77
+    old "Click to Begin!"
+    new "¡Haz clic para empezar!"
 
     # game/pong.rpy:648
     old "Are you letting me win on purpose again?"
@@ -1001,26 +1005,3 @@ translate spanish strings:
     # game/pong.rpy:654
     old "...Maybe."
     new "... Quizás."
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/pong.rpy:560
-translate spanish _mas_pong_inst_dialogue_896ad903:
-
-    # m 3eua "Would you like to play again?{nw}"
-    m 3eua ""
-
-# game/pong.rpy:562
-translate spanish _mas_pong_inst_dialogue_32d0248c:
-
-    # m "Would you like to play again?{fast}" nointeract
-    m "" nointeract
-
-translate spanish strings:
-
-    # pong.rpy:75
-    old "[player]"
-    new "[player]"
-
-    # pong.rpy:77
-    old "Click to Begin!"
-    new "¡Haz clic para empezar!"

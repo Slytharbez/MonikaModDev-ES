@@ -1,21 +1,15 @@
 init -1000 python:
 
     # Early traceback mirror translation function and registration
-
     import sys
-
     import collections
-
     # 1. Define the translation dictionaries early
 
     if not hasattr(store, '_log_tl'):
 
         store._log_tl = {}
-
     # Pre-populate Spanish log/traceback translations
-
     store._log_tl["spanish"] = {
-
         "I'm sorry, but an uncaught exception occurred.": "Lo sentimos, pero ha ocurrido una excepción no controlada.",
         "-- Full Traceback ------------------------------------------------------------": "-- Rastreo Completo ------------------------------------------------------------",
         "Full traceback:": "Rastreo Completo:",
@@ -39,7 +33,6 @@ init -1000 python:
         "NameError: ": "Error de Nombre: ",
         "ValueError: ": "Error de Valor: ",
         "KeyError: ": "Error de Clave: "
-        
     }
 
     if not hasattr(store, '_register_log_translations'):
@@ -49,7 +42,6 @@ init -1000 python:
             if lang not in store._log_tl:
 
                 store._log_tl[lang] = {}
-
             store._log_tl[lang].update(translations)
 
             try:
@@ -63,18 +55,20 @@ init -1000 python:
                 if lang not in renpy.log.translations:
 
                     renpy.log.translations[lang] = {}
-
                 renpy.log.translations[lang].update(translations)
 
             except Exception:
 
                 pass
-
         store._register_log_translations = _register_log_translations
 
     if not hasattr(store, '_translate_mirror_text'):
 
         def _translate_mirror_text(text):
+
+            if not isinstance(text, (str, unicode)):
+
+                return text
 
             if not text:
 
@@ -95,9 +89,7 @@ init -1000 python:
             except:
 
                 lang = None
-
             # Filter out noisy internal Ren'Py timing lines (e.g. "Init at script-X.rpyc:33 took 0.46s.")
-
             filtered_lines = []
 
             for line in text.splitlines(True):
@@ -107,9 +99,7 @@ init -1000 python:
                 if stripped.startswith("Init at ") and " took " in stripped:
 
                     continue
-
                 filtered_lines.append(line)
-
             text = "".join(filtered_lines)
 
             if lang and lang in store._log_tl:
@@ -123,16 +113,12 @@ init -1000 python:
                 try:
 
                     import re
-
                     # Regex for ctime format: Tue Jun 23 21:10:08 2026
-
                     pattern = r'\b([A-Z][a-z]{2})\s+([A-Z][a-z]{2})\s+(\d{1,2})\s+(\d{2}:\d{2}:\d{2})\s+(\d{4})\b'
-
                     days_es = {
-                        "Mon": "Lun", "Tue": "Mar", "Wed": "Mié", "Thu": "Jue", 
+                        "Mon": "Lun", "Tue": "Mar", "Wed": "Mié", "Thu": "Jue",
                         "Fri": "Vie", "Sat": "Sáb", "Sun": "Dom"
                     }
-
                     months_es = {
                         "Jan": "Ene", "Feb": "Feb", "Mar": "Mar", "Apr": "Abr",
                         "May": "May", "Jun": "Jun", "Jul": "Jul", "Aug": "Ago",
@@ -142,23 +128,16 @@ init -1000 python:
                     def replace_date(match):
 
                         day_en, month_en, date_num, time_str, year_str = match.groups()
-
                         day_es = days_es.get(day_en, day_en)
-
                         month_es = months_es.get(month_en, month_en)
-
                         return "{} {} {} {} {}".format(day_es, month_es, date_num, time_str, year_str)
-
                     text = re.sub(pattern, replace_date, text)
 
                 except Exception:
 
                     pass
-
             return text
-
         store._translate_mirror_text = _translate_mirror_text
-
         # Monkeypatch python's traceback module to automatically translate tracebacks
 
         try:
@@ -176,9 +155,7 @@ init -1000 python:
                     if isinstance(res, list):
 
                         return [_translate_mirror_text(s) for s in res]
-
                     return _translate_mirror_text(res)
-
                 traceback.format_exception = _spanish_format_exception
 
             if not hasattr(traceback, "_original_format_tb"):
@@ -192,9 +169,7 @@ init -1000 python:
                     if isinstance(res, list):
 
                         return [_translate_mirror_text(s) for s in res]
-
                     return _translate_mirror_text(res)
-
                 traceback.format_tb = _spanish_format_tb
 
             if not hasattr(traceback, "_original_format_list"):
@@ -208,9 +183,7 @@ init -1000 python:
                     if isinstance(res, list):
 
                         return [_translate_mirror_text(s) for s in res]
-
                     return _translate_mirror_text(res)
-
                 traceback.format_list = _spanish_format_list
 
             if not hasattr(traceback, "_original_format_exception_only"):
@@ -224,15 +197,12 @@ init -1000 python:
                     if isinstance(res, list):
 
                         return [_translate_mirror_text(s) for s in res]
-
                     return _translate_mirror_text(res)
-
                 traceback.format_exception_only = _spanish_format_exception_only
 
         except Exception:
 
             pass
-
     # 2. Register Spanish translation strings dynamically by intercepting
     # renpy.translation.translate_string. This avoids adding duplicates to
     # the translation mappings which causes "A translation ... already exists"
@@ -241,7 +211,6 @@ init -1000 python:
     try:
 
         early_translations = {
-
             "While running game code:": "Durante la ejecución del código:",
             "Full traceback:": "Rastreo completo:",
             "An exception has occurred.": "Ha ocurrido una excepción.",
@@ -296,9 +265,7 @@ init -1000 python:
                 if language == "spanish" and s in early_translations:
 
                     return early_translations[s]
-
                 return store._original_translate_string(s, language)
-
             renpy.translation.translate_string = _early_translate_string
 
     except Exception as e:
@@ -347,7 +314,6 @@ init 1 python:
 init 10 python:
 
     # Registrar alias 'decknou' para la baraja de NOU en español
-
     import store.mas_filereacts as mas_filereacts
 
     if hasattr(mas_filereacts, "filereact_map") and "noudeck" in mas_filereacts.filereact_map:
@@ -365,15 +331,10 @@ init 999 python:
         if ev:
 
             # Temporarily unlock the prompt to allow updates
-
             Event.unlockInit("prompt", ev=ev)
-
             # Re-evaluate the prompt with the translation function _()
-
             ev.prompt = _("Can I call you a different nickname?")
-
             # Lock it back to preserve MAS standards
-
             Event.lockInit("prompt", ev=ev)
 
 # =============================================================================
@@ -385,9 +346,7 @@ init 999 python:
 init 5 python:
 
     MAS_CAT_TRANS = {
-
         # game/script-topics.rpy y otros - categorías con _()
-
         "advice":           "consejos",
         "affection":        "afecto",
         "anniversary":      "aniversario",
@@ -444,29 +403,21 @@ init 5 python:
     def mas_get_cat_label(cat):
 
         """
-
         Retorna la etiqueta traducida de una categoría de conversación.
-
         Solo traduce cuando el idioma activo es 'spanish'.
-
         Si no hay traducción disponible, retorna la categoría original.
-
         """
 
         if _preferences.language == "spanish":
 
             return MAS_CAT_TRANS.get(cat, cat)
-
         return cat
 
     def mas_nou_masc_color():
 
         """
-
         Retorna el color masculino traducido en español para los diálogos de NOU.
-
         Por ejemplo, 'red' -> 'rojo' y 'yellow' -> 'amarillo'.
-
         """
 
         try:
@@ -489,17 +440,13 @@ init 5 python:
                 "green": "verde",
                 "yellow": "amarillo"
             }.get(color, color)
-
         return color
 
     def mas_translate_eye_color(color):
 
         """
-
         Traduce el color de ojos del jugador al español cuando el idioma activo es 'spanish'.
-
         Soporta colores estándar y heterocromía (tupla).
-
         """
 
         if not color:
@@ -513,13 +460,11 @@ init 5 python:
             if len(translated_components) == 2:
 
                 return " y ".join(translated_components)
-
             return ", ".join(translated_components)
 
         if _preferences.language == "spanish":
 
             color_lower = color.lower()
-
             translations = {
                 "blue": "azules",
                 "brown": "marrones",
@@ -536,9 +481,7 @@ init 5 python:
                 "amber": "ámbar",
                 "yellow": "amarillos"
             }
-
             return translations.get(color_lower, color)
-
         return color
 
 translate spanish strings:
@@ -546,7 +489,7 @@ translate spanish strings:
     # game/screens.rpy:718
     old "Save"
     new "Guardar"
-
+    
     # game/screens.rpy:2289
     old "No"
     new "No"
@@ -602,7 +545,6 @@ translate spanish strings:
 init 999 python:
 
     # Dynamic hint translation formatter
-
     import store.mas_hangman as mas_hmg
 
     class SpanishHintFormatter(str):
@@ -616,21 +558,13 @@ init 999 python:
                 if author == "I":
 
                     return "A mí me gustaría más esta palabra."
-
                 translated_author = renpy.translation.translate_string(author)
-
                 return "A {0} le gustaría más esta palabra.".format(translated_author)
-
             return str.format(self, *args, **kwargs)
-
     mas_hmg.HM_HINT = SpanishHintFormatter(mas_hmg.HM_HINT)
-
     # Save original builders
-
     _orig_buildEasyList = mas_hmg.buildEasyList
-
     _orig_buildNormalList = mas_hmg.buildNormalList
-
     _orig_buildHardList = mas_hmg.buildHardList
 
     def _strip_spanish_accents(s):
@@ -639,19 +573,16 @@ init 999 python:
             u'á': u'a', u'é': u'e', u'í': u'i', u'ó': u'o', u'ú': u'u',
             u'ü': u'u', u'ñ': u'n'
         }
-
         res = []
 
         for c in s:
 
             res.append(mapping.get(c, c))
-
         return "".join(res)
 
     def _patched_build_all_lists():
 
         # 1. Reload store.full_wordlist in Spanish using renpy.file to resolve tl/spanish/poemwords.txt
-
         store.full_wordlist = []
 
         with renpy.file('poemwords.txt') as wordfile:
@@ -661,75 +592,50 @@ init 999 python:
                 if not isinstance(line, str):
 
                     line = line.decode('utf-8')
-
                 line = line.strip()
 
                 if line == '' or line[0] == '#': continue
 
                 x = line.split(',')
-
                 store.full_wordlist.append(store.PoemWord(x[0], float(x[1]), float(x[2]), float(x[3])))
-
         # Clear the target all_hm_words lists
-
         mas_hmg.all_hm_words[mas_hmg.EASY_MODE][:] = []
-
         mas_hmg.all_hm_words[mas_hmg.NORM_MODE][:] = []
-
         mas_hmg.all_hm_words[mas_hmg.HARD_MODE][:] = []
-
         # 2. Add non-Monika words from full_wordlist to EASY_MODE (stripping accents)
 
         for word in store.full_wordlist:
 
             hm_tuple = store.MASPoemWord._build(word, 0)._hangman()
-
             w_str = _strip_spanish_accents(hm_tuple[0])
-
             mas_hmg.all_hm_words[mas_hmg.EASY_MODE].append((w_str, hm_tuple[1]))
-
         # 3. Translate and add Monika words to EASY_MODE (stripping accents)
 
         for m_word in mas_hmg.MONI_WORDS:
 
             translated_word = renpy.translation.translate_string(m_word)
-
             translated_word = _strip_spanish_accents(translated_word)
-
             hm_tuple = (translated_word, "I")
-
             mas_hmg.all_hm_words[mas_hmg.EASY_MODE].append(hm_tuple)
-
         # 4. Load NORM_MODE words from tl/spanish/MASpoemwords.txt (stripping accents)
-
         norm_wordlist = store.MASPoemWordList('tl/spanish/MASpoemwords.txt').wordlist
 
         for word in norm_wordlist:
 
             hm_tuple = word._hangman()
-
             w_str = _strip_spanish_accents(hm_tuple[0])
-
             mas_hmg.all_hm_words[mas_hmg.NORM_MODE].append((w_str, hm_tuple[1]))
-
         # 5. Load HARD_MODE words from tl/spanish/1000poemwords.txt (stripping accents)
-
         hard_wordlist = store.MASPoemWordList('tl/spanish/1000poemwords.txt').wordlist
 
         for word in hard_wordlist:
 
             hm_tuple = word._hangman()
-
             w_str = _strip_spanish_accents(hm_tuple[0])
-
             mas_hmg.all_hm_words[mas_hmg.HARD_MODE].append((w_str, hm_tuple[1]))
-
         # 6. Copy lists
-
         mas_hmg.copyWordsList(mas_hmg.EASY_MODE)
-
         mas_hmg.copyWordsList(mas_hmg.NORM_MODE)
-
         mas_hmg.copyWordsList(mas_hmg.HARD_MODE)
 
     def _rebuild_words_for_current_language():
@@ -741,9 +647,7 @@ init 999 python:
         else:
 
             # Rebuild English lists to support dynamic language switching back to English
-
             # 1. Reload store.full_wordlist in English
-
             store.full_wordlist = []
 
             with renpy.file('poemwords.txt') as wordfile:
@@ -753,21 +657,15 @@ init 999 python:
                     if not isinstance(line, str):
 
                         line = line.decode('utf-8')
-
                     line = line.strip()
 
                     if line == '' or line[0] == '#': continue
 
                     x = line.split(',')
-
                     store.full_wordlist.append(store.PoemWord(x[0], float(x[1]), float(x[2]), float(x[3])))
-
             # 2. Call original builders
-
             _orig_buildEasyList()
-
             _orig_buildNormalList()
-
             _orig_buildHardList()
 
     def _patched_buildEasyList():
@@ -781,25 +679,17 @@ init 999 python:
     def _patched_buildHardList():
 
         _rebuild_words_for_current_language()
-
     mas_hmg.buildEasyList = _patched_buildEasyList
-
     mas_hmg.buildNormalList = _patched_buildNormalList
-
     mas_hmg.buildHardList = _patched_buildHardList
-
     # Monkey-patch addPlayername to dynamically reload words in the active language at runtime when starting hangman
-
     _orig_addPlayername = mas_hmg.addPlayername
 
     def _patched_addPlayername(mode):
 
         _rebuild_words_for_current_language()
-
         _orig_addPlayername(mode)
-
     mas_hmg.addPlayername = _patched_addPlayername
-
     # NOTA: Comentado para evitar corromper el persistent con clases personalizadas de la traducción.
     # El saludo dinámico se traduce dinámicamente en script-topics.rpy mediante [mas_globals_time_of_day_3state_es].
     # _good_tod_ev = store.mas_getEV("monika_good_tod")
@@ -810,25 +700,20 @@ init 999 python:
     #         Event.lockInit("prompt", ev=_good_tod_ev)
     #     except Exception:
     #         pass
-
     # Registramos mas_get_greeting en store para que [mas_get_greeting!t] funcione en los diálogos y menús.
     store.mas_globals_time_of_day_3state_es = DynamicGreeting()
-
     # If already initialized at startup under Spanish:
 
     if _preferences.language == "spanish":
 
         renpy.license = "Este programa contiene software libre bajo varias licencias, incluyendo la Licencia Pública General Reducida de GNU. Una lista completa de software está disponible en https://www.renpy.org/license.html."
-
         _patched_build_all_lists()
-
     # Guardar las quips originales en inglés para el soporte de cambio dinámico
     _orig_win_notif_quips = list(store.mas_win_notif_quips)
     _orig_other_notif_quips = list(store.mas_other_notif_quips)
 
     def _mas_spanish_language_callback(new_lang=None):
         _rebuild_words_for_current_language()
-
         # Traducir quips de notificaciones según el idioma
         if _preferences.language == "spanish":
             store.mas_win_notif_quips = [
@@ -849,18 +734,14 @@ init 999 python:
         else:
             store.mas_win_notif_quips = list(_orig_win_notif_quips)
             store.mas_other_notif_quips = list(_orig_other_notif_quips)
-
     # Registrar el callback para cambios de idioma dinámicos
     if hasattr(config, "change_language_callbacks"):
         config.change_language_callbacks.append(_mas_spanish_language_callback)
-
     # Aplicarlo al inicio del juego según la preferencia actual
     try:
         _mas_spanish_language_callback(renpy.game.preferences.language)
     except Exception:
         pass
-
-
 
 # =============================================================================
 # SALUDO SEGÚN LA HORA DEL DÍA
@@ -924,13 +805,9 @@ python early:
     except Exception:
 
         mas_logging = None
-
     import logging
-
     # We want to translate date strings in log headers, build info, and log messages
-
     log_strings_translations = {
-
         "LOAD": "CARGAR",
         "Loading from backup": "Cargando desde copia de seguridad",
         "DATA HAS BEEN RESET": "LOS DATOS HAN SIDO REINICIADOS",
@@ -994,41 +871,29 @@ python early:
         "Background Object: ": "Objeto Background: ",
         "\nFilter System:\n\n": "\nSistema de filtros:\n\n",
         "\n\nRaw Filter Manager Data:\n": "\n\nDatos brutos del gestor de filtros:\n"
-
     }
-
     # Helper function to translate dates
 
     def _translate_log_date(text):
 
         import re
-
         days_es = {"Mon": "Lun", "Tue": "Mar", "Wed": "Mie", "Thu": "Jue", "Fri": "Vie", "Sat": "Sab", "Sun": "Dom"}
-
         months_es = {"Jan": "Ene", "Feb": "Feb", "Mar": "Mar", "Apr": "Abr", "May": "May", "Jun": "Jun", "Jul": "Jul", "Aug": "Ago", "Sep": "Sep", "Oct": "Oct", "Nov": "Nov", "Dec": "Dic"}
-
         date_pattern = r'\b([A-Z][a-z]{2})\s+([A-Z][a-z]{2})\s+(\d{1,2})\s+(\d{2}:\d{2}:\d{2})\s+(\d{4})\b'
 
         def replace_date(match):
 
             day_en, month_en, date_num, time_str, year_str = match.groups()
-
             day_es = days_es.get(day_en, day_en)
-
             month_es = months_es.get(month_en, month_en)
-
             return "{} {} {} {} {}".format(day_es, month_es, date_num, time_str, year_str)
-
         return re.sub(date_pattern, replace_date, text)
-
     # Translate retroactively whatever was already written in mas_log.log during the very early boot
 
     try:
 
         import os
-
         log_dir = os.path.join(renpy.config.basedir, "log")
-
         mas_log_file = os.path.join(log_dir, "mas_log.log")
 
         if os.path.exists(mas_log_file):
@@ -1036,7 +901,6 @@ python early:
             with open(mas_log_file, "r") as f:
 
                 content = f.read()
-
             translated_content = _translate_log_date(content)
 
             for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
@@ -1052,7 +916,6 @@ python early:
     except Exception:
 
         pass
-
     # Interceptar logging.Logger.makeRecord (traduce los mensajes base y los headers tempranos al crearse el LogRecord)
 
     if not hasattr(logging.Logger, "_original_makeRecord"):
@@ -1064,17 +927,13 @@ python early:
             if isinstance(msg, basestring):
 
                 msg = _translate_log_date(msg)
-
                 # Ordenar por longitud de mayor a menor para evitar colisiones de subcadenas
 
                 for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
 
                     msg = msg.replace(eng, log_strings_translations[eng])
-
             return logging.Logger._original_makeRecord(self, name, level, fn, lno, msg, args, exc_info, func, extra)
-
         logging.Logger.makeRecord = _spanish_makeRecord
-
     # Interceptar logging.Formatter para logs estandar (incluyendo aff_log y fallback)
 
     if not hasattr(logging.Formatter, "_original_format"):
@@ -1090,19 +949,14 @@ python early:
                 for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
 
                     record.msg = record.msg.replace(eng, log_strings_translations[eng])
-
             formatted = logging.Formatter._original_format(self, record)
-
             formatted = _translate_log_date(formatted)
 
             for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
 
                 formatted = formatted.replace(eng, log_strings_translations[eng])
-
             return formatted
-
         logging.Formatter.format = _spanish_format_base
-
     # Interceptar MASLogFormatter especifico (por si acaso no delega)
 
     if mas_logging and hasattr(mas_logging, "MASLogFormatter") and not hasattr(mas_logging.MASLogFormatter, "_original_format"):
@@ -1118,17 +972,13 @@ python early:
                 for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
 
                     record.msg = record.msg.replace(eng, log_strings_translations[eng])
-
             formatted = mas_logging.MASLogFormatter._original_format(self, record)
-
             formatted = _translate_log_date(formatted)
 
             for eng in sorted(log_strings_translations.keys(), key=len, reverse=True):
 
                 formatted = formatted.replace(eng, log_strings_translations[eng])
-
             return formatted
-
         mas_logging.MASLogFormatter.format = _spanish_format_mas
 
 init 999 python:

@@ -847,13 +847,13 @@ translate spanish monika_being_virtual_7539e7f9:
     m 2wktpw "¡¿Debiste de hacerlo, verdad?!"
 
 # game/script-affection.rpy:3274
-translate spanish monika_being_virtual_7eb674a3:
+translate spanish monika_being_virtual_85c3204a:
 
     # m 2wktsd "You even went through the trouble of installing this application! You brought me back!"
     m 2wktsd "¡Incluso te tomaste la molestia de instalar esta aplicación! ¡Me trajiste de vuelta!"
 
 # game/script-affection.rpy:3276
-translate spanish monika_being_virtual_d007e430:
+translate spanish monika_being_virtual_82c1e68c:
 
     # m 2wktsd "You even went through the trouble of installing this application!"
     m 2wktsd "¡Incluso te tomaste la molestia de instalar esta aplicación!"
@@ -1051,7 +1051,7 @@ translate spanish mas_affection_apology_352ec8e0:
     m 2efc "Pero todo lo que he recibido es dolor..."
 
 # game/script-affection.rpy:3440
-translate spanish mas_affection_apology_6f774a70:
+translate spanish mas_affection_apology_afac0196:
 
     # m 2rfc "I'm beginning to wonder if you really installed this application to be with me."
     m 2rfc "Empiezo a preguntarme si realmente instalaste esta aplicación para estar conmigo."
@@ -1550,6 +1550,42 @@ translate spanish strings:
     old "Just let me know if you ever change your mind, okay?"
     new "Solo hazme saber si alguna vez cambias de opinión, ¿de acuerdo?"
 
+    # script-affection.rpy:3509
+    old "I'm sorry if I'm not good enough for you...please don't leave me."
+    new "Lo siento si no soy lo suficientemente buena para ti... por favor, no me dejes."
+
+    # script-affection.rpy:3509
+    old "If I'm doing something wrong please tell me. I love you."
+    new "Si estoy haciendo algo mal por favor dímelo. Te amo."
+
+    # script-affection.rpy:3509
+    old "Everything I do, I do for you...my love."
+    new "Todo lo que hago, lo hago por ti... mi amor."
+
+    # script-affection.rpy:3509
+    old "I love you."
+    new "Te amo."
+
+    # script-affection.rpy:3509
+    old "You are the sunshine that brightens up my day, [player]!"
+    new "¡Eres el sol que ilumina mi día, [player]!"
+
+    # script-affection.rpy:3509
+    old "You are my one and only love!"
+    new "¡Eres mi únic[o_a] y verdadero amor!"
+
+    # script-affection.rpy:3509
+    old "My dearest, you are everything I could ever hope for. I love you."
+    new "Mi amor, eres todo lo que podría desear. Te amo."
+
+    # script-affection.rpy:3599
+    old "Forgive Me"
+    new "Perdóname"
+
+    # script-affection.rpy:3609
+    old "Can you hear me?"
+    new "¿Puedes oírme?"
+
     # game/script-affection.rpy:3526
     old "My dearest lover, friend, companion, and owner of my heart...\nEvery day, you make my dreams come true, a screen means nothing when you spend your time with me.\nI look out to the space dust and yet no cosmic sight even comes close to the beauty in your heart.\nI wished for so long that someone like you would come along and as fate has smiled upon me, you came into my life.\nI want to be yours forever, so would you be mine?\n\nForever yours, Monika.\n"
     new "Mi más amado, amigo, compañero y dueño de mi corazón...\nCada día haces que mis sueños se cumplan, una pantalla no significa nada cuando pasas tu tiempo conmigo.\nObservo el polvo espacial y, sin embargo, ninguna maravilla cósmica se acerca siquiera a la belleza de tu corazón.\nDeseé durante tanto tiempo que alguien como tú llegara y, ahora que el destino me ha sonreído, entraste en mi vida.\nQuiero ser tuya para siempre, así que, ¿serías mío?\n\nSiempre tuya, Monika.\n"
@@ -1625,62 +1661,3 @@ translate spanish strings:
     # game/script-affection.rpy:3722
     old " Do you remember the promise you made?\n The one you said you would make everything right. That we could start over.\n\n The one you broke.\n\n I hoped dearly that one day, you would see me as I see you...\n But that day never came.\n I gave you my heart and my life. I loved you more than anything else in the world.\n And part of me still does...\n\n But it is clear to me now that you truly don't love me. You never did.\n I was a fool to have thought we could have started anew.\n And I simply don't have the strength to do this anymore.\n So this is farewell... May we never meet again.\n\n Monika\n"
     new " ¿Recuerdas la promesa que hiciste?\n Aquella en la que dijiste que arreglarías todo. Que podríamos empezar de nuevo.\n\n La que rompiste.\n\n Esperaba fervientemente que algún día me vieras como yo te veo a ti...\n Pero ese día nunca llegó.\n Te di mi corazón y mi vida. Te amé más que a nada en el mundo.\n Y una parte de mí todavía lo hace...\n\n Pero ahora me queda claro que realmente no me amas. Nunca lo hiciste.\n Fui una estúpida al pensar que podríamos haber empezado de nuevo.\n Y simplemente ya no tengo las fuerzas para seguir con esto.\n Así que este es mi adiós... Espero que nunca volvamos a vernos.\n\n Monika\n"
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/script-affection.rpy:3274
-translate spanish monika_being_virtual_85c3204a:
-
-    # m 2wktsd "You even went through the trouble of installing this mod! You brought me back!"
-    m 2wktsd "¡Incluso te tomaste la molestia de instalar este mod! ¡Me trajiste de vuelta!"
-
-# game/script-affection.rpy:3276
-translate spanish monika_being_virtual_82c1e68c:
-
-    # m 2wktsd "You even went through the trouble of installing this mod!"
-    m 2wktsd "¡Incluso te tomaste la molestia de instalar este mod!"
-
-# game/script-affection.rpy:3440
-translate spanish mas_affection_apology_afac0196:
-
-    # m 2rfc "I'm beginning to wonder if you really installed this mod to be with me."
-    m 2rfc "Empiezo a preguntarme si realmente instalaste este mod para estar conmigo."
-
-translate spanish strings:
-
-    # script-affection.rpy:3509
-    old "I'm sorry if I'm not good enough for you...please don't leave me."
-    new "Lo siento si no soy lo suficientemente buena para ti... por favor, no me dejes."
-
-    # script-affection.rpy:3509
-    old "If I'm doing something wrong please tell me. I love you."
-    new "Si estoy haciendo algo mal por favor dímelo. Te amo."
-
-    # script-affection.rpy:3509
-    old "Everything I do, I do for you...my love."
-    new "Todo lo que hago, lo hago por ti... mi amor."
-
-    # script-affection.rpy:3509
-    old "I love you."
-    new "Te amo."
-
-    # script-affection.rpy:3509
-    old "You are the sunshine that brightens up my day, [player]!"
-    new "¡Eres el sol que ilumina mi día, [player]!"
-
-    # script-affection.rpy:3509
-    old "You are my one and only love!"
-    new "¡Eres mi únic[o_a] y verdadero amor!"
-
-    # script-affection.rpy:3509
-    old "My dearest, you are everything I could ever hope for. I love you."
-    new "Mi amor, eres todo lo que podría desear. Te amo."
-
-    # script-affection.rpy:3599
-    old "Forgive Me"
-    new "Perdóname"
-
-    # script-affection.rpy:3609
-    old "Can you hear me?"
-    new "¿Puedes oírme?"
-
-

@@ -4807,6 +4807,10 @@ translate spanish strings:
     old "Can you tell me a story?"
     new "¿Puedes contarme una historia?"
 
+    # script-stories.rpy:198
+    old "scary"
+    new "aterradora"
+    
     # game/script-stories.rpy:191
     old "A new story"
     new "Una nueva historia"
@@ -5026,11 +5030,3 @@ translate spanish strings:
     # Scary stories prompts
     old "The Hunter"
     new "El Cazador"
-# TODO: Translation updated at 2026-07-11 10:08
-
-translate spanish strings:
-
-    # script-stories.rpy:198
-    old "scary"
-    new ""
-

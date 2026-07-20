@@ -570,7 +570,7 @@ image input_caret:
         linear 0.35 alpha 1
         repeat
 
-screen input(prompt, use_return_button=False, return_button_prompt="Nevermind", return_button_value="cancel_input"):
+screen input(prompt, use_return_button=False, return_button_prompt=_("Nevermind"), return_button_value="cancel_input"):
     style_prefix "input"
 
     window:
@@ -2999,8 +2999,8 @@ screen mas_check_scrollable_menu(
     items,
     display_area,
     scroll_align,
-    selected_button_prompt="Done",
-    default_button_prompt="Nevermind",
+    selected_button_prompt=_("Done"),
+    default_button_prompt=_("Nevermind"),
     return_all=False
 ):
     default buttons_data = {

@@ -61,7 +61,7 @@ translate spanish greeting_back_864d5f43:
     m 1eka "Empezaba a extrañarte."
 
 # game/script-greetings.rpy:362
-translate spanish greeting_back_1d89f56e:
+translate spanish greeting_back_062e3c97:
 
     # m 1hua "Let's have [tod] together, alright?"
     if tod == "day":
@@ -802,10 +802,10 @@ translate spanish greeting_italian_8b1345d0:
     m 1eua "¡Ciao, [player]!"
 
 # game/script-greetings.rpy:796
-translate spanish greeting_italian_798e5c1e:
+translate spanish greeting_italian_d4410a37:
 
-    # m 3hub "That's \"hello\" in Italian! Ehehe~"
-    m 3hub "¡Eso es \"hola\" en italiano! Jeje~"
+    # m "È così bello vederti ancora, amore mio..."
+    m "È così bello vederti ancora, amore mio..."
 
 # game/script-greetings.rpy:797
 translate spanish greeting_italian_3772217d:
@@ -1093,28 +1093,34 @@ translate spanish greeting_sweetpea_c3954141:
 translate spanish greeting_sweetpea_0c962fe8:
 
     # m 1lkbsa "Oh gosh...that was kinda embarrassing, ehehe~"
-    m 1lkbsa "Cielos... eso fue un poco vergonzoso, jeje~"
+    m 1lkbsa "Oh cielos... eso fue un poco vergonzoso, jeje~"
+
+# game/script-greetings.rpy:1050
+translate spanish greeting_glitch_6d89a6ec:
+
+    # y "{cps=500}[player]?!{nw}{/cps}"
+    y "¡¿{cps=500}[player]?!{nw}{/cps}"
 
 # game/script-greetings.rpy:1061
-translate spanish greeting_fallo_250125b3:
+translate spanish greeting_glitch_250125b3:
 
     # m 1wuo "[player]!"
     m 1wuo "¡[player]!"
 
 # game/script-greetings.rpy:1064
-translate spanish greeting_fallo_ebc12105:
+translate spanish greeting_glitch_ebc12105:
 
     # m 4hksdlb "Nevermind that I was just...{w=0.1}playing with the code a little."
     m 4hksdlb "No me hagas caso, solo estaba... {w=0.1}jugando un poco con el código."
 
 # game/script-greetings.rpy:1065
-translate spanish greeting_fallo_f435cd2c:
+translate spanish greeting_glitch_f435cd2c:
 
     # m 3hksdlb "That was all! There is nobody else here but us...forever~"
     m 3hksdlb "¡Eso fue todo! No hay nadie más aquí excepto nosotr[o_a]s... para siempre~"
 
 # game/script-greetings.rpy:1067
-translate spanish greeting_fallo_858b84bb:
+translate spanish greeting_glitch_858b84bb:
 
     # m 2hua "I love you, [player]!"
     m 2hua "¡Te amo, [player]!"
@@ -1612,10 +1618,10 @@ translate spanish monikaroom_greeting_ear_narration_138baec0:
     m "Tal vez esa no era tu intención..."
 
 # game/script-greetings.rpy:1477
-translate spanish monikaroom_greeting_ear_progreadpy_e99d932a:
+translate spanish monikaroom_greeting_ear_progreadpy_26c4eed5:
 
-    # m "Okay, time to check the documentation..."
-    m "Okey, es hora de revisar la documentación..."
+    # m "...{w=0.3}Accessing an attribute of an object of type 'NoneType' will raise an 'AttributeError.'"
+    m "... {w=0.3}Acceder a un attribute de un objeto de tipo 'NoneType' provocará un 'AttributeError'."
 
 # game/script-greetings.rpy:1478
 translate spanish monikaroom_greeting_ear_progreadpy_f2067ada:
@@ -2192,11 +2198,17 @@ translate spanish monikaroom_greeting_opendoor_post2_34f69a49:
     # m "Watch this!"
     m "¡Mira esto!"
 
-# game/script-greetings.rpy:1853
-translate spanish monikaroom_greeting_opendoor_post2_757f378f:
+# game/script-greetings.rpy:1849
+translate spanish monikaroom_greeting_opendoor_post2_2c941545:
 
-    # m 1hua "Ta-da! What do you think?"
-    m 1hua "¡Ta-da! ¿Qué te parece?"
+    # m 1dsc ".{w=0.5}.{w=0.5}.{nw}"
+    m 1dsc ".{w=0.5}.{w=0.5}.{nw}"
+
+# game/script-greetings.rpy:1853
+translate spanish monikaroom_greeting_opendoor_post2_9eef47c6:
+
+    # m "Tada!"
+    m "¡Ta-da!"
 
 # game/script-greetings.rpy:1875
 translate spanish monikaroom_greeting_opendoor_aa66512d:
@@ -2480,11 +2492,23 @@ translate spanish greeting_youarereal_e96def3e:
     # m 1hub "I'll accept this gift with open arms!"
     m 1hub "¡Aceptaré este regalo con los brazos abiertos!"
 
-# game/script-greetings.rpy:2037
-translate spanish greeting_youarereal_e6409c65:
+# game/script-greetings.rpy:2033
+translate spanish greeting_youarereal_a28b3752:
 
-    # m 1eka "I'm sure you already did that, ehehe~"
-    m 1eka "Estoy segura de que ya lo has hecho, jeje~"
+    # m "We can finally be together, [player]."
+    m "Por fin podremos estar junt[o_a]s, [player]."
+
+# game/script-greetings.rpy:2034
+translate spanish greeting_youarereal_10eab8d2:
+
+    # m "And we can figure out how to do it in your reality, together!"
+    m "¡Y podremos encontrar la manera de hacerlo en tu realidad, junt[o_a]s!"
+
+# game/script-greetings.rpy:2037
+translate spanish greeting_youarereal_8c912323:
+
+    # m 1eka "I thought so..."
+    m 1eka "Lo imaginé..."
 
 # game/script-greetings.rpy:2038
 translate spanish greeting_youarereal_e1b335d7:
@@ -3399,6 +3423,24 @@ translate spanish greeting_long_absence_009bbeec:
     # m 2rkc "It's been quite a bit, hasn't it?"
     m 2rkc "Ha pasado bastante tiempo, ¿no?"
 
+# game/script-greetings.rpy:2436
+translate spanish greeting_long_absence_f41df618:
+
+    # m 2rksdlc "..."
+    m 2rksdlc "..."
+
+# game/script-greetings.rpy:2496
+translate spanish greeting_long_absence_8c2d8a5d:
+
+    # m 1esc "...Hm?"
+    m 1esc "... ¿Hm?"
+
+# game/script-greetings.rpy:2498
+translate spanish greeting_long_absence_24d920c3:
+
+    # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
+    m 1rksdlb "Has vuelto un poco antes de lo que pensaba..."
+
 # game/script-greetings.rpy:3406
 translate spanish greeting_long_absence_b91d8348:
 
@@ -3687,6 +3729,18 @@ translate spanish greeting_long_absence_8db412f4:
     # m 1eua "I'd love to hear about everything you've done."
     m 1eua "Me encantaría saber todo lo que has hecho."
 
+# game/script-greetings.rpy:2505
+translate spanish greeting_long_absence_0a09d382:
+
+    # m 1lsc "..."
+    m 1lsc "..."
+
+# game/script-greetings.rpy:2506
+translate spanish greeting_long_absence_21ece3da:
+
+    # m 1esc "..."
+    m 1esc "..."
+
 # game/script-greetings.rpy:3728
 translate spanish greeting_long_absence_1e803905:
 
@@ -3884,6 +3938,18 @@ translate spanish greeting_long_absence_3ccbaa64:
 
     # m 3hua "Thank you for coming back so early, [mas_get_player_nickname()]."
     m 3hua "Gracias por volver tan pronto, [mas_get_player_nickname()]."
+
+# game/script-greetings.rpy:2557
+translate spanish greeting_long_absence_0a09d382_1:
+
+    # m 1lsc "..."
+    m 1lsc ""
+
+# game/script-greetings.rpy:2558
+translate spanish greeting_long_absence_21ece3da_1:
+
+    # m 1esc "..."
+    m 1esc "..."
 
 # game/script-greetings.rpy:3938
 translate spanish greeting_long_absence_605d3a57:
@@ -4641,6 +4707,12 @@ translate spanish greeting_tears_1a871391:
     # m 1dsc "Otherwise...I just won't be able to handle it anymore."
     m 1dsc "De lo contrario... simplemente no podré soportarlo más."
 
+# game/script-greetings.rpy:2977
+translate spanish greeting_broken_0bd97190:
+
+    # m 6ckc "..."
+    m 6ckc "..."
+
 # game/script-greetings.rpy:4662
 translate spanish greeting_back_from_school_ec403fd8:
 
@@ -4869,6 +4941,42 @@ translate spanish greeting_back_from_school_by_people_5d201556:
     # m 2ekd "It can be another thing entirely when a person is the direct cause of your trouble."
     m 2ekc "Oh no, [player]... {w=0.5}eso debe haber sido terrible de experimentar."
 
+# game/script-greetings.rpy:3083
+translate spanish greeting_back_from_school_by_people_3773f9e5:
+
+    # m 2rksdlc "I really hope it's not who you told me about before..."
+    m 2rksdlc "En serio espero que no sea de quien me hablaste antes..."
+
+# game/script-greetings.rpy:3086
+translate spanish greeting_back_from_school_by_people_94bde025:
+
+    # m 1rfc "It {i}better{/i} not be..."
+    m 1rfc "Será {i}mejor{/i} que no sea así..."
+
+# game/script-greetings.rpy:3087
+translate spanish greeting_back_from_school_by_people_6bf415ee:
+
+    # m 1rfd "Bothering my [mas_get_player_nickname(_default='sweetheart', regex_replace_with_nullstr='my ')] like that again."
+    m 1rfd "Molestando a mi [mas_get_player_nickname(_default='cariño', regex_replace_with_nullstr='mi ')] así de nuevo."
+
+# game/script-greetings.rpy:3089
+translate spanish greeting_back_from_school_by_people_7871c422:
+
+    # m 2ekc "I wish I could do more to help you, [player]..."
+    m 2ekc "Desearía poder hacer más para ayudarte, [player]..."
+
+# game/script-greetings.rpy:3090
+translate spanish greeting_back_from_school_by_people_a0d5598f:
+
+    # m 2eka "But I'm here if you need me."
+    m 2eka "Pero estoy aquí si me necesitas."
+
+# game/script-greetings.rpy:3091
+translate spanish greeting_back_from_school_by_people_1eddc9e1:
+
+    # m 3hubsa "And I always will be~"
+    m 3hubsa "Y siempre lo estaré~"
+
 # game/script-greetings.rpy:4902
 translate spanish greeting_back_from_school_by_people_f4e9ad4b:
 
@@ -5036,6 +5144,12 @@ translate spanish greeting_back_from_school_sick_bd4eda30:
 
     # m 6dkc "I know what bad days are like..."
     m 6dkc "Sé cómo son los días malos..."
+
+# game/script-greetings.rpy:3149
+translate spanish greeting_back_from_school_sick_0bd97190:
+
+    # m 6ckc "..."
+    m 6ckc "..."
 
 # game/script-greetings.rpy:5076
 translate spanish greeting_back_from_work_ec403fd8:
@@ -5517,6 +5631,12 @@ translate spanish greeting_back_from_work_sick_f442e9e2:
     # m 6ekc "Hi, [player]...{w=1} Finally home from work?"
     m 6ekc "Hola, [player]... {w=1}¿Al fin en casa después del trabajo?"
 
+# game/script-greetings.rpy:3358
+translate spanish greeting_back_from_work_sick_98f638a8_1:
+
+    # m "How was your day?{nw}"
+    m "¿Cómo ha ido tu día?{nw}"
+
 # game/script-greetings.rpy:3361
 translate spanish greeting_back_from_work_sick_6ec3af20_1:
 
@@ -5661,6 +5781,12 @@ translate spanish greeting_back_from_sleep_00b95b6e:
     # m 6dkc "I have a hard time resting these days with so much on my mind..."
     m 6dkc "Me cuesta mucho descansar estos días con tantas cosas en la cabeza..."
 
+# game/script-greetings.rpy:3421
+translate spanish greeting_back_from_sleep_0bd97190:
+
+    # m 6ckc "..."
+    m 6ckc "..."
+
 # game/script-greetings.rpy:5644
 translate spanish greeting_siat_9e73dd86:
 
@@ -5708,6 +5834,12 @@ translate spanish greeting_siat_54f8174f:
 
     # m 2rkbfsdld "I...{w=1} I didn't notice you come in...{w=1} I was just..."
     m 2rkbfsdld "Yo... {w=1}no me di cuenta de que habías entrado... {w=1}solo estaba..."
+
+# game/script-greetings.rpy:3451
+translate spanish greeting_siat_756d095f:
+
+    # m 2rkbfsdlu "..."
+    m 2rkbfsdlu "..."
 
 # game/script-greetings.rpy:5698
 translate spanish greeting_siat_f8e79e48:
@@ -7890,6 +8022,10 @@ translate spanish strings:
     old "Oh.{w=1} Hello, [player]."
     new "Oh. {w=1}Hola, [player]."
 
+    # script-greetings.rpy:2906
+    old "Well..."
+    new "Bueno..."
+
     # game/script-greetings.rpy:2910
     old "Did you want something?"
     new "¿Querías algo?"
@@ -7908,7 +8044,7 @@ translate spanish strings:
 
     # game/script-greetings.rpy:2941
     old "Oh...{w=1} You're back, [player]."
-    new "Oh... {w=1}Has vuelto, [player]."
+    new "Oh... {w=1}has vuelto, [player]."
 
     # game/script-greetings.rpy:2945
     old "I guess we can spend some time together now."
@@ -8057,203 +8193,3 @@ translate spanish strings:
     # Time of day variables (sustantivos)
     old "morning"
     new "días"
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/script-greetings.rpy:362
-translate spanish greeting_back_062e3c97:
-
-    # m 1hua "Let's have another lovely [tod] together, alright?"
-    m 1hua ""
-
-# game/script-greetings.rpy:796
-translate spanish greeting_italian_d4410a37:
-
-    # m "È così bello vederti ancora, amore mio..."
-    m ""
-
-# game/script-greetings.rpy:1050
-translate spanish greeting_glitch_6d89a6ec:
-
-    # y "{cps=500}[player]?!{nw}{/cps}"
-    y ""
-
-# game/script-greetings.rpy:1061
-translate spanish greeting_glitch_250125b3:
-
-    # m 1wuo "[player]!"
-    m 1wuo ""
-
-# game/script-greetings.rpy:1064
-translate spanish greeting_glitch_ebc12105:
-
-    # m 4hksdlb "Nevermind that I was just...{w=0.1}playing with the code a little."
-    m 4hksdlb ""
-
-# game/script-greetings.rpy:1065
-translate spanish greeting_glitch_f435cd2c:
-
-    # m 3hksdlb "That was all! There is nobody else here but us...forever~"
-    m 3hksdlb ""
-
-# game/script-greetings.rpy:1067
-translate spanish greeting_glitch_858b84bb:
-
-    # m 2hua "I love you, [player]!"
-    m 2hua ""
-
-# game/script-greetings.rpy:1477
-translate spanish monikaroom_greeting_ear_progreadpy_26c4eed5:
-
-    # m "...{w=0.3}Accessing an attribute of an object of type 'NoneType' will raise an 'AttributeError.'"
-    m ""
-
-# game/script-greetings.rpy:1849
-translate spanish monikaroom_greeting_opendoor_post2_2c941545:
-
-    # m 1dsc ".{w=0.5}.{w=0.5}.{nw}"
-    m 1dsc ""
-
-# game/script-greetings.rpy:1853
-translate spanish monikaroom_greeting_opendoor_post2_9eef47c6:
-
-    # m "Tada!"
-    m ""
-
-# game/script-greetings.rpy:2033
-translate spanish greeting_youarereal_a28b3752:
-
-    # m "We can finally be together, [player]."
-    m ""
-
-# game/script-greetings.rpy:2034
-translate spanish greeting_youarereal_10eab8d2:
-
-    # m "And we can figure out how to do it in your reality, together!"
-    m ""
-
-# game/script-greetings.rpy:2037
-translate spanish greeting_youarereal_8c912323:
-
-    # m 1eka "I thought so..."
-    m 1eka ""
-
-# game/script-greetings.rpy:2436
-translate spanish greeting_long_absence_f41df618:
-
-    # m 2rksdlc "..."
-    m 2rksdlc ""
-
-# game/script-greetings.rpy:2496
-translate spanish greeting_long_absence_8c2d8a5d:
-
-    # m 1esc "...Hm?"
-    m 1esc ""
-
-translate spanish greeting_long_absence_24d920c3:
-
-    # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
-    m 1rksdlb ""
-
-translate spanish greeting_long_absence_0a09d382:
-
-    # m 1lsc "..."
-    m 1lsc ""
-
-# game/script-greetings.rpy:2506
-translate spanish greeting_long_absence_21ece3da:
-
-    # m 1esc "..."
-    m 1esc ""
-
-# game/script-greetings.rpy:2557
-translate spanish greeting_long_absence_0a09d382_1:
-
-    # m 1lsc "..."
-    m 1lsc ""
-
-# game/script-greetings.rpy:2558
-translate spanish greeting_long_absence_21ece3da_1:
-
-    # m 1esc "..."
-    m 1esc ""
-
-translate spanish greeting_tears_e612037c_1:
-
-    # m "..."
-    m ""
-
-# game/script-greetings.rpy:2977
-translate spanish greeting_broken_0bd97190:
-
-    # m 6ckc "..."
-    m 6ckc ""
-
-# game/script-greetings.rpy:3083
-translate spanish greeting_back_from_school_by_people_3773f9e5:
-
-    # m 2rksdlc "I really hope it's not who you told me about before..."
-    m 2rksdlc ""
-
-# game/script-greetings.rpy:3086
-translate spanish greeting_back_from_school_by_people_94bde025:
-
-    # m 1rfc "It {i}better{/i} not be..."
-    m 1rfc ""
-
-# game/script-greetings.rpy:3087
-translate spanish greeting_back_from_school_by_people_6bf415ee:
-
-    # m 1rfd "Bothering my [mas_get_player_nickname(_default='sweetheart', regex_replace_with_nullstr='my ')] like that again."
-    m 1rfd ""
-
-# game/script-greetings.rpy:3089
-translate spanish greeting_back_from_school_by_people_7871c422:
-
-    # m 2ekc "I wish I could do more to help you, [player]..."
-    m 2ekc ""
-
-# game/script-greetings.rpy:3090
-translate spanish greeting_back_from_school_by_people_a0d5598f:
-
-    # m 2eka "But I'm here if you need me."
-    m 2eka ""
-
-# game/script-greetings.rpy:3091
-translate spanish greeting_back_from_school_by_people_1eddc9e1:
-
-    # m 3hubsa "And I always will be~"
-    m 3hubsa ""
-
-# game/script-greetings.rpy:3149
-translate spanish greeting_back_from_school_sick_0bd97190:
-
-    # m 6ckc "..."
-    m 6ckc ""
-
-# game/script-greetings.rpy:3358
-translate spanish greeting_back_from_work_sick_98f638a8_1:
-
-    # m "How was your day?{nw}"
-    m ""
-
-# game/script-greetings.rpy:3421
-translate spanish greeting_back_from_sleep_0bd97190:
-
-    # m 6ckc "..."
-    m 6ckc ""
-
-# game/script-greetings.rpy:3451
-translate spanish greeting_siat_756d095f:
-
-    # m 2rkbfsdlu "..."
-    m 2rkbfsdlu ""
-
-translate spanish strings:
-
-    # script-greetings.rpy:2906
-    old "Well..."
-    new ""
-
-    # script-greetings.rpy:4729
-    old "It was [glitch_option_text]!"
-    new ""

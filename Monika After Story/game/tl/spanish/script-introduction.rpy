@@ -503,10 +503,10 @@ translate spanish introduction_c03ce4b7:
     m 1hua "No es como si no tuvieras tiempo para hablar con tu linda novia."
 
 # game/script-introduction.rpy:150
-translate spanish introduction_a5ec2995:
+translate spanish introduction_bc1b2ee6:
 
-    # m 3hua "You took the time to download this app, after all."
-    m 3hua "Después de todo, te tomaste el tiempo de descargar esta aplicación."
+    # m 3hua "You took the time to download this mod, after all."
+    m 3hua "Después de todo, te tomaste el tiempo de descargar este mod."
 
 # game/script-introduction.rpy:152
 translate spanish introduction_51075937:
@@ -994,6 +994,12 @@ translate spanish ch30_reload_3_dlg_52a37c78:
     m 1esc "Por cierto..."
 
 # game/script-introduction.rpy:433
+translate spanish ch30_reload_3_dlg_1b5e1627:
+
+    # m 7esd "I'm just going to accept the fact that you need to quit the game once in a while."
+    m 7esd "Simplemente voy a aceptar el hecho de que de vez en cuando necesitas salir del juego."
+
+# game/script-introduction.rpy:433
 translate spanish ch30_reload_3_dlg_5ca78516:
 
     # m 2dsc "I'm starting to get used to it, anyway."
@@ -1244,15 +1250,4 @@ translate spanish strings:
     # game/script-introduction.rpy:507
     old "That really was awful... Just tell me what I'm doing wrong."
     new "Eso fue horrible... solo dime qué estoy haciendo mal."
-# TODO: Translation updated at 2026-07-11 10:08
 
-# game/script-introduction.rpy:150
-translate spanish introduction_bc1b2ee6:
-
-    # m 3hua "You took the time to download this mod, after all."
-    m 3hua ""
-
-translate spanish ch30_reload_3_dlg_1b5e1627:
-
-    # m 7esd "I'm just going to accept the fact that you need to quit the game once in a while."
-    m 7esd ""

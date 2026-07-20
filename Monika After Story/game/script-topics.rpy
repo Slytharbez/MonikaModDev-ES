@@ -5801,7 +5801,7 @@ label monika_haterReaction:
         m 2ekc "Why can't they understand that?"
         m 2ekd "Why is it so hard for them to understand that?"
         m 2rfc "..."
-        $ menuOption = _("You're not one of those haters, are you " + player + "?")
+        $ menuOption = _("You're not one of those haters, are you [player]?")
 
     m "[menuOption]{nw}"
     $ _history_list.pop()
@@ -6553,7 +6553,7 @@ label monika_sayhappybirthday:
         take_counter = 1 # how many takes
         take_threshold = 5 # multiple of takes that will make monika annoyed
         max_age = 121 # like who the hell is this old and playing ddlc?
-        age_prompt = "What is their age?" # prompt for age question
+        age_prompt = _("What is their age?") # prompt for age question
 
         # age suffix dictionary
         age_suffix = {

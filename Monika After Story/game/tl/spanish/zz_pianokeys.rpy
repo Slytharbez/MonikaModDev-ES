@@ -31,19 +31,19 @@ translate spanish mas_piano_songchoice_10a53abc:
     m 1hua "¡Estoy muy emocionada de escucharte tocar, [player]!"
 
 # game/zz_pianokeys.rpy:164
-translate spanish mas_piano_songchoice_9cc4d00d:
+translate spanish _zzpk_ssll_9cc4d00d:
 
     # m 1eua "Then play for me, [player]~"
     m 1eua "Entonces toca para mí, [player]~"
 
 # game/zz_pianokeys.rpy:203
-translate spanish mas_piano_setupstart_52b51855:
+translate spanish _zzpk_ppel_52b51855:
 
     # m 1eua "Would you like to play again?{nw}"
     m 1eua "¿Te gustaría tocar de nuevo?{nw}"
 
 # game/zz_pianokeys.rpy:206
-translate spanish mas_piano_setupstart_32d0248c:
+translate spanish _zzpk_ppel_32d0248c:
 
     # m "Would you like to play again?{fast}" nointeract
     m "¿Te gustaría tocar de nuevo?{fast}" nointeract
@@ -583,22 +583,3 @@ translate spanish strings:
     # Technical Error Strings
     old "key '{0}' is missing."
     new "clave '{0}' falta."
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/zz_pianokeys.rpy:164
-translate spanish _zzpk_ssll_9cc4d00d:
-
-    # m 1eua "Then play for me, [player]~"
-    m 1eua ""
-
-# game/zz_pianokeys.rpy:203
-translate spanish _zzpk_ppel_52b51855:
-
-    # m 1eua "Would you like to play again?{nw}"
-    m 1eua ""
-
-# game/zz_pianokeys.rpy:205
-translate spanish _zzpk_ppel_32d0248c:
-
-    # m "Would you like to play again?{fast}" nointeract
-    m "" nointeract

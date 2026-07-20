@@ -13,73 +13,73 @@ translate spanish mas_mood_hungry_43a4268b:
     m 1hksdlb "Odiaría que te pusieras como Natsuki aquella vez en el club.{nw}"
 
 # game/script-moods.rpy:128
-translate spanish mas_mood_hungry_e7a8a113:
+translate spanish _mas_nnsh_e7a8a113:
 
     # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
     m 1hua "Sería malo que te pusieras gruñón por tener hambre."
 
 # game/script-moods.rpy:130
-translate spanish mas_mood_hungry_c6679a9b:
+translate spanish _mas_nnsh_c6679a9b:
 
     # m 3tku "That wouldn't be any fun, would it, [player]?"
     m 3tku "Eso no sería nada divertido, ¿verdad, [player]?"
 
 # game/script-moods.rpy:131
-translate spanish mas_mood_hungry_f8bf3835:
+translate spanish _mas_nnsh_f8bf3835:
 
     # m 1eua "If I were there with you, I'd make a salad for us to share."
     m 1eua "Si estuviera allí contigo, prepararía una ensalada para compartir."
 
 # game/script-moods.rpy:132
-translate spanish mas_mood_hungry_4dfea3b9:
+translate spanish _mas_nnsh_4dfea3b9:
 
     # m "But since I'm not, go pick something healthy to eat."
     m "Pero como no estoy contigo, ve a elegir algo saludable para comer."
 
 # game/script-moods.rpy:133
-translate spanish mas_mood_hungry_ce87235e:
+translate spanish _mas_nnsh_ce87235e:
 
     # m 3eub "It's so important to pay attention to your body's needs, you know."
     m 3eub "Es muy importante prestar atención a las necesidades de tu cuerpo, sabes."
 
 # game/script-moods.rpy:134
-translate spanish mas_mood_hungry_f0874062:
+translate spanish _mas_nnsh_f0874062:
 
     # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
     m 3hub "Eso no solo significa comer suficientes verduras, por supuesto. {w=0.2}Todo tipo de alimentos son necesarios para mantenerte nutrido."
 
 # game/script-moods.rpy:135
-translate spanish mas_mood_hungry_efe38263:
+translate spanish _mas_nnsh_efe38263:
 
     # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
     m 3eka "Así que quiero que te asegures de no privarte de vitaminas importantes, ¿de acuerdo?"
 
 # game/script-moods.rpy:136
-translate spanish mas_mood_hungry_43a924b1:
+translate spanish _mas_nnsh_43a924b1:
 
     # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
     m 1euc "Con el tiempo, podrías tener muchos problemas de salud cuando seas mayor."
 
 # game/script-moods.rpy:137
-translate spanish mas_mood_hungry_cdf916ea:
+translate spanish _mas_nnsh_cdf916ea:
 
     # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
     m 2lksdla "No quiero que sientas que te estoy regañando cuando digo este tipo de cosas, [player]."
 
 # game/script-moods.rpy:138
-translate spanish mas_mood_hungry_ed20dbad:
+translate spanish _mas_nnsh_ed20dbad:
 
     # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
     m 2eka "Solo quiero asegurarme de que te cuides bien hasta que pueda cruzar a tu mundo."
 
 # game/script-moods.rpy:139
-translate spanish mas_mood_hungry_5d4a6e01:
+translate spanish _mas_nnsh_5d4a6e01:
 
     # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
     m 4eub "Después de todo, ¡cuanto más sano estés, más posibilidades tendrás de vivir una larga vida!"
 
 # game/script-moods.rpy:140
-translate spanish mas_mood_hungry_dac38117:
+translate spanish _mas_nnsh_dac38117:
 
     # m 1hua "Which means more time for us to spend together!~"
     m 1hua "¡Lo que significa más tiempo para pasar junt[o_a]s!~"
@@ -1248,6 +1248,18 @@ translate spanish mas_mood_inadequate_adebccc6:
     # m 4eua "You just need to exist, have fun and get through each day, {w=0.2}finding meaning in the people that matter most to you."
     m 4eua "Solo necesitas existir, divertirte y pasar cada día, {w=0.2}encontrando un sentido en las personas que más te importan."
 
+# game/script-moods.rpy:503
+translate spanish mas_mood_inadequate_627ad426:
+
+    # m 1eka "Please don't forget that, okay?"
+    m 1eka "Por favor, no te olvides de eso, ¿de acuerdo?"
+
+# game/script-moods.rpy:504
+translate spanish mas_mood_inadequate_8c1b01d3:
+
+    # m 1ekbsa "I love you, [player]~"
+    m 1ekbsa "Te amo, [player]~"
+
 # game/script-moods.rpy:524
 translate spanish mas_mood_lazy_ff7bf9fa:
 
@@ -1583,6 +1595,18 @@ translate spanish mas_mood_bored_8626908a:
 
     # m 2eka "I'm sure we can find something to do..."
     m 2eka "Seguro que podemos encontrar algo que hacer..."
+
+# game/script-moods.rpy:639
+translate spanish mas_mood_bored_5e8e2147:
+
+    # m 2lksdlc "I'm sorry that I'm boring you, [player]."
+    m 2lksdlc "Siento que te esté aburriendo, [player]."
+
+# game/script-moods.rpy:643
+translate spanish mas_mood_bored_6277bf85:
+
+    # m 6ckc "You know [player], if I make you so miserable all of the time..."
+    m 6ckc "Sabes, [player], si te hago sentir tan miserable todo el tiempo..."
 
 ## game/script-moods.rpy:659
 translate spanish mas_mood_bored_9feea642:
@@ -1924,7 +1948,7 @@ translate spanish mas_mood_upset_ea0e31ce:
 translate spanish mas_mood_upset_77de365c:
 
     # m 1huu "When I feel upset, all I have to do is remember that I have my [mas_get_player_nickname(regex_replace_with_nullstr='my ')]."
-    m 1huu "Cuando me siento molesta, todo lo que tengo que hacer es recordar que tengo a mi [mas_get_player_nickname(regex_replace_with_nullstr=' ')]."
+    m 1huu "Cuando me siento molesta, todo lo que tengo que hacer es recordar que tengo a mi [mas_get_player_nickname(regex_replace_with_nullstr='mi ')]."
 
 # game/script-moods.rpy:791
 translate spanish mas_mood_upset_63b18e0b:
@@ -2665,100 +2689,3 @@ translate spanish strings:
     # game/script-moods.rpy:1011
     old "...guilty."
     new "... culpable."
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/script-moods.rpy:128
-translate spanish _mas_nnsh_e7a8a113:
-
-    # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
-    m 1hua ""
-
-# game/script-moods.rpy:130
-translate spanish _mas_nnsh_c6679a9b:
-
-    # m 3tku "That wouldn't be any fun, would it, [player]?"
-    m 3tku ""
-
-# game/script-moods.rpy:131
-translate spanish _mas_nnsh_f8bf3835:
-
-    # m 1eua "If I were there with you, I'd make a salad for us to share."
-    m 1eua ""
-
-# game/script-moods.rpy:132
-translate spanish _mas_nnsh_4dfea3b9:
-
-    # m "But since I'm not, go pick something healthy to eat."
-    m ""
-
-# game/script-moods.rpy:133
-translate spanish _mas_nnsh_ce87235e:
-
-    # m 3eub "It's so important to pay attention to your body's needs, you know."
-    m 3eub ""
-
-# game/script-moods.rpy:134
-translate spanish _mas_nnsh_f0874062:
-
-    # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
-    m 3hub ""
-
-# game/script-moods.rpy:135
-translate spanish _mas_nnsh_efe38263:
-
-    # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
-    m 3eka ""
-
-# game/script-moods.rpy:136
-translate spanish _mas_nnsh_43a924b1:
-
-    # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
-    m 1euc ""
-
-# game/script-moods.rpy:137
-translate spanish _mas_nnsh_cdf916ea:
-
-    # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
-    m 2lksdla ""
-
-# game/script-moods.rpy:138
-translate spanish _mas_nnsh_ed20dbad:
-
-    # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
-    m 2eka ""
-
-# game/script-moods.rpy:139
-translate spanish _mas_nnsh_5d4a6e01:
-
-    # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
-    m 4eub ""
-
-# game/script-moods.rpy:140
-translate spanish _mas_nnsh_dac38117:
-
-    # m 1hua "Which means more time for us to spend together!~"
-    m 1hua ""
-
-# game/script-moods.rpy:503
-translate spanish mas_mood_inadequate_627ad426:
-
-    # m 1eka "Please don't forget that, okay?"
-    m 1eka ""
-
-# game/script-moods.rpy:504
-translate spanish mas_mood_inadequate_8c1b01d3:
-
-    # m 1ekbsa "I love you, [player]~"
-    m 1ekbsa ""
-
-# game/script-moods.rpy:639
-translate spanish mas_mood_bored_5e8e2147:
-
-    # m 2lksdlc "I'm sorry that I'm boring you, [player]."
-    m 2lksdlc ""
-
-# game/script-moods.rpy:643
-translate spanish mas_mood_bored_6277bf85:
-
-    # m 6ckc "You know [player], if I make you so miserable all of the time..."
-    m 6ckc ""

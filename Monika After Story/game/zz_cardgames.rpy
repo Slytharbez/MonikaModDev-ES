@@ -3972,7 +3972,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_change_nou_house_rules",
-            prompt="Let's change our house rules for NOU",
+            prompt=_("Let's change our house rules for NOU"),
             category=["games"],
             pool=True,
             unlocked=False,
@@ -4295,7 +4295,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_explain_nou_rules",
-            prompt="Can you explain NOU rules to me?",
+            prompt=_("Can you explain NOU rules to me?"),
             category=["games"],
             pool=True,
             unlocked=False,

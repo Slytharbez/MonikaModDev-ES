@@ -7,7 +7,7 @@ translate spanish mas_extra_menu_firsttime_9e6aa5dc:
     m 1hua "¡Bienvenido al menú Extras, [player]!"
 
 # game/zz_extrasmenu.rpy:137
-translate spanish mas_extra_menu_firsttime_20e435cf:
+translate spanish mas_extra_menu_firsttime_e050d088:
 
     # m 1eua "This is where I'll add things that aren't games, like special interactions you can do just by tapping the screen."
     m 1eua "Aquí es donde agregaré cosas que no son juegos, como interacciones especiales que puedes hacer en tu pantalla."
@@ -109,16 +109,7 @@ translate spanish strings:
     # game/zz_extrasmenu.rpy:372
     old "Zoom"
     new "Zoom"
-# TODO: Translation updated at 2026-07-11 10:08
-
-# game/zz_extrasmenu.rpy:137
-translate spanish mas_extra_menu_firsttime_e050d088:
-
-    # m 1eua "This is where I'll add things that aren't games, like special interactions you can do with your mouse."
-    m 1eua ""
-
-translate spanish strings:
 
     # zz_extrasmenu.rpy:377
     old "Reset"
-    new ""
+    new "Reset"

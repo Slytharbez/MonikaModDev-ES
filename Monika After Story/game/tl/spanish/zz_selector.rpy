@@ -333,7 +333,4 @@ translate spanish strings:
 
     old "hairclip"
     new "horquilla"
-
-
-
-
+    

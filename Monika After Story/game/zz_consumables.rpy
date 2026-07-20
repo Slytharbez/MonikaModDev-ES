@@ -1135,7 +1135,7 @@ init 5 python:
         if low_cons_list is None:
             low_cons_list = MASConsumable._getLowCons()
 
-        START_TEXT = _(
+        START_TEXT = __(
             "Hi, [player],\n"
             "Just letting you know I'm running low on a couple of things.\n"
             "You wouldn't mind getting some more for me, would you?\n\n"
@@ -1144,17 +1144,17 @@ init 5 python:
 
         MID_TEXT = ""
 
-        END_TEXT = _(
+        END_TEXT = __(
             "Thanks, [player]~"
         )
 
         for cons in low_cons_list:
-            MID_TEXT += "- {0}\n".format(cons.disp_name.capitalize())
+            MID_TEXT += "- {0}\n".format(__(cons.disp_name).capitalize())
 
         MID_TEXT += "\n"
 
         import io
-        with io.open(os.path.normcase(renpy.config.basedir + "/characters/" + _("shopping_list.txt")), "w", encoding="utf-8") as shopping_list:
+        with io.open(os.path.normcase(renpy.config.basedir + "/characters/" + __("shopping_list.txt")), "w", encoding="utf-8") as shopping_list:
             shopping_list.write(
                 renpy.substitute(START_TEXT + MID_TEXT + END_TEXT)
             )
@@ -1829,7 +1829,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="monika_consumables_check",
             category=['supplies'],
-            prompt="Are you running out of anything?",
+            prompt=_("Are you running out of anything?"),
             conditional="MASConsumable._getEnabledConsumables()",
             pool=True,
             unlocked=False,

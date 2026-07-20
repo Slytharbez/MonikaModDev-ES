@@ -844,7 +844,7 @@ translate spanish monika_ptod_tip006_55cda276:
 translate spanish monika_ptod_tip006_1b71b2b4:
 
     # m 1hua "Yay!"
-    m 1hua "¡Yay!"
+    m 1hua "¡Yey!"
 
 # game/script-python.rpy:639
 translate spanish monika_ptod_tip006_ee70e813:

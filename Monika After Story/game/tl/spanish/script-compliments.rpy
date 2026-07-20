@@ -48,12 +48,31 @@ translate spanish mas_compliment_beautiful_2_f583d4e3:
     # m 2lsc "Well, thanks, I guess..."
     m 2lsc "Bueno, gracias, supongo..."
 
+# game/script-compliments.rpy:174
+translate spanish mas_compliment_beautiful_3_75854caf:
+
+    # m 1ekbfa "[mas_compliments.thanks_quip]"
+    m 1ekbfa "[mas_compliments.thanks_quip]"
+
+# game/script-compliments.rpy:176
+translate spanish mas_compliment_beautiful_3_34d15f71:
+
+    # m 5hubfb "[beautiful_quip]"
+    m 5hubfb "[beautiful_quip]"
+
 # game/script-compliments.rpy:177
 translate spanish mas_compliment_beautiful_3_d81c1322:
 
     # m 1hubsa "Ehehe~"
     m 1hubsa "Jeje~"
 
+# game/script-compliments.rpy:198
+translate spanish mas_compliment_eyes_2_dd78edbb:
+
+    # m 1subsb "Oh, [player]..."
+    m 1subsb "Oh, [player]..."
+
+# game/script-compliments.rpy:200
 translate spanish mas_compliment_eyes_2_3e618701:
 
     # m 1tubfb "I know I'm pretty proud of my eyes already, but hearing you say that..."
@@ -2422,22 +2441,4 @@ translate spanish strings:
     # game/script-compliments.rpy:1355
     old "I love this outfit!"
     new "¡Me encanta este atuendo!"
-
-# game/script-compliments.rpy:174
-translate spanish mas_compliment_beautiful_3_75854caf:
-
-    # m 1ekbfa "[mas_compliments.thanks_quip]"
-    m 1ekbfa "[mas_compliments.thanks_quip]"
-
-# game/script-compliments.rpy:176
-translate spanish mas_compliment_beautiful_3_34d15f71:
-
-    # m 5hubfb "[beautiful_quip]"
-    m 5hubfb "[beautiful_quip]"
-
-# game/script-compliments.rpy:198
-translate spanish mas_compliment_eyes_2_dd78edbb:
-
-    # m 1subsb "Oh, [player]..."
-    m 1subsb "Oh, [player]..."
 

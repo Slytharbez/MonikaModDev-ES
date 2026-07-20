@@ -1,54 +1,58 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
-# game/zz_calendar.rpy:2162
-translate spanish mas_show_calendar_detail_9c5ff161:
+# game/zz_calendar.rpy:2163
+translate spanish _first_time_calendar_use_9c5ff161:
 
     # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
     m 1eub "Oh, ¿quieres echar otro vistazo a ese bonito calendario colgado en la pared, [player]?"
 
 # game/zz_calendar.rpy:2163
-translate spanish mas_show_calendar_detail_6b069f8b:
+translate spanish _first_time_calendar_use_6b069f8b:
 
     # m 3hua "It helps me keep track of important events, like your birthday, ehehe~"
     m 3hua "Me ayuda a estar atenta a eventos importantes, como tu cumpleaños, jeje~"
 
 # game/zz_calendar.rpy:2165
-translate spanish mas_show_calendar_detail_72782367:
+translate spanish _first_time_calendar_use_72782367:
 
     # m 1eub "Oh, I see you noticed that pretty calendar hanging on the wall, [player]."
     m 1eub "Oh, veo que te has fijado en ese bonito calendario colgado en la pared, [player]."
 
 # game/zz_calendar.rpy:2166
-translate spanish mas_show_calendar_detail_b262b5f6:
+translate spanish _first_time_calendar_use_b262b5f6:
 
     # m 3hua "It helps me keep track of important events, ehehe~"
     m 3hua "Me ayuda a estar atenta a eventos importantes, jeje~"
 
 # game/zz_calendar.rpy:2168
-translate spanish mas_show_calendar_detail_ce9b94b7:
+translate spanish _first_time_calendar_use_ce9b94b7:
 
     # m 1eua "Here, let me show you."
     m 1eua "Ven, deja que te lo enseñe."
 
 # game/zz_calendar.rpy:2173
-translate spanish mas_show_calendar_detail_f7af61a6:
+translate spanish _first_time_calendar_use_f7af61a6:
 
     # m 1hua "Pretty cool, right?"
     m 1hua "Está genial, ¿verdad?"
 
 # game/zz_calendar.rpy:2174
-translate spanish mas_show_calendar_detail_d2dea50f:
+translate spanish _first_time_calendar_use_d2dea50f:
 
     # m 3eua "Feel free to check the calendar whenever you want."
     m 3eua "Puedes revisar el calendario cuando quieras."
 
 # game/zz_calendar.rpy:2175
-translate spanish mas_show_calendar_detail_46b69767:
+translate spanish _first_time_calendar_use_46b69767:
 
     # m 1lksdla "Except for when I'm in the middle of talking, of course."
     m 1lksdla "A menos que esté hablando contigo en ese momento, claro."
 
 translate spanish strings:
+
+    # zz_calendar.rpy:221
+    old "< Go back"
+    new "< Volver"
 
     # game/zz_calendar.rpy:303
     old "Select a Date"
@@ -57,6 +61,10 @@ translate spanish strings:
     # game/zz_calendar.rpy:311
     old "Calendar"
     new "Calendario"
+
+    # zz_calendar.rpy:726
+    old "Events for the day:"
+    new "Eventos del día:"
 
     # game/zz_calendar.rpy:1882
     old "New Year's Day"
@@ -213,62 +221,4 @@ init 10 python in mas_calendar:
             ),
             datetime.date.today() - _date
         )
-# TODO: Translation updated at 2026-07-11 10:08
 
-# game/zz_calendar.rpy:2163
-translate spanish _first_time_calendar_use_9c5ff161:
-
-    # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
-    m 1eub ""
-
-# game/zz_calendar.rpy:2164
-translate spanish _first_time_calendar_use_6b069f8b:
-
-    # m 3hua "It helps me keep track of important events, like your birthday, ehehe~"
-    m 3hua ""
-
-# game/zz_calendar.rpy:2166
-translate spanish _first_time_calendar_use_72782367:
-
-    # m 1eub "Oh, I see you noticed that pretty calendar hanging on the wall, [player]."
-    m 1eub ""
-
-# game/zz_calendar.rpy:2167
-translate spanish _first_time_calendar_use_b262b5f6:
-
-    # m 3hua "It helps me keep track of important events, ehehe~"
-    m 3hua ""
-
-# game/zz_calendar.rpy:2169
-translate spanish _first_time_calendar_use_ce9b94b7:
-
-    # m 1eua "Here, let me show you."
-    m 1eua ""
-
-# game/zz_calendar.rpy:2174
-translate spanish _first_time_calendar_use_f7af61a6:
-
-    # m 1hua "Pretty cool, right?"
-    m 1hua ""
-
-# game/zz_calendar.rpy:2175
-translate spanish _first_time_calendar_use_d2dea50f:
-
-    # m 3eua "Feel free to check the calendar whenever you want."
-    m 3eua ""
-
-# game/zz_calendar.rpy:2176
-translate spanish _first_time_calendar_use_46b69767:
-
-    # m 1lksdla "Except for when I'm in the middle of talking, of course."
-    m 1lksdla ""
-
-translate spanish strings:
-
-    # zz_calendar.rpy:221
-    old "< Go back"
-    new ""
-
-    # zz_calendar.rpy:726
-    old "Events for the day:"
-    new ""
