@@ -1,11 +1,6 @@
 ﻿# TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-grammar.rpy:61
-translate spanish monika_gtod_tip000_5f6140e7:
-
-    # m 3eub "Of course I'll teach you about grammar, [player]!"
-    m 3eub "¡Por supuesto que te enseñaré gramática, [player]!"
-
 # game/script-grammar.rpy:62
 translate spanish monika_gtod_tip000_0a281c45:
 
@@ -964,6 +959,11 @@ translate spanish monika_gtod_tip010_7566f426:
 
     # m 3hub "Thanks for listening!"
     m 3hub "¡Gracias por escuchar!"
+
+translate spanish monika_gtod_tip000_5f6140e7:
+
+    # m 3eub "Of course I'll teach you about grammar, [player]!"
+    m 3eub "¡Por supuesto que te enseñaré gramática, [player]!"
 
 translate spanish strings:
 

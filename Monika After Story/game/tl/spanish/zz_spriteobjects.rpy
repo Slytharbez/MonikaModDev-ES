@@ -1,15 +1,361 @@
 # TODO: Translation updated at 2026-07-10 13:00
 
 translate spanish strings:
+    # Spritepack: [Official] Thermos (Just Monika)
+    # game/zz_spriteobjects.rpy:1111
+    old "Thermos (Just Monika)"
+    new "Termo Just Monika"
 
-    # =========================================================================
-    # DEMOSTRATIVOS DE REGALOS
-    # =========================================================================
-    old "this "
-    new ""
+    # Spritepack: [Official] Rose
+    # game/zz_spriteobjects.rpy:1142
+    old "Rose"
+    new "Rosa"
 
-    old "these "
-    new ""
+    # game/zz_spriteobjects.rpy:1146
+    old "TALE AS OLD AS TIME"
+    new "UNA HISTORIA TAN ANTIGUA COMO EL TIEMPO"
+
+    # game/zz_spriteobjects.rpy:1149
+    old "TRUE AS IT CAN BE"
+    new "TAN VERDADERA COMO PUEDE SER"
+
+    # dlg_desc
+    # game/zz_spriteobjects.rpy:1236
+    old "necklace"
+    new "este collar"
+
+    # Spritepack: [Official] Golden Music Note
+    # game/zz_spriteobjects.rpy:1250
+    old "Golden Music Note"
+    new "Nota musical dorada"
+
+    # Spritepack: [Official] Pink Diamond
+    # game/zz_spriteobjects.rpy:1281
+    old "Pink Diamond"
+    new "Diamante rosado"
+
+    # Spritepack: [Official] Witch Hat
+    # game/zz_spriteobjects.rpy:1330
+    old "Witch Hat"
+    new "Sombrero de bruja"
+
+    # game/zz_spriteobjects.rpy:1334
+    old "Ze~"
+    new "Ze~"
+
+    # game/zz_spriteobjects.rpy:1335
+    old "Tea time, tea time. Even if we have coffee, it's tea time. Ehehe~"
+    new "Hora del té, hora del té. Aunque tomemos café, es la hora del té. Jejeje~"
+
+    # game/zz_spriteobjects.rpy:1336
+    old "Eye of newt, toe of frog..."
+    new "Ojo de tritón, pata de rana..."
+
+    # game/zz_spriteobjects.rpy:1337
+    old "Now where did I leave that broom..."
+    new "Ahora, ¿dónde dejé esa escoba?..."
+
+    # Spritepack: [Official] Hairclip (Gray hearts)
+    # game/zz_spriteobjects.rpy:1415
+    old "Hairclip (Gray hearts)"
+    new "Horquilla de corazones grises"
+
+    # game/zz_spriteobjects.rpy:1419
+    old "My heart beats for you, [player]~"
+    new "Mi corazón late por ti, [player]~"
+
+    # game/zz_spriteobjects.rpy:1420
+    old "Full of love, just like you~"
+    new "Lleno de amor, como tú~"
+
+    # Spritepack: [Official] Hairclip (Pink diamonds)
+    # game/zz_spriteobjects.rpy:1443
+    old "Hairclip (Pink diamonds)"
+    new "Horquilla de diamantes rosados"
+
+    # game/zz_spriteobjects.rpy:1447
+    old "Cute!"
+    new "¡Lindo!"
+
+    # Spritepack: [Official] Hairclip (Holly)
+    # game/zz_spriteobjects.rpy:1470
+    old "Hairclip (Holly)"
+    new "Horquilla de acebo"
+
+    # game/zz_spriteobjects.rpy:1474
+    old "Ready to deck the halls, [player]?"
+    new "¿Listo para decorar los salones, [player]?"
+
+    # dlg_desc
+    # game/zz_spriteobjects.rpy:1633
+    old "bow"
+    new "este lazo"
+
+    # Spritepack: [Official] Ribbon (Black)
+    # game/zz_spriteobjects.rpy:1640
+    old "Ribbon (Black)"
+    new "Cinta de color negro"
+
+    # game/zz_spriteobjects.rpy:1644
+    old "That's pretty formal, [player]."
+    new "Eso es bastante formal, [player]."
+
+    # game/zz_spriteobjects.rpy:1647
+    old "Are we going somewhere special, [player]?"
+    new "¿Vamos a un sitio especial, [player]?"
+
+    # Spritepack: [Official] Ribbon (Black/gray)
+    # game/zz_spriteobjects.rpy:1673
+    old "Ribbon (Black/gray)"
+    new "Cinta de color negro y gris"
+
+    # game/zz_spriteobjects.rpy:1677
+    old "Very versatile."
+    new "Muy versátil."
+
+    # game/zz_spriteobjects.rpy:1680
+    old "This goes with so many different outfits!"
+    new "¡Esto combina con muchos atuendos diferentes!"
+
+    # Spritepack: [Official] Ribbon (Black/pink)
+    # game/zz_spriteobjects.rpy:1706
+    old "Ribbon (Black/pink)"
+    new "Cinta de color negro y rosa"
+
+    # Spritepack: [Official] Ribbon (Blue)
+    # game/zz_spriteobjects.rpy:1756
+    old "Ribbon (Blue)"
+    new "Cinta de color azul"
+
+    # game/zz_spriteobjects.rpy:1760
+    old "Like the ocean..."
+    new "Como el océano..."
+
+    # Spritepack: [Official] Ribbon (Dark Purple)
+    # game/zz_spriteobjects.rpy:1789
+    old "Ribbon (Dark Purple)"
+    new "Cinta de color violeta"
+
+    # game/zz_spriteobjects.rpy:1793
+    old "I love that color!"
+    new "¡Amo ese color!"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1796
+    old "Lavender is a nice change of pace."
+    new "La lavanda es un buen cambio de ritmo."
+
+    # Spritepack: [Official] Ribbon (Emerald)
+    # game/zz_spriteobjects.rpy:1822
+    old "Ribbon (Emerald)"
+    new "Cinta de color esmeralda"
+
+    # game/zz_spriteobjects.rpy:1826
+    old "I've always loved this color..."
+    new "Siempre me ha gustado este color..."
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1829
+    old "It's just like my eyes!"
+    new "¡Es igual que mis ojos!"
+
+    # Spritepack: [Official] Ribbon (White)
+    # game/zz_spriteobjects.rpy:1854
+    old "Ribbon (White)"
+    new "Cinta de color blanco"
+
+    # game/zz_spriteobjects.rpy:1858
+    old "Do you miss my old ribbon, [player]?"
+    new "¿Extrañas mi vieja cinta, [player]?"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1861
+    old "Back to the classics!"
+    new "¡De vuelta a los clásicos!"
+
+    # Spritepack: [Official] Ribbon (Gray)
+    # game/zz_spriteobjects.rpy:1887
+    old "Ribbon (Gray)"
+    new "Cinta de color gris"
+
+    # game/zz_spriteobjects.rpy:1891
+    old "Like a warm, rainy day..."
+    new "Como un día cálido y lluvioso..."
+
+    # game/zz_spriteobjects.rpy:1894
+    old "That's a really unique color, [player]."
+    new "Este es un color realmente único, [player]."
+
+    # Spritepack: [Official] Ribbon (Green)
+    # game/zz_spriteobjects.rpy:1920
+    old "Ribbon (Green)"
+    new "Cinta de color verde"
+
+    # game/zz_spriteobjects.rpy:1924
+    old "That's a lovely color!"
+    new "¡Es un color precioso!"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1927
+    old "Green, just like my eyes!"
+    new "Verde, ¡como mis ojos!"
+
+    # Spritepack: [Official] Ribbon (Light Purple)
+    # game/zz_spriteobjects.rpy:1953
+    old "Ribbon (Light Purple)"
+    new "Cinta de color lila"
+
+    # game/zz_spriteobjects.rpy:1957
+    old "This purple looks pretty nice, right [player]?"
+    new "Este púrpura se ve muy bien, ¿verdad [player]?"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1960
+    old "Really has a spring feel to it."
+    new "Realmente tiene una sensación primaveral."
+
+    # Spritepack: [Official] Ribbon (Peach)
+    # game/zz_spriteobjects.rpy:1986
+    old "Ribbon (Peach)"
+    new "Cinta de color melocotón"
+
+    # game/zz_spriteobjects.rpy:1990
+    old "That's beautiful!"
+    new "¡Es hermosa!"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:1993
+    old "Just like autumn leaves..."
+    new "Como las hojas de otoño..."
+
+    # Spritepack: [Official] Ribbon (Pink)
+    # game/zz_spriteobjects.rpy:2019
+    old "Ribbon (Pink)"
+    new "Cinta de color rosa"
+
+    # game/zz_spriteobjects.rpy:2023
+    old "Looks cute, right?"
+    new "Se ve lindo, ¿verdad?"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2026
+    old "Good choice!"
+    new "¡Buena elección!"
+
+    # Spritepack: [Official] Ribbon (Platinum)
+    # game/zz_spriteobjects.rpy:2049
+    old "Ribbon (Platinum)"
+    new "Cinta de color platino"
+
+    # game/zz_spriteobjects.rpy:2053
+    old "That's an interesting color, [player]."
+    new "Ese es un color interesante, [player]."
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2056
+    old "I'm quite fond of it, actually."
+    new "De hecho, me gusta bastante."
+
+    # Spritepack: [Official] Ribbon (Red)
+    # game/zz_spriteobjects.rpy:2079
+    old "Ribbon (Red)"
+    new "Cinta de color rojo"
+
+    # game/zz_spriteobjects.rpy:2083
+    old "Red is a beautiful color!"
+    new "¡El rojo es un color hermoso!"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2086
+    old "Just like roses~"
+    new "Como las rosas~"
+
+    # Spritepack: [Official] Ribbon (Ruby)
+    # game/zz_spriteobjects.rpy:2109
+    old "Ribbon (Ruby)"
+    new "Cinta de color rubí"
+
+    # game/zz_spriteobjects.rpy:2113
+    old "That's a beautiful shade of red."
+    new "Es un hermoso tono de rojo."
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2116
+    old "Doesn't it look pretty?"
+    new "¿No te parece bonito?"
+
+    # Spritepack: [Official] Ribbon (Sapphire)
+    # game/zz_spriteobjects.rpy:2139
+    old "Ribbon (Sapphire)"
+    new "Cinta de color zafiro"
+
+    # game/zz_spriteobjects.rpy:2146
+    old "Nice choice, [player]!"
+    new "¡Buena elección, [player]!"
+
+    # Spritepack: [Official] Ribbon (Silver)
+    # game/zz_spriteobjects.rpy:2169
+    old "Ribbon (Silver)"
+    new "Cinta de color plata"
+
+    # game/zz_spriteobjects.rpy:2173
+    old "I like the look of this one."
+    new "Me gusta el aspecto de este."
+
+    # game/zz_spriteobjects.rpy:2174
+    old "I've always loved silver."
+    new "Siempre he amado la plata."
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2177
+    old "Nice choice, [player]."
+    new "Buena elección, [player]."
+
+    # Spritepack: [Official] Ribbon (Teal)
+    # game/zz_spriteobjects.rpy:2200
+    old "Ribbon (Teal)"
+    new "Cinta de color turquesa"
+
+    # game/zz_spriteobjects.rpy:2204
+    old "Looks really summer-y, right?"
+    new "Parece muy veraniego, ¿verdad?"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2207
+    old "Just like a summer sky."
+    new "Como el cielo de verano."
+
+    # Spritepack: [Official] Ribbon (Wine)
+    # game/zz_spriteobjects.rpy:2230
+    old "Ribbon (Wine)"
+    new "Cinta de color vino"
+
+    # game/zz_spriteobjects.rpy:2234
+    old "That's a great color!"
+    new "¡Ese es un buen color!"
+
+    # select_dlg
+    # game/zz_spriteobjects.rpy:2237
+    old "Formal! Are you taking me somewhere special, [player]?"
+    new "¡Formal! ¿Me llevarás a algún lugar especial, [player]?"
+
+    # Spritepack: [Official] Ribbon (Yellow)
+    # game/zz_spriteobjects.rpy:2260
+    old "Ribbon (Yellow)"
+    new "Cinta de color amarillo"
+
+    # game/zz_spriteobjects.rpy:2264
+    old "This color reminds me of a nice summer day!"
+    new "¡Este color me recuerda a un bonito día de verano!"
+
+    # Spritepack: [Official] Earrings (Pink Diamond)
+    # game/zz_spriteobjects.rpy:2356
+    old "Earrings (Pink Diamond)"
+    new "Aretes de diamantes rosados"
+
+    # game/zz_spriteobjects.rpy:2361
+    old "I'm shining like a diamond~"
+    new "Brillo como un diamante~"
 
     # =========================================================================
     # SPRITE PACKS OFICIALES / POR DEFECTO
@@ -28,10 +374,6 @@ translate spanish strings:
     # game/zz_spriteobjects.rpy:2463
     old "Black Dress"
     new "Vestido de color negro"
-
-    # game/zz_spriteobjects.rpy:1647
-    old "Are we going somewhere special, [player]?"
-    new "¿Vamos a un sitio especial, [player]?"
 
     # Spritepack: [Official] Black and Pink Dress
     # game/zz_spriteobjects.rpy:2499
@@ -196,282 +538,15 @@ translate spanish strings:
     old "Up for a game, [player]?"
     new "¿Listo para jugar, [player]?"
 
-    # Spritepack: [Official] Thermos (Just Monika)
-    # game/zz_spriteobjects.rpy:1111
-    old "Thermos (Just Monika)"
-    new "Termo Just Monika"
 
-    # Spritepack: [Official] Rose
-    # game/zz_spriteobjects.rpy:1142
-    old "Rose"
-    new "Rosa"
+    # =========================================================================
+    # DEMOSTRATIVOS DE REGALOS
+    # =========================================================================
+    old "this "
+    new ""
 
-    # game/zz_spriteobjects.rpy:1146
-    old "TALE AS OLD AS TIME"
-    new "UNA HISTORIA TAN ANTIGUA COMO EL TIEMPO"
-
-    # game/zz_spriteobjects.rpy:1149
-    old "TRUE AS IT CAN BE"
-    new "TAN VERDADERA COMO PUEDE SER"
-
-    # Spritepack: [Official] Golden Music Note
-    # game/zz_spriteobjects.rpy:1250
-    old "Golden Music Note"
-    new "Nota musical dorada"
-
-    # Spritepack: [Official] Pink Diamond
-    # game/zz_spriteobjects.rpy:1281
-    old "Pink Diamond"
-    new "Diamante rosado"
-
-    # Spritepack: [Official] Witch Hat
-    # game/zz_spriteobjects.rpy:1330
-    old "Witch Hat"
-    new "Sombrero de bruja"
-
-    # game/zz_spriteobjects.rpy:1334
-    old "Ze~"
-    new "Ze~"
-
-    # game/zz_spriteobjects.rpy:1335
-    old "Tea time, tea time. Even if we have coffee, it's tea time. Ehehe~"
-    new "Hora del té, hora del té. Aunque tomemos café, es la hora del té. Jejeje~"
-
-    # game/zz_spriteobjects.rpy:1336
-    old "Eye of newt, toe of frog..."
-    new "Ojo de tritón, pata de rana..."
-
-    # game/zz_spriteobjects.rpy:1337
-    old "Now where did I leave that broom..."
-    new "Ahora, ¿dónde dejé esa escoba?..."
-
-    # Spritepack: [Official] Hairclip (Gray hearts)
-    # game/zz_spriteobjects.rpy:1415
-    old "Hairclip (Gray hearts)"
-    new "Horquilla de corazones grises"
-
-    # game/zz_spriteobjects.rpy:1419
-    old "My heart beats for you, [player]~"
-    new "Mi corazón late por ti, [player]~"
-
-    # game/zz_spriteobjects.rpy:1420
-    old "Full of love, just like you~"
-    new "Lleno de amor, como tú~"
-
-    # Spritepack: [Official] Hairclip (Pink diamonds)
-    # game/zz_spriteobjects.rpy:1443
-    old "Hairclip (Pink diamonds)"
-    new "Horquilla de diamantes rosados"
-
-    # game/zz_spriteobjects.rpy:1447
-    old "Cute!"
-    new "¡Lindo!"
-
-    # Spritepack: [Official] Hairclip (Holly)
-    # game/zz_spriteobjects.rpy:1470
-    old "Hairclip (Holly)"
-    new "Horquilla de acebo"
-
-    # game/zz_spriteobjects.rpy:1474
-    old "Ready to deck the halls, [player]?"
-    new "¿Listo para decorar los salones, [player]?"
-
-    # Spritepack: [Official] Ribbon (Black)
-    # game/zz_spriteobjects.rpy:1640
-    old "Ribbon (Black)"
-    new "Cinta de color negro"
-
-    # game/zz_spriteobjects.rpy:1644
-    old "That's pretty formal, [player]."
-    new "Eso es bastante formal, [player]."
-
-    # Spritepack: [Official] Ribbon (Black/gray)
-    # game/zz_spriteobjects.rpy:1673
-    old "Ribbon (Black/gray)"
-    new "Cinta de color negro y gris"
-
-    # game/zz_spriteobjects.rpy:1677
-    old "Very versatile."
-    new "Muy versátil."
-
-    # game/zz_spriteobjects.rpy:1680
-    old "This goes with so many different outfits!"
-    new "¡Esto combina con muchos atuendos diferentes!"
-
-    # Spritepack: [Official] Ribbon (Black/pink)
-    # game/zz_spriteobjects.rpy:1706
-    old "Ribbon (Black/pink)"
-    new "Cinta de color negro y rosa"
-
-    # Spritepack: [Official] Ribbon (Blue)
-    # game/zz_spriteobjects.rpy:1756
-    old "Ribbon (Blue)"
-    new "Cinta de color azul"
-
-    # game/zz_spriteobjects.rpy:1760
-    old "Like the ocean..."
-    new "Como el océano..."
-
-    # Spritepack: [Official] Ribbon (Dark Purple)
-    # game/zz_spriteobjects.rpy:1789
-    old "Ribbon (Dark Purple)"
-    new "Cinta de color violeta"
-
-    # game/zz_spriteobjects.rpy:1793
-    old "I love that color!"
-    new "¡Amo ese color!"
-
-    # Spritepack: [Official] Ribbon (Emerald)
-    # game/zz_spriteobjects.rpy:1822
-    old "Ribbon (Emerald)"
-    new "Cinta de color esmeralda"
-
-    # game/zz_spriteobjects.rpy:1826
-    old "I've always loved this color..."
-    new "Siempre me ha gustado este color..."
-
-    # Spritepack: [Official] Ribbon (White)
-    # game/zz_spriteobjects.rpy:1854
-    old "Ribbon (White)"
-    new "Cinta de color blanco"
-
-    # game/zz_spriteobjects.rpy:1858
-    old "Do you miss my old ribbon, [player]?"
-    new "¿Extrañas mi vieja cinta, [player]?"
-
-    # Spritepack: [Official] Ribbon (Gray)
-    # game/zz_spriteobjects.rpy:1887
-    old "Ribbon (Gray)"
-    new "Cinta de color gris"
-
-    # game/zz_spriteobjects.rpy:1891
-    old "Like a warm, rainy day..."
-    new "Como un día cálido y lluvioso..."
-
-    # game/zz_spriteobjects.rpy:1894
-    old "That's a really unique color, [player]."
-    new "Este es un color realmente único, [player]."
-
-    # Spritepack: [Official] Ribbon (Green)
-    # game/zz_spriteobjects.rpy:1920
-    old "Ribbon (Green)"
-    new "Cinta de color verde"
-
-    # game/zz_spriteobjects.rpy:1924
-    old "That's a lovely color!"
-    new "¡Es un color precioso!"
-
-    # Spritepack: [Official] Ribbon (Light Purple)
-    # game/zz_spriteobjects.rpy:1953
-    old "Ribbon (Light Purple)"
-    new "Cinta de color lila"
-
-    # game/zz_spriteobjects.rpy:1957
-    old "This purple looks pretty nice, right [player]?"
-    new "Este púrpura se ve muy bien, ¿verdad [player]?"
-
-    # Spritepack: [Official] Ribbon (Peach)
-    # game/zz_spriteobjects.rpy:1986
-    old "Ribbon (Peach)"
-    new "Cinta de color melocotón"
-
-    # game/zz_spriteobjects.rpy:1990
-    old "That's beautiful!"
-    new "¡Es hermosa!"
-
-    # Spritepack: [Official] Ribbon (Pink)
-    # game/zz_spriteobjects.rpy:2019
-    old "Ribbon (Pink)"
-    new "Cinta de color rosa"
-
-    # game/zz_spriteobjects.rpy:2023
-    old "Looks cute, right?"
-    new "Se ve lindo, ¿verdad?"
-
-    # Spritepack: [Official] Ribbon (Platinum)
-    # game/zz_spriteobjects.rpy:2049
-    old "Ribbon (Platinum)"
-    new "Cinta de color platino"
-
-    # game/zz_spriteobjects.rpy:2053
-    old "That's an interesting color, [player]."
-    new "Ese es un color interesante, [player]."
-
-    # Spritepack: [Official] Ribbon (Red)
-    # game/zz_spriteobjects.rpy:2079
-    old "Ribbon (Red)"
-    new "Cinta de color rojo"
-
-    # game/zz_spriteobjects.rpy:2083
-    old "Red is a beautiful color!"
-    new "¡El rojo es un color hermoso!"
-
-    # Spritepack: [Official] Ribbon (Ruby)
-    # game/zz_spriteobjects.rpy:2109
-    old "Ribbon (Ruby)"
-    new "Cinta de color rubí"
-
-    # game/zz_spriteobjects.rpy:2113
-    old "That's a beautiful shade of red."
-    new "Es un hermoso tono de rojo."
-
-    # Spritepack: [Official] Ribbon (Sapphire)
-    # game/zz_spriteobjects.rpy:2139
-    old "Ribbon (Sapphire)"
-    new "Cinta de color zafiro"
-
-    # game/zz_spriteobjects.rpy:2146
-    old "Nice choice, [player]!"
-    new "¡Buena elección, [player]!"
-
-    # Spritepack: [Official] Ribbon (Silver)
-    # game/zz_spriteobjects.rpy:2169
-    old "Ribbon (Silver)"
-    new "Cinta de color plata"
-
-    # game/zz_spriteobjects.rpy:2173
-    old "I like the look of this one."
-    new "Me gusta el aspecto de este."
-
-    # game/zz_spriteobjects.rpy:2174
-    old "I've always loved silver."
-    new "Siempre he amado la plata."
-
-    # Spritepack: [Official] Ribbon (Teal)
-    # game/zz_spriteobjects.rpy:2200
-    old "Ribbon (Teal)"
-    new "Cinta de color turquesa"
-
-    # game/zz_spriteobjects.rpy:2204
-    old "Looks really summer-y, right?"
-    new "Parece muy veraniego, ¿verdad?"
-
-    # Spritepack: [Official] Ribbon (Wine)
-    # game/zz_spriteobjects.rpy:2230
-    old "Ribbon (Wine)"
-    new "Cinta de color vino"
-
-    # game/zz_spriteobjects.rpy:2234
-    old "That's a great color!"
-    new "¡Ese es un buen color!"
-
-    # Spritepack: [Official] Ribbon (Yellow)
-    # game/zz_spriteobjects.rpy:2260
-    old "Ribbon (Yellow)"
-    new "Cinta de color amarillo"
-
-    # game/zz_spriteobjects.rpy:2264
-    old "This color reminds me of a nice summer day!"
-    new "¡Este color me recuerda a un bonito día de verano!"
-
-    # Spritepack: [Official] Earrings (Pink Diamond)
-    # game/zz_spriteobjects.rpy:2356
-    old "Earrings (Pink Diamond)"
-    new "Aretes de diamantes rosados"
-
-    # game/zz_spriteobjects.rpy:2361
-    old "I'm shining like a diamond~"
-    new "Brillo como un diamante~"
+    old "these "
+    new ""
 
     # -------------------------------------------------------------------------
 
@@ -912,10 +987,6 @@ translate spanish strings:
     # display_name
     old "Front Bow (Black)"
     new "Lazo delantero negro"
-
-    # dlg_desc
-    old "bow"
-    new "este lazo"
 
     # select_dlg
     old "I still haven't figured out how this bow stays on..."
@@ -1570,10 +1641,6 @@ translate spanish strings:
     # display_name
     old "Anchor Necklace"
     new "Collar de ancla"
-
-    # dlg_desc
-    old "necklace"
-    new "este collar"
 
     # select_dlg
     old "You were a strange person in a strange place but, in that moment, you were exactly what I needed..."
@@ -2339,10 +2406,6 @@ translate spanish strings:
     old "Ribbon (Dark Purple, s-type)"
     new "Cinta color violeta tipo S"
 
-    # select_dlg
-    old "Lavender is a nice change of pace."
-    new "La lavanda es un buen cambio de ritmo."
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (White, s-type)
@@ -2351,10 +2414,6 @@ translate spanish strings:
     old "Ribbon (White, s-type)"
     new "Cinta color blanco tipo S"
 
-    # select_dlg
-    old "Back to the classics!"
-    new "¡De vuelta a los clásicos!"
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Emerald, s-type)
@@ -2362,10 +2421,6 @@ translate spanish strings:
     # display_name
     old "Ribbon (Emerald, s-type)"
     new "Cinta color esmeralda tipo S"
-
-    # select_dlg
-    old "It's just like my eyes!"
-    new "¡Es igual que mis ojos!"
 
     # -------------------------------------------------------------------------
 
@@ -2387,10 +2442,6 @@ translate spanish strings:
     old "Ribbon (Green, s-type)"
     new "Cinta color verde tipo S"
 
-    # select_dlg
-    old "Green, just like my eyes!"
-    new "Verde, ¡como mis ojos!"
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Light Purple, s-type)
@@ -2398,10 +2449,6 @@ translate spanish strings:
     # display_name
     old "Ribbon (Light Purple, s-type)"
     new "Cinta color lila tipo S"
-
-    # select_dlg
-    old "Really has a spring feel to it."
-    new "Realmente tiene una sensación primaveral."
 
     # -------------------------------------------------------------------------
 
@@ -2411,10 +2458,6 @@ translate spanish strings:
     old "Ribbon (Peach, s-type)"
     new "Cinta color melocotón tipo S"
 
-    # select_dlg
-    old "Just like autumn leaves..."
-    new "Como las hojas de otoño..."
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Pink, s-type)
@@ -2422,10 +2465,6 @@ translate spanish strings:
     # display_name
     old "Ribbon (Pink, s-type)"
     new "Cinta color rosa tipo S"
-
-    # select_dlg
-    old "Good choice!"
-    new "¡Buena elección!"
 
     # -------------------------------------------------------------------------
 
@@ -2435,10 +2474,6 @@ translate spanish strings:
     old "Ribbon (Platinum, s-type)"
     new "Cinta color platino tipo S"
 
-    # select_dlg
-    old "I'm quite fond of it, actually."
-    new "De hecho, me gusta bastante."
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Red, s-type)
@@ -2447,10 +2482,6 @@ translate spanish strings:
     old "Ribbon (Red, s-type)"
     new "Cinta color rojo tipo S"
 
-    # select_dlg
-    old "Just like roses~"
-    new "Como las rosas~"
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Ruby, s-type)
@@ -2458,10 +2489,6 @@ translate spanish strings:
     # display_name
     old "Ribbon (Ruby, s-type)"
     new "Cinta color rubí tipo S"
-
-    # select_dlg
-    old "Doesn't it look pretty?"
-    new "¿No te parece bonito?"
 
     # -------------------------------------------------------------------------
 
@@ -2483,10 +2510,6 @@ translate spanish strings:
     old "Ribbon (Silver, s-type)"
     new "Cinta color plata tipo S"
 
-    # select_dlg
-    old "Nice choice, [player]."
-    new "Buena elección, [player]."
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Teal, s-type)
@@ -2495,10 +2518,6 @@ translate spanish strings:
     old "Ribbon (Teal, s-type)"
     new "Cinta color turquesa tipo S"
 
-    # select_dlg
-    old "Just like a summer sky."
-    new "Como el cielo de verano."
-
     # -------------------------------------------------------------------------
 
     # Spritepack: [Velius94] Ribbon (Wine, s-type)
@@ -2506,10 +2525,6 @@ translate spanish strings:
     # display_name
     old "Ribbon (Wine, s-type)"
     new "Cinta color vino tipo S"
-
-    # select_dlg
-    old "Formal! Are you taking me somewhere special, [player]?"
-    new "¡Formal! ¿Me llevarás a algún lugar especial, [player]?"
 
     # -------------------------------------------------------------------------
 

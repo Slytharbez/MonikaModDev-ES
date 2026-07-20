@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_reactions.rpy:960
-translate spanish mas_reaction_gift_connector_test_a9001fe0:
-
-    # m "this is a test of the connector system"
-    m "Esta es una prueba del sistema de conectores."
-
 # game/zz_reactions.rpy:969
 translate spanish mas_reaction_gift_connector1_14de3291:
 
@@ -2821,67 +2816,68 @@ translate spanish mas_reaction_gift_noudeck_have_played_e972e366:
     m 3eua "Por otro lado, si no recuerdas las reglas, siempre puedo recordártelas; solo tienes que preguntarme."
 
 
+translate spanish mas_reaction_gift_connector_test_a9001fe0:
+
+    # m "this is a test of the connector system"
+    m "Esta es una prueba del sistema de conectores."
+
 translate spanish strings:
 
-    # game/zz_reactions.rpy:1128
+    # game/zz_reactions.rpy:1129
     old "I really appreciate it!"
     new "¡De verdad lo aprecio!"
 
-    # game/zz_reactions.rpy:1128
+    # game/zz_reactions.rpy:1130
     old "[its] amazing!"
     new "¡Que increíble!"
 
-    # game/zz_reactions.rpy:1128
+    # game/zz_reactions.rpy:1131
     old "I just love [item_ref]!"
     new "¡Me encanta!"
 
-    # game/zz_reactions.rpy:1128
+    # game/zz_reactions.rpy:1132
     old "[its] wonderful!"
     new "¡Qué maravilloso!"
 
-    # zz_reactions.rpy:1138
+    # game/zz_reactions.rpy:1138
     old "them"
     new "ellos"
 
-    # zz_reactions.rpy:1139
+    # game/zz_reactions.rpy:1139
     old "they're"
     new ""
 
-    # zz_reactions.rpy:1143
+    # game/zz_reactions.rpy:1143
     old "it"
     new ""
 
-    # zz_reactions.rpy:1144
+    # game/zz_reactions.rpy:1144
     old "it's"
     new ""
 
-    # zz_reactions.rpy:1387
-    old "these"
-    new "éstos"
-
-    # zz_reactions.rpy:1387
-    old "those"
-    new "éstos"
-
-    # zz_reactions.rpy:1945
-    old "emerald"
-    new "esmeralda"
-
-    # game/zz_reactions.rpy:1168
+    # game/zz_reactions.rpy:1169
     old "I think it's really cute, [player]!"
     new "¡Creo que es muy lindo, [player]!"
 
-    # game/zz_reactions.rpy:1168
+    # game/zz_reactions.rpy:1170
     old "I think it's amazing, [player]!"
     new "¡Creo que es increíble, [player]!"
 
-    # game/zz_reactions.rpy:1168
+    # game/zz_reactions.rpy:1171
     old "I just love it, [player]!"
     new "¡Simplemente me encanta, [player]!"
 
-    # game/zz_reactions.rpy:1168
+    # game/zz_reactions.rpy:1172
     old "I think it's wonderful, [player]!"
     new "¡Creo que es maravilloso, [player]!"
+
+    # game/zz_reactions.rpy:1387
+    old "these"
+    new "éstos"
+
+    # game/zz_reactions.rpy:1387
+    old "those"
+    new "éstos"
 
     # Colores de cintas básicas y JSON
     # game/zz_reactions.rpy:1918
@@ -2895,6 +2891,10 @@ translate spanish strings:
     # game/zz_reactions.rpy:1936
     old "dark purple"
     new "morada oscura"
+
+    # game/zz_reactions.rpy:1945
+    old "emerald"
+    new "esmeralda"
 
     # game/zz_reactions.rpy:1954
     old "gray"

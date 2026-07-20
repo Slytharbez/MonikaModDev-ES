@@ -2,21 +2,21 @@
 
 translate spanish strings:
 
-    # game/updates.rpy:1291
+    # game/updates.rpy:1265
     old "imsorry"
     new "lo siento"
 
-    # game/updates.rpy:1292
+    # game/updates.rpy:1266
     old "imsorry.txt"
     new "lo siento.txt"
 
-    # game/updates.rpy:1293
-    old "hehehe.txt"
-    new "jeje.txt"
-
-    # game/updates.rpy:1294
+    # game/updates.rpy:1271
     old "ehehe.txt"
     new "ejeje.txt"
+
+    # game/updates.rpy:1289
+    old "hehehe.txt"
+    new "jeje.txt"
 
     # game/updates.rpy:1295
     old "restinpeace.txt"

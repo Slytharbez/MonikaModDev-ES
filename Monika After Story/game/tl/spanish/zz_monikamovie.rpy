@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_monikamovie.rpy:203
-translate spanish mas_monikamovie_a8bb27b9:
-
-    # m 1eub "You want to see a movie?"
-    m 1eub "¿Quieres ver una película?"
-
 # game/zz_monikamovie.rpy:207
 translate spanish mm_choose_movie_c739ccaa:
 
@@ -60,13 +55,13 @@ translate spanish mm_movie_pausefilm_4bb8bf03:
     # m 1eub "Oh, you just paused the movie, [player]."
     m 1eub "Oh, acabas de pausar la película, [player]."
 
-# game/zz_monikamovie.rpy:298
+# game/zz_monikamovie.rpy:296
 translate spanish mm_movie_pausefilm_c50cd863:
 
     # m 1hua "Okay, [player]."
     m 1hua "Está bien, [player]."
 
-# game/zz_monikamovie.rpy:301
+# game/zz_monikamovie.rpy:298
 translate spanish mm_movie_pausefilm_ef4dc71c:
 
     # m 1eua "Oh, alright then, [player]."
@@ -138,17 +133,22 @@ translate spanish mm_movie_repeattime_d39f9237:
     # m 1eua "Done! Let's keep watching it!"
     m 1eua "¡Listo! ¡Sigamos viéndola!"
 
+translate spanish mas_monikamovie_a8bb27b9:
+
+    # m 1eub "You want to see a movie?"
+    m 1eub "¿Quieres ver una película?"
+
 translate spanish strings:
 
     # game/zz_monikamovie.rpy:14
     old "I changed my mind"
     new "Cambié de opinión"
 
-    # game/zz_monikamovie.rpy:239
+    # game/zz_monikamovie.rpy:240
     old "Ready?"
     new "¿Listo?"
 
-    # game/zz_monikamovie.rpy:295
+    # game/zz_monikamovie.rpy:296
     old "Do want to continue?"
     new "¿Quieres continuar?"
 

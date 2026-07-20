@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # # game/script-farewells.rpy:263
-translate spanish bye_leaving_already_93baf031:
-
-    # m 1ekc "Aw, leaving already?"
-    m 1ekc "Aw, ¿ya te vas?"
-
 # game/script-farewells.rpy:264
 translate spanish bye_leaving_already_adf9a681:
 
@@ -528,91 +523,91 @@ translate spanish bye_prompt_sleep_goodnight_kiss_0b8d5b8e:
     # extend 1rublsdlu "get a goodnight kiss?{nw}"
     extend 1rublsdlu "dar un beso de buenas noches?{nw}"
 
-# game/script-farewells.rpy:795
+# game/script-farewells.rpy:796
 translate spanish bye_prompt_sleep_goodnight_kiss_9982ef1b:
 
     # m "Think I could...get a goodnight kiss?{fast}" nointeract
     m "¿Crees que me podrías... dar un beso de buenas noches?{fast}" nointeract
 
-# game/script-farewells.rpy:796
+# game/script-farewells.rpy:803
 translate spanish bye_prompt_sleep_goodnight_kiss_f6f53661:
 
     # m "Think I could...get a goodnight kiss?{fast}"
     m "¿Crees que me podrías... dar un beso de buenas noches?{fast}"
 
-# game/script-farewells.rpy:803
+# game/script-farewells.rpy:805
 translate spanish bye_prompt_sleep_goodnight_kiss_a8c42758:
 
     # m 6ekbfb "I hope that gave you something to dream about~"
     m 6ekbfb "Espero que eso te dé algo para soñar esta noche~"
 
-# game/script-farewells.rpy:805
+# game/script-farewells.rpy:809
 translate spanish bye_prompt_sleep_goodnight_kiss_88603914:
 
     # m 1hubfa "Sleep tight!"
     m 1hubfa "¡Que descanses!"
 
-# game/script-farewells.rpy:809
+# game/script-farewells.rpy:810
 translate spanish bye_prompt_sleep_goodnight_kiss_bdc137a5:
 
     # m 3rkblp "Aww, come on...{w=0.3}{nw}"
     m 3rkblp "Aww, vamos... {w=0.3}{nw}"
 
-# game/script-farewells.rpy:810
+# game/script-farewells.rpy:812
 translate spanish bye_prompt_sleep_goodnight_kiss_c3359e74:
 
     # extend 3nublu "I know you want to~"
     extend 3nublu "sé que quieres~"
 
-# game/script-farewells.rpy:812
+# game/script-farewells.rpy:815
 translate spanish bye_prompt_sleep_goodnight_kiss_3a98b132:
 
     # m 1ekbsa "Can I please get a goodnight kiss?{nw}"
     m 1ekbsa "¿Me podrías dar un beso de buenas noches, por favor?{nw}"
 
-# game/script-farewells.rpy:815
+# game/script-farewells.rpy:822
 translate spanish bye_prompt_sleep_goodnight_kiss_48d4af23:
 
     # m "Can I please get a goodnight kiss?{fast}"
     m "¿Me podrías dar un beso de buenas noches, por favor?{fast}"
 
-# game/script-farewells.rpy:822
+# game/script-farewells.rpy:823
 translate spanish bye_prompt_sleep_goodnight_kiss_6b75e377:
 
     # m 6ekbfa "Sweet dreams, [player]~"
     m 6ekbfa "Dulces sueños, [player]~"
 
-# game/script-farewells.rpy:823
+# game/script-farewells.rpy:827
 translate spanish bye_prompt_sleep_goodnight_kiss_07c54da0:
 
     # m 6hubfb "Sleep tight!"
     m 6hubfb "¡Que descanses!"
 
-# game/script-farewells.rpy:827
+# game/script-farewells.rpy:828
 translate spanish bye_prompt_sleep_goodnight_kiss_4644c309:
 
     # m 1lkc "..."
     m 1lkc "..."
 
-# game/script-farewells.rpy:828
+# game/script-farewells.rpy:829
 translate spanish bye_prompt_sleep_goodnight_kiss_c6afba82:
 
     # m 7dkd "Fine..."
     m 7dkd "Está bien..."
 
-# game/script-farewells.rpy:829
+# game/script-farewells.rpy:832
 translate spanish bye_prompt_sleep_goodnight_kiss_223eb706:
 
     # m 2lsc "Goodnight [player]..."
     m 2lsc "Buenas noches [player]..."
 
-# game/script-farewells.rpy:832
+# game/script-farewells.rpy:833
 translate spanish bye_prompt_sleep_goodnight_kiss_5364a71c:
 
     # m 1rkblc "Aww...{w=0.3}{nw}"
     m 1rkblc "Aww... {w=0.3}{nw}"
 
-# game/script-farewells.rpy:833
+# game/script-farewells.rpy:834
 translate spanish bye_prompt_sleep_goodnight_kiss_7f9c63ab:
 
     # extend 1ekbla "okay, but you owe me one."
@@ -2166,13 +2161,18 @@ translate spanish bye_prompt_hangout_0bd97190:
     # m 6ckc "..."
     m 6ckc "..."
 
+translate spanish bye_leaving_already_93baf031:
+
+    # m 1ekc "Aw, leaving already?"
+    m 1ekc "Aw, ¿ya te vas?"
+
 translate spanish strings:
 
     # game/script-farewells.rpy:209
     old "Goodbye."
     new "Adiós"
 
-    # game/script-farewells.rpy:413
+    # game/script-farewells.rpy:414
     old "Not yet."
     new "Aún no"
 
@@ -2188,7 +2188,7 @@ translate spanish strings:
     old "I'm going to sleep."
     new "Voy a dormir."
 
-    # game/script-farewells.rpy:806
+    # game/script-farewells.rpy:807
     old "Maybe another time..."
     new "Tal vez en otro momento..."
 
@@ -2212,11 +2212,11 @@ translate spanish strings:
     old "A week."
     new "Una semana."
 
-    # game/script-farewells.rpy:1071
+    # game/script-farewells.rpy:1070
     old "A couple of weeks."
     new "Un par de semanas."
 
-    # game/script-farewells.rpy:1078
+    # game/script-farewells.rpy:1077
     old "A month."
     new "Un mes."
 
@@ -2240,7 +2240,7 @@ translate spanish strings:
     old "I'm going to go eat..."
     new "Voy a comer..."
 
-    # game/script-farewells.rpy:1459
+    # game/script-farewells.rpy:1460
     old "Breakfast."
     new "Desayuno"
 
@@ -2248,7 +2248,7 @@ translate spanish strings:
     old "breakfast"
     new "desayunar"
 
-    # game/script-farewells.rpy:1462
+    # game/script-farewells.rpy:1463
     old "Lunch."
     new "Almuerzo"
 
@@ -2256,7 +2256,7 @@ translate spanish strings:
     old "lunch"
     new "almorzar"
 
-    # game/script-farewells.rpy:1465
+    # game/script-farewells.rpy:1466
     old "Dinner."
     new "Cena"
 
@@ -2264,7 +2264,7 @@ translate spanish strings:
     old "dinner"
     new "cenar"
 
-    # game/script-farewells.rpy:1468
+    # game/script-farewells.rpy:1469
     old "Snack."
     new "Un bocadillo"
 

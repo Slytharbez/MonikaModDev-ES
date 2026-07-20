@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-stories.rpy:240
-translate spanish monika_short_stories_menu_8e25506b:
-
-    # m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
-    m 1ekc "Lo siento [player]... no puedo pensar en una historia [_story_type] en este momento..."
-
 # game/script-stories.rpy:241
 translate spanish monika_short_stories_menu_51483964:
 
@@ -4801,16 +4796,21 @@ translate spanish mas_scary_story_prison_escape_c01b3923:
     m 2wusdlo "¡Era el guardia muerto!"
 
 
+translate spanish monika_short_stories_menu_8e25506b:
+
+    # m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
+    m 1ekc "Lo siento [player]... no puedo pensar en una historia [_story_type] en este momento..."
+
 translate spanish strings:
+    # game/script-stories.rpy:19
+    old "scary"
+    new "aterradora"
+    
 
     # game/script-stories.rpy:139
     old "Can you tell me a story?"
     new "¿Puedes contarme una historia?"
 
-    # script-stories.rpy:198
-    old "scary"
-    new "aterradora"
-    
     # game/script-stories.rpy:191
     old "A new story"
     new "Una nueva historia"
@@ -4823,49 +4823,53 @@ translate spanish strings:
     old "{0} story would you like to hear?"
     new "{0} historia te gustaría escuchar?"
 
-    # game/script-stories.rpy:263
+    # game/script-stories.rpy:264
     old "Alright, let's start the story."
     new "De acuerdo, comencemos la historia."
 
-    # game/script-stories.rpy:263
+    # game/script-stories.rpy:265
     old "Ready to hear the story?"
     new "¿List[o_a] para escuchar la historia?"
 
-    # game/script-stories.rpy:263
+    # game/script-stories.rpy:266
     old "Ready for story time?"
     new "¿List[o_a] para la hora de historias?"
 
-    # game/script-stories.rpy:263
+    # game/script-stories.rpy:267
     old "Let's begin~"
     new "Comencemos~"
 
-    # game/script-stories.rpy:263
+    # game/script-stories.rpy:268
     old "Are you ready?"
     new "¿Estás list[o_a]?"
 
-    # game/script-stories.rpy:307
+    # game/script-stories.rpy:308
     old "Alright let's start the story."
     new "De acuerdo, empecemos la historia."
 
-    # game/script-stories.rpy:323
+    # game/script-stories.rpy:324
     old "Scared, [player]?"
     new "¿Asustad[o_a], [player]?"
 
-    # game/script-stories.rpy:323
+    # game/script-stories.rpy:325
     old "Did I scare you, [player]?"
     new "¿Te asusté, [player]?"
 
-    # game/script-stories.rpy:323
+    # game/script-stories.rpy:326
     old "How was it?"
     new "¿Qué te pareció?"
 
-    # game/script-stories.rpy:323
+    # game/script-stories.rpy:327
     old "Well?"
     new "¿Y bien?"
 
-    # game/script-stories.rpy:323
+    # game/script-stories.rpy:328
     old "So...{w=0.5}did I scare you?"
     new "Entonces...{w=0.5}¿te asusté?"
+
+    # game/script-stories.rpy:357
+    old "The Cat and the Cock"
+    new "El gato y el gallo"
 
     # game/script-stories.rpy:380
     old "The Fox"
@@ -4951,11 +4955,14 @@ translate spanish strings:
     old "Knock"
     new "Knock"
 
+    # game/script-stories.rpy:1104
+    old "The Hunter"
+    new "El Cazador"
     # game/script-stories.rpy:1152
     old "Kuchisake-Onna"
     new "Kuchisake-Onna"
 
-    # game/script-stories.rpy:1185
+    # game/script-stories.rpy:1186
     old "am I pretty?"
     new "¿Soy bonita?"
 
@@ -5023,10 +5030,3 @@ translate spanish strings:
     old "Prison Escape"
     new "Fuga de la prisión"
 
-    # Normal stories prompts
-    old "The Cat and the Cock"
-    new "El gato y el gallo"
-
-    # Scary stories prompts
-    old "The Hunter"
-    new "El Cazador"

@@ -1,88 +1,83 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-moods.rpy:122
-translate spanish mas_mood_hungry_bdd630c1:
-
-    # m 3hub "If you're hungry, go get something to eat, silly."
-    m 3hub "Si tienes hambre, ve a comer algo, tontit[o_a]."
-    
-# game/script-moods.rpy:124
-translate spanish mas_mood_hungry_43a4268b:
-
-    # m 1hksdlb "I'd hate for you to get like Natsuki did that one time back when we were in the club.{nw}"
-    m 1hksdlb "Odiaría que te pusieras como Natsuki aquella vez en el club.{nw}"
-
-# game/script-moods.rpy:128
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_e7a8a113:
 
     # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
     m 1hua "Sería malo que te pusieras gruñón por tener hambre."
 
-# game/script-moods.rpy:130
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_c6679a9b:
 
     # m 3tku "That wouldn't be any fun, would it, [player]?"
     m 3tku "Eso no sería nada divertido, ¿verdad, [player]?"
 
-# game/script-moods.rpy:131
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_f8bf3835:
 
     # m 1eua "If I were there with you, I'd make a salad for us to share."
     m 1eua "Si estuviera allí contigo, prepararía una ensalada para compartir."
 
-# game/script-moods.rpy:132
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_4dfea3b9:
 
     # m "But since I'm not, go pick something healthy to eat."
     m "Pero como no estoy contigo, ve a elegir algo saludable para comer."
 
-# game/script-moods.rpy:133
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_ce87235e:
 
     # m 3eub "It's so important to pay attention to your body's needs, you know."
     m 3eub "Es muy importante prestar atención a las necesidades de tu cuerpo, sabes."
 
-# game/script-moods.rpy:134
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_f0874062:
 
     # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
     m 3hub "Eso no solo significa comer suficientes verduras, por supuesto. {w=0.2}Todo tipo de alimentos son necesarios para mantenerte nutrido."
 
-# game/script-moods.rpy:135
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_efe38263:
 
     # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
     m 3eka "Así que quiero que te asegures de no privarte de vitaminas importantes, ¿de acuerdo?"
 
-# game/script-moods.rpy:136
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_43a924b1:
 
     # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
     m 1euc "Con el tiempo, podrías tener muchos problemas de salud cuando seas mayor."
 
-# game/script-moods.rpy:137
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_cdf916ea:
 
     # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
     m 2lksdla "No quiero que sientas que te estoy regañando cuando digo este tipo de cosas, [player]."
 
-# game/script-moods.rpy:138
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_ed20dbad:
 
     # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
     m 2eka "Solo quiero asegurarme de que te cuides bien hasta que pueda cruzar a tu mundo."
 
-# game/script-moods.rpy:139
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_5d4a6e01:
 
     # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
     m 4eub "Después de todo, ¡cuanto más sano estés, más posibilidades tendrás de vivir una larga vida!"
 
-# game/script-moods.rpy:140
+# game/script-moods.rpy:1
 translate spanish _mas_nnsh_dac38117:
 
     # m 1hua "Which means more time for us to spend together!~"
     m 1hua "¡Lo que significa más tiempo para pasar junt[o_a]s!~"
+
+# game/script-moods.rpy:124
+translate spanish mas_mood_hungry_43a4268b:
+
+    # m 1hksdlb "I'd hate for you to get like Natsuki did that one time back when we were in the club.{nw}"
+    m 1hksdlb "Odiaría que te pusieras como Natsuki aquella vez en el club.{nw}"
 
 # game/script-moods.rpy:147
 translate spanish mas_mood_sad_ba55ae58:
@@ -1608,7 +1603,7 @@ translate spanish mas_mood_bored_6277bf85:
     # m 6ckc "You know [player], if I make you so miserable all of the time..."
     m 6ckc "Sabes, [player], si te hago sentir tan miserable todo el tiempo..."
 
-## game/script-moods.rpy:659
+# game/script-moods.rpy:644
 translate spanish mas_mood_bored_9feea642:
 
     # m "Maybe you should just go find something else to do."
@@ -2448,66 +2443,71 @@ translate spanish mas_mood_loved_0f86780c:
     # m 3hubsb "After all, I love you more than anything!"
     m 3hubsb "Después de todo, ¡te amo más que a nada!"
 
-# game/script-moods.rpy:998
+# game/script-moods.rpy:999
 translate spanish mas_mood_loved_29a4a99e:
 
     # m 3eub "And I'm sure it's not just me that makes you feel loved, but your [fnf_str] as well!"
     m 3eub "¡Y estoy segura de que no solo soy yo quien te hace sentir amado, sino también tus [fnf_str!t]!"
 
-# game/script-moods.rpy:1000
+# game/script-moods.rpy:1001
 translate spanish mas_mood_loved_94541648:
 
     # m 1dkbsa "You deserve all the love and affection in the world, {w=0.1}{nw}"
     m 1dkbsa "Te mereces todo el amor y el cariño del mundo, {w=0.1}{nw}"
 
-# game/script-moods.rpy:1001
+# game/script-moods.rpy:1002
 translate spanish mas_mood_loved_cd4e1b5f:
 
     # extend 1ekbsu "and I'll do my best to make sure you always feel loved, [mas_get_player_nickname()]~"
     extend 1ekbsu "y haré todo lo posible para asegurar que siempre te sientas amado, [mas_get_player_nickname()]~"
 
-# game/script-moods.rpy:1019
+# game/script-moods.rpy:1020
 translate spanish mas_mood_guilty_99c74b8b:
 
     # m 2wkd "[player]!"
     m 2wkd "¡[player]!"
 
-# game/script-moods.rpy:1020
+# game/script-moods.rpy:1021
 translate spanish mas_mood_guilty_bc5c6dfa:
 
     # m 2dkc "We all make mistakes... {w=0.3}{nw}"
     m 2dkc "Todos cometemos errores... {w=0.3}{nw}"
 
-# game/script-moods.rpy:1021
+# game/script-moods.rpy:1022
 translate spanish mas_mood_guilty_219eeece:
 
     # extend 7eka "I'm sure you can be forgiven for whatever happened."
     extend 7eka "estoy segura de que se te puede perdonar por lo que sea que haya pasado."
 
-# game/script-moods.rpy:1022
+# game/script-moods.rpy:1023
 translate spanish mas_mood_guilty_fe5280f1:
 
     # m 3dku "After all, you're a great person... {w=0.3}{nw}"
     m 3dku "Después de todo, eres una gran persona... {w=0.3}{nw}"
 
-# game/script-moods.rpy:1023
+# game/script-moods.rpy:1024
 translate spanish mas_mood_guilty_8ddd8260:
 
     # extend 1eka "You're kind, helpful and true to yourself."
     extend 1eka "eres amable, servicial y fiel a ti mismo."
 
-# game/script-moods.rpy:1024
+# game/script-moods.rpy:1025
 translate spanish mas_mood_guilty_e1bb0cfa:
 
     # m 1dua "And now that you've found the strength to accept your mistake, you just need to overcome it."
     m 1dua "Y ahora que has tenido la fuerza de aceptar tu error, solo necesitas superarlo."
 
-# game/script-moods.rpy:1025
+# game/script-moods.rpy:1026
 translate spanish mas_mood_guilty_c1ffe953:
 
     # m 1ekbsu "I love you.{w=0.2} Don't be so hard on yourself, okay?"
     m 1ekbsu "Te amo. {w=0.2}No seas tan duro contigo mismo, ¿de acuerdo?"
 
+translate spanish mas_mood_hungry_bdd630c1:
+
+    # m 3hub "If you're hungry, go get something to eat, silly."
+    m 3hub "Si tienes hambre, ve a comer algo, tontit[o_a]."
+    
 translate spanish strings:
 
     # game/script-moods.rpy:53
@@ -2522,15 +2522,15 @@ translate spanish strings:
     old "...sad."
     new "... triste."
 
-    # game/script-moods.rpy:165
+    # game/script-moods.rpy:167
     old "I'm done."
     new "Ya he terminado."
 
-    # game/script-moods.rpy:170
+    # game/script-moods.rpy:172
     old "Yeah I do."
     new "Sí, la conozco."
 
-    # game/script-moods.rpy:170
+    # game/script-moods.rpy:177
     old "Not really."
     new "En realidad no."
 
@@ -2538,11 +2538,11 @@ translate spanish strings:
     old "...proud of myself."
     new "... orgullos[o_a] de mí mism[o_a]."
 
-    # game/script-moods.rpy:200
+    # game/script-moods.rpy:202
     old "Major."
     new "Importante."
 
-    # game/script-moods.rpy:200
+    # game/script-moods.rpy:215
     old "Minor."
     new "Menor."
 
@@ -2586,7 +2586,7 @@ translate spanish strings:
     old "...bored."
     new "... aburrid[o_a]."
 
-    # game/script-moods.rpy:625
+    # game/script-moods.rpy:627
     old "No, I'm not bored {i}of you{/i}..."
     new "No, no estoy aburrid[o_a] {i}de ti{/i}..."
 
@@ -2598,15 +2598,15 @@ translate spanish strings:
     old "And"
     new "Y"
 
-    # game/script-moods.rpy:720
+    # game/script-moods.rpy:733
     old "I'm not sure."
     new "No estoy segur[o_a]."
 
-    # game/script-moods.rpy:750
+    # game/script-moods.rpy:753
     old "I'd like to vent."
     new "Me gustaría desahogarme."
 
-    # game/script-moods.rpy:750
+    # game/script-moods.rpy:768
     old "Everything's fine."
     new "Todo está bien."
 
@@ -2622,11 +2622,11 @@ translate spanish strings:
     old "...relieved."
     new "... aliviad[o_a]."
 
-    # game/script-moods.rpy:816
+    # game/script-moods.rpy:819
     old "I made it through something difficult."
     new "He superado algo difícil."
 
-    # game/script-moods.rpy:816
+    # game/script-moods.rpy:831
     old "Something I was worried about didn't happen."
     new "Algo que me preocupaba no llegó a pasar."
 
@@ -2634,15 +2634,15 @@ translate spanish strings:
     old "...excited."
     new "... emocionad[o_a]."
 
-    # game/script-moods.rpy:858
+    # game/script-moods.rpy:861
     old "It is!"
     new "¡Lo es!"
 
-    # game/script-moods.rpy:858
+    # game/script-moods.rpy:874
     old "It's something small."
     new "Es algo pequeño."
 
-    # game/script-moods.rpy:858
+    # game/script-moods.rpy:884
     old "I'm not too sure."
     new "No estoy muy seguro."
 
@@ -2650,19 +2650,19 @@ translate spanish strings:
     old "...grateful."
     new "... agradecid[o_a]."
 
-    # game/script-moods.rpy:912
+    # game/script-moods.rpy:915
     old "For you."
     new "Por ti."
 
-    # game/script-moods.rpy:912
+    # game/script-moods.rpy:920
     old "For someone."
     new "Por alguien."
 
-    # game/script-moods.rpy:912
+    # game/script-moods.rpy:928
     old "For something."
     new "Por algo."
 
-    # game/script-moods.rpy:912
+    # game/script-moods.rpy:934
     old "Nothing specific."
     new "Por nada específico."
 
@@ -2686,6 +2686,6 @@ translate spanish strings:
     old "friends"
     new "amigos"
 
-    # game/script-moods.rpy:1011
+    # game/script-moods.rpy:1012
     old "...guilty."
     new "... culpable."

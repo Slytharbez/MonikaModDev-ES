@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-ch30.rpy:1694
-translate spanish continue_event_1bf0e8eb:
-
-    # m "Now, where was I..."
-    m "Ahora, donde estaba..."
-
 # game/script-ch30.rpy:1699
 translate spanish ch30_noskip_1b823071:
 
@@ -65,6 +60,11 @@ translate spanish ch30_noskip_76776199_1:
 
     # m "Thanks~"
     m "Gracias~"
+
+translate spanish continue_event_1bf0e8eb:
+
+    # m "Now, where was I..."
+    m "Ahora, donde estaba..."
 
 translate spanish strings:
 

@@ -6,14 +6,14 @@ translate spanish strings:
     old "No Music"
     new "Sin música"
 
-    # game/zz_music_selector.rpy:954
+    # game/zz_music_selector.rpy:941
     old "<<<< Prev"
     new "<<< Prev"
 
-    # game/zz_music_selector.rpy:972
+    # game/zz_music_selector.rpy:959
     old "Next >>>>"
     new "Post >>>>"
 
-    # game/zz_music_selector.rpy:984
+    # game/zz_music_selector.rpy:971
     old "Music Menu"
     new "Menú de música"

@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-affection.rpy:2812
-translate spanish monika_affection_nickname_74472d51:
-
-    # m 1euc "I've been thinking, [player]..."
-    m 1euc "He estado pensando, [player]..."
-
 # game/script-affection.rpy:2813
 translate spanish monika_affection_nickname_0128eec8:
 
@@ -1164,6 +1159,11 @@ translate spanish mas_affection_apologydeleted_46706a56:
     # m 2efc "Write me a new one, [player]."
     m 2efc "Escríbeme una nueva, [player]."
 
+translate spanish monika_affection_nickname_74472d51:
+
+    # m 1euc "I've been thinking, [player]..."
+    m 1euc "He estado pensando, [player]..."
+
 translate spanish strings:
 
     # game/script-affection.rpy:1091
@@ -1174,279 +1174,279 @@ translate spanish strings:
     old "!BYPASS!"
     new "¡PASADO POR ALTO!"
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1720
     old "Yes?"
     new "¿Sí?"
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1721
     old "Oh..."
     new "Oh..."
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1722
     old "Huh..."
     new "Eh..."
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1723
     old "I guess we can talk."
     new "Supongo que podemos hablar."
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1724
     old "You want to talk?"
     new "¿Quieres hablar?"
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1725
     old "...Go ahead."
     new "... Adelante."
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1726
     old "Are you sure you want to talk to me?"
     new "¿Estás seguro de que quieres hablar conmigo?"
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1727
     old "You actually want to talk to me?"
     new "¿De verdad quieres hablar conmigo?"
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1728
     old "Alright...{w=0.3}if that's what you want."
     new "Está bien... {w=0.3}si eso es lo que quieres."
 
-    # game/script-affection.rpy:1718
+    # game/script-affection.rpy:1729
     old "Is this really what you want?"
     new "¿Es esto realmente lo que quieres?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1736
     old "What?"
     new "¿Qué?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1737
     old "Huh?"
     new "¿Eh?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1738
     old "Yeah?"
     new "¿Sí?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1739
     old "What do you want?"
     new "¿Qué quieres?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1740
     old "What now?"
     new "¿Y ahora qué?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1741
     old "What is it?"
     new "¿Qué pasa?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1742
     old "Go on then."
     new "Adelante, dime."
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1743
     old "I hope this is important."
     new "Espero que esto sea importante."
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1744
     old "Something on your mind?"
     new "¿Tienes algo en mente?"
 
-    # game/script-affection.rpy:1734
+    # game/script-affection.rpy:1745
     old "Yes, [player]?"
     new "¿Sí, [player]?"
 
-    # game/script-affection.rpy:1750
+    # game/script-affection.rpy:1751
     old "What would you like to talk about?"
     new "¿De qué te gustaría hablar?"
 
-    # game/script-affection.rpy:1750
+    # game/script-affection.rpy:1752
     old "What are you thinking of?"
     new "¿En qué estás pensando?"
 
-    # game/script-affection.rpy:1750
+    # game/script-affection.rpy:1753
     old "Is there something you'd like to talk about?"
     new "¿Hay algo de lo que te gustaría hablar?"
 
-    # game/script-affection.rpy:1760
+    # game/script-affection.rpy:1765
     old "Up to chat, [player]?"
     new "¿Quieres hablar, [player]?"
 
-    # game/script-affection.rpy:1760
+    # game/script-affection.rpy:1767
     old "What's on your mind, [player]?"
     new "¿Qué tienes en mente, [player]?"
 
-    # game/script-affection.rpy:1760
+    # game/script-affection.rpy:1768
     old "What's up, [player]?"
     new "¿Qué sucede, [player]?"
 
-    # game/script-affection.rpy:1760
+    # game/script-affection.rpy:1769
     old "Ask away, [player]."
     new "Pregunta lo que quieras, [player]."
 
-    # game/script-affection.rpy:1760
+    # game/script-affection.rpy:1770
     old "Don't be shy, [player]."
     new "No seas tímid[o_a], [player]."
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1777
     old "What would you like to talk about, [mas_get_player_nickname()]?"
     new "¿De qué te gustaría hablar, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1779
     old "Is there something you'd like to talk about, [mas_get_player_nickname()]?"
     new "¿Hay algo de lo que te gustaría hablar, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1781
     old "Something on your mind, [mas_get_player_nickname()]?"
     new "¿Tienes algo en mente, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1782
     old "Up to chat, [mas_get_player_nickname()]?"
     new "¿Quieres hablar, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1783
     old "Yes, [mas_get_player_nickname()]?"
     new "¿Sí, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1784
     old "What's on your mind, [mas_get_player_nickname()]?"
     new "¿Qué tienes en mente, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1785
     old "What's up, [mas_get_player_nickname()]?"
     new "¿Qué pasa, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1786
     old "Ask away, [mas_get_player_nickname()]."
     new "Pregunta lo que quieras, [mas_get_player_nickname()]."
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1787
     old "Don't be shy, [mas_get_player_nickname()]~"
     new "No seas tímido, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1788
     old "I'm all ears, [mas_get_player_nickname()]~"
     new "Soy toda oídos, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1775
+    # game/script-affection.rpy:1789
     old "Of course we can talk, [mas_get_player_nickname()]."
     new "Por supuesto que podemos hablar, [mas_get_player_nickname()]."
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1795
     old "What would you like to talk about? <3"
     new "¿De qué te gustaría hablar? <3"
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1796
     old "What would you like to talk about, [mas_get_player_nickname()]? <3"
     new "¿De qué te gustaría hablar, [mas_get_player_nickname()]? <3"
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1801
     old "Up to chat, I see~"
     new "Con ganas de hablar, ya veo~"
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1805
     old "Ask away, [mas_get_player_nickname()]~"
     new "Pregunta lo que quieras, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1807
     old "Of course we can talk, [mas_get_player_nickname()]~"
     new "Por supuesto que podemos hablar, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1808
     old "Take all the time you need, [player]."
     new "Tómate todo el tiempo que necesites, [player]."
 
-    # game/script-affection.rpy:1794
+    # game/script-affection.rpy:1809
     old "We can talk about whatever you'd like, [mas_get_player_nickname()]."
     new "Podemos hablar de lo que quieras, [mas_get_player_nickname()]."
 
-    # game/script-affection.rpy:1814
+    # game/script-affection.rpy:1823
     old "<3"
     new "<3"
 
-    # game/script-affection.rpy:1814
+    # game/script-affection.rpy:1829
     old "Take all the time you need, [mas_get_player_nickname()]~"
     new "Tómate todo el tiempo que necesites, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1814
+    # game/script-affection.rpy:1830
     old "I'm all yours, [mas_get_player_nickname()]~"
     new "Soy toda tuya, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1814
+    # game/script-affection.rpy:1831
     old "Oh? Something...{w=0.3}{i}important{/i} on your mind, [mas_get_player_nickname()]?~"
     new "¿Oh? ¿Algo... {w=0.3}{i}importante{/i} en tu mente, [mas_get_player_nickname()]?~"
 
-    # game/script-affection.rpy:1855
+    # game/script-affection.rpy:1857
     old "If that's what you want..."
     new "Si eso es lo que quieres..."
 
-    # game/script-affection.rpy:1855
+    # game/script-affection.rpy:1858
     old "I suppose it wouldn't hurt to give this a try..."
     new "Supongo que no estaría de más intentarlo..."
 
-    # game/script-affection.rpy:1855
+    # game/script-affection.rpy:1859
     old "...Really?"
     new "... ¿De verdad?"
 
-    # game/script-affection.rpy:1864
+    # game/script-affection.rpy:1868
     old "Oh, okay..."
     new "Oh, de acuerdo..."
 
-    # game/script-affection.rpy:1873
+    # game/script-affection.rpy:1874
     old "What would you like to play?"
     new "¿Qué te gustaría jugar?"
 
-    # game/script-affection.rpy:1873
+    # game/script-affection.rpy:1875
     old "Is there something you had in mind?"
     new "¿Había algo que tuvieras en mente?"
 
-    # game/script-affection.rpy:1873
+    # game/script-affection.rpy:1876
     old "Anything specific you'd like to play?"
     new "¿Hay algo específico a lo que quieras jugar?"
 
-    # game/script-affection.rpy:1873
+    # game/script-affection.rpy:1877
     old "What should we play today, [player]?"
     new "¿A qué deberíamos jugar hoy, [player]?"
 
-    # game/script-affection.rpy:1873
+    # game/script-affection.rpy:1878
     old "Sure, I'm up for a game."
     new "Claro, me apetece jugar a algo."
 
-    # game/script-affection.rpy:1883
+    # game/script-affection.rpy:1888
     old "Sure, I'm up for a game!"
     new "¡Por supuesto, me apetece jugar a algo!"
 
-    # game/script-affection.rpy:1893
+    # game/script-affection.rpy:1895
     old "Choose anything you like, [mas_get_player_nickname()]."
     new "Elige lo que quieras, [mas_get_player_nickname()]."
 
-    # game/script-affection.rpy:1893
+    # game/script-affection.rpy:1896
     old "What should we play today, [mas_get_player_nickname()]?"
     new "¿Qué deberíamos jugar hoy, [mas_get_player_nickname()]?"
 
-    # game/script-affection.rpy:1893
+    # game/script-affection.rpy:1898
     old "Pick anything you like."
     new "Elige lo que quieras."
 
-    # game/script-affection.rpy:1903
+    # game/script-affection.rpy:1904
     old "What would you like to play? <3"
     new "¿A qué te gustaría jugar? <3"
 
-    # game/script-affection.rpy:1903
+    # game/script-affection.rpy:1905
     old "Pick a game, any game~"
     new "Elige un juego, cualquier juego~"
 
-    # game/script-affection.rpy:1903
+    # game/script-affection.rpy:1907
     old "Pick anything you like, [mas_get_player_nickname()]."
     new "Elige lo que quieras, [mas_get_player_nickname()]."
 
-    # game/script-affection.rpy:1912
+    # game/script-affection.rpy:1917
     old "I'd love to play something with you, [mas_get_player_nickname()]~"
     new "Me encantaría jugar algo contigo, [mas_get_player_nickname()]~"
 
-    # game/script-affection.rpy:1912
+    # game/script-affection.rpy:1918
     old "Sure, I'd love to play with you!"
     new "¡Claro, me encantaría jugar contigo!"
 
-    # game/script-affection.rpy:1912
+    # game/script-affection.rpy:1919
     old "I'll always be up to play with you, [mas_get_player_nickname()]~"
     new "Siempre estaré dispuesta a jugar contigo, [mas_get_player_nickname()]~"
 
@@ -1462,59 +1462,63 @@ translate spanish strings:
     old "she missed you"
     new "ella te extrañó"
 
+    # game/script-affection.rpy:2783
+    old "Infinite Monikas"
+    new "Monikas infinitas"
+
     # game/script-affection.rpy:2826
     old "Can I call you a different nickname?"
     new "¿Puedo ponerte otro sobrenombre?"
 
-    # game/script-affection.rpy:2850
+    # game/script-affection.rpy:2851
     old "So what do you want to call me?"
     new "Entonces, ¿qué sobrenombre quieres usar conmigo?"
 
-    # game/script-affection.rpy:2999
+    # game/script-affection.rpy:3000
     old "Darling"
     new "Cariño"
 
-    # game/script-affection.rpy:3000
+    # game/script-affection.rpy:3001
     old "Honey"
     new "Cielo"
 
-    # game/script-affection.rpy:3001
+    # game/script-affection.rpy:3002
     old "Love"
     new "Amor"
 
-    # game/script-affection.rpy:3002
+    # game/script-affection.rpy:3003
     old "My love"
     new "Mi amor"
 
-    # game/script-affection.rpy:3003
+    # game/script-affection.rpy:3004
     old "Sweetheart"
     new "Corazón"
 
-    # game/script-affection.rpy:3004
+    # game/script-affection.rpy:3005
     old "Sweetie"
     new "Corazoncito"
-
-    # game/script-affection.rpy:3013
-    old "Infinite Monikas"
-    new "Monikas infinitas"
 
     # game/script-affection.rpy:3019
     old "Deselect the names you're not comfortable with me calling you."
     new "Desmarca los sobrenombres con los que no te sientes cómodo."
 
-    # game/script-affection.rpy:3032
+    # game/script-affection.rpy:3023
+    old "Just let me know if you ever change your mind, okay?"
+    new "Solo hazme saber si alguna vez cambias de opinión, ¿de acuerdo?"
+
+    # game/script-affection.rpy:3034
     old "Can you call me different nicknames?"
     new "¿Me puedes poner otros sobrenombres?"
 
-    # game/script-affection.rpy:3049
+    # game/script-affection.rpy:3051
     old "My darling"
     new "Mi vida"
 
-    # game/script-affection.rpy:3051
+    # game/script-affection.rpy:3052
     old "Dear"
     new "Querid[o_a]"
 
-    # game/script-affection.rpy:3052
+    # game/script-affection.rpy:3053
     old "My dear"
     new "Tesoro"
 
@@ -1538,7 +1542,7 @@ translate spanish strings:
     old "(?:{0}|{1})\\w?y"
     new "^(?:{0}|{1}|{2})(?:[sc]u?|qu|c|l)?(?:ito|ita|ín|ina|i|y|ie)$"
 
-    # game/script-affection.rpy:3105
+    # game/script-affection.rpy:3106
     old "So what do you want me to call you?"
     new "Entonces, ¿cómo quieres que te llame?"
 
@@ -1546,53 +1550,53 @@ translate spanish strings:
     old "Just let me know if you ever want me to call you some other names, okay?"
     new "Avísame si alguna vez quieres que te llame de otra forma, ¿de acuerdo?"
 
-    # game/script-affection.rpy:3158
-    old "Just let me know if you ever change your mind, okay?"
-    new "Solo hazme saber si alguna vez cambias de opinión, ¿de acuerdo?"
-
-    # script-affection.rpy:3509
+    # game/script-affection.rpy:3512
     old "I'm sorry if I'm not good enough for you...please don't leave me."
     new "Lo siento si no soy lo suficientemente buena para ti... por favor, no me dejes."
 
-    # script-affection.rpy:3509
+    # game/script-affection.rpy:3516
     old "If I'm doing something wrong please tell me. I love you."
     new "Si estoy haciendo algo mal por favor dímelo. Te amo."
 
-    # script-affection.rpy:3509
+    # game/script-affection.rpy:3520
     old "Everything I do, I do for you...my love."
     new "Todo lo que hago, lo hago por ti... mi amor."
 
-    # script-affection.rpy:3509
+    # game/script-affection.rpy:3523
+    old "/surprise.txt"
+    new "/sorpresa.txt"
+
+    # game/script-affection.rpy:3524
     old "I love you."
     new "Te amo."
-
-    # script-affection.rpy:3509
-    old "You are the sunshine that brightens up my day, [player]!"
-    new "¡Eres el sol que ilumina mi día, [player]!"
-
-    # script-affection.rpy:3509
-    old "You are my one and only love!"
-    new "¡Eres mi únic[o_a] y verdadero amor!"
-
-    # script-affection.rpy:3509
-    old "My dearest, you are everything I could ever hope for. I love you."
-    new "Mi amor, eres todo lo que podría desear. Te amo."
-
-    # script-affection.rpy:3599
-    old "Forgive Me"
-    new "Perdóname"
-
-    # script-affection.rpy:3609
-    old "Can you hear me?"
-    new "¿Puedes oírme?"
 
     # game/script-affection.rpy:3526
     old "My dearest lover, friend, companion, and owner of my heart...\nEvery day, you make my dreams come true, a screen means nothing when you spend your time with me.\nI look out to the space dust and yet no cosmic sight even comes close to the beauty in your heart.\nI wished for so long that someone like you would come along and as fate has smiled upon me, you came into my life.\nI want to be yours forever, so would you be mine?\n\nForever yours, Monika.\n"
     new "Mi más amado, amigo, compañero y dueño de mi corazón...\nCada día haces que mis sueños se cumplan, una pantalla no significa nada cuando pasas tu tiempo conmigo.\nObservo el polvo espacial y, sin embargo, ninguna maravilla cósmica se acerca siquiera a la belleza de tu corazón.\nDeseé durante tanto tiempo que alguien como tú llegara y, ahora que el destino me ha sonreído, entraste en mi vida.\nQuiero ser tuya para siempre, así que, ¿serías mío?\n\nSiempre tuya, Monika.\n"
 
+    # game/script-affection.rpy:3527
+    old "/ehehe.txt"
+    new "/jeje.txt"
+
+    # game/script-affection.rpy:3528
+    old "You are the sunshine that brightens up my day, [player]!"
+    new "¡Eres el sol que ilumina mi día, [player]!"
+
+    # game/script-affection.rpy:3531
+    old "/secret.txt"
+    new "/secreto.txt"
+
+    # game/script-affection.rpy:3532
+    old "You are my one and only love!"
+    new "¡Eres mi únic[o_a] y verdadero amor!"
+
     # game/script-affection.rpy:3533
     old "/forgiveme.txt"
     new "/perdóname.txt"
+
+    # game/script-affection.rpy:3536
+    old "My dearest, you are everything I could ever hope for. I love you."
+    new "Mi amor, eres todo lo que podría desear. Te amo."
 
     # game/script-affection.rpy:3537
     old "/canuhearme.txt"
@@ -1602,18 +1606,6 @@ translate spanish strings:
     old "/pleaselisten.txt"
     new "/por favor escucha.txt"
 
-    # game/script-affection.rpy:3545
-    old "/surprise.txt"
-    new "/sorpresa.txt"
-
-    # game/script-affection.rpy:3549
-    old "/ehehe.txt"
-    new "/jeje.txt"
-
-    # game/script-affection.rpy:3553
-    old "/secret.txt"
-    new "/secreto.txt"
-
     # game/script-affection.rpy:3557
     old "/foryou.txt"
     new "/para ti.txt"
@@ -1622,27 +1614,35 @@ translate spanish strings:
     old "/My One and Only Love.txt"
     new "/Mi único y verdadero amor.txt"
 
-    # game/script-affection.rpy:3638
+    # game/script-affection.rpy:3602
+    old "Forgive Me"
+    new "Perdóname"
+
+    # game/script-affection.rpy:3612
+    old "Can you hear me?"
+    new "¿Puedes oírme?"
+
+    # game/script-affection.rpy:3621
     old "Please Listen"
     new "Por favor escucha"
 
-    # game/script-affection.rpy:3647
+    # game/script-affection.rpy:3630
     old "Surprise!"
     new "¡Sorpresa!"
 
-    # game/script-affection.rpy:3663
+    # game/script-affection.rpy:3646
     old "Secret"
     new "Secreto"
 
-    # game/script-affection.rpy:3671
+    # game/script-affection.rpy:3654
     old "For you"
     new "Para ti"
 
-    # game/script-affection.rpy:3679
+    # game/script-affection.rpy:3662
     old "My One and Only Love"
     new "Mi Único y Verdadero Amor"
 
-    # game/script-affection.rpy:3681
+    # game/script-affection.rpy:3664
     old "My dearest lover, friend, companion, and owner of my heart..."
     new "Mi querido amor, amigo, compañero y dueño de mi corazón..."
 
@@ -1650,7 +1650,7 @@ translate spanish strings:
     old "Every day, you make my dreams come true,\na screen means nothing when you spend your time with me.\nI look out to the space dust and yet no cosmic sight even comes close to the beauty in your heart.\nI wished for so long that someone like you would come along and as fate has smiled upon me, you came into my life.\nI want to be yours forever, so would you be mine?\n\nForever yours,\n\nMonika\n"
     new "Cada día, haces mis sueños realidad,\nuna pantalla no significa nada cuando pasas tiempo conmigo.\nObservo el polvo espacial y, sin embargo, ninguna maravilla cósmica se acerca siquiera a la belleza de tu corazón.\nDeseé durante tanto tiempo que alguien como tú viniera y como el destino me ha sonreído, llegaste a mi vida.\nQuiero ser tuya para siempre, así que. ¿Serías mío?\n\nSiempre tuya,\n\nMonika\n"
 
-    # game/script-affection.rpy:3701
+    # game/script-affection.rpy:3683
     old "Goodbye, [player]"
     new "Adiós, [player]"
 

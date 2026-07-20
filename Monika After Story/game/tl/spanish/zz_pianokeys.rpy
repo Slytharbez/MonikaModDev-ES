@@ -1,10 +1,23 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_pianokeys.rpy:110
-translate spanish mas_piano_start_6251b7f0:
+# game/zz_pianokeys.rpy:1
+translate spanish _zzpk_ssll_9cc4d00d:
 
-    # m 1hua "You want to play the piano?"
-    m 1hua "¿Quieres tocar el piano?"
+    # m 1eua "Then play for me, [player]~"
+    m 1eua "Entonces toca para mí, [player]~"
+
+# game/zz_pianokeys.rpy:1
+translate spanish _zzpk_ppel_52b51855:
+
+    # m 1eua "Would you like to play again?{nw}"
+    m 1eua "¿Te gustaría tocar de nuevo?{nw}"
+
+# game/zz_pianokeys.rpy:1
+translate spanish _zzpk_ppel_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "¿Te gustaría tocar de nuevo?{fast}" nointeract
 
 # game/zz_pianokeys.rpy:124
 translate spanish mas_piano_songchoice_1b611ea5:
@@ -29,24 +42,6 @@ translate spanish mas_piano_songchoice_10a53abc:
 
     # m 1hua "I'm so excited to hear you play, [player]!"
     m 1hua "¡Estoy muy emocionada de escucharte tocar, [player]!"
-
-# game/zz_pianokeys.rpy:164
-translate spanish _zzpk_ssll_9cc4d00d:
-
-    # m 1eua "Then play for me, [player]~"
-    m 1eua "Entonces toca para mí, [player]~"
-
-# game/zz_pianokeys.rpy:203
-translate spanish _zzpk_ppel_52b51855:
-
-    # m 1eua "Would you like to play again?{nw}"
-    m 1eua "¿Te gustaría tocar de nuevo?{nw}"
-
-# game/zz_pianokeys.rpy:206
-translate spanish _zzpk_ppel_32d0248c:
-
-    # m "Would you like to play again?{fast}" nointeract
-    m "¿Te gustaría tocar de nuevo?{fast}" nointeract
 
 # game/zz_pianokeys.rpy:220
 translate spanish mas_piano_result_default_c9afedae:
@@ -462,40 +457,48 @@ translate spanish mas_piano_yr_prac_7ad9e4fb:
     # m 1eka "Make sure to practice every day for me, okay?~"
     m 1eka "Asegúrate de practicar cada día por mí, ¿de acuerdo ?~"
 
-# game/zz_pianokeys.rpy:1586
+# game/zz_pianokeys.rpy:1582
 translate spanish mas_piano_dpco_win_39267b02:
 
     # m 2dsc "I can't believe you've done this."
     m 2dsc "No puedo creer que hayas hecho esto."
 
-# game/zz_pianokeys.rpy:1587
+# game/zz_pianokeys.rpy:1583
 translate spanish mas_piano_dpco_win_0de9614a:
 
     # m 1eka "Not bad, though."
     m 1eka "Aunque no está mal."
 
-# game/zz_pianokeys.rpy:1596
+# game/zz_pianokeys.rpy:1592
 translate spanish mas_piano_dpco_fail_864fc086:
 
     # m 1lksdla "I think it's okay to not learn this one..."
     m 1lksdla "Creo que está bien no aprender esta..."
 
-# game/zz_pianokeys.rpy:1601
+# game/zz_pianokeys.rpy:1597
 translate spanish mas_piano_dpco_prac_200e0aea:
 
     # m 1eka "Do you really want to learn this?"
     m 1eka "¿De verdad quieres aprender esta?"
 
+translate spanish mas_piano_start_6251b7f0:
+
+    # m 1hua "You want to play the piano?"
+    m 1hua "¿Quieres tocar el piano?"
+
 translate spanish strings:
 
-    # game/zz_pianokeys.rpy:126
+    # game/zz_pianokeys.rpy:128
     old "Play a song."
     new "Tocar una canción."
 
-    # game/zz_pianokeys.rpy:126
+    # game/zz_pianokeys.rpy:157
     old "On my own."
     new "Por mi cuenta."
 
+    # game/zz_pianokeys.rpy:432
+    old "key '{0}' is missing."
+    new "clave '{0}' falta."
     # game/zz_pianokeys.rpy:433
     old "bad note list."
     new "mala lista de notas."
@@ -560,26 +563,23 @@ translate spanish strings:
     old "PNM '{0}' load failed."
     new "PNM '{0}' carga fallida."
 
-    # game/zz_pianokeys.rpy:2449
-    old "Reset All"
-    new "Restablecer todo"
-
-    # game/zz_pianokeys.rpy:2461
-    old "Config"
-    new "Configuración"
-
-    # game/zz_pianokeys.rpy:2493
-    old "Click on a pink area to change the keymap for that piano key"
-    new "Haz clic en un área rosa para cambiar el mapeo de esa tecla del piano"
-
-    # game/zz_pianokeys.rpy:2500
-    old "Press the key you'd like to set this piano key to"
-    new "Pulsa la tecla a la que te gustaría asignar esta tecla del piano"
-
-    # Song Names
+    # game/zz_pianokeys.rpy:1929
     old "Happy Birthday"
     new "Feliz cumpleaños"
 
-    # Technical Error Strings
-    old "key '{0}' is missing."
-    new "clave '{0}' falta."
+    # game/zz_pianokeys.rpy:2407
+    old "Reset All"
+    new "Restablecer todo"
+
+    # game/zz_pianokeys.rpy:2419
+    old "Config"
+    new "Configuración"
+
+    # game/zz_pianokeys.rpy:2451
+    old "Click on a pink area to change the keymap for that piano key"
+    new "Haz clic en un área rosa para cambiar el mapeo de esa tecla del piano"
+
+    # game/zz_pianokeys.rpy:2458
+    old "Press the key you'd like to set this piano key to"
+    new "Pulsa la tecla a la que te gustaría asignar esta tecla del piano"
+

@@ -1,9 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_backgrounds.rpy:3290
-translate spanish monika_change_background_74680220:
-    m 1hua "¡Seguro!"
-
 # game/zz_backgrounds.rpy:3340
 translate spanish monika_change_background_loop_dbb69512:
     m "¿A dónde te gustaría ir?" nointeract
@@ -31,6 +28,9 @@ translate spanish mas_background_change_e162a061:
 # game/zz_backgrounds.rpy:3432
 translate spanish mas_background_change_e43af2ef:
     m "Avísame si quieres ir a otro lugar, ¿okey?"
+
+translate spanish monika_change_background_74680220:
+    m 1hua "¡Seguro!"
 
 translate spanish strings:
 

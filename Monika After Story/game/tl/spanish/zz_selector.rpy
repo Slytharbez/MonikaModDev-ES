@@ -1,72 +1,72 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
-# game/zz_selector.rpy:3987
+# game/zz_selector.rpy:3973
 translate spanish mas_selector_generic_sidebar_select_acs_3dd0f7cb:
 
     # m "Sure [player]!"
     m "¡Seguro [player]!"
 
-# game/zz_selector.rpy:3995
+# game/zz_selector.rpy:3981
 translate spanish mas_selector_generic_sidebar_select_acs_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4039
+# game/zz_selector.rpy:4025
 translate spanish monika_clothes_select_74680220:
 
     # m 1hua "Sure!"
     m 1hua "¡Seguro!"
 
-# game/zz_selector.rpy:4087
+# game/zz_selector.rpy:4073
 translate spanish monika_clothes_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4142
+# game/zz_selector.rpy:4098
 translate spanish monika_event_clothes_select_74680220:
 
     # m 1hua "Sure!"
     m 1hua "¡Seguro!"
 
-# game/zz_selector.rpy:4149
+# game/zz_selector.rpy:4128
 translate spanish monika_event_clothes_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4188
+# game/zz_selector.rpy:4174
 translate spanish monika_hair_select_74680220:
 
     # m 1hua "Sure!"
     m 1hua "¡Seguro!"
 
-# game/zz_selector.rpy:4199
+# game/zz_selector.rpy:4185
 translate spanish monika_hair_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4264
+# game/zz_selector.rpy:4238
 translate spanish monika_ribbon_select_13d1eccf:
 
     # m 1eua "Sure [player]!"
     m 1eua "¡Seguro [player]!"
 
-# game/zz_selector.rpy:4269
+# game/zz_selector.rpy:4242
 translate spanish monika_ribbon_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4334
+# game/zz_selector.rpy:4312
 translate spanish monika_hairflower_select_13d1eccf:
 
     # m 1eua "Sure [player]!"
     m 1eua "¡Seguro [player]!"
 
-# game/zz_selector.rpy:4339
+# game/zz_selector.rpy:4316
 translate spanish monika_hairflower_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
@@ -174,26 +174,6 @@ translate spanish strings:
     old "Do you like my ponytail, [player]?"
     new "¿Te gusta mi coleta, [player]?"
 
-    # game/zz_spriteobjects.rpy:735
-    old "Down"
-    new "Suelto"
-
-    # game/zz_spriteobjects.rpy:739
-    old "Feels nice to let my hair down..."
-    new "Se siente bien soltarme el cabello..."
-
-    # game/zz_spriteobjects.rpy:763
-    old "Down (Tied strand)"
-    new "Suelto con mechón atado"
-
-    # game/zz_spriteobjects.rpy:768
-    old "Looks cute, don't you think?"
-    new "Se ve lindo, ¿no crees?"
-
-    # game/zz_spriteobjects.rpy:793
-    old "Braided"
-    new "Trenzado"
-
     # game/zz_selector.rpy:713
     old "That hairstyle doesn't really work with my clothes."
     new "Ese peinado no combina con mi ropa."
@@ -230,11 +210,35 @@ translate spanish strings:
     old "S-type Ribbon"
     new "Cinta tipo S"
 
-    # game/zz_selector.rpy:3190
+    # game/zz_spriteobjects.rpy:735
+    old "Down"
+    new "Suelto"
+
+    # game/zz_spriteobjects.rpy:739
+    old "Feels nice to let my hair down..."
+    new "Se siente bien soltarme el cabello..."
+
+    # game/zz_spriteobjects.rpy:763
+    old "Down (Tied strand)"
+    new "Suelto con mechón atado"
+
+    # game/zz_spriteobjects.rpy:768
+    old "Looks cute, don't you think?"
+    new "Se ve lindo, ¿no crees?"
+
+    # game/zz_spriteobjects.rpy:793
+    old "Braided"
+    new "Trenzado"
+
+    # game/zz_selector.rpy:823
+    old "Remove"
+    new "Quitar"
+
+    # game/zz_selector.rpy:3192
     old "Filter"
     new "Filtro"
 
-    # game/zz_selector.rpy:3355
+    # game/zz_selector.rpy:3357
     old "Show All"
     new "Mostrar todo"
 
@@ -258,7 +262,7 @@ translate spanish strings:
     old "Twin ribbons"
     new "Par de cintas"
 
-    # game/zz_selector.rpy:3425
+    # game/zz_selector.rpy:3427
     old "Search for..."
     new "Buscar..."
 
@@ -266,71 +270,74 @@ translate spanish strings:
     old "Search..."
     new "Buscar..."
 
-    # game/zz_selector.rpy:3493
+    # game/zz_selector.rpy:3474
     old "Outfit Mode"
     new "Modo Autuendo"
 
-    # game/zz_selector.rpy:3507
+    # game/zz_selector.rpy:3488
     old "Confirm"
     new "Confirmar"
 
-    # game/zz_selector.rpy:3517
+    # game/zz_selector.rpy:3498
     old "Restore"
     new "Restaurar"
 
-    # game/zz_selector.rpy:3972
-    old "Which {0} would you like me to wear?"
-    new "¿Qué {0} te gustaría que use?"
-
-    # game/zz_selector.rpy:4015
-    old "appearance"
-    new "apariencia"
-
-    # game/zz_selector.rpy:4032
-    old "Which clothes would you like me to wear?"
-    new "¿Qué ropa te gustaría que use?"
-
-    # game/zz_selector.rpy:4180
-    old "Which hairstyle would you like me to wear?"
-    new "¿Qué peinado te gustaría que me hiciera?"
-
-    # game/zz_selector.rpy:4252
-    old "Basic Hair Band"
-    new "Cinta de cabello básica"
-
-    # game/zz_selector.rpy:4256
-    old "Which hair tie would you like me to use?"
-    new "¿Qué cinta para el cabello te gustaría que usara?"
-
-    # game/zz_selector.rpy:4295
-    old "Which hairclip would you like me to wear?"
-    new "¿Qué horquilla te gustaría que usara?"
-
-    # game/zz_selector.rpy:4330
-    old "Which flower would you like me to put in my hair?"
-    new "¿Qué flor te gustaría que me ponga en el cabello?"
-
+    # game/zz_selector.rpy:3954
     old "type_name_choker"
     new "gargantilla"
 
+    # game/zz_selector.rpy:3954
     old "type_name_hat"
     new "sombrero"
 
+    # game/zz_selector.rpy:3954
     old "type_name_earrings"
     new "aretes"
 
+    # game/zz_selector.rpy:3954
     old "type_name_necklace"
     new "collar"
 
+    # game/zz_selector.rpy:3954
     old "type_name_left-hair-clip"
     new "horquilla"
 
+    # game/zz_selector.rpy:3954
     old "type_name_ribbon"
     new "cinta"
 
-    old "Remove"
-    new "Quitar"
-
+    # game/zz_selector.rpy:3954
     old "hairclip"
     new "horquilla"
-    
+
+    # game/zz_selector.rpy:3958
+    old "Which {0} would you like me to wear?"
+    new "¿Qué {0} te gustaría que use?"
+
+    # game/zz_selector.rpy:4001
+    old "appearance"
+    new "apariencia"
+
+    # game/zz_selector.rpy:4018
+    old "Which clothes would you like me to wear?"
+    new "¿Qué ropa te gustaría que use?"
+
+    # game/zz_selector.rpy:4166
+    old "Which hairstyle would you like me to wear?"
+    new "¿Qué peinado te gustaría que me hiciera?"
+
+    # game/zz_selector.rpy:4238
+    old "Basic Hair Band"
+    new "Cinta de cabello básica"
+
+    # game/zz_selector.rpy:4242
+    old "Which hair tie would you like me to use?"
+    new "¿Qué cinta para el cabello te gustaría que usara?"
+
+    # game/zz_selector.rpy:4281
+    old "Which hairclip would you like me to wear?"
+    new "¿Qué horquilla te gustaría que usara?"
+
+    # game/zz_selector.rpy:4316
+    old "Which flower would you like me to put in my hair?"
+    new "¿Qué flor te gustaría que me ponga en el cabello?"

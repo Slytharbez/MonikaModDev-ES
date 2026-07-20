@@ -1,9 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/updater.rpy:821
-translate spanish mas_updater_steam_issue_b69ce24a:
-    m 1eub "¡[player]! {w=0.2}Veo que usas Steam."
-
 # game/updater.rpy:822
 translate spanish mas_updater_steam_issue_4270ff17:
     m 1eksdlb "Lamentablemente..."
@@ -64,37 +61,40 @@ translate spanish mas_updater_rpy_issue_1d48ad5f:
 translate spanish mas_updater_rpy_issue_d0bf961e:
     m 3eka "De acuerdo [player]. Si los borras y luego intentas actualizar de nuevo, ejecutaré el actualizador por ti."
 
+translate spanish mas_updater_steam_issue_b69ce24a:
+    m 1eub "¡[player]! {w=0.2}Veo que usas Steam."
+
 translate spanish strings:
 
-    # game/updater.rpy:168
+    # game/updater.rpy:169
     old "Ok"
     new "Ok"
 
-    # game/updater.rpy:190
+    # game/updater.rpy:191
     old "Update"
     new "Actualizar"
 
-    # game/updater.rpy:201
+    # game/updater.rpy:202
     old "Retry"
     new "Reintentar"
 
-    # game/updater.rpy:220
+    # game/updater.rpy:221
     old "New update available!"
     new "¡Nueva actualización disponible!"
 
-    # game/updater.rpy:227
+    # game/updater.rpy:228
     old "No update found."
     new "No se ha encontrado ninguna actualización."
 
-    # game/updater.rpy:234
+    # game/updater.rpy:235
     old "Connection timed out."
     new "Conexión interrumpida."
 
-    # game/updater.rpy:241
+    # game/updater.rpy:242
     old "Server returned bad response."
     new "El servidor ha devuelto una respuesta errónea."
 
-    # game/updater.rpy:248
+    # game/updater.rpy:249
     old "Server returned bad JSON."
     new "El servidor ha devuelto un JSON incorrecto."
 

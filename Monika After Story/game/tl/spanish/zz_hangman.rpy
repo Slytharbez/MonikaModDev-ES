@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_hangman.rpy:377
-translate spanish mas_hangman_game_select_diff_0176af25:
-
-    # m "Choose a difficulty.{nw}"
-    m "Elige una dificultad.{nw}"
-
 # game/zz_hangman.rpy:380
 translate spanish mas_hangman_game_select_diff_9f2bfa77:
 
@@ -211,6 +206,11 @@ translate spanish mas_hangman_dlg_game_end_short_05c7b63d:
     # m 1eua "[dlg_line]"
     m 1eua "[dlg_line!t]"
 
+translate spanish mas_hangman_game_select_diff_0176af25:
+
+    # m "Choose a difficulty.{nw}"
+    m "Elige una dificultad.{nw}"
+
 translate spanish strings:
 
     # game/zz_hangman.rpy:177
@@ -259,6 +259,9 @@ translate spanish strings:
     old "corruption"
     new "corrupción"
 
+    # game/zz_hangman.rpy:178
+    old "ribbon"
+    new "cinta"
     # game/zz_hangman.rpy:179
     old "squid"
     new "calamar"
@@ -375,15 +378,15 @@ translate spanish strings:
     old "'?' to repeat the hint, "
     new "'?' para repetir la pista, "
 
-    # game/zz_hangman.rpy:379
+    # game/zz_hangman.rpy:381
     old "Easy."
     new "Fácil."
 
-    # game/zz_hangman.rpy:379
+    # game/zz_hangman.rpy:383
     old "Normal."
     new "Normal."
 
-    # game/zz_hangman.rpy:379
+    # game/zz_hangman.rpy:385
     old "Hard."
     new "Difícil."
 
@@ -407,5 +410,3 @@ translate spanish strings:
     old "Okay. Let's play again soon!"
     new "De acuerdo. ¡Juguemos de nuevo pronto!"
 
-    old "ribbon"
-    new "cinta"

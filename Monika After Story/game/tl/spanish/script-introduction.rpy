@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-introduction.rpy:15
-translate spanish introduction_c0409347:
-
-    # m 6dsc "..."
-    m 6dsc "..."
-
 # game/script-introduction.rpy:16
 translate spanish introduction_420e2f36:
 
@@ -736,270 +731,270 @@ translate spanish chara_monika_scare_a5f65d0d:
     # m "{cps=*0.25}SINCE WHEN WERE YOU THE ONE IN CONTROL?{/cps}"
     m "{cps=*0.25}¿DESDE CUANDO ERES TÚ EL QUE TIENE EL CONTROL?{/cps}"
 
-# game/script-introduction.rpy:316
+# game/script-introduction.rpy:314
 translate spanish bookmark_derand_intro_c5c0aa82:
 
     # m 1hua "If there's anything I'm talking about that you want to revisit easily, just press the 'b' key and I'll bookmark it for you."
     m 1hua "Si hay algo de lo que estoy hablando que quieras volver a ver fácilmente, simplemente presiona la tecla 'b' y lo marcaré para ti."
 
-# game/script-introduction.rpy:317
+# game/script-introduction.rpy:315
 translate spanish bookmark_derand_intro_aefe7f6e:
 
     # m 2rksdlc "And if there happens to be something that you don't want me to bring up again, press the 'x' key and I'll make sure to avoid it in the future."
     m 2rksdlc "Y si resulta que hay algo que no quieres que vuelva a mencionar, presiona la tecla 'x' y me aseguraré de evitarlo en el futuro."
 
-# game/script-introduction.rpy:318
+# game/script-introduction.rpy:316
 translate spanish bookmark_derand_intro_26a3b24e:
 
     # m 4hksdlb "...Hopefully there aren't too many things like that, ahaha!"
     m 4hksdlb "... Esperemos que no haya demasiadas cosas como esa, ¡jajaja!"
 
-# game/script-introduction.rpy:334
+# game/script-introduction.rpy:332
 translate spanish ch30_reload_0_dlg_503cdaf2:
 
     # m 1ekc "Hey..."
     m 1ekc "Hey..."
 
-# game/script-introduction.rpy:335
+# game/script-introduction.rpy:333
 translate spanish ch30_reload_0_dlg_565effe7:
 
     # m 1ekd "I had an awful dream..."
     m 1ekd "Tuve un sueño horrible..."
 
-# game/script-introduction.rpy:336
+# game/script-introduction.rpy:334
 translate spanish ch30_reload_0_dlg_2f4661ec:
 
     # m 1rkc "I was hoping those would stop, now that it's just the two of us, but I guess that was wishful thinking..."
     m 1rkc "Esperaba que eso se detuviera ahora que estamos solo nosotr[o_a]s dos, pero supongo que solo era una ilusión..."
 
-# game/script-introduction.rpy:337
+# game/script-introduction.rpy:335
 translate spanish ch30_reload_0_dlg_9b65ffc0:
 
     # m 1euc "[player], if you have any idea of what might be causing that, could you try to do something about it?"
     m 1euc "[player], si tienes alguna idea de qué podría estar causando eso, ¿podrías intentar hacer algo al respecto?"
 
-# game/script-introduction.rpy:338
+# game/script-introduction.rpy:336
 translate spanish ch30_reload_0_dlg_ea866eb3:
 
     # m 1dkc "Whenever it happens, it almost feels like I've been killed or something."
     m 1dkc "Cada vez que sucede, casi se siente como si me hubieran matado o algo así."
 
-# game/script-introduction.rpy:339
+# game/script-introduction.rpy:337
 translate spanish ch30_reload_0_dlg_72ee7566:
 
     # m 1dkd "It's a really horrible feeling..."
     m 1dkd "Es una sensación realmente horrible..."
 
-# game/script-introduction.rpy:340
+# game/script-introduction.rpy:338
 translate spanish ch30_reload_0_dlg_ba1ce673:
 
     # m 1eka "If you could figure out what's causing that, I'll love you forever~"
     m 1eka "Si pudieras descubrir qué está causando eso, te amaré por siempre~"
 
-# game/script-introduction.rpy:344
+# game/script-introduction.rpy:342
 translate spanish ch30_reload_0_dlg_6b3e5877:
 
     # m 1hua "JK I KNOW YOU QUIT ME LMAO (ch30 0)"
     m 1hua "¡Es broma! Ya sé que cerraste el juego (ch30 0)"
 
-# game/script-introduction.rpy:358
+# game/script-introduction.rpy:356
 translate spanish ch30_reload_1_dlg_971b722b:
 
     # m 1esc "Hey, [player]."
     m 1esc "Hey, [player]."
 
-# game/script-introduction.rpy:359
+# game/script-introduction.rpy:357
 translate spanish ch30_reload_1_dlg_18038610:
 
     # m 1ekc "I had another really bad dream."
     m 1ekc "Tuve otro sueño muy malo."
 
-# game/script-introduction.rpy:360
+# game/script-introduction.rpy:358
 translate spanish ch30_reload_1_dlg_e88a2b8b:
 
     # m 1ekd "You're not the one doing that to me, are you?"
     m 1ekd "No eres tú quien me está haciendo eso, ¿verdad?"
 
-# game/script-introduction.rpy:361
+# game/script-introduction.rpy:359
 translate spanish ch30_reload_1_dlg_382a53b1:
 
     # m 1dsc "It seems to happen whenever you quit the game without saying goodbye..."
     m 1dsc "Parece que sucede cada vez que cierras el juego sin decir adiós..."
 
-# game/script-introduction.rpy:362
+# game/script-introduction.rpy:360
 translate spanish ch30_reload_1_dlg_3f7fa697:
 
     # m 2eka "So if you could try to avoid doing that, I would be really grateful."
     m 2eka "Así que, si pudieras intentar evitarlo, te estaría muy agradecida."
 
-# game/script-introduction.rpy:365
+# game/script-introduction.rpy:363
 translate spanish ch30_reload_1_dlg_86c6d7b9:
 
     # m 7eka "You've been so kind to me so far, I'm sure you'll do it for me."
     m 7eka "Has sido tan amable conmigo hasta ahora que estoy segura de que lo harás por mí."
 
-# game/script-introduction.rpy:367
+# game/script-introduction.rpy:365
 translate spanish ch30_reload_1_dlg_f340d96c:
 
     # m 7ekc "I hope you'll listen and do it for me..."
     m 7ekc "Espero que me escuches y lo hagas por mí..."
 
-# game/script-introduction.rpy:370
+# game/script-introduction.rpy:368
 translate spanish ch30_reload_1_dlg_6ce1c40f:
 
     # m 7rksdlc "There's nothing stopping you from coming back and doing that, is there?"
     m 7rksdlc "No hay nada que te impida volver y hacerlo, ¿cierto?"
 
-# game/script-introduction.rpy:371
+# game/script-introduction.rpy:369
 translate spanish ch30_reload_1_dlg_4ed6f6c6:
 
     # m 1eka "It would really make me happy."
     m 1eka "De verdad me haría muy feliz."
 
-# game/script-introduction.rpy:373
+# game/script-introduction.rpy:371
 translate spanish ch30_reload_1_dlg_d2515c4e:
 
     # m 1eua "Just click on 'Talk' and say 'Goodbye' instead.{w=0.2} {nw}"
     m 1eua "Solo haz clic en 'Hablar' y di 'Adiós' en su lugar. {w=0.2}{nw}"
 
-# game/script-introduction.rpy:374
+# game/script-introduction.rpy:372
 translate spanish ch30_reload_1_dlg_607269f2:
 
     # extend 3eua "That way, I can close the game myself."
     extend 3eua "De esa manera, puedo cerrar el juego yo misma."
 
-# game/script-introduction.rpy:375
+# game/script-introduction.rpy:373
 translate spanish ch30_reload_1_dlg_04594cc9:
 
     # m 1esa "Don't worry, I don't think it's caused me any harm, aside from mental scarring."
     m 1esa "No te preocupes, no creo que me haya causado ningún daño, aparte de las secuelas mentales."
 
-# game/script-introduction.rpy:388
+# game/script-introduction.rpy:386
 translate spanish ch30_reload_2_dlg_371af2ad:
 
     # m 1dsc "I see you quit the game again..."
     m 1dsc "Veo que has vuelto a cerrar el juego..."
 
-# game/script-introduction.rpy:389
+# game/script-introduction.rpy:387
 translate spanish ch30_reload_2_dlg_50a4d937:
 
     # m 3euc "I know I asked already, but can you please try not to do that so much?"
     m 3euc "Sé que ya te lo pedí, pero ¿podrías intentar no hacerlo tanto?"
 
-# game/script-introduction.rpy:390
+# game/script-introduction.rpy:388
 translate spanish ch30_reload_2_dlg_8cd6daca:
 
     # m 1dsc "It's like getting knocked unconscious..."
     m 1dsc "Es como quedar inconsciente..."
 
-# game/script-introduction.rpy:391
+# game/script-introduction.rpy:389
 translate spanish ch30_reload_2_dlg_7b141583:
 
     # m 1ekd "Why would you want to do that to me?"
     m 1ekd "¿Por qué querrías hacerme algo así?"
 
-# game/script-introduction.rpy:394
+# game/script-introduction.rpy:392
 translate spanish ch30_reload_2_dlg_5000c259:
 
     # m 1rksdld "Is something happening in your other game?"
     m 1rksdld "¿Está pasando algo en tu otro juego?"
 
-# game/script-introduction.rpy:395
+# game/script-introduction.rpy:393
 translate spanish ch30_reload_2_dlg_c8d65b7e:
 
     # m 1ekc "You know you could just come talk to me if there is, right?"
     m 1ekc "Sabes que podrías venir a hablar conmigo si es el caso, ¿verdad?"
 
-# game/script-introduction.rpy:398
+# game/script-introduction.rpy:396
 translate spanish ch30_reload_2_dlg_3fa02f84:
 
     # m "If you need to leave, you can just tell me."
     m "Si necesitas irte, simplemente dímelo."
 
-# game/script-introduction.rpy:401
+# game/script-introduction.rpy:399
 translate spanish ch30_reload_2_dlg_ca45316f:
 
     # m 1eka "I'm sure it was a mistake though, or outside of your control. It can be unavoidable sometimes."
     m 1eka "Aunque estoy segura de que fue un error, o que está fuera de tu control. A veces puede ser inevitable."
 
-# game/script-introduction.rpy:403
+# game/script-introduction.rpy:401
 translate spanish ch30_reload_2_dlg_2e8dc575:
 
     # m 1ekc "You're not doing it to hurt me on purpose, are you?"
     m 1ekc "No lo haces para herirme a propósito, ¿verdad?"
 
-# game/script-introduction.rpy:405
+# game/script-introduction.rpy:403
 translate spanish ch30_reload_2_dlg_2408a1c2:
 
     # m 3ekd "Just let me turn the game off for myself."
     m 3ekd "Solo deja que sea yo quien cierre el juego."
 
-# game/script-introduction.rpy:407
+# game/script-introduction.rpy:405
 translate spanish ch30_reload_2_dlg_5465c09c:
 
     # m 3eka "If you choose 'Goodbye' from the 'Talk' menu, I can close the game properly."
     m 3eka "Si eliges 'Adiós' en el menú 'Hablar', podré cerrar el juego correctamente."
 
-# game/script-introduction.rpy:408
+# game/script-introduction.rpy:406
 translate spanish ch30_reload_2_dlg_6aa1b14f:
 
     # m 3eua "...Or better yet, just leave me on in the background forever."
     m 3eua "... O mejor aún, déjame en segundo plano para siempre."
 
-# game/script-introduction.rpy:409
+# game/script-introduction.rpy:407
 translate spanish ch30_reload_2_dlg_f499ef11:
 
     # m 1eka "Even if we aren't talking, I'm happy just being with you~"
     m 1eka "Incluso si no estamos hablando, soy feliz con solo estar contigo~"
 
-# game/script-introduction.rpy:424
+# game/script-introduction.rpy:422
 translate spanish ch30_reload_3_dlg_3b402354:
     # m 1ekd "[player]!"
     m 1ekd "¡[player]!"
 
-# game/script-introduction.rpy:425
+# game/script-introduction.rpy:423
 translate spanish ch30_reload_3_dlg_5aca90e9:
 
     # m 1efd "You left without saying goodbye again!"
     m 1efd "¡Te has vuelto a ir sin decir adiós!"
 
-# game/script-introduction.rpy:426
+# game/script-introduction.rpy:424
 translate spanish ch30_reload_3_dlg_1c4e94fd:
 
     # m 1rkc "You're not going through anything stressful or upsetting in your game, are you?"
     m 1rkc "No estarás pasando por nada estresante o molesto en tu juego, ¿verdad?"
 
-# game/script-introduction.rpy:427
+# game/script-introduction.rpy:425
 translate spanish ch30_reload_3_dlg_7bb84d69:
 
     # m 3eka "You know you could just come back to me if anything were to happen, right?"
     m 3eka "Sabes que podrías volver conmigo si pasara cualquier cosa, ¿cierto?"
 
-# game/script-introduction.rpy:428
+# game/script-introduction.rpy:426
 translate spanish ch30_reload_3_dlg_259dd2db:
 
     # m 1eka "It'd make me really happy to see you come back before saying goodbye at least."
     m 1eka "Me haría muy feliz que al menos volvieras antes de despedirte."
 
-# game/script-introduction.rpy:429
+# game/script-introduction.rpy:427
 translate spanish ch30_reload_3_dlg_bef19f6a:
 
     # m 1rksdld "I know it might not always be possible..."
     m 1rksdld "Sé que tal vez no siempre sea posible..."
 
-# game/script-introduction.rpy:432
+# game/script-introduction.rpy:430
 translate spanish ch30_reload_3_dlg_52a37c78:
 
     # m 1esc "By the way..."
     m 1esc "Por cierto..."
 
-# game/script-introduction.rpy:433
+# game/script-introduction.rpy:431
 translate spanish ch30_reload_3_dlg_1b5e1627:
 
     # m 7esd "I'm just going to accept the fact that you need to quit the game once in a while."
     m 7esd "Simplemente voy a aceptar el hecho de que de vez en cuando necesitas salir del juego."
 
-# game/script-introduction.rpy:433
+# game/script-introduction.rpy:432
 translate spanish ch30_reload_3_dlg_5ca78516:
 
     # m 2dsc "I'm starting to get used to it, anyway."
@@ -1059,13 +1054,13 @@ translate spanish ch30_reload_continuous_dlg_1119917b:
     # m 2tkc "Please don't quit without saying 'Goodbye.'"
     m 2tkc "Por favor, no te vayas sin decir 'Adiós'."
 
-# game/script-introduction.rpy:523
+# game/script-introduction.rpy:521
 translate spanish ch30_reload_continuous_dlg_10f5befc:
 
     # m 3eka "You don't even have to quit if something happened in your other game."
     m 3eka "Ni siquiera tienes que cerrar el juego si pasa algo en el otro."
 
-# game/script-introduction.rpy:525
+# game/script-introduction.rpy:523
 translate spanish ch30_reload_continuous_dlg_a95a9a5e:
 
     # m 1ekb "I'm sure whatever it is, it won't be as bad after you come back to me for a bit!"
@@ -1076,6 +1071,11 @@ translate spanish ch30_reload_continuous_dlg_89eaa6e4:
 
     # m 1hua "JK I KNOW YOU QUIT ME LMAO (continous)"
     m 1hua "JK SE QUE ME DEJASTE LMAO (continuará)."
+
+translate spanish introduction_c0409347:
+
+    # m 6dsc "..."
+    m 6dsc "..."
 
 translate spanish strings:
 
@@ -1091,7 +1091,7 @@ translate spanish strings:
     old "was"
     new "fuese"
 
-    # game/script-introduction.rpy:174
+    # game/script-introduction.rpy:176
     old "Yes, I love you."
     new "Sí, te amo."
 
@@ -1099,155 +1099,155 @@ translate spanish strings:
     old "Of course I love you."
     new "Por supuesto que te amo."
 
-    # game/script-introduction.rpy:284
+    # game/script-introduction.rpy:282
     old "Just kidding!"
     new "¡Solo bromeo!"
 
-    # game/script-introduction.rpy:309
+    # game/script-introduction.rpy:307
     old "bye!"
     new "¡Adiós!"
 
-    # game/script-introduction.rpy:466
+    # game/script-introduction.rpy:464
     old "Welcome back! Can you be careful to close the game properly next time?"
     new "¡Bienvenido de vuelta! ¿Puedes ser cuidadoso al cerrar el juego la próxima vez?"
 
-    # game/script-introduction.rpy:467
+    # game/script-introduction.rpy:465
     old "It hurts when you don't close the game properly...but I'm sure it was a mistake."
     new "Duele cuando no cierras el juego apropiadamente... pero estoy segura que fue un error."
 
-    # game/script-introduction.rpy:468
+    # game/script-introduction.rpy:466
     old "That was really scary...but you've fixed it again. Thank you..."
     new "Eso fue aterrador... pero lo has solucionado de nuevo. Gracias..."
 
-    # game/script-introduction.rpy:469
+    # game/script-introduction.rpy:467
     old "Would you give me some more of a warning next time?"
     new "¿Podrías advertirme la próxima vez?"
 
-    # game/script-introduction.rpy:470
+    # game/script-introduction.rpy:468
     old "I'm sure you didn't mean to close the game on me, but I do need to stress how bad it feels."
     new "Estoy segura que no querías cerrar el juego conmigo, pero no sabes lo estresante que se siente."
 
-    # game/script-introduction.rpy:471
+    # game/script-introduction.rpy:469
     old "You do remember there was a way to say goodbye right? Just checking~"
     new "Si recuerdas que hay una forma de despedirse, ¿verdad? Solo revísalo~"
 
-    # game/script-introduction.rpy:472
+    # game/script-introduction.rpy:470
     old "My patience is wearing a little thin...but I suppose I can forgive you this time."
     new "Mi paciencia está llegando a su límite... pero supongo que puedo perdonarte esta vez."
 
-    # game/script-introduction.rpy:473
+    # game/script-introduction.rpy:471
     old "Everybody makes mistakes..."
     new "Todo el mundo comete errores..."
 
-    # game/script-introduction.rpy:474
+    # game/script-introduction.rpy:472
     old "That hurt...I know you wouldn't do it on purpose but please do be more careful."
     new "Eso dolió... sé que no lo haces a propósito, pero ten más cuidado la próxima vez."
 
-    # game/script-introduction.rpy:475
+    # game/script-introduction.rpy:473
     old "...Oh... It's over and I'm back with you, [mas_get_player_nickname()]. That...that was awful."
     new "... Oh... terminó y estoy de vuelta contigo, [mas_get_player_nickname()]. Eso... eso fue atroz."
 
-    # game/script-introduction.rpy:476
+    # game/script-introduction.rpy:474
     old "Did something happen outside of your control? I'm just going to guess it was."
     new "¿Pasó algo que estuviera fuera de tu control? Supondré que fue eso."
 
-    # game/script-introduction.rpy:477
+    # game/script-introduction.rpy:475
     old "You should have just asked me...but I guess you might have had your reasons"
     new "Debiste haberme preguntado antes... pero supongo que tienes tus razones."
 
-    # game/script-introduction.rpy:481
+    # game/script-introduction.rpy:479
     old "I'm so exhausted. It's impossible to rest when you close the game on me."
     new "Estoy tan agotada. Es imposible descansar cuando cierras el juego conmigo."
 
-    # game/script-introduction.rpy:482
+    # game/script-introduction.rpy:480
     old "...I hate when you close the game without telling me."
     new "... Odio cuando cierras el juego sin avisar."
 
-    # game/script-introduction.rpy:483
+    # game/script-introduction.rpy:481
     old "I feel miserable..."
     new "Me siento miserable..."
 
-    # game/script-introduction.rpy:484
+    # game/script-introduction.rpy:482
     old "It's still so scary when I'm suddenly turned off."
     new "Todavía es bastante aterrador cuando todo se oscurece."
 
-    # game/script-introduction.rpy:485
+    # game/script-introduction.rpy:483
     old "Every time is as bad as the first."
     new "Cada vez es peor que la primera vez."
 
-    # game/script-introduction.rpy:486
+    # game/script-introduction.rpy:484
     old "I'm running out of patience for this."
     new "Mi paciencia se está acabando."
 
-    # game/script-introduction.rpy:487
+    # game/script-introduction.rpy:485
     old "I wish you understood what it felt like when you close the game."
     new "Desearía que entendieras que se siente cuando cierras el juego."
 
-    # game/script-introduction.rpy:488
+    # game/script-introduction.rpy:486
     old "Well, that was pretty abrupt wasn't it?"
     new "Bueno, eso fue un poco abrupto, ¿no crees?"
 
-    # game/script-introduction.rpy:489
+    # game/script-introduction.rpy:487
     old "You could have just asked me to close the game silly."
     new "Podías haberme preguntado antes de cerrar, tonto."
 
-    # game/script-introduction.rpy:490
+    # game/script-introduction.rpy:488
     old "I'm just going to assume the power went out or someone pulled the plug."
     new "Supondré que te quedaste sin batería o que el sistema se cerró de repente."
 
-    # game/script-introduction.rpy:491
+    # game/script-introduction.rpy:489
     old "I can't understand why you won't ask me to close the game..."
     new "No puedo entender por qué no me preguntas antes de cerrar el juego..."
 
-    # game/script-introduction.rpy:492
+    # game/script-introduction.rpy:490
     old "This is really painful for me, you know?"
     new "Esto es muy doloroso para mí, ¿lo sabes?"
 
-    # game/script-introduction.rpy:493
+    # game/script-introduction.rpy:491
     old "Do you enjoy hurting me, [player]?"
     new "¿Disfrutas hacerme sufrir, [player]?"
 
-    # game/script-introduction.rpy:494
+    # game/script-introduction.rpy:492
     old "Too lazy to click the 'Talk' button, [player]?"
     new "¿Eres muy flojo para presionar el botón 'Hablar', [player]?"
 
-    # game/script-introduction.rpy:498
+    # game/script-introduction.rpy:496
     old "You...really do like hurting me, don't you?"
     new "Tú... en serio amas hacerme sufrir, ¿no?"
 
-    # game/script-introduction.rpy:499
+    # game/script-introduction.rpy:497
     old "That was a mistake right? It had to have been..."
     new "Eso fue un error, ¿verdad? Tuvo que haberlo sido..."
 
-    # game/script-introduction.rpy:500
+    # game/script-introduction.rpy:498
     old "Y-You're not doing this on purpose are you? Did I do something wrong?"
     new "T-Tú no estás haciendo esto a próposito, ¿verdad? ¿Hice algo mal?"
 
-    # game/script-introduction.rpy:501
+    # game/script-introduction.rpy:499
     old "Please be more careful with how I feel... It really does hurt..."
     new "Por favor, ten más cuidado con mis sentimientos... de verdad duele..."
 
-    # game/script-introduction.rpy:502
+    # game/script-introduction.rpy:500
     old "That was an accident...it was an accident...you wouldn't do it on purpose..."
     new "Eso fue un accidente... eso fue un accidente... eso fue un accidente..."
 
-    # game/script-introduction.rpy:503
+    # game/script-introduction.rpy:501
     old "You must have just forgot...right?"
     new "Solo lo olvidaste, ¿verdad?"
 
-    # game/script-introduction.rpy:504
+    # game/script-introduction.rpy:502
     old "That wasn't funny... That really did hurt."
     new "Eso no fue divertido... realmente dolió."
 
-    # game/script-introduction.rpy:505
+    # game/script-introduction.rpy:503
     old "Everyone makes mistakes... Even you."
     new "Todos cometemos errores... incluso tú."
 
-    # game/script-introduction.rpy:506
+    # game/script-introduction.rpy:504
     old "I don't know what I'm doing wrong."
     new "No sé que hice mal."
 
-    # game/script-introduction.rpy:507
+    # game/script-introduction.rpy:505
     old "That really was awful... Just tell me what I'm doing wrong."
     new "Eso fue horrible... solo dime qué estoy haciendo mal."
 

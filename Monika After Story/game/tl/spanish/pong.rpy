@@ -1,10 +1,17 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/pong.rpy:481
-translate spanish game_pong_a10d17dc:
+# game/pong.rpy:1
+translate spanish _mas_pong_inst_dialogue_896ad903:
 
-    # m 1eua "Ready to try again?"
-    m 1eua "¿List[o_a] para intentarlo de nuevo?"
+    # m 3eua "Would you like to play again?{nw}"
+    m 3eua "¿Te gustaría jugar de nuevo?{nw}"
+
+# game/pong.rpy:1
+translate spanish _mas_pong_inst_dialogue_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "¿Te gustaría jugar de nuevo?{fast}" nointeract
 
 # game/pong.rpy:482
 translate spanish game_pong_3597d451:
@@ -23,18 +30,6 @@ translate spanish game_pong_91482ad9:
 
     # m 3eub "I'm ready when you are~"
     m 3eub "Estoy lista cuando tú lo estés~"
-
-# game/pong.rpy:560
-translate spanish _mas_pong_inst_dialogue_896ad903:
-
-    # m 3eua "Would you like to play again?{nw}"
-    m 3eua "¿Te gustaría jugar de nuevo?{nw}"
-
-# game/pong.rpy:563
-translate spanish _mas_pong_inst_dialogue_32d0248c:
-
-    # m "Would you like to play again?{fast}" nointeract
-    m "¿Te gustaría jugar de nuevo?{fast}" nointeract
 
 # game/pong.rpy:619
 translate spanish mas_pong_dlg_winner_5687489f:
@@ -984,13 +979,18 @@ translate spanish mas_pong_dlg_winner_end_3201a8bc:
     # m 1hubfa "Ehehe~"
     m 1hubfa "Jeje~"
 
+translate spanish game_pong_a10d17dc:
+
+    # m 1eua "Ready to try again?"
+    m 1eua "¿List[o_a] para intentarlo de nuevo?"
+
 translate spanish strings:
 
-    # pong.rpy:75
+    # game/pong.rpy:75
     old "[player]"
     new "[player]"
 
-    # pong.rpy:77
+    # game/pong.rpy:77
     old "Click to Begin!"
     new "¡Haz clic para empezar!"
 
@@ -1002,6 +1002,6 @@ translate spanish strings:
     old "Are you letting me win on purpose?"
     new "¿Me estás dejando ganar a propósito?"
 
-    # game/pong.rpy:654
+    # game/pong.rpy:657
     old "...Maybe."
     new "... Quizás."

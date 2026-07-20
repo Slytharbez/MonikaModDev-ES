@@ -1,11 +1,6 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-brbs.rpy:224
-translate spanish mas_brb_generic_low_aff_callback_b6ca521c:
-
-    # m 2ekc "[cb_line]"
-    m 2ekc "[cb_line]"
-
 # game/script-brbs.rpy:227
 translate spanish mas_brb_generic_low_aff_callback_0bd97190:
 
@@ -1284,41 +1279,46 @@ translate spanish monika_idle_reading_callback_2469ec71:
     # m 3ekblu "After all, it lets me spend more time with you~"
     m 3ekblu "Después de todo, me permite pasar más tiempo contigo~"
 
+translate spanish mas_brb_generic_low_aff_callback_b6ca521c:
+
+    # m 2ekc "[cb_line]"
+    m 2ekc "[cb_line]"
+
 translate spanish strings:
 
-    # game/script-brbs.rpy:160
+    # game/script-brbs.rpy:161
     old "So, what else did you want to do today?"
     new "Entonces, ¿qué más quieres hacer hoy?"
 
-    # game/script-brbs.rpy:160
+    # game/script-brbs.rpy:162
     old "What else did you want to do today?"
     new "¿Qué otra cosa quieres hacer hoy?"
 
-    # game/script-brbs.rpy:160
+    # game/script-brbs.rpy:163
     old "Is there anything else you wanted to do today?"
     new "¿Hay algo más que quieras hacer hoy?"
 
-    # game/script-brbs.rpy:160
+    # game/script-brbs.rpy:164
     old "What else should we do today?"
     new "¿Qué más debemos hacer hoy?"
 
-    # game/script-brbs.rpy:216
+    # game/script-brbs.rpy:217
     old "Oh...{w=0.3}you're back."
     new "Oh... {w=0.3}volviste."
 
-    # game/script-brbs.rpy:216
+    # game/script-brbs.rpy:218
     old "Oh...{w=0.3}welcome back."
     new "Oh... {w=0.3}bienvenido de vuelta."
 
-    # game/script-brbs.rpy:216
+    # game/script-brbs.rpy:219
     old "All done?"
     new "¿Todo listo?"
 
-    # game/script-brbs.rpy:216
+    # game/script-brbs.rpy:220
     old "Welcome back."
     new "Bienvenido de vuelta."
 
-    # game/script-brbs.rpy:216
+    # game/script-brbs.rpy:221
     old "Oh...{w=0.3}there you are."
     new "Oh... {w=0.3}ahí estás."
 
@@ -1366,19 +1366,19 @@ translate spanish strings:
     old "I'm going to game for a bit"
     new "Voy a jugar un rato"
 
-    # game/script-brbs.rpy:505
+    # game/script-brbs.rpy:506
     old "Good luck, have fun!"
     new "Buena suerte, ¡diviértete!"
 
-    # game/script-brbs.rpy:505
+    # game/script-brbs.rpy:507
     old "Enjoy your game!"
     new "¡Disfruta tu juego!"
 
-    # game/script-brbs.rpy:505
+    # game/script-brbs.rpy:508
     old "I'll be cheering you on!"
     new "¡Te estaré animando!"
 
-    # game/script-brbs.rpy:505
+    # game/script-brbs.rpy:509
     old "Do your best!"
     new "¡Haz tu mejor esfuerzo!"
 
@@ -1390,11 +1390,11 @@ translate spanish strings:
     old "I'm going to work out for a bit"
     new "Voy a hacer un poco de ejercicio"
 
-    # game/script-brbs.rpy:672
+    # game/script-brbs.rpy:675
     old "I'm sure."
     new "Estoy segur[o_a]."
 
-    # game/script-brbs.rpy:672
+    # game/script-brbs.rpy:679
     old "I'll try to keep going."
     new "Intentaré continuar"
 
