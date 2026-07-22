@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
-# # game/script-farewells.rpy:263
+# game/script-farewells.rpy:263
+translate spanish bye_leaving_already_93baf031:
+
+    # m 1ekc "Aw, leaving already?"
+    m 1ekc "Aw, ¿ya te vas?"
+
 # game/script-farewells.rpy:264
 translate spanish bye_leaving_already_adf9a681:
 
@@ -88,8 +93,8 @@ translate spanish bye_take_care_eb420030:
 # game/script-farewells.rpy:371
 translate spanish bye_leaving_already_2_47ac950a:
 
-    # m 1ekc "Aw, leaving already?"
-    m 1ekc "Aw, ¿ya te vas?"
+    # m 1ekc "Aww, leaving already?"
+    m 1ekc "Aww, ¿ya te vas?"
 
 # game/script-farewells.rpy:372
 translate spanish bye_leaving_already_2_adf9a681:
@@ -2160,11 +2165,6 @@ translate spanish bye_prompt_hangout_0bd97190:
 
     # m 6ckc "..."
     m 6ckc "..."
-
-translate spanish bye_leaving_already_93baf031:
-
-    # m 1ekc "Aw, leaving already?"
-    m 1ekc "Aw, ¿ya te vas?"
 
 translate spanish strings:
 

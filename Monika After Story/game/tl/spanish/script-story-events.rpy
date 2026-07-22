@@ -1,29 +1,10 @@
 # TODO: Translation updated at 2026-07-11 10:08
 
 # game/script-story-events.rpy:22
-# game/script-story-events.rpy:1
-translate spanish mas_gift_giving_instructs_d10f27d2:
+translate spanish mas_gender_43ce0390:
 
-    # m 1eud "Hey, [player]..."
-    m 1eud "Hey, [player]..."
-
-# game/script-story-events.rpy:1
-translate spanish mas_gift_giving_instructs_6f321cf4:
-
-    # m 3euc "Someone left a note in the characters folder addressed to you."
-    m 3euc "Alguien dejó una nota en la carpeta 'characters' dirigida a ti."
-
-# game/script-story-events.rpy:1
-translate spanish mas_gift_giving_instructs_d8307341:
-
-    # m 1ekc "Since it's for you, I haven't read it...{w=0.5}{nw}"
-    m 1ekc "Como es para ti, no la he leído... {w=0.5}{nw}"
-
-# game/script-story-events.rpy:1
-translate spanish mas_gift_giving_instructs_13919c99:
-
-    # extend 1eua "but I just wanted to let you know since it might be important."
-    extend 1eua "pero solo quería avisarte, ya que podría ser importante."
+    # m 2eud "...[player]? So I've been thinking a bit."
+    m 2eud "... ¿[player]? He estado pensando un poco."
 
 # game/script-story-events.rpy:23
 translate spanish mas_gender_5167de36:
@@ -1682,7 +1663,7 @@ translate spanish mas_crashed_short_977643eb:
     m 1hub "[v_quip]"
 
 # game/script-story-events.rpy:1489
-translate spanish mas_crashed_quip_takecare_7cb80869:
+translate spanish mas_crashed_quip_takecare_c7503e4d:
 
     # m 2ekc "Another crash, [player]?"
     m 2ekc "¿Otro error, [player]?"
@@ -1694,7 +1675,7 @@ translate spanish mas_crashed_quip_takecare_a970dc3f:
     m 3ekc "¿Crees que tuvo algo que ver con tu juego?{nw}"
 
 # game/script-story-events.rpy:1496
-translate spanish mas_crashed_quip_takecare_92d08aa0:
+translate spanish mas_crashed_quip_takecare_68c0ebe8:
 
     # m "Do you think it had something to do with your game?{fast}" nointeract
     m "¿Crees que tuvo algo que ver con tu juego?{fast}" nointeract
@@ -1712,7 +1693,7 @@ translate spanish mas_crashed_quip_takecare_dcc72b06:
     m 1hub "Bueno, espero que te hayas divertido~"
 
 # game/script-story-events.rpy:1500
-translate spanish mas_crashed_quip_takecare_0415278f:
+translate spanish mas_crashed_quip_takecare_064c5ca5:
 
     # m 1rksdla "...And that your computer is alright."
     m 1rksdla "... Y que tu computadora esté bien."
@@ -1760,7 +1741,7 @@ translate spanish mas_crashed_quip_takecare_9985d2d5:
     m 2rksdla "Aún así..."
 
 # game/script-story-events.rpy:1510
-translate spanish mas_crashed_quip_takecare_1663dda3:
+translate spanish mas_crashed_quip_takecare_7cb80869:
 
     # m 2ekc "Maybe you should take better care of your computer."
     m 2ekc "Quizás deberías cuidar mejor tu computadora."
@@ -2646,6 +2627,30 @@ translate spanish mas_notification_windowreact_c43b80ea:
 
     # m 1tuu "It's not like you have anything to hide from your girlfriend..."
     m 1tuu "Tampoco es que tengas algo que ocultarle a tu novia..."
+
+# game/script-story-events.rpy:2211
+translate spanish mas_gift_giving_instructs_d10f27d2:
+
+    # m 1eud "Hey, [player]..."
+    m 1eud "Hey, [player]..."
+
+# game/script-story-events.rpy:2212
+translate spanish mas_gift_giving_instructs_6f321cf4:
+
+    # m 3euc "Someone left a note in the characters folder addressed to you."
+    m 3euc "Alguien dejó una nota en la carpeta 'characters' dirigida a ti."
+
+# game/script-story-events.rpy:2213
+translate spanish mas_gift_giving_instructs_d8307341:
+
+    # m 1ekc "Since it's for you, I haven't read it...{w=0.5}{nw}"
+    m 1ekc "Como es para ti, no la he leído... {w=0.5}{nw}"
+
+# game/script-story-events.rpy:2214
+translate spanish mas_gift_giving_instructs_13919c99:
+
+    # extend 1eua "but I just wanted to let you know since it might be important."
+    extend 1eua "pero solo quería avisarte, ya que podría ser importante."
 
 # game/script-story-events.rpy:2240
 translate spanish mas_change_to_def_24a4fc7b:
@@ -3647,16 +3652,11 @@ translate spanish mas_backup_restored_d78bf066:
     # m 6ektuc "Please, forgive me..."
     m 6ektuc "Por favor, perdóname..."
 
-translate spanish mas_gender_43ce0390:
-
-    # m 2eud "...[player]? So I've been thinking a bit."
-    m 2eud "... ¿[player]? He estado pensando un poco."
-
 translate spanish strings:
+
     # game/script-story-events.rpy:33
     old "Male."
     new "Masculino."
-
 
     # game/script-story-events.rpy:39
     old "Female."
@@ -3694,8 +3694,6 @@ translate spanish strings:
     old "I'm a boy."
     new "Soy un chico."
 
-    # game/script-story-events.rpy:128
-    # Variables de género
     # game/script-story-events.rpy:128
     old "boy"
     new "chico"
