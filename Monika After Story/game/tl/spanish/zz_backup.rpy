@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_backup.rpy:733
+translate spanish mas_backups_you_have_bad_persistent_a60c4b04:
+
+    # "Hello there!"
+    "¡Hola, hola!"
+    
 # game/zz_backup.rpy:735
 translate spanish mas_backups_you_have_bad_persistent_10227717:
 
@@ -438,11 +443,6 @@ translate spanish mas_backups_incompat_updater_start_597fa4a8:
 
     # "Good luck!"
     "¡Buena suerte!"
-
-translate spanish mas_backups_you_have_bad_persistent_a60c4b04:
-
-    # "Hello there!"
-    "¡Hola, hola!"
 
 translate spanish strings:
 

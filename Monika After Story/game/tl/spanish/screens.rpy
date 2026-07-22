@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/screens.rpy:809
+translate spanish mas_bad_name_input_first_time_bad_name_c8183299:
+
+    # "Hey there!"
+    "¡Hola!"
+    
 # game/screens.rpy:812
 translate spanish mas_bad_name_input_first_time_bad_name_3a897ff8:
 
@@ -48,11 +53,6 @@ translate spanish mas_bad_name_input_first_time_bad_name_d5fc092f:
 
     # "Why don't you choose something more appropriate instead."
     "¿Por qué no eliges algo más apropiado?"
-
-translate spanish mas_bad_name_input_first_time_bad_name_c8183299:
-
-    # "Hey there!"
-    "¡Hola!"
 
 translate spanish strings:
 

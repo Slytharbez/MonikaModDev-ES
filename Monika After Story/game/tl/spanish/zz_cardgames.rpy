@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_cardgames.rpy:3963
+translate spanish monika_introduce_nou_house_rules_7813486e:
+
+    # m 3eud "Oh [player], I almost forgot!"
+    m 3eud "Oh [player], ¡casi se me olvida!"
+
 # game/zz_cardgames.rpy:3964
 translate spanish monika_introduce_nou_house_rules_4b2fe472:
 
@@ -1675,12 +1680,8 @@ translate spanish mas_nou_reaction_player_surrenders_a9f493be:
     # m 3ekb "Don't give up so easily next time."
     m 3ekb "No te rindas tan fácilmente la próxima vez."
 
-translate spanish monika_introduce_nou_house_rules_7813486e:
-
-    # m 3eud "Oh [player], I almost forgot!"
-    m 3eud "Oh [player], ¡casi se me olvida!"
-
 translate spanish strings:
+
     # game/zz_cardgames.rpy:85
     old "green"
     new "verde"

@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-songs.rpy:292
+translate spanish monika_sing_song_pool_menu_7ad23832:
+
+    # m 3hub "Alright!"
+    m 3hub "¡De acuerdo!"
+
 # game/script-songs.rpy:335
 translate spanish monika_sing_song_analysis_7ad23832:
 
@@ -4284,12 +4289,6 @@ translate spanish mas_monika_plays_or_0534b98f:
 
     # m 1ekbsa "{i}{cps=19}With you I'll be{/cps}{/i}{w=2}{nw}"
     m 1ekbsa "{i}{cps=19}Te dejo ir~{/cps}{/i}{w=2}{nw}"
-
-
-translate spanish monika_sing_song_pool_menu_7ad23832:
-
-    # m 3hub "Alright!"
-    m 3hub "¡De acuerdo!"
 
 translate spanish strings:
     # game/script-songs.rpy:26

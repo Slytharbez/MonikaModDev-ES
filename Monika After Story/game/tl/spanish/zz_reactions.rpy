@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_reactions.rpy:960
+translate spanish mas_reaction_gift_connector_test_a9001fe0:
+
+    # m "this is a test of the connector system"
+    m "Esta es una prueba del sistema de conectores."
+
 # game/zz_reactions.rpy:969
 translate spanish mas_reaction_gift_connector1_14de3291:
 
@@ -2814,12 +2819,6 @@ translate spanish mas_reaction_gift_noudeck_have_played_e972e366:
 
     # m 3eua "Alternatively, if you don't remember the rules, I can always remind you, just ask."
     m 3eua "Por otro lado, si no recuerdas las reglas, siempre puedo recordártelas; solo tienes que preguntarme."
-
-
-translate spanish mas_reaction_gift_connector_test_a9001fe0:
-
-    # m "this is a test of the connector system"
-    m "Esta es una prueba del sistema de conectores."
 
 translate spanish strings:
 

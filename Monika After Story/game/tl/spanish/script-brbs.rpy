@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-brbs.rpy:224
+translate spanish mas_brb_generic_low_aff_callback_b6ca521c:
+
+    # m 2ekc "[cb_line]"
+    m 2ekc "[cb_line]"
+    
 # game/script-brbs.rpy:227
 translate spanish mas_brb_generic_low_aff_callback_0bd97190:
 
@@ -1278,11 +1283,6 @@ translate spanish monika_idle_reading_callback_2469ec71:
 
     # m 3ekblu "After all, it lets me spend more time with you~"
     m 3ekblu "Después de todo, me permite pasar más tiempo contigo~"
-
-translate spanish mas_brb_generic_low_aff_callback_b6ca521c:
-
-    # m 2ekc "[cb_line]"
-    m 2ekc "[cb_line]"
 
 translate spanish strings:
 

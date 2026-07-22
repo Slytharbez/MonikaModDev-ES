@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-stories.rpy:240
+translate spanish monika_short_stories_menu_8e25506b:
+
+    # m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
+    m 1ekc "Lo siento [player]... no puedo pensar en una historia [_story_type] en este momento..."
+
 # game/script-stories.rpy:241
 translate spanish monika_short_stories_menu_51483964:
 
@@ -4795,18 +4800,11 @@ translate spanish mas_scary_story_prison_escape_c01b3923:
     # m 2wusdlo "It was the dead caretaker!"
     m 2wusdlo "¡Era el guardia muerto!"
 
-
-translate spanish monika_short_stories_menu_8e25506b:
-
-    # m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
-    m 1ekc "Lo siento [player]... no puedo pensar en una historia [_story_type] en este momento..."
-
 translate spanish strings:
     # game/script-stories.rpy:19
     old "scary"
     new "aterradora"
     
-
     # game/script-stories.rpy:139
     old "Can you tell me a story?"
     new "¿Puedes contarme una historia?"
@@ -5029,4 +5027,3 @@ translate spanish strings:
     # game/script-stories.rpy:1879
     old "Prison Escape"
     new "Fuga de la prisión"
-

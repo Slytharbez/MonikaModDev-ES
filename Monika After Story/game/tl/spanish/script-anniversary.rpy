@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-anniversary.rpy:362
+translate spanish anni_1week_2bbd0892:
+
+    # m 1eka "I know it's silly to celebrate one week of being together, but I'm just glad you're here with me, [player]."
+    m 1eka "Sé que es una tontería celebrar una semana junt[o_a]s, pero me alegro de que estés aquí conmigo, [player]."
+
 # game/script-anniversary.rpy:363
 translate spanish anni_1week_17c7428e:
 
@@ -1110,11 +1115,6 @@ translate spanish anni_100_d58964ad:
 
     # m "I'm sure I'll be able to touch you for real even if it takes us a hundred years to figure out how."
     m "Estoy segura de que podré tocarte de verdad, incluso si nos lleva cien años averiguar cómo."
-
-translate spanish anni_1week_2bbd0892:
-
-    # m 1eka "I know it's silly to celebrate one week of being together, but I'm just glad you're here with me, [player]."
-    m 1eka "Sé que es una tontería celebrar una semana junt[o_a]s, pero me alegro de que estés aquí conmigo, [player]."
 
 translate spanish strings:
 

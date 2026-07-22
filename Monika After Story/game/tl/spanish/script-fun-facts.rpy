@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-fun-facts.rpy:47
+translate spanish monika_fun_facts_open_5cef2e8c:
+
+    # m 1eua "Say [player], would you like to hear a fun fact?"
+    m 1eua "Dime [player], ¿te gustaría escuchar un dato curioso?"
+    
 # game/script-fun-facts.rpy:48
 translate spanish monika_fun_facts_open_4515a3e6:
 
@@ -1902,12 +1907,6 @@ translate spanish mas_fun_fact_maplesyrup_43eed8b5:
 
     # m 1rkblu "But nowhere near as sweet as you, ehehe~"
     m 1rkblu "Pero no es tan dulce como tú, jeje~"
-
-
-translate spanish monika_fun_facts_open_5cef2e8c:
-
-    # m 1eua "Say [player], would you like to hear a fun fact?"
-    m 1eua "Dime [player], ¿te gustaría escuchar un dato curioso?"
 
 translate spanish strings:
 

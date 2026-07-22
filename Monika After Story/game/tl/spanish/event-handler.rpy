@@ -1,16 +1,16 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/event-handler.rpy:3663
+translate spanish mas_bookmarks_unbookmark_c42f8f06:
+
+    # m 1dsa "Okay, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
+    m 1dsa "Okey, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
+    
 # game/event-handler.rpy:3664
 translate spanish mas_bookmarks_unbookmark_73747bba:
 
     # m 3hua "All done!"
     m 3hua "¡Todo listo!"
-
-translate spanish mas_bookmarks_unbookmark_c42f8f06:
-
-    # m 1dsa "Okay, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
-    m 1dsa "Okey, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
 
 translate spanish strings:
 

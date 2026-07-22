@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_consumables.rpy:1400
+translate spanish mas_consumables_generic_get_1640fa5f:
+
+    # m 1eua "[line_starter] I'll be right back.{w=1}{nw}"
+    m 1eua "[line_starter] Ya vuelvo.{w=1}{nw}"
+
 # game/zz_consumables.rpy:1403
 translate spanish mas_consumables_generic_get_237b8a80:
 
@@ -342,11 +347,6 @@ translate spanish monika_consumables_check_b09e2c7c_1:
 
     # extend 3hua "but I'll be sure to let you know if I do~"
     extend 3hua "pero te avisaré si pasa~"
-
-translate spanish mas_consumables_generic_get_1640fa5f:
-
-    # m 1eua "[line_starter] I'll be right back.{w=1}{nw}"
-    m 1eua "[line_starter] Ya vuelvo.{w=1}{nw}"
 
 translate spanish strings:
 

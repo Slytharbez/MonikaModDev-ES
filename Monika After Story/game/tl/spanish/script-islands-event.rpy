@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-islands-event.rpy:2010
+translate spanish mas_monika_islands_3e3b6f6f:
+
+    # m 1eub "Of course! You can admire the scenery for now."
+    m 1eub "¡Por supuesto! Puedes admirar el paisaje por ahora."
+
 # game/script-islands-event.rpy:2014
 translate spanish mas_monika_islands_56293cf9:
 
@@ -1170,11 +1175,6 @@ translate spanish mas_island_gravestones_3f5e4089:
 
     # m "I guess I just thought I shouldn't leave them out."
     m "Supongo que pensé que no debía dejarlos fuera."
-
-translate spanish mas_monika_islands_3e3b6f6f:
-
-    # m 1eub "Of course! You can admire the scenery for now."
-    m 1eub "¡Por supuesto! Puedes admirar el paisaje por ahora."
 
 translate spanish strings:
 

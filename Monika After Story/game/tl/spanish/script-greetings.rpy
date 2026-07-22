@@ -1,41 +1,10 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-greetings.rpy:318
-# game/script-greetings.rpy:1
-translate spanish greeting_fallo_250125b3:
+translate spanish greeting_sweetheart_2060fe5d:
 
-    # m 1wuo "[player]!"
-    m 1wuo "¡[player]!"
-
-# game/script-greetings.rpy:1
-translate spanish greeting_found_nou_shirt_menu_skip_4e5c70bf:
-
-    # m "But I love it~"
-    m "Pero me encanta~"
-
-# game/script-greetings.rpy:1
-translate spanish greeting_found_nou_shirt_menu_choice_secret_9e57473c:
-
-    # m "{cps=*1.5}You don't peek there {i}often{/i}, do you?~{/cps}{w=0.1}{nw}"
-    m "{cps=*1.5}No miras ahí {i}a menudo{/i}, ¿verdad?~{/cps} {w=0.1}{nw}"
-
-# game/script-greetings.rpy:1
-translate spanish greeting_found_nou_shirt_menu_choice_secret_cb442449:
-
-    # m 2lusdla "Anyway... {w=0.3}{nw}"
-    m 2lusdla "De todos modos... {w=0.3}{nw}"
-
-# game/script-greetings.rpy:1
-translate spanish greeting_found_nou_shirt_menu_choice_secret_2580b967:
-
-    # m "Hmm, anyway... {w=0.3}{nw}"
-    m "Mmm, de todos modos... {w=0.3}{nw}"
-
-# game/script-greetings.rpy:1
-translate spanish greeting_found_nou_shirt_menu_choice_secret_d9d20024:
-
-    # extend 4sub "I really love this new outfit!"
-    extend 4sub "¡Realmente me encanta este nuevo atuendo!"
+    # m 1hub "Hello again, sweetheart!"
+    m 1hub "¡Hola de nuevo, cariño!"
 
 # game/script-greetings.rpy:321
 translate spanish greeting_sweetheart_63b03664:
@@ -7898,10 +7867,35 @@ translate spanish greeting_found_nou_shirt_post_menu_26bc035d:
     # m 3ttb "Are you up for a game, [mas_get_player_nickname()]?"
     m 3ttb "¿Estás list[o_a] para un juego, [mas_get_player_nickname()]?"
 
-translate spanish greeting_sweetheart_2060fe5d:
+# game/script-greetings.rpy:4779
+translate spanish greeting_found_nou_shirt_menu_skip_4e5c70bf:
 
-    # m 1hub "Hello again, sweetheart!"
-    m 1hub "¡Hola de nuevo, cariño!"
+    # m "But I love it~"
+    m "Pero me encanta~"
+
+# game/script-greetings.rpy:4786
+translate spanish greeting_found_nou_shirt_menu_choice_secret_9e57473c:
+
+    # m "{cps=*1.5}You don't peek there {i}often{/i}, do you?~{/cps}{w=0.1}{nw}"
+    m "{cps=*1.5}No miras ahí {i}a menudo{/i}, ¿verdad?~{/cps} {w=0.1}{nw}"
+
+# game/script-greetings.rpy:4788
+translate spanish greeting_found_nou_shirt_menu_choice_secret_cb442449:
+
+    # m 2lusdla "Anyway... {w=0.3}{nw}"
+    m 2lusdla "De todos modos... {w=0.3}{nw}"
+
+# game/script-greetings.rpy:4792
+translate spanish greeting_found_nou_shirt_menu_choice_secret_2580b967:
+
+    # m "Hmm, anyway... {w=0.3}{nw}"
+    m "Mmm, de todos modos... {w=0.3}{nw}"
+
+# game/script-greetings.rpy:4794
+translate spanish greeting_found_nou_shirt_menu_choice_secret_d9d20024:
+
+    # extend 4sub "I really love this new outfit!"
+    extend 4sub "¡Realmente me encanta este nuevo atuendo!"
 
 translate spanish strings:
 

@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-moods.rpy:122
+translate spanish mas_mood_hungry_bdd630c1:
+
+    # m 3hub "If you're hungry, go get something to eat, silly."
+    m 3hub "Si tienes hambre, ve a comer algo, tontit[o_a]."
+
 # game/script-moods.rpy:1
 translate spanish _mas_nnsh_e7a8a113:
 
@@ -2502,11 +2507,6 @@ translate spanish mas_mood_guilty_c1ffe953:
 
     # m 1ekbsu "I love you.{w=0.2} Don't be so hard on yourself, okay?"
     m 1ekbsu "Te amo. {w=0.2}No seas tan duro contigo mismo, ¿de acuerdo?"
-
-translate spanish mas_mood_hungry_bdd630c1:
-
-    # m 3hub "If you're hungry, go get something to eat, silly."
-    m 3hub "Si tienes hambre, ve a comer algo, tontit[o_a]."
     
 translate spanish strings:
 

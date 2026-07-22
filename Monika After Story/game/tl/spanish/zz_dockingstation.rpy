@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_dockingstation.rpy:2119
+translate spanish mas_dockstat_ready_to_go_71510bb3:
+
+    # m "Alright."
+    m "Está bien."
+
 # game/zz_dockingstation.rpy:2136
 translate spanish mas_dockstat_first_time_goers_a2d4a9c4:
 
@@ -222,11 +227,6 @@ translate spanish mas_dockstat_generic_failed_io_still_going_ask_32fb3839:
 
     # m 1eka "...Thank you, [player]. That means more to me than you could possibly understand."
     m 1eka "... Gracias, [player]. Eso significa más para mí de lo que podrías imaginar."
-
-translate spanish mas_dockstat_ready_to_go_71510bb3:
-
-    # m "Alright."
-    m "Está bien."
 
 translate spanish strings:
 

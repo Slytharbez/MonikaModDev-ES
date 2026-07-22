@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_games.rpy:253
+translate spanish mas_pick_a_game_0bd97190:
+
+    # m 6ckc "..."
+    m 6ckc "..."
+
 # game/zz_games.rpy:256
 translate spanish mas_pick_a_game_ec2cd226:
 
@@ -12,11 +17,6 @@ translate spanish mas_pick_a_game_0dcb9a60:
 
     # m 3hub "[game_quip]"
     m 3hub "[game_quip]"
-
-translate spanish mas_pick_a_game_0bd97190:
-
-    # m 6ckc "..."
-    m 6ckc "..."
 
 translate spanish strings:
 

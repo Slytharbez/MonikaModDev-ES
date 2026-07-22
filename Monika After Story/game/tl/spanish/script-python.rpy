@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-python.rpy:130
+translate spanish monika_ptod_tip000_64c2ee4e:
+
+    # m 3eub "You want to learn about Python?"
+    m 3eub "¿Quieres aprender a usar Python?"
+
 # game/script-python.rpy:131
 translate spanish monika_ptod_tip000_8f635773:
 
@@ -1170,12 +1175,6 @@ translate spanish monika_ptod_tip009_b43554c2:
 
     # m 1hua "Thanks for listening!"
     m 1hua "¡Gracias por escuchar!"
-
-
-translate spanish monika_ptod_tip000_64c2ee4e:
-
-    # m 3eub "You want to learn about Python?"
-    m 3eub "¿Quieres aprender a usar Python?"
 
 translate spanish strings:
 

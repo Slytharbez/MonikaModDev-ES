@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_extrasmenu.rpy:135
+translate spanish mas_extra_menu_firsttime_9e6aa5dc:
+
+    # m 1hua "Welcome to the Extras menu, [player]!"
+    m 1hua "¡Bienvenido al menú Extras, [player]!"
+
 # game/zz_extrasmenu.rpy:137
 translate spanish mas_extra_menu_firsttime_e050d088:
 
@@ -90,11 +95,6 @@ translate spanish mas_extra_menu_boop_intro_75d0b3d9:
 
     # m 1eua "boop intro"
     m 1eua "Introducción de boop."
-
-translate spanish mas_extra_menu_firsttime_9e6aa5dc:
-
-    # m 1hua "Welcome to the Extras menu, [player]!"
-    m 1hua "¡Bienvenido al menú Extras, [player]!"
 
 translate spanish strings:
 

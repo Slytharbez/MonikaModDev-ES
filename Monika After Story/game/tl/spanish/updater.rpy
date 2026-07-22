@@ -1,6 +1,9 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/updater.rpy:821
+translate spanish mas_updater_steam_issue_b69ce24a:
+    m 1eub "¡[player]! {w=0.2}Veo que usas Steam."
+
 # game/updater.rpy:822
 translate spanish mas_updater_steam_issue_4270ff17:
     m 1eksdlb "Lamentablemente..."
@@ -60,9 +63,6 @@ translate spanish mas_updater_rpy_issue_1d48ad5f:
 # game/updater.rpy:865
 translate spanish mas_updater_rpy_issue_d0bf961e:
     m 3eka "De acuerdo [player]. Si los borras y luego intentas actualizar de nuevo, ejecutaré el actualizador por ti."
-
-translate spanish mas_updater_steam_issue_b69ce24a:
-    m 1eub "¡[player]! {w=0.2}Veo que usas Steam."
 
 translate spanish strings:
 

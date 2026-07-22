@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/import_ddlc.rpy:45
+translate spanish import_ddlc_persistent_6fbb781f:
+
+    # "Save data for Doki Doki Literature Club was found at [ddlc_save_path]."
+    "Se han encontrado datos de guardado de Doki Doki Literature Club en [ddlc_save_path]."
+    
 # game/import_ddlc.rpy:80
 translate spanish import_ddlc_persistent_52e7b5e2:
 
@@ -12,11 +17,6 @@ translate spanish import_ddlc_persistent_save_merge_or_replace_42e7bb29:
 
     # "DDLC data can be imported later in the Settings menu."
     "Los datos de DDLC pueden ser importados más tarde en el menú de Ajustes."
-
-translate spanish import_ddlc_persistent_6fbb781f:
-
-    # "Save data for Doki Doki Literature Club was found at [ddlc_save_path]."
-    "Se han encontrado datos de guardado de Doki Doki Literature Club en [ddlc_save_path]."
 
 translate spanish strings:
 

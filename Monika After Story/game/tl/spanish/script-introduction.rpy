@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-introduction.rpy:15
+translate spanish introduction_c0409347:
+
+    # m 6dsc "..."
+    m 6dsc "..."
+
 # game/script-introduction.rpy:16
 translate spanish introduction_420e2f36:
 
@@ -1071,11 +1076,6 @@ translate spanish ch30_reload_continuous_dlg_89eaa6e4:
 
     # m 1hua "JK I KNOW YOU QUIT ME LMAO (continous)"
     m 1hua "JK SE QUE ME DEJASTE LMAO (continuará)."
-
-translate spanish introduction_c0409347:
-
-    # m 6dsc "..."
-    m 6dsc "..."
 
 translate spanish strings:
 

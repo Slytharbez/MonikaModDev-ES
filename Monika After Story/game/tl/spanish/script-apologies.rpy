@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-apologies.rpy:122
+translate spanish monika_playerapologizes_33623fba:
+
+    # m 1ekd "[player], if you're feeling guilty about what happened..."
+    m 1ekd "[player], si te sientes culpable por lo que pasó..."
+    
 # game/script-apologies.rpy:123
 translate spanish monika_playerapologizes_15697a79:
 
@@ -294,11 +299,6 @@ translate spanish mas_apology_bad_nickname_b374927a:
 
     # m 2rfc "I'd accept your apology, [player], but I don't think you even mean it."
     m 2rfc "Aceptaría tus disculpas, [player], pero no creo que lo digas en serio."
-
-translate spanish monika_playerapologizes_33623fba:
-
-    # m 1ekd "[player], if you're feeling guilty about what happened..."
-    m 1ekd "[player], si te sientes culpable por lo que pasó..."
 
 translate spanish strings:
 

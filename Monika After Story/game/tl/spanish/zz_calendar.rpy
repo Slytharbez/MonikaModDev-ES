@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_calendar.rpy:2163
+translate spanish _first_time_calendar_use_9c5ff161:
+
+    # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
+    m 1eub "Oh, ¿quieres echar otro vistazo a ese bonito calendario colgado en la pared, [player]?"
+
 # game/zz_calendar.rpy:2164
 translate spanish _first_time_calendar_use_6b069f8b:
 
@@ -42,11 +47,6 @@ translate spanish _first_time_calendar_use_46b69767:
 
     # m 1lksdla "Except for when I'm in the middle of talking, of course."
     m 1lksdla "A menos que esté hablando contigo en ese momento, claro."
-
-translate spanish _first_time_calendar_use_9c5ff161:
-
-    # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
-    m 1eub "Oh, ¿quieres echar otro vistazo a ese bonito calendario colgado en la pared, [player]?"
 
 translate spanish strings:
 

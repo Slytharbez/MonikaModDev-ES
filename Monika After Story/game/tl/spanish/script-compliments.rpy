@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-compliments.rpy:145
+translate spanish mas_compliment_beautiful_2_fd001416:
+
+    # m 1lubsb "Oh, gosh [player]..."
+    m 1lubsb "Oh, cielos [player]..."
+    
 # game/script-compliments.rpy:146
 translate spanish mas_compliment_beautiful_2_6abef1a8:
 
@@ -1794,11 +1799,6 @@ translate spanish mas_compliment_outfit_repeat_70446118:
 
     # m 3hubsb "[other_quip]"
     m 3hubsb "[other_quip]"
-
-translate spanish mas_compliment_beautiful_2_fd001416:
-
-    # m 1lubsb "Oh, gosh [player]..."
-    m 1lubsb "Oh, cielos [player]..."
 
 translate spanish strings:
 

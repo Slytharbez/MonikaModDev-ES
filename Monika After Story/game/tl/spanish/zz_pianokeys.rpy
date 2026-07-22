@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_pianokeys.rpy:110
+translate spanish mas_piano_start_6251b7f0:
+
+    # m 1hua "You want to play the piano?"
+    m 1hua "¿Quieres tocar el piano?"
+
 # game/zz_pianokeys.rpy:1
 translate spanish _zzpk_ssll_9cc4d00d:
 
@@ -480,11 +485,6 @@ translate spanish mas_piano_dpco_prac_200e0aea:
 
     # m 1eka "Do you really want to learn this?"
     m 1eka "¿De verdad quieres aprender esta?"
-
-translate spanish mas_piano_start_6251b7f0:
-
-    # m 1hua "You want to play the piano?"
-    m 1hua "¿Quieres tocar el piano?"
 
 translate spanish strings:
 

@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/zz_hangman.rpy:377
+translate spanish mas_hangman_game_select_diff_0176af25:
+
+    # m "Choose a difficulty.{nw}"
+    m "Elige una dificultad.{nw}"
+
 # game/zz_hangman.rpy:380
 translate spanish mas_hangman_game_select_diff_9f2bfa77:
 
@@ -205,11 +210,6 @@ translate spanish mas_hangman_dlg_game_end_short_05c7b63d:
 
     # m 1eua "[dlg_line]"
     m 1eua "[dlg_line!t]"
-
-translate spanish mas_hangman_game_select_diff_0176af25:
-
-    # m "Choose a difficulty.{nw}"
-    m "Elige una dificultad.{nw}"
 
 translate spanish strings:
 

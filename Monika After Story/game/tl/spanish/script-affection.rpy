@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-affection.rpy:2812
+translate spanish monika_affection_nickname_74472d51:
+
+    # m 1euc "I've been thinking, [player]..."
+    m 1euc "He estado pensando, [player]..."
+    
 # game/script-affection.rpy:2813
 translate spanish monika_affection_nickname_0128eec8:
 
@@ -1158,11 +1163,6 @@ translate spanish mas_affection_apologydeleted_46706a56:
 
     # m 2efc "Write me a new one, [player]."
     m 2efc "Escríbeme una nueva, [player]."
-
-translate spanish monika_affection_nickname_74472d51:
-
-    # m 1euc "I've been thinking, [player]..."
-    m 1euc "He estado pensando, [player]..."
 
 translate spanish strings:
 

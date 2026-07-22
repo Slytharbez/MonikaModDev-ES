@@ -1,6 +1,5 @@
 ﻿# TODO: Translation updated at 2026-03-31 15:02
 
-# game/splash.rpy:271
 # game/splash.rpy:191
 translate spanish splashscreen_0320a168:
 
@@ -26,7 +25,7 @@ translate spanish after_load_5c5510ae_1:
     "¿Estás intentando hacer trampa?"
 
 # game/splash.rpy:272
-translate spanish after_load_78a4e9dc:
+translate spanish after_load_78a4e9dc_1:
 
     # "The save file could not be loaded."
     "No se pudo cargar el archivo de guardado."
@@ -36,11 +35,6 @@ translate spanish after_load_5c5510ae:
 
     # "Are you trying to cheat?"
     "¿Estás intentando hacer trampa?"
-
-translate spanish after_load_78a4e9dc_1:
-
-    # "The save file could not be loaded."
-    "No se pudo cargar el archivo de guardado."
 
 translate spanish strings:
 
