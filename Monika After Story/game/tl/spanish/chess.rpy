@@ -1,6 +1,11 @@
 # TODO: Translation updated at 2026-03-31 15:02
  
 # game/chess.rpy:716
+translate spanish game_chess_f85b6700:
+
+    # m "Let's continue our unfinished game."
+    m 1eub "Continuemos nuestra partida pendiente."
+
 # game/chess.rpy:782
 translate spanish game_chess_3507e2a3:
 
