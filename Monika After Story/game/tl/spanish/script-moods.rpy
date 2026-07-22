@@ -6,83 +6,83 @@ translate spanish mas_mood_hungry_bdd630c1:
     # m 3hub "If you're hungry, go get something to eat, silly."
     m 3hub "Si tienes hambre, ve a comer algo, tontit[o_a]."
 
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_e7a8a113:
-
-    # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
-    m 1hua "Sería malo que te pusieras gruñón por tener hambre."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_c6679a9b:
-
-    # m 3tku "That wouldn't be any fun, would it, [player]?"
-    m 3tku "Eso no sería nada divertido, ¿verdad, [player]?"
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_f8bf3835:
-
-    # m 1eua "If I were there with you, I'd make a salad for us to share."
-    m 1eua "Si estuviera allí contigo, prepararía una ensalada para compartir."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_4dfea3b9:
-
-    # m "But since I'm not, go pick something healthy to eat."
-    m "Pero como no estoy contigo, ve a elegir algo saludable para comer."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_ce87235e:
-
-    # m 3eub "It's so important to pay attention to your body's needs, you know."
-    m 3eub "Es muy importante prestar atención a las necesidades de tu cuerpo, sabes."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_f0874062:
-
-    # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
-    m 3hub "Eso no solo significa comer suficientes verduras, por supuesto. {w=0.2}Todo tipo de alimentos son necesarios para mantenerte nutrido."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_efe38263:
-
-    # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
-    m 3eka "Así que quiero que te asegures de no privarte de vitaminas importantes, ¿de acuerdo?"
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_43a924b1:
-
-    # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
-    m 1euc "Con el tiempo, podrías tener muchos problemas de salud cuando seas mayor."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_cdf916ea:
-
-    # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
-    m 2lksdla "No quiero que sientas que te estoy regañando cuando digo este tipo de cosas, [player]."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_ed20dbad:
-
-    # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
-    m 2eka "Solo quiero asegurarme de que te cuides bien hasta que pueda cruzar a tu mundo."
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_5d4a6e01:
-
-    # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
-    m 4eub "Después de todo, ¡cuanto más sano estés, más posibilidades tendrás de vivir una larga vida!"
-
-# game/script-moods.rpy:1
-translate spanish _mas_nnsh_dac38117:
-
-    # m 1hua "Which means more time for us to spend together!~"
-    m 1hua "¡Lo que significa más tiempo para pasar junt[o_a]s!~"
-
 # game/script-moods.rpy:124
 translate spanish mas_mood_hungry_43a4268b:
 
     # m 1hksdlb "I'd hate for you to get like Natsuki did that one time back when we were in the club.{nw}"
     m 1hksdlb "Odiaría que te pusieras como Natsuki aquella vez en el club.{nw}"
+
+# game/script-moods.rpy:128
+translate spanish _mas_nnsh_e7a8a113:
+
+    # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
+    m 1hua "Sería malo que te pusieras gruñón por tener hambre."
+
+# game/script-moods.rpy:130
+translate spanish _mas_nnsh_c6679a9b:
+
+    # m 3tku "That wouldn't be any fun, would it, [player]?"
+    m 3tku "Eso no sería nada divertido, ¿verdad, [player]?"
+
+# game/script-moods.rpy:131
+translate spanish _mas_nnsh_f8bf3835:
+
+    # m 1eua "If I were there with you, I'd make a salad for us to share."
+    m 1eua "Si estuviera allí contigo, prepararía una ensalada para compartir."
+
+# game/script-moods.rpy:132
+translate spanish _mas_nnsh_4dfea3b9:
+
+    # m "But since I'm not, go pick something healthy to eat."
+    m "Pero como no estoy contigo, ve a elegir algo saludable para comer."
+
+# game/script-moods.rpy:133
+translate spanish _mas_nnsh_ce87235e:
+
+    # m 3eub "It's so important to pay attention to your body's needs, you know."
+    m 3eub "Es muy importante prestar atención a las necesidades de tu cuerpo, sabes."
+
+# game/script-moods.rpy:134
+translate spanish _mas_nnsh_f0874062:
+
+    # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
+    m 3hub "Eso no solo significa comer suficientes verduras, por supuesto. {w=0.2}Todo tipo de alimentos son necesarios para mantenerte nutrido."
+
+# game/script-moods.rpy:135
+translate spanish _mas_nnsh_efe38263:
+
+    # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
+    m 3eka "Así que quiero que te asegures de no privarte de vitaminas importantes, ¿de acuerdo?"
+
+# game/script-moods.rpy:136
+translate spanish _mas_nnsh_43a924b1:
+
+    # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
+    m 1euc "Con el tiempo, podrías tener muchos problemas de salud cuando seas mayor."
+
+# game/script-moods.rpy:137
+translate spanish _mas_nnsh_cdf916ea:
+
+    # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
+    m 2lksdla "No quiero que sientas que te estoy regañando cuando digo este tipo de cosas, [player]."
+
+# game/script-moods.rpy:138
+translate spanish _mas_nnsh_ed20dbad:
+
+    # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
+    m 2eka "Solo quiero asegurarme de que te cuides bien hasta que pueda cruzar a tu mundo."
+
+# game/script-moods.rpy:139
+translate spanish _mas_nnsh_5d4a6e01:
+
+    # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
+    m 4eub "Después de todo, ¡cuanto más sano estés, más posibilidades tendrás de vivir una larga vida!"
+
+# game/script-moods.rpy:140
+translate spanish _mas_nnsh_dac38117:
+
+    # m 1hua "Which means more time for us to spend together!~"
+    m 1hua "¡Lo que significa más tiempo para pasar junt[o_a]s!~"
 
 # game/script-moods.rpy:147
 translate spanish mas_mood_sad_ba55ae58:

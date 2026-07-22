@@ -1,59 +1,10 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-holidays.rpy:147
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_d10f27d2:
+translate spanish mas_lingerie_intro_aebae8b5:
 
-    # m 1eud "Hey, [player]..."
-    m 1eud "Hey, [player]..."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_6f321cf4:
-
-    # m 3euc "Someone left a note in the characters folder addressed to you."
-    m 3euc "Alguien ha dejado una nota para ti en la carpeta 'characters'."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_2170c0d9:
-
-    # m 1ekc "Of course, I haven't read it, since it's obviously for you..."
-    m 1ekc "Por supuesto, no la he leído, ya que obviamente es para ti..."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_32dbaa74:
-
-    # m 1tuu "{cps=*2}Hmm, I wonder what this could be about...{/cps}{nw}"
-    m 1tuu "{cps=*2}Mmm, me pregunto de qué se tratará... {/cps}{nw}"
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_19428ff1:
-
-    # m 1hua "Ehehe~"
-    m 1hua "Jeje~"
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_0420db8d:
-
-    # m 2eud "Hey, [player]..."
-    m 2eud "Hey, [player]..."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_079c9c86:
-
-    # m 2euc "Someone left a note in the characters folder addressed to you."
-    m 2euc "Alguien ha dejado una nota para ti en la carpeta 'characters'."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_e856df52:
-
-    # m 2ekc "Of course, I haven't read it, since it's obviously for you..."
-    m 2ekc "Por supuesto, no la he leído, ya que obviamente es para ti..."
-
-# game/script-holidays.rpy:1
-translate spanish mas_bday_surprise_party_hint_771048eb:
-
-    # m 2ekd "Just thought I'd let you know."
-    m 2ekd "Solo pensaba que debía decírtelo."
+    # m 1ekbfa "..."
+    m 1ekbfa "..."
 
 # game/script-holidays.rpy:148
 translate spanish mas_lingerie_intro_0d5c13c7:
@@ -8074,6 +8025,60 @@ translate spanish greeting_gone_over_f14_normal_plus_c197ab4d:
     # m 5ekbsa "Thank you for making sure we had a wonderful Valentine's Day, [player]~"
     m 5ekbsa "Gracias por asegurarte de que tuviéramos un día de San Valentín maravilloso, [player]~"
 
+# game/script-holidays.rpy:7432
+translate spanish mas_bday_surprise_party_hint_d10f27d2:
+
+    # m 1eud "Hey, [player]..."
+    m 1eud "Hey, [player]..."
+
+# game/script-holidays.rpy:7433
+translate spanish mas_bday_surprise_party_hint_6f321cf4:
+
+    # m 3euc "Someone left a note in the characters folder addressed to you."
+    m 3euc "Alguien ha dejado una nota para ti en la carpeta 'characters'."
+
+# game/script-holidays.rpy:7434
+translate spanish mas_bday_surprise_party_hint_2170c0d9:
+
+    # m 1ekc "Of course, I haven't read it, since it's obviously for you..."
+    m 1ekc "Por supuesto, no la he leído, ya que obviamente es para ti..."
+
+# game/script-holidays.rpy:7435
+translate spanish mas_bday_surprise_party_hint_32dbaa74:
+
+    # m 1tuu "{cps=*2}Hmm, I wonder what this could be about...{/cps}{nw}"
+    m 1tuu "{cps=*2}Mmm, me pregunto de qué se tratará... {/cps}{nw}"
+
+# game/script-holidays.rpy:7436
+translate spanish mas_bday_surprise_party_hint_19428ff1:
+
+    # m 1hua "Ehehe~"
+    m 1hua "Jeje~"
+
+# game/script-holidays.rpy:7443
+translate spanish mas_bday_surprise_party_hint_0420db8d:
+
+    # m 2eud "Hey, [player]..."
+    m 2eud "Hey, [player]..."
+
+# game/script-holidays.rpy:7444
+translate spanish mas_bday_surprise_party_hint_079c9c86:
+
+    # m 2euc "Someone left a note in the characters folder addressed to you."
+    m 2euc "Alguien ha dejado una nota para ti en la carpeta 'characters'."
+
+# game/script-holidays.rpy:7445
+translate spanish mas_bday_surprise_party_hint_e856df52:
+
+    # m 2ekc "Of course, I haven't read it, since it's obviously for you..."
+    m 2ekc "Por supuesto, no la he leído, ya que obviamente es para ti..."
+
+# game/script-holidays.rpy:7446
+translate spanish mas_bday_surprise_party_hint_771048eb:
+
+    # m 2ekd "Just thought I'd let you know."
+    m 2ekd "Solo pensaba que debía decírtelo."
+
 # game/script-holidays.rpy:7487
 translate spanish mas_bday_pool_happy_bday_adac5fd7:
 
@@ -9687,11 +9692,6 @@ translate spanish mas_monika_cake_on_player_bday_d1fbbfc5:
 
     # m 3hub "This is an amazing birthday!"
     m 3hub "¡Este es un cumpleaños increíble!"
-
-translate spanish mas_lingerie_intro_aebae8b5:
-
-    # m 1ekbfa "..."
-    m 1ekbfa "..."
 
 translate spanish strings:
 

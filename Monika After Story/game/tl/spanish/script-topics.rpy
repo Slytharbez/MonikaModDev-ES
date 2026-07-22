@@ -1,179 +1,10 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
 # game/script-topics.rpy:474
-# game/script-topics.rpy:1
-translate spanish _call_updateconsole_17_d3622263:
+translate spanish mas_topic_derandom_cdefb594:
 
-    # m 1hksdlb "I'm only kidding."
-    m 1hksdlb "Solo estoy bromeando."
-
-# game/script-topics.rpy:1
-translate spanish _call_updateconsole_17_157af141:
-
-    # m "It's the man's job to introduce his fiancee to his family, after all."
-    m "Después de todo, es tu trabajo presentarme como tu prometida a tu familia."
-
-# game/script-topics.rpy:1
-translate spanish _call_updateconsole_17_a8299c35:
-
-    # m "Don't keep me waiting for too long, okay?"
-    m "No me hagas esperar demasiado, ¿de acuerdo?"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
-
-    # m 1wud "Eh?!"
-    m 1wud "¡¿Eh?!"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
-
-    # m 1lksdla "Sorry again, [player]."
-    m 1lksdla "Lo siento de nuevo, [player]."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
-
-    # m 1lksdla "Sorry, [mas_get_player_nickname()]."
-    m 1lksdla "Lo siento, [mas_get_player_nickname()]."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
-
-    # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
-    m 2lksdlb "Te lo dije, soy tímida ante la cámara, jajaja..."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
-
-    # m "Should I try again?{nw}"
-    m "¿Debería intentarlo de nuevo?{nw}"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
-
-    # m "Should I try again?{fast}" nointeract
-    m "¿Debería intentarlo de nuevo?{fast}" nointeract
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
-
-    # m 1eua "Okay."
-    m 1eua "Okey"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
-
-    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
-    m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
-
-    # m 1hua "I'll try better next time for you."
-    m 1hua "Lo intentaré mejor la próxima vez por ti."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
-
-    # m 1duu "..."
-    m 1duu "..."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
-
-    # m 1hub "[bday_msg_capped], [bday_name]!"
-    m 1hub "¡[bday_msg_capped], [bday_name]!"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
-
-    # m 1hksdlb "..."
-    m 1hksdlb "..."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
-
-    # m 1lksdlb "Was that good?{nw}"
-    m 1lksdlb "¿Estuvo bien?{nw}"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
-
-    # m "Was that good?{fast}" nointeract
-    m "¿Estuvo bien?{fast}" nointeract
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
-
-    # m 1lksdla "...I'm glad you enjoyed that, [player]..."
-    m 1lksdla "... Me alegro que hayas disfrutado eso, [player]..."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
-
-    # m 1wud "Eh?!"
-    m 1wud "¡¿Eh?!"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
-
-    # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
-    m 1lksdlc "No estoy segura de lo que quieres que haga, [player]..."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
-
-    # m 1ekc "Should I try again?{nw}"
-    m 1ekc "¿Debería intentarlo de nuevo?{nw}"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
-
-    # m "Should I try again?{fast}" nointeract
-    m "¿Debería intentarlo de nuevo?{fast}" nointeract
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
-
-    # m 1eua "Okay."
-    m 1eua "Okey"
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
-
-    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
-    m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
-
-# game/script-topics.rpy:1
-translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
-
-    # m 1hua "I'll try better next time for you."
-    m 1hua "Lo intentaré mejor la próxima vez por ti."
-
-# game/script-topics.rpy:1
-translate spanish monika_sayhappybirthday_takecounter_6678c877:
-
-    # m 1dfc "..."
-    m 1dfc "..."
-
-# game/script-topics.rpy:1
-translate spanish monika_sayhappybirthday_takecounter_a4661c05:
-
-    # m 1efc "This is the [take_counter]th time already."
-    m 1efc "Esta ya es la vez número [take_counter]."
-
-# game/script-topics.rpy:1
-translate spanish monika_sayhappybirthday_takecounter_ace55985:
-
-    # m 2tkc "You're not messing with me, are you?"
-    m 2tkc "No me estás vacilando, ¿verdad?"
-
-# game/script-topics.rpy:1
-translate spanish monika_sayhappybirthday_takecounter_d4beed2f:
-
-    # m 2ekc "I'm trying my best for you, [player]."
-    m 2ekc "Estoy haciendo todo lo posible por ti, [player]."
+    # m 3eksdld "Are you sure you don't want me to bring this up anymore?{nw}"
+    m 3eksdld "¿Estás segur[o_a] de que no quieres que vuelva a mencionar este tema?{nw}"
 
 # game/script-topics.rpy:477
 translate spanish mas_topic_derandom_0a165be9:
@@ -6804,6 +6635,24 @@ translate spanish monika_oneesan_ed393fe2:
 
     # m 2hua "Maybe I should email her and tell her about us!"
     m 2hua "¡Quizás debería enviarle un correo electrónico y contarle sobre nosotr[o_a]s!"
+
+# game/script-topics.rpy:3239
+translate spanish _call_updateconsole_17_d3622263:
+
+    # m 1hksdlb "I'm only kidding."
+    m 1hksdlb "Solo estoy bromeando."
+
+# game/script-topics.rpy:3241
+translate spanish _call_updateconsole_17_157af141:
+
+    # m "It's the man's job to introduce his fiancee to his family, after all."
+    m "Después de todo, es tu trabajo presentarme como tu prometida a tu familia."
+
+# game/script-topics.rpy:3442
+translate spanish _call_updateconsole_17_a8299c35:
+
+    # m "Don't keep me waiting for too long, okay?"
+    m "No me hagas esperar demasiado, ¿de acuerdo?"
 
 # game/script-topics.rpy:3251
 translate spanish monika_family_f265965c:
@@ -16609,11 +16458,167 @@ translate spanish monika_sayhappybirthday_3ca20205:
     # m "Was that good?{fast}" nointeract
     m "¿Estuvo bien?{fast}" nointeract
 
+# game/script-topics.rpy:6686
+translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud "¡¿Eh?!"
+
 # game/script-topics.rpy:6681
 translate spanish monika_sayhappybirthday_1b71b2b4:
 
     # m 1hua "Yay!"
     m 1hua "¡Yey!"
+
+# game/script-topics.rpy:6688
+translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
+
+    # m 1lksdla "Sorry again, [player]."
+    m 1lksdla "Lo siento de nuevo, [player]."
+
+# game/script-topics.rpy:6690
+translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
+
+    # m 1lksdla "Sorry, [mas_get_player_nickname()]."
+    m 1lksdla "Lo siento, [mas_get_player_nickname()]."
+
+# game/script-topics.rpy:6691
+translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
+
+    # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
+    m 2lksdlb "Te lo dije, soy tímida ante la cámara, jajaja..."
+
+# game/script-topics.rpy:6693
+translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
+
+    # m "Should I try again?{nw}"
+    m "¿Debería intentarlo de nuevo?{nw}"
+
+# game/script-topics.rpy:6696
+translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "¿Debería intentarlo de nuevo?{fast}" nointeract
+
+# game/script-topics.rpy:6699
+translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua "Okey"
+
+# game/script-topics.rpy:6701
+translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
+
+# game/script-topics.rpy:6702
+translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua "Lo intentaré mejor la próxima vez por ti."
+
+# game/script-topics.rpy:6708
+translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
+
+    # m 1duu "..."
+    m 1duu "..."
+
+# game/script-topics.rpy:6709
+translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
+
+    # m 1hub "[bday_msg_capped], [bday_name]!"
+    m 1hub "¡[bday_msg_capped], [bday_name]!"
+
+# game/script-topics.rpy:6710
+translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
+
+    # m 1hksdlb "..."
+    m 1hksdlb "..."
+
+# game/script-topics.rpy:6711
+translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
+
+    # m 1lksdlb "Was that good?{nw}"
+    m 1lksdlb "¿Estuvo bien?{nw}"
+
+# game/script-topics.rpy:6714
+translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
+
+    # m "Was that good?{fast}" nointeract
+    m "¿Estuvo bien?{fast}" nointeract
+
+# game/script-topics.rpy:6716
+translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
+
+    # m 1lksdla "...I'm glad you enjoyed that, [player]..."
+    m 1lksdla "... Me alegro que hayas disfrutado eso, [player]..."
+
+# game/script-topics.rpy:6721
+translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud "¡¿Eh?!"
+
+# game/script-topics.rpy:6722
+translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
+
+    # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
+    m 1lksdlc "No estoy segura de lo que quieres que haga, [player]..."
+
+# game/script-topics.rpy:6724
+translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
+
+    # m 1ekc "Should I try again?{nw}"
+    m 1ekc "¿Debería intentarlo de nuevo?{nw}"
+
+# game/script-topics.rpy:6727
+translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "¿Debería intentarlo de nuevo?{fast}" nointeract
+
+# game/script-topics.rpy:6730
+translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua "Okey"
+
+# game/script-topics.rpy:6732
+translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka "De acuerdo, [player]. Lo siento, no pude hacer lo que querías."
+
+# game/script-topics.rpy:6733
+translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua "Lo intentaré mejor la próxima vez por ti."
+
+# game/script-topics.rpy:6741
+translate spanish monika_sayhappybirthday_takecounter_6678c877:
+
+    # m 1dfc "..."
+    m 1dfc "..."
+
+# game/script-topics.rpy:6742
+translate spanish monika_sayhappybirthday_takecounter_a4661c05:
+
+    # m 1efc "This is the [take_counter]th time already."
+    m 1efc "Esta ya es la vez número [take_counter]."
+
+# game/script-topics.rpy:6743
+translate spanish monika_sayhappybirthday_takecounter_ace55985:
+
+    # m 2tkc "You're not messing with me, are you?"
+    m 2tkc "No me estás vacilando, ¿verdad?"
+
+# game/script-topics.rpy:6744
+translate spanish monika_sayhappybirthday_takecounter_d4beed2f:
+
+    # m 2ekc "I'm trying my best for you, [player]."
+    m 2ekc "Estoy haciendo todo lo posible por ti, [player]."
 
 # game/script-topics.rpy:6751
 translate spanish monika_home_memories_579ea5b3:

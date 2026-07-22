@@ -6,24 +6,6 @@ translate spanish mas_piano_start_6251b7f0:
     # m 1hua "You want to play the piano?"
     m 1hua "¿Quieres tocar el piano?"
 
-# game/zz_pianokeys.rpy:1
-translate spanish _zzpk_ssll_9cc4d00d:
-
-    # m 1eua "Then play for me, [player]~"
-    m 1eua "Entonces toca para mí, [player]~"
-
-# game/zz_pianokeys.rpy:1
-translate spanish _zzpk_ppel_52b51855:
-
-    # m 1eua "Would you like to play again?{nw}"
-    m 1eua "¿Te gustaría tocar de nuevo?{nw}"
-
-# game/zz_pianokeys.rpy:1
-translate spanish _zzpk_ppel_32d0248c:
-
-    # m "Would you like to play again?{fast}" nointeract
-    m "¿Te gustaría tocar de nuevo?{fast}" nointeract
-
 # game/zz_pianokeys.rpy:124
 translate spanish mas_piano_songchoice_1b611ea5:
 
@@ -47,6 +29,24 @@ translate spanish mas_piano_songchoice_10a53abc:
 
     # m 1hua "I'm so excited to hear you play, [player]!"
     m 1hua "¡Estoy muy emocionada de escucharte tocar, [player]!"
+
+# game/zz_pianokeys.rpy:164
+translate spanish _zzpk_ssll_9cc4d00d:
+
+    # m 1eua "Then play for me, [player]~"
+    m 1eua "Entonces toca para mí, [player]~"
+
+# game/zz_pianokeys.rpy:203
+translate spanish _zzpk_ppel_52b51855:
+
+    # m 1eua "Would you like to play again?{nw}"
+    m 1eua "¿Te gustaría tocar de nuevo?{nw}"
+
+# game/zz_pianokeys.rpy:206
+translate spanish _zzpk_ppel_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "¿Te gustaría tocar de nuevo?{fast}" nointeract
 
 # game/zz_pianokeys.rpy:220
 translate spanish mas_piano_result_default_c9afedae:
