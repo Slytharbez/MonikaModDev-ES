@@ -989,3 +989,61 @@ init 999 python:
             v.text = v.text.replace("\r\n", "\n")
             if isinstance(v.title, (str, unicode)):
                 v.title = v.title.replace("\r\n", "\n")
+
+    # Parche para traducir dinámicamente los apodos del jugador al español
+    if not hasattr(store, "mas_get_player_nickname_original"):
+        store.mas_get_player_nickname_original = store.mas_get_player_nickname
+
+        def mas_get_player_nickname_es(*args, **kwargs):
+            nickname = store.mas_get_player_nickname_original(*args, **kwargs)
+            
+            if nickname is None:
+                return nickname
+                
+            # Diccionario de equivalencias de apodos por defecto (en minúsculas)
+            nickname_translations = {
+                "darling": "cariño",
+                "honey": "cielo",
+                "love": "amor",
+                "my love": "mi amor",
+                "sweetheart": "corazón",
+                "sweetie": "corazoncito",
+                "my darling": "mi vida",
+                "dear": "querid[o_a]",
+                "my dear": "tesoro",
+            }
+            
+            lower_nickname = nickname.lower()
+            
+            if lower_nickname in nickname_translations:
+                translated = nickname_translations[lower_nickname]
+                
+                # Manejar género para "querid[o_a]"
+                if "[o_a]" in translated:
+                    gender = getattr(persistent, "gender", "M")
+                    o_a_val = "o"
+                    if gender == "F":
+                        o_a_val = "a"
+                    elif gender == "X":
+                        o_a_val = "e"
+                    translated = translated.replace("[o_a]", o_a_val)
+                
+                # Manejar modificadores como regex_replace_with_nullstr
+                regex_replace = kwargs.get("regex_replace_with_nullstr", None)
+                if regex_replace is None and len(args) > 3:
+                    regex_replace = args[3]
+                
+                if regex_replace is not None:
+                    import re
+                    translated = re.sub(regex_replace, "", translated)
+                
+                # Respetar la capitalización original
+                if nickname and nickname[0].isupper():
+                    return translated.capitalize()
+                return translated
+                
+            return nickname
+
+        store.mas_get_player_nickname = mas_get_player_nickname_es
+
+
