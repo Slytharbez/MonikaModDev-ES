@@ -1468,7 +1468,7 @@ translate spanish greeting_trick_or_treat_back_costume_ed691741:
 translate spanish mas_d25_gift_starter_cb474523:
 
     # m 3wud "Oh! I [should_open] [the] [presents] you gave me!"
-    m 3wud "¡Oh! ¡[should_open] [the] [presents] que me diste!"
+    m 3wud "¡Oh! ¡[_(should_open)] [_(the)] [_(presents)] que me diste!"
 
 # game/script-holidays.rpy:2439
 translate spanish mas_d25_gift_starter_e9b9aeeb:
@@ -1480,7 +1480,7 @@ translate spanish mas_d25_gift_starter_e9b9aeeb:
 translate spanish mas_d25_gift_starter_57049eb3:
 
     # m 1eka "Well at least now that you're here, I can open the [presents] you got me."
-    m 1eka "Bueno, al menos ahora que estás aquí, puedo abrir los [presents] que me conseguiste."
+    m 1eka "Bueno, al menos ahora que estás aquí, puedo abrir los [_(presents)] que me conseguiste."
 
 # game/script-holidays.rpy:2444
 translate spanish mas_d25_gift_starter_5ab42a91:
@@ -1492,7 +1492,7 @@ translate spanish mas_d25_gift_starter_5ab42a91:
 translate spanish mas_d25_gift_starter_04df8a93:
 
     # m 1suo "Let's see what we have here.{w=0.5}.{w=0.5}.{nw}"
-    m 1suo "A ver qué tenemos aquí. {w=0.5}. {w=0.5}.{nw}"
+    m 1suo "A ver qué tenemos aquí.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:2465
 translate spanish mas_d25_gift_connector_bd3a67da:
@@ -1504,7 +1504,7 @@ translate spanish mas_d25_gift_connector_bd3a67da:
 translate spanish mas_d25_gift_connector_217a70d0:
 
     # m 1suo "And here we have.{w=0.5}.{w=0.5}.{nw}"
-    m 1suo "Y aquí tenemos. {w=0.5}. {w=0.5}.{nw}"
+    m 1suo "Y aquí tenemos.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:2478
 translate spanish mas_d25_gift_end_af911328:
@@ -1522,7 +1522,7 @@ translate spanish mas_d25_gift_end_2d9c9306:
 translate spanish mas_d25_gift_end_7c92d817:
 
     # extend 3dku "Just having you here with me was more than enough."
-    extend 3dku "Solo tenerte aquí conmigo era más que suficiente."
+    extend 3dku "solo tenerte aquí conmigo era más que suficiente."
 
 # game/script-holidays.rpy:2485
 translate spanish mas_d25_gift_end_996cbd19:
@@ -1618,7 +1618,7 @@ translate spanish mas_d25_monika_holiday_intro_29f4e729:
 translate spanish mas_d25_monika_holiday_intro_12a87cd7:
 
     # m 1euc "...wait."
-    m 1euc "... espera."
+    m 1euc "... Espera."
 
 # game/script-holidays.rpy:2539
 translate spanish mas_d25_monika_holiday_intro_e612037c:
@@ -1642,7 +1642,7 @@ translate spanish mas_d25_monika_holiday_intro_fb8989b4:
 translate spanish mas_d25_monika_holiday_intro_3c96a974:
 
     # m 1tsu "Close your eyes for a moment [player], I need to do something.{w=0.5}.{w=0.5}.{nw}"
-    m 1tsu "Cierra los ojos un momento [player], necesito hacer algo. {w=0.5}. {w=0.5}.{nw}"
+    m 1tsu "Cierra los ojos un momento [player], necesito hacer algo.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:2555
 translate spanish mas_d25_monika_holiday_intro_4bd9f270:
@@ -1666,7 +1666,7 @@ translate spanish mas_d25_monika_holiday_intro_e86d1c1b:
 translate spanish mas_d25_monika_holiday_intro_35c4061b:
 
     # m 3eua "It seems like just yesterday we spent [the_last] holiday season together, and now a whole year has gone by!"
-    m 3eua "¡Parece que fue ayer cuando pasamos junt[o_a]s [the_last] temporada navideña, y ahora ha pasado todo un año!"
+    m 3eua "¡Parece que fue ayer cuando pasamos junt[o_a]s [_(the_last)] temporada navideña, y ahora ha pasado todo un año!"
 
 # game/script-holidays.rpy:2576
 translate spanish mas_d25_monika_holiday_intro_a7dd1558:
@@ -1738,7 +1738,7 @@ translate spanish mas_d25_monika_holiday_intro_upset_9b87f36a:
 translate spanish mas_d25_monika_holiday_intro_upset_d8eab78d:
 
     # m 1eua "If you'd just close your eyes for a moment.{w=0.5}.{w=0.5}.{nw}"
-    m 1eua "Si tan solo cerraras los ojos un momento. {w=0.5}. {w=0.5}.{nw}"
+    m 1eua "Si tan solo cerraras los ojos un momento.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:2649
 translate spanish mas_d25_monika_holiday_intro_upset_4b57a37e:
@@ -2692,7 +2692,7 @@ translate spanish monika_aiwfc_8f4fa6b6:
 translate spanish monika_aiwfc_5257bc0b:
 
     # m 1huu "Anyway.{w=0.5}.{w=0.5}.{nw}"
-    m 1huu "En fin. {w=0.5}. {w=0.5}.{nw}"
+    m 1huu "En fin.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:3344
 translate spanish monika_aiwfc_d0c2b671:
@@ -2722,7 +2722,7 @@ translate spanish monika_aiwfc_295df49a:
 translate spanish monika_aiwfc_c21cbbba:
 
     # m 1huu ".{w=0.5}.{w=0.5}.{nw}"
-    m 1huu ". {w=0.5}. {w=0.5}.{nw}"
+    m 1huu ".{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:3358
 translate spanish monika_aiwfc_418832e7:
@@ -2923,7 +2923,7 @@ translate spanish monika_merry_christmas_baby_2aa13512:
 translate spanish monika_merry_christmas_baby_2bf254e7:
 
     # m 1hua ".{w=0.5}.{w=0.5}.{nw}"
-    m 1hua ". {w=0.5}. {w=0.5}.{nw}"
+    m 1hua ".{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:3452
 translate spanish monika_merry_christmas_baby_d0c2b671:
@@ -2947,7 +2947,7 @@ translate spanish monika_merry_christmas_baby_666135c9:
 translate spanish monika_merry_christmas_baby_2bf254e7_1:
 
     # m 1hua ".{w=0.5}.{w=0.5}.{nw}"
-    m 1hua ". {w=0.5}. {w=0.5}.{nw}"
+    m 1hua ".{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:3462
 translate spanish monika_merry_christmas_baby_ad7eeb7e:
@@ -2959,7 +2959,7 @@ translate spanish monika_merry_christmas_baby_ad7eeb7e:
 translate spanish monika_this_christmas_kiss_527ff374:
 
     # m 2rubsa "Um, [player]..."
-    m 2rubsa "Esto, [player]..."
+    m 2rubsa "Ehmm, [player]..."
 
 # game/script-holidays.rpy:3482
 translate spanish monika_this_christmas_kiss_77897181:
@@ -3001,7 +3001,7 @@ translate spanish monika_this_christmas_kiss_5d9ddbd9:
 translate spanish monika_this_christmas_kiss_2bf254e7:
 
     # m 1hua ".{w=0.5}.{w=0.5}.{nw}"
-    m 1hua ". {w=0.5}. {w=0.5}.{nw}"
+    m 1hua ".{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:3494
 translate spanish monika_this_christmas_kiss_f9f68d5c:
@@ -3013,7 +3013,7 @@ translate spanish monika_this_christmas_kiss_f9f68d5c:
 translate spanish monika_this_christmas_kiss_0cb454be:
 
     # m 1rtbsu "Hmm.{w=0.5}.{w=0.5}.{w=0.5}{nw}"
-    m 1rtbsu "Hmm. {w=0.5}. {w=0.5}. {w=0.5}{nw}"
+    m 1rtbsu "Hmm.{w=0.5}.{w=0.5}.{w=0.5}{nw}"
 
 # game/script-holidays.rpy:3505
 translate spanish monika_this_christmas_kiss_0e868cf3:
@@ -5131,7 +5131,7 @@ translate spanish mas_nye_monika_nye_dress_intro_1d3962e3:
 translate spanish mas_nye_monika_nye_dress_intro_26943a8a:
 
     # m 1tuu "I think it's time to dust off one of my favorite outfits.{w=0.5}.{w=0.5}.{nw}"
-    m 1tuu "Creo que es hora de desempolvar uno de mis atuendos favoritos. {w=0.5}. {w=0.5}.{nw}"
+    m 1tuu "Creo que es hora de desempolvar uno de mis atuendos favoritos.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:4787
 translate spanish mas_nye_monika_nye_dress_intro_a275c06e:
@@ -5161,7 +5161,7 @@ translate spanish mas_nye_monika_nye_dress_intro_05ee024d:
 translate spanish mas_nye_monika_nye_dress_intro_34080746:
 
     # m 3eua "Just let me go change.{w=0.5}.{w=0.5}.{nw}"
-    m 3eua "Solo déjame ir a cambiarme... {w=0.5}. {w=0.5}.{nw}"
+    m 3eua "Solo déjame ir a cambiarme...{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:4798
 translate spanish mas_nye_monika_nye_dress_intro_8c264464:
@@ -5647,7 +5647,7 @@ translate spanish mas_player_bday_opendoor_db6057b0:
 translate spanish mas_player_bday_opendoor_9572e050:
 
     # m "I was just going to start setting up [your] birthday party, but I didn't have time before you came in!"
-    m "¡Estaba a punto de empezar a preparar [your] fiesta de cumpleaños, pero no me dio tiempo antes de que entraras!"
+    m "¡Estaba a punto de empezar a preparar [_(your)] fiesta de cumpleaños, pero no me dio tiempo antes de que entraras!"
 
 # game/script-holidays.rpy:5335
 translate spanish mas_player_bday_opendoor_e612037c:
@@ -5659,7 +5659,7 @@ translate spanish mas_player_bday_opendoor_e612037c:
 translate spanish mas_player_bday_opendoor_842b94f9:
 
     # m "Well...{w=1}the surprise is ruined [now], but.{w=0.5}.{w=0.5}.{nw}"
-    m "Bueno... {w=1}la sorpresa se ha arruinado [now], pero... {w=0.5}. {w=0.5}.{nw}"
+    m "Bueno... {w=1}la sorpresa se ha arruinado [now], pero.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:5341
 translate spanish mas_player_bday_opendoor_f5bdee4e:
@@ -5677,7 +5677,7 @@ translate spanish mas_player_bday_opendoor_4bc0d3d5:
 translate spanish mas_player_bday_opendoor_2f1bf26e:
 
     # m 4hksdlb "Oh...[your] cake!"
-    m 4hksdlb "¡Oh... [your] tarta!"
+    m 4hksdlb "¡Oh... [_(your)] tarta!"
 
 # game/script-holidays.rpy:5349
 translate spanish mas_player_bday_knock_no_listen_b1af81c6:
@@ -5833,7 +5833,7 @@ translate spanish mas_player_bday_opendoor_listened_c9062bfa:
 translate spanish mas_player_bday_opendoor_listened_7cf015ae:
 
     # m "I was setting up [your] birthday party, but I didn't have time before you came in to get ready to surprise you!"
-    m "¡Estaba preparando [your] fiesta de cumpleaños, pero no tuve tiempo de prepararme para la sorpresa antes de que entraras!"
+    m "¡Estaba preparando [_(your)] fiesta de cumpleaños, pero no tuve tiempo de prepararme para la sorpresa antes de que entraras!"
 
 # game/script-holidays.rpy:5439
 translate spanish mas_player_bday_opendoor_listened_18b998fc:
@@ -5851,13 +5851,13 @@ translate spanish mas_player_bday_opendoor_listened_4bc0d3d5:
 translate spanish mas_player_bday_opendoor_listened_746445d2:
 
     # m 2hksdlb "Oh...[your] cake!"
-    m 2hksdlb "¡Oh... [your] pastel!"
+    m 2hksdlb "¡Oh... [_(your)] pastel!"
 
 # game/script-holidays.rpy:5461
 translate spanish mas_player_bday_cake_7e31e470:
 
     # m 6eua "Let me just light the candles.{w=0.5}.{w=0.5}.{nw}"
-    m 6eua "Déjame encender las velas... {w=0.5}. {w=0.5}.{nw}"
+    m 6eua "Déjame encender las velas.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:5463
 translate spanish mas_player_bday_cake_3269effe:
@@ -6109,7 +6109,7 @@ translate spanish mas_player_bday_ret_on_bday_e420fd3e:
 translate spanish mas_player_bday_ret_on_bday_2fb75c26:
 
     # m 2tsu "Just give me a moment, [player].{w=0.5}.{w=0.5}.{nw}"
-    m 2tsu "Dame un momento, [player]... {w=0.5}. {w=0.5}.{nw}"
+    m 2tsu "Dame un momento, [player].{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:5588
 translate spanish mas_player_bday_ret_on_bday_abb2bf8e:
@@ -6163,13 +6163,13 @@ translate spanish mas_player_bday_greet_99d064bc:
 translate spanish mas_player_bday_greet_19e975ac:
 
     # m 3hua "Oh! [your] cake!"
-    m 3hua "¡Ah! ¡[your] pastel!"
+    m 3hua "¡Ah! ¡[_(your)] pastel!"
 
 # game/script-holidays.rpy:5643
 translate spanish mas_player_bday_no_restart_2d730cb9:
 
     # m 3rksdla "Well [player], I was hoping to do something a little more fun, but you've been so sweet and haven't left all day long, so.{w=0.5}.{w=0.5}.{nw}"
-    m 3rksdla "Bueno, [player], esperaba hacer algo un poco más divertido, pero has sido tan dulce y no te has ido en todo el día, así que... {w=0.5}. {w=0.5}.{nw}"
+    m 3rksdla "Bueno, [player], esperaba hacer algo un poco más divertido, pero has sido tan dulce y no te has ido en todo el día, así que.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:5646
 translate spanish mas_player_bday_no_restart_7b9d0da0:
@@ -6229,7 +6229,7 @@ translate spanish mas_player_bday_other_holiday_40cc5c03:
 translate spanish mas_player_bday_other_holiday_7ed8110d:
 
     # m 1tsu "I have a bit of a surprise for you.{w=0.5}.{w=0.5}.{nw}"
-    m 1tsu "Tengo una pequeña sorpresa para ti... {w=0.5}. {w=0.5}.{nw}"
+    m 1tsu "Tengo una pequeña sorpresa para ti.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:5702
 translate spanish mas_player_bday_other_holiday_7b9d0da0:
@@ -8383,7 +8383,7 @@ translate spanish mas_bday_surprise_party_reaction_post_make_wish_2634a57a:
 translate spanish mas_bday_surprise_party_reaction_post_make_wish_e2cea9e2:
 
     # m 6eka "I'll save this cake for later.{w=0.5}.{w=0.5}.{nw}"
-    m 6eka "Guardaré esta tarta para luego. {w=0.5}. {w=0.5}.{nw}"
+    m 6eka "Guardaré esta tarta para luego.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:7651
 translate spanish mas_bday_surprise_party_reaction_end_441fdd3d:
@@ -8413,7 +8413,7 @@ translate spanish mas_bday_surprise_party_reaction_end_c2678b1b:
 translate spanish mas_bday_surprise_party_reaction_end_3269effe:
 
     # m 6eua "Let me just light the candles for you, [player].{w=0.5}.{w=0.5}.{nw}"
-    m 6eua "Deja que encienda las velas por ti, [player]. {w=0.5}. {w=0.5}.{nw}"
+    m 6eua "Deja que encienda las velas por ti, [player].{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:7665
 translate spanish mas_bday_surprise_party_reaction_end_6a6ee0fb:
@@ -9469,7 +9469,7 @@ translate spanish greeting_returned_home_bday_80593f38:
 translate spanish greeting_returned_home_bday_821d2e3a:
 
     # m 1hua "Also [player], give me a second, I have something for you.{w=0.5}.{w=0.5}.{nw}"
-    m 1hua "Además, [player], dame un segundo, tengo algo para ti. {w=0.5}. {w=0.5}.{nw}"
+    m 1hua "Además, [player], dame un segundo, tengo algo para ti.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:8218
 translate spanish greeting_returned_home_bday_abb2bf8e:
@@ -9535,7 +9535,7 @@ translate spanish greeting_returned_home_bday_d6760888:
 translate spanish greeting_returned_home_bday_606b6a2f:
 
     # m 3hua "Let me just clean everything up.{w=0.5}.{w=0.5}.{nw}"
-    m 3hua "Deja que lo limpie todo. {w=0.5}. {w=0.5}.{nw}"
+    m 3hua "Deja que lo limpie todo.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:8255
 translate spanish greeting_returned_home_bday_e4249b49:
@@ -9553,7 +9553,7 @@ translate spanish greeting_returned_home_bday_2f37f018:
 translate spanish greeting_returned_home_bday_7a27ebb1:
 
     # m 2hua "Let me just clean everything up.{w=0.5}.{w=0.5}.{nw}"
-    m 2hua "Deja que lo limpie todo. {w=0.5}. {w=0.5}.{nw}"
+    m 2hua "Deja que lo limpie todo.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-holidays.rpy:8262
 translate spanish greeting_returned_home_bday_e4249b49_1:

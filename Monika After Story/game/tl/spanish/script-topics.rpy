@@ -17506,7 +17506,7 @@ translate spanish monika_daydream_2953c5de:
 translate spanish monika_daydream_6c32eb3b:
 
     # m 2ektpd "Oh, sorry...{w=0.5} I was just lost in thought for a second there."
-    m 2ektpd "Oh, lo siento...{w=0.5} Me perdí en mis pensamientos por un segundo."
+    m 2ektpd "Oh, lo siento... {w=0.5}me perdí en mis pensamientos por un segundo."
 
 # game/script-topics.rpy:7034
 translate spanish monika_daydream_2f5058c9:
