@@ -381,18 +381,64 @@ init -1 python:
                 _thread_result
                     appends appropriate state for use
             """
+            # import httplib
             import urllib2
             import ssl
             import json
 
+            # separate the update link parts
+            # (its okay to access this, main thread does not)
+            # _http, double_slash, url = update_link.partition("//")
+            # url, single_slash, json_file = url.partition("/")
+            # read_json = None
+            # h_conn = httplib.HTTPConnection(
+            #     url
+            # )
+
             try:
+                # make connection and attempt to connect
+                # h_conn.connect()
+
+                # get the file we need
+                # h_conn.request("GET", "/" + json_file)
+                # server_response = h_conn.getresponse()
+
+                # check status
+                # if server_response.status == 301:
+                #     # redirect, pull the location header and continue
+                #     new_url = server_response.getheader("location", None)
+
+                #     if new_url is None:
+                #         # we have to have the redirect location to continue
+                #         thread_result.append(MASUpdaterDisplayable.STATE_NO_OK)
+                #         return
+
+                #     # otherwise, switch connection to the new url
+                #     h_conn.close()
+                #     read_json = MASUpdaterDisplayable._handleRedirect(new_url)
                 try:
                     context = ssl._create_unverified_context()
                     response = urllib2.urlopen(update_link, context=context, timeout=10)
                 except AttributeError:
                     response = urllib2.urlopen(update_link, timeout=10)
 
+                # if read_json is None:
+                #     # redirect failed too
+                #     thread_result.append(MASUpdaterDisplayable.STATE_NO_OK)
+                #     return
                 read_json = response.read()
+
+                # elif server_response.status != 200:
+                #     # didnt get an OK response
+                #     thread_result.append(MASUpdaterDisplayable.STATE_NO_OK)
+                #     return
+
+                # else:
+                #     # good status, lets get the value
+                #     read_json = server_response.read()
+
+            # except httplib.HTTPException:
+            #     # we assume a timeout / connection error
 
             except urllib2.HTTPError as e:
                 # server returned non-200 response
@@ -406,6 +452,9 @@ init -1 python:
                 # general exception, fallback to timeout/connection error
                 thread_result.append(MASUpdaterDisplayable.STATE_TIMEOUT)
                 return
+
+            # finally:
+            #     h_conn.close()
 
             # now to parse the json
             try:
