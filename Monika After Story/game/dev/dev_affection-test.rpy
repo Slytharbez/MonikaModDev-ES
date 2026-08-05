@@ -8,7 +8,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_monika_affection_check",
             category=["dev"],
-            prompt="AFFECTION CHECK",
+            prompt=_("AFFECTION CHECK"),
             pool=True,
             unlocked=True
         )

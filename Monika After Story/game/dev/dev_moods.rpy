@@ -6,7 +6,7 @@ init 5 python:
         Event(
             persistent._mas_mood_database,
             "mas_mood_mitochondria",
-            prompt="A mitochondria",
+            prompt=_("A mitochondria"),
             category=[store.mas_moods.TYPE_GOOD],
             unlocked=True
         ),
@@ -17,7 +17,7 @@ init 5 python:
         Event(
             persistent._mas_mood_database,
             "mas_mood_theroom",
-            prompt="The Room",
+            prompt=_("The Room"),
             category=[store.mas_moods.TYPE_NEUTRAL],
             unlocked=True
         ),
@@ -28,7 +28,7 @@ init 5 python:
         Event(
             persistent._mas_mood_database,
             "mas_mood_horny",
-            prompt="horny",
+            prompt=_("horny"),
             category=[store.mas_moods.TYPE_BAD],
             unlocked=True
         ),

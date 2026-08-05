@@ -79,7 +79,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_api_key_tester",
             category=["dev"],
-            prompt="TEST API KEY",
+            prompt=_("TEST API KEY"),
             pool=True,
             unlocked=True
         )

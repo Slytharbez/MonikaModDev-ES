@@ -3,7 +3,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_inActiveWindowCheck",
-            prompt="TEST IN ACTIVE WINDOW",
+            prompt=_("TEST IN ACTIVE WINDOW"),
             category=['dev'],
             pool=True,
             unlocked=True

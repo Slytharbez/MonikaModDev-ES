@@ -139,7 +139,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_deco_tag_test_api",
             category=["dev"],
-            prompt="DECO TAG TEST API REG",
+            prompt=_("DECO TAG TEST API REG"),
             pool=True,
             unlocked=True
         )
@@ -195,7 +195,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_deco_tag_test_api_same",
             category=["dev"],
-            prompt="DECO TAG TEST API REG SAME",
+            prompt=_("DECO TAG TEST API REG SAME"),
             pool=True,
             unlocked=True
         )
@@ -227,7 +227,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_deco_tag_test_adf",
             category=["dev"],
-            prompt="DECO TAG TEST ADF",
+            prompt=_("DECO TAG TEST ADF"),
             pool=True,
             unlocked=True
         )

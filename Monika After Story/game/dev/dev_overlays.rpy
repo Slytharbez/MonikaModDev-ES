@@ -6,7 +6,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_overlay_testing",
             category=["dev"],
-            prompt="TEST OVERLAYS",
+            prompt=_("TEST OVERLAYS"),
             pool=True,
             unlocked=True
         )
@@ -17,7 +17,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_shields_testing",
             category=["dev"],
-            prompt="TEST SHIELDS",
+            prompt=_("TEST SHIELDS"),
             pool=True,
             unlocked=True
         )

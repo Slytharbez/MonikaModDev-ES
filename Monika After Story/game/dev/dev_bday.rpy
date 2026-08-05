@@ -6,7 +6,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_bday_visuals",
             category=["dev"],
-            prompt="BDAY VISUALS",
+            prompt=_("BDAY VISUALS"),
             pool=True,
             unlocked=True
         )
@@ -41,7 +41,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_bday_visual_files",
             category=["dev"],
-            prompt="BDAY VISUALS (Files)",
+            prompt=_("BDAY VISUALS (Files)"),
             pool=True,
             unlocked=True
         )

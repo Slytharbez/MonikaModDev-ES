@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_test_islands_progress",
             category=["dev"],
-            prompt="SHOW ISLANDS PROGRESS",
+            prompt=_("SHOW ISLANDS PROGRESS"),
             rules={"keep_idle_exp": None},
             pool=True,
             unlocked=True

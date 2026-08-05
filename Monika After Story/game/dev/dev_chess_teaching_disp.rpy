@@ -3,7 +3,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="dev_test_chess_teaching",
-            prompt="TEST CHESS TEACHING DISPLAYABLE",
+            prompt=_("TEST CHESS TEACHING DISPLAYABLE"),
             category=["dev"],
             random=False,
             pool=True,

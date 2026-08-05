@@ -41,7 +41,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_selector_test",
             category=["dev"],
-            prompt="TEST SELECTOR (sidebar raw visual)",
+            prompt=_("TEST SELECTOR (sidebar raw visual)"),
             pool=True,
             unlocked=True
         )
@@ -140,7 +140,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_selector_hair_test",
             category=["dev"],
-            prompt="TEST SELECTOR (sidebar hair)",
+            prompt=_("TEST SELECTOR (sidebar hair)"),
             pool=True,
             unlocked=True
         )
@@ -180,7 +180,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_selector_clothes_test",
             category=["dev"],
-            prompt="TEST SELECTOR (sidebar clothes)",
+            prompt=_("TEST SELECTOR (sidebar clothes)"),
             pool=True,
             unlocked=True
         )
@@ -220,7 +220,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_selector_acs_ribbons_test",
             category=["dev"],
-            prompt="TEST SELECTOR (ribbons acs)",
+            prompt=_("TEST SELECTOR (ribbons acs)"),
             pool=True,
             unlocked=True
         )
@@ -268,7 +268,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_selector_hair_disabled",
             category=["dev"],
-            prompt="TEST SELECTOR (disabling hair bc clothes)",
+            prompt=_("TEST SELECTOR (disabling hair bc clothes)"),
             pool=True,
             unlocked=True
         )

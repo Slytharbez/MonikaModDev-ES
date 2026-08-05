@@ -158,7 +158,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_acs_pose_test",
             category=["dev"],
-            prompt="ACCESSORY POSE TEST",
+            prompt=_("ACCESSORY POSE TEST"),
             pool=True,
             unlocked=True
         )
@@ -190,7 +190,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_sp_obj_pp_test",
             category=["dev"],
-            prompt="SPRITE PROG POINT TEST",
+            prompt=_("SPRITE PROG POINT TEST"),
             pool=True,
             unlocked=True
         )
@@ -315,7 +315,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_empty_desk_test",
             category=["dev"],
-            prompt="TEST EMPTY DESK",
+            prompt=_("TEST EMPTY DESK"),
             pool=True,
             unlocked=True
         )
@@ -346,7 +346,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_empty_desk_test_labels",
             category=["dev"],
-            prompt="TEST EMPTY DESK (using transition labels)",
+            prompt=_("TEST EMPTY DESK (using transition labels)"),
             pool=True,
             unlocked=True
         )
@@ -401,7 +401,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_ahoge_test",
             category=["dev"],
-            prompt="TEST AHOGES",
+            prompt=_("TEST AHOGES"),
             pool=True,
             unlocked=True
         )
@@ -432,7 +432,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_closed_eye_tears_test",
             category=["dev"],
-            prompt="TEST CLOSED EYE TEARS",
+            prompt=_("TEST CLOSED EYE TEARS"),
             pool=True,
             unlocked=True
         )
@@ -544,7 +544,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="dev_dynamic_acs_test",
             category=["dev"],
-            prompt="TEST DYNAMIC ACS",
+            prompt=_("TEST DYNAMIC ACS"),
             pool=True,
             unlocked=True
         )
