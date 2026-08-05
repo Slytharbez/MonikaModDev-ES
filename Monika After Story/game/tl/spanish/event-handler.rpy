@@ -14,13 +14,13 @@ translate spanish mas_bookmarks_unbookmark_73747bba:
 
 translate spanish strings:
 
-    # game/event-handler.rpy:3299
+    # game/event-handler.rpy:3300
     old "I would like to see 'Unseen' ([unseen_num]) again"
-    new "Quisiera ver 'Oculto' ([unseen_num]) de nuevo."
+    new "Quisiera ver los ([unseen_num]) diálogos 'Nuevos' otra vez."
 
     # game/event-handler.rpy:3321
     old "{b}Unseen{/b}"
-    new "{b}Oculto{/b}"
+    new "{b}Nuevos{/b}"
 
     # game/event-handler.rpy:3323
     old "Bookmarks"
@@ -72,7 +72,7 @@ translate spanish strings:
 
     # game/event-handler.rpy:3703
     old "Just select the bookmark if you're sure you want to remove it."
-    new "Solo selecciona el marcador si estás seguro de que quieres eliminarlo."
+    new "Solo selecciona el marcador si estás segur[o_a] de que quieres eliminarlo."
 
     # game/event-handler.rpy:3705
     old "Remove selected"

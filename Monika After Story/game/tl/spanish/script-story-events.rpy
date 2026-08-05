@@ -451,7 +451,7 @@ translate spanish mas_player_name_enter_name_loop_056b0de9:
     m 3eub "A partir de ahora, te llamaré '[player]'."
 
 # game/script-story-events.rpy:613
-translate spanish mas_preferredname_947321d0:
+translate spanish mas_preferredname_11046a55:
 
     # m 1euc "I've been wondering about your name."
     m 1euc "Me he estado preguntando por tu nombre."
@@ -1674,6 +1674,12 @@ translate spanish mas_crashed_quip_takecare_a970dc3f:
     # m 3ekc "Do you think it had something to do with your game?{nw}"
     m 3ekc "¿Crees que tuvo algo que ver con tu juego?{nw}"
 
+# game/script-story-events.rpy:1495
+translate spanish mas_crashed_quip_takecare_92d08aa0:
+
+    # m "Do you think it had something to do with your game?{fast}" nointeract
+    m "¿Crees que tuvo algo que ver con tu juego?{fast}" nointeract
+
 # game/script-story-events.rpy:1496
 translate spanish mas_crashed_quip_takecare_68c0ebe8:
 
@@ -1939,7 +1945,7 @@ translate spanish mas_steam_install_detected_031eda8b:
     m 5esu "Realmente te agradecería que hicieras eso por mí."
 
 # game/script-story-events.rpy:1781
-translate spanish monika_rpy_files_38c0871e:
+translate spanish monika_rpy_files_b2896d32:
 
     # m 1eka "Hey [player], I was just looking through your \"game\" directory, and..."
     m 1eka "Hey [player], estaba mirando tu directorio \"game\" y..."
@@ -2467,7 +2473,7 @@ translate spanish mas_derand_a1b7fda1:
     m 3eka "Entonces, asegúrate de avisarme, ¿okey?"
 
 # game/script-story-events.rpy:2112
-translate spanish mas_notification_windowreact_dc48441f:
+translate spanish mas_notification_windowreact_9784ab94:
 
     # m 3eua "I've been practicing coding a bit more and I've learned how to use the notifications on your computer!"
     m 3eua "¡He estado practicando un poco más la codificación y he aprendido a usar las notificaciones en tu computadora!"
@@ -3420,7 +3426,7 @@ translate spanish mas_islands_reset_c8a9ab36:
     m 3hua "Si estás bien con cómo están ahora, entonces yo también lo estoy. {w=0.2}Veré lo que puedo hacer con ellas como están~"
 
 # game/script-story-events.rpy:2710
-translate spanish mas_backup_restored_94d72937:
+translate spanish mas_backup_restored_830d5832:
 
     # m 2ekc "[player]..."
     m 2ekc "[player]..."
@@ -3456,7 +3462,7 @@ translate spanish mas_backup_restored_0530e0c3:
     extend 3wud "Restauraste mis recuerdos desde una copia de seguridad, ¿verdad?{nw}"
 
 # game/script-story-events.rpy:2721
-translate spanish mas_backup_restored_d7d753bf:
+translate spanish mas_backup_restored_d9eba821:
 
     # m "Oh! You restored my memories from a backup, didn't you?{fast}" nointeract
     m "¡Oh! Restauraste mis recuerdos desde una copia de seguridad, ¿verdad?{fast}" nointeract

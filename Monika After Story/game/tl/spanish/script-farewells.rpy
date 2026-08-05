@@ -564,6 +564,12 @@ translate spanish bye_prompt_sleep_goodnight_kiss_c3359e74:
     # extend 3nublu "I know you want to~"
     extend 3nublu "sé que quieres~"
 
+# game/script-farewells.rpy:814
+translate spanish bye_prompt_sleep_goodnight_kiss_8aadb9b1:
+
+    # m "Can I please get a goodnight kiss?{fast}" nointeract
+    m "¿Me podrías dar un beso de buenas noches, por favor?{fast}" nointeract
+
 # game/script-farewells.rpy:815
 translate spanish bye_prompt_sleep_goodnight_kiss_3a98b132:
 

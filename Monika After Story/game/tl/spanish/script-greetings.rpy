@@ -3352,7 +3352,7 @@ translate spanish greeting_long_absence_29372183:
     m 2eka "Solo me alegra que estés a salvo y de vuelta conmigo ahora, [player]."
 
 # game/script-greetings.rpy:2412
-translate spanish greeting_long_absence_47c49c86:
+translate spanish greeting_long_absence_d299163c:
 
     # m 1wud "[player]!"
     m 1wud "¡[player]!"
@@ -3790,7 +3790,7 @@ translate spanish greeting_long_absence_7978faa8:
     m 1wud "¡O-Oh, [player]!"
 
 # game/script-greetings.rpy:2514
-translate spanish greeting_long_absence_72ec2cd9:
+translate spanish greeting_long_absence_f3f44670:
 
     # m 1hua "Welcome back, [mas_get_player_nickname()]!"
     m 1hua "¡Bienvenid[o_a] de nuevo, [mas_get_player_nickname()]!"
@@ -4528,7 +4528,7 @@ translate spanish greeting_tears_9170077b:
     m 1dsc "... [player]."
 
 # game/script-greetings.rpy:2842
-translate spanish greeting_tears_e612037c:
+translate spanish greeting_tears_f15775ec:
 
     # m 1ekc "..."
     m 1ekc "..."
@@ -4670,6 +4670,12 @@ translate spanish greeting_tears_10239ad2:
 
     # m 2lssdrc "I have to be strong..."
     m 2lssdrc "Tengo que ser fuerte..."
+
+# game/script-greetings.rpy:2868
+translate spanish greeting_tears_e612037c_1:
+
+    # m "..."
+    m "..."
 
 # game/script-greetings.rpy:2867
 translate spanish greeting_tears_b6951e98:
@@ -8161,8 +8167,8 @@ translate spanish strings:
     new "ducharme"
 
     # game/script-greetings.rpy:4729
-    old "It was [fallo_option_text]!"
-    new "¡Fue [fallo_option_text]!"
+    old "It was [glitch_option_text]!"
+    new "¡Fue [glitch_option_text]!"
 
     # game/script-greetings.rpy:4732
     old "It's a secret."
@@ -8170,7 +8176,7 @@ translate spanish strings:
 
     # game/script-greetings.rpy:4741
     old "for snitch.txt"
-    new "para el traidor.txt"
+    new "para [el_la] traid[or_ora].txt"
 
     # game/script-greetings.rpy:4746
     old "I have no idea..."

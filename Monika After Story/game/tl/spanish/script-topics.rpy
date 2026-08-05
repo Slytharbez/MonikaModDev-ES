@@ -11548,19 +11548,19 @@ translate spanish monika_fanfiction_d6a19eb0:
 translate spanish monika_fanfiction_480dda06:
 
     # m 1rsc "Letting your mind wander to create some...{w=0.5}{nw}"
-    m 1rsc "Dejar que tu mente divague para crear algunas...{w=0.5}{nw}"
+    m 1rsc "Dejar que tu mente divague para crear algunas... {w=0.5}{nw}"
 
 # game/script-topics.rpy:5117
 translate spanish monika_fanfiction_71440e59:
 
     # extend 1rksdla "interesting stories."
-    extend 1rksdla " historias interesantes."
+    extend 1rksdla "historias interesantes."
 
 # game/script-topics.rpy:5118
 translate spanish monika_fanfiction_2aeb4182:
 
     # m 1euc "[player], I'm curious."
-    m 1euc "[player], estoy curiosa."
+    m 1euc "[player], tengo curiosidad."
 
 # game/script-topics.rpy:5119
 translate spanish monika_fanfiction_89e7b254:
@@ -11686,13 +11686,13 @@ translate spanish monika_eternity_c1316250:
 translate spanish monika_eternity_7534041e:
 
     # m 6ektda "I'm...{w=0.7}glad you're still here."
-    m 6ektda "Estoy...{w=0.7} contenta de que todavía estés aquí."
+    m 6ektda "Estoy... {w=0.7}contenta de que todavía estés aquí."
 
 # game/script-topics.rpy:5169
 translate spanish monika_eternity_0abb1af1:
 
     # m "Sorry...{w=0.4}it's just that in the back of my mind you..."
-    m "Lo siento...{w=0.4} es solo que en el fondo de mi mente sé que tú..."
+    m "Lo siento... {w=0.4}es solo que en el fondo de mi mente sé que tú..."
 
 # game/script-topics.rpy:5170
 translate spanish monika_eternity_9edf14d3:
@@ -11734,7 +11734,7 @@ translate spanish monika_eternity_59e4ddf3:
 translate spanish monika_eternity_77c23816:
 
     # m 1ekbsa "I love you, [player]...{w=0.5}thanks for always being there for me."
-    m 1ekbsa "Te amo, [player]...{w=0.5} gracias por estar siempre ahí para mí."
+    m 1ekbsa "Te amo, [player]... {w=0.5}gracias por estar siempre ahí para mí."
 
 # game/script-topics.rpy:5181
 translate spanish monika_eternity_46978725:
@@ -11770,7 +11770,7 @@ translate spanish monika_eternity_733ee737:
 translate spanish monika_eternity_3b3f76de:
 
     # m 6dstsc "What might{w=0.5} happen{w=0.3} to you..."
-    m 6dstsc "Lo que{w=0.5} te podría pasar{w=0.3} a ti..."
+    m 6dstsc "Lo que {w=0.5}te podría pasar {w=0.3}a ti..."
 
 # game/script-topics.rpy:5187
 translate spanish monika_eternity_e305ba4b:
@@ -14032,13 +14032,13 @@ translate spanish monika_haterReaction_6686fb88:
 translate spanish monika_haterReaction_de1e3a28:
 
     # $ menuOption = "...You're not, are you?"
-    $ menuOption = "...No lo eres, ¿verdad?"
+    $ menuOption = "... No lo eres, ¿verdad?"
 
 # game/script-topics.rpy:5809
 translate spanish monika_haterReaction_026febc3:
 
     # $ menuOption = "You're not one of those haters, are you " + player + "?"
-    $ menuOption = "No eres uno de esos que odian, ¿verdad " + player + "?"
+    $ menuOption = "No eres uno de esos haters, ¿verdad " + player + "?"
 
 # game/script-topics.rpy:5814
 translate spanish monika_haterReaction_91847127:
@@ -14062,7 +14062,7 @@ translate spanish monika_haterReaction_8ee2c3b6:
 translate spanish monika_haterReaction_6ea7913c:
 
     # m 1eka "Aha..."
-    m 1eka "Je..."
+    m 1eka "Jaja..."
 
 # game/script-topics.rpy:5818
 translate spanish monika_haterReaction_f0531a5c:
@@ -21118,13 +21118,13 @@ translate spanish monika_writingtip6_229587e3:
 translate spanish monika_writingtip6_90cc85aa:
 
     # m 2eusdlc "That said...{w=0.2}I think sometimes using nicer materials can actually contribute to writer's block."
-    m 2eusdlc "Dicho esto...{w=0.2} creo que a veces el uso de materiales más bonitos puede contribuir al bloqueo del escritor."
+    m 2eusdlc "Dicho esto... {w=0.2}creo que a veces el uso de materiales más bonitos puede contribuir al bloqueo del escritor."
 
 # game/script-topics.rpy:8145
 translate spanish monika_writingtip6_d2713a91:
 
     # m 2rksdlb "When I buy a brand new journal and open it up to that first pristine page...{w=0.3}it's really daunting, ahaha!"
-    m 2rksdlb "Cuando compro un diario nuevo y lo abro en la primera página limpia...{w=0.3} es realmente desalentador, ¡jajaja!"
+    m 2rksdlb "Cuando compro un diario nuevo y lo abro en la primera página limpia... {w=0.3}es realmente desalentador, ¡jajaja!"
 
 # game/script-topics.rpy:8146
 translate spanish monika_writingtip6_a6a2923f:
@@ -50752,8 +50752,8 @@ translate spanish strings:
     new "... No lo eres, ¿verdad?"
 
     # game/script-topics.rpy:5804
-    old "You're not one of those haters, are you "
-    new "No eres uno de esos que odian, ¿verdad? "
+    old "You're not one of those haters, are you [player]?"
+    new "No eres uno de esos haters, ¿verdad [player]?"
 
     # game/script-topics.rpy:5810
     old "I am."

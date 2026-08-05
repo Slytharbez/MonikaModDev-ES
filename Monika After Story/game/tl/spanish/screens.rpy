@@ -202,7 +202,7 @@ translate spanish strings:
 
     # game/screens.rpy:856
     old "Load Game"
-    new "Cargar Partida"
+    new "Cargar"
 
     # game/screens.rpy:861
     old "Submods"
@@ -226,7 +226,7 @@ translate spanish strings:
 
     # game/screens.rpy:909
     old "Save Game"
-    new "Guardar Partida"
+    new "Guardar"
 
     # game/screens.rpy:915
     old "End Replay"
@@ -234,7 +234,7 @@ translate spanish strings:
 
     # game/screens.rpy:918
     old "Main Menu"
-    new "Menú Principal"
+    new "Menú"
 
     # game/screens.rpy:918
     old "No need to go back there.\nYou'll just end up back here so don't worry."
@@ -422,7 +422,7 @@ translate spanish strings:
 
     # game/screens.rpy:1850
     old "Alert Filters"
-    new "Filtros de Alertas"
+    new "Filtrar de Alertas"
 
     # game/screens.rpy:1859
     old "Window Reactions"
