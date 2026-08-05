@@ -11302,7 +11302,7 @@ translate spanish monika_impression_21d693fb:
 translate spanish monika_weary_ddbb212d:
 
     # m 1eka "Silly [player]..."
-    m 1eka "Tontit[o_a] [player]..."
+    m 1eka "Qué tontit[o_a] eres, [player]..."
 
 # game/script-topics.rpy:5053
 translate spanish monika_weary_12577d5c:
@@ -38775,7 +38775,7 @@ translate spanish monika_brave_new_world_fca2d948:
 translate spanish monika_brave_new_world_24aed769:
 
     # m 3eua "There's a book called 'Brave New World,' a dystopian story.{w=0.3} {nw}"
-    m 3eua "Hay un libro llamado 'Un mundo feliz', una historia distópica.{w=0.3} {nw}"
+    m 3eua "Hay un libro llamado 'Un mundo feliz', una historia distópica. {w=0.3}{nw}"
 
 # game/script-topics.rpy:14544
 translate spanish monika_brave_new_world_a2a19d40:
@@ -38847,7 +38847,7 @@ translate spanish monika_brave_new_world_ae400bfa:
 translate spanish monika_brave_new_world_94a36b3c:
 
     # m 3euc "And despite that,{w=0.3} to us the readers, this is horrifying."
-    m 3euc "Y a pesar de eso,{w=0.3} para nosotros los lectores, esto es horrible."
+    m 3euc "Y a pesar de eso, {w=0.3}para nosotros los lectores, esto es horrible."
 
 # game/script-topics.rpy:14556
 translate spanish monika_brave_new_world_5dbab9e7:
@@ -40820,13 +40820,13 @@ translate spanish monika_sweatercurse_b6e92cb3:
 translate spanish monika_sweatercurse_3d81d665:
 
     # m 4esc "Firstly, well...{w=0.2}knitting a sweater just takes a {i}lot{/i} of time. {w=0.3}{nw}"
-    m 4esc "En primer lugar, bueno...{w=0.2} tejer un suéter lleva {i}mucho{/i} tiempo.{w=0.3}{nw}"
+    m 4esc "En primer lugar, bueno... {w=0.2}tejer un suéter lleva {i}mucho{/i} tiempo. {w=0.3}{nw}"
 
 # game/script-topics.rpy:15174
 translate spanish monika_sweatercurse_27c18027:
 
     # extend 4wud "Possibly a year, or even more!"
-    extend 4wud " Posiblemente un año, ¡o incluso más!"
+    extend 4wud "Posiblemente un año, ¡o incluso más!"
 
 # game/script-topics.rpy:15175
 translate spanish monika_sweatercurse_706ad77a:
@@ -40838,7 +40838,7 @@ translate spanish monika_sweatercurse_706ad77a:
 translate spanish monika_sweatercurse_b794d51e:
 
     # m 2eksdlc "Or worse...{w=0.2}the knitter might be trying to make the sweater as a great gift to save an already suffering relationship."
-    m 2eksdlc "O peor...{w=0.2} la tejedora podría estar tratando de hacer el suéter como un gran regalo para salvar una relación que ya sufre."
+    m 2eksdlc "Or peor... {w=0.2}la tejedora podría estar tratando de hacer el suéter como un gran regalo para salvar una relación que ya sufre."
 
 # game/script-topics.rpy:15177
 translate spanish monika_sweatercurse_d08e527f:
@@ -40880,13 +40880,13 @@ translate spanish monika_sweatercurse_0c4db671:
 translate spanish monika_sweatercurse_f02fc284:
 
     # m 3eua "For example, starting out with smaller projects like mittens or hats. {w=0.2}{nw}"
-    m 3eua "Por ejemplo, comenzar con proyectos más pequeños como guantes o sombreros.{w=0.2}{nw}"
+    m 3eua "Por ejemplo, comenzar con proyectos más pequeños como guantes o sombreros. {w=0.2}{nw}"
 
 # game/script-topics.rpy:15184
 translate spanish monika_sweatercurse_43d8ae18:
 
     # extend 3rksdlb "That way, if they don't go over well, you haven't put a year's worth of work into it!"
-    extend 3rksdlb " De esa manera, si no funcionan bien, ¡no habrás invertido un año de trabajo en ello!"
+    extend 3rksdlb "De esa manera, si no funcionan bien, ¡no habrás invertido un año de trabajo en ello!"
 
 # game/script-topics.rpy:15185
 translate spanish monika_sweatercurse_578666f9:
@@ -42914,13 +42914,13 @@ translate spanish monika_using_pcs_healthily_7c23c0f0:
 translate spanish monika_using_pcs_healthily_3ab6e264:
 
     # m 2eua "...Have your chair adjusted properly so your feet stay flat on the floor, your eyes are level with the top of the screen, and you aren't slouching."
-    m 2eua ""
+    m 2eua "... Ajusta tu silla correctamente para que tus pies queden apoyados sobre el suelo, manten la vista a la altura de la parte superior de la pantalla, sin encorvarte."
 
 # game/script-topics.rpy:15811
 translate spanish monika_using_pcs_healthily_d70ccd9f:
 
     # m 4eub "You should feel supported and comfortable in your seat!"
-    m 4eub ""
+    m 4eub "¡De esta manera deberías sentirte cómod[o_a] y con un buen respaldo en tu asiento!"
 
 # game/script-topics.rpy:15812
 translate spanish monika_using_pcs_healthily_47f00cb9:

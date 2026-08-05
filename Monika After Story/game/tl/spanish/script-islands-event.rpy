@@ -478,7 +478,7 @@ translate spanish mas_island_day2_83a9061b:
 translate spanish mas_island_day2_21a6c1fd:
 
     # m "It's just a matter of being a bit silly, you know?"
-    m "Solo se trata de ser un poco tontitos, ¿sabes?"
+    m "Solo se trata de ser un poco tontit[o_a]s, ¿sabes?"
 
 # game/script-islands-event.rpy:2485
 translate spanish mas_island_day2_87104adb:

@@ -88,7 +88,7 @@ translate spanish monika_affection_nickname_yes_0834a735:
 translate spanish monika_affection_nickname_yes_f8020c01:
 
     # m "I swear you're just so silly sometimes."
-    m "Te juro que a veces eres tan tontito."
+    m "Te juro que a veces eres tan tontit[o_a]."
 
 # game/script-affection.rpy:2870
 translate spanish monika_affection_nickname_yes_459694a0:
@@ -124,7 +124,7 @@ translate spanish monika_affection_nickname_yes_394ece4d_1:
 translate spanish monika_affection_nickname_yes_ec2234e2:
 
     # m 1hksdlb "I thought we were choosing a new nickname, silly."
-    m 1hksdlb "Pensé que estábamos eligiendo un sobrenombre nuevo, tontito."
+    m 1hksdlb "Pensé que estábamos eligiendo un sobrenombre nuevo, tontit[o_a]."
 
 # game/script-affection.rpy:2880
 translate spanish monika_affection_nickname_yes_1643033e_1:
@@ -460,7 +460,7 @@ translate spanish mas_player_nickname_loop_name_enter_skip_loop_18cb31c5:
 translate spanish mas_player_nickname_loop_name_enter_skip_loop_34c07e68:
 
     # m 4hksdlb "That's the same name you have right now, silly!"
-    m 4hksdlb "¡Ese es el mismo nombre que tienes ahora, tontito!"
+    m 4hksdlb "¡Ese es el mismo nombre que tienes ahora, tontit[o_a]!"
 
 # game/script-affection.rpy:3127
 translate spanish mas_player_nickname_loop_name_enter_skip_loop_6e458359_1:
@@ -1591,7 +1591,7 @@ translate spanish strings:
     new "¡Eres mi únic[o_a] y verdadero amor!"
 
     # game/script-affection.rpy:3533
-    old "/forgiveme.txt"
+    old "/forgive me.txt"
     new "/perdóname.txt"
 
     # game/script-affection.rpy:3536
@@ -1599,19 +1599,19 @@ translate spanish strings:
     new "Mi amor, eres todo lo que podría desear. Te amo."
 
     # game/script-affection.rpy:3537
-    old "/canuhearme.txt"
+    old "/can you hear me.txt"
     new "/puedes oírme.txt"
 
     # game/script-affection.rpy:3541
-    old "/pleaselisten.txt"
+    old "/please listen.txt"
     new "/por favor escucha.txt"
 
     # game/script-affection.rpy:3557
-    old "/foryou.txt"
+    old "/for you.txt"
     new "/para ti.txt"
 
     # game/script-affection.rpy:3561
-    old "/My One and Only Love.txt"
+    old "/My one and only love.txt"
     new "/Mi único y verdadero amor.txt"
 
     # game/script-affection.rpy:3602

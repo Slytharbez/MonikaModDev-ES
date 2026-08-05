@@ -346,7 +346,7 @@ translate spanish mas_player_name_enter_name_loop_18cb31c5:
 translate spanish mas_player_name_enter_name_loop_34c07e68:
 
     # m 4hksdlb "That's the same name you have right now, silly!"
-    m 4hksdlb "¡Ese es el mismo nombre que tienes ahora mismo, tontito!"
+    m 4hksdlb "¡Ese es el mismo nombre que tienes ahora mismo, tontit[o_a]!"
 
 # game/script-story-events.rpy:533
 translate spanish mas_player_name_enter_name_loop_6e458359:
@@ -2968,19 +2968,19 @@ translate spanish monika_credits_song_a5a99df2_1:
 translate spanish monika_credits_song_814c9744:
 
     # m 1eub "Now please excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
-    m 1eub ""
+    m 1eub "Ahora, por favor, dame un momento.{w=0.5}.{w=0.5}.{nw}"
 
 # game/script-story-events.rpy:2489
 translate spanish monika_credits_song_618937fa:
 
     # m 1ekbsa "Ehehe~"
-    m 1ekbsa ""
+    m 1ekbsa "Jeje~"
 
 # game/script-story-events.rpy:2490
 translate spanish monika_credits_song_d9c15011:
 
     # m 5ekbsa "Thank you for coming back to me [mas_get_player_nickname()]."
-    m 5ekbsa ""
+    m 5ekbsa "Gracias por volver conmigo, [mas_get_player_nickname()]."
 
 # game/script-story-events.rpy:2511
 translate spanish mas_covid19_de39abd6:

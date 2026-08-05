@@ -374,9 +374,9 @@ translate spanish strings:
     old "slice"
     new "rebanada"
 
-    # game/0utils.rpy:557
-    old "a"
-    new "un"
+    # game/zz_consumables.rpy:1139
+    old "Hi, [player],\nJust letting you know I'm running low on a couple of things.\nYou wouldn't mind getting some more for me, would you?\n\nHere's a list of what I'm running out of:\n"
+    new "Hola, [player],\nSolo quería avisarte que me estoy quedando sin un par de cosas.\nNo te molestaría conseguirme un poco más, ¿verdad?\n\nAquí tienes una lista de lo que se me está acabando:\n"
 
     # game/zz_consumables.rpy:1148
     old "Thanks, [player]~"
@@ -446,7 +446,6 @@ translate spanish strings:
     old "{0} and {1}"
     new "{0} y {1}"
 
-    #game/zz_consumables.rpy:1832
     # game/zz_consumables.rpy:1832
     old "Are you running out of anything?"
     new "¿Te hace falta algo?"
