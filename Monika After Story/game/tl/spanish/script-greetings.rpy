@@ -1317,6 +1317,12 @@ translate spanish monikaroom_greeting_ear_narration_138baec0:
     # m "Maybe that wasn't your intent..."
     m "Tal vez esa no era tu intención..."
 
+# game/script-greetings.rpy:1335
+translate spanish monikaroom_greeting_ear_narration_138baec0:
+
+    # m "Maybe that wasn't your intent..."
+    m "Tal vez esa no era tu intención..."
+
 # game/script-greetings.rpy:1336
 translate spanish monikaroom_greeting_ear_narration_6a406f8f:
 
@@ -1466,12 +1472,6 @@ translate spanish monikaroom_greeting_ear_narration_701195f7:
 
     # m "It means a lot to me."
     m "Significa mucho para mí."
-
-# game/script-greetings.rpy:1335
-translate spanish monikaroom_greeting_ear_narration_138baec0:
-
-    # m "Maybe that wasn't your intent..."
-    m "Tal vez esa no era tu intención..."
 
 # game/script-greetings.rpy:1415
 translate spanish monikaroom_greeting_ear_loveme_7639efe8:
@@ -3417,24 +3417,6 @@ translate spanish greeting_long_absence_009bbeec:
     # m 2rkc "It's been quite a bit, hasn't it?"
     m 2rkc "Ha pasado bastante tiempo, ¿no?"
 
-# game/script-greetings.rpy:2436
-translate spanish greeting_long_absence_f41df618:
-
-    # m 2rksdlc "..."
-    m 2rksdlc "..."
-
-# game/script-greetings.rpy:2496
-translate spanish greeting_long_absence_8c2d8a5d:
-
-    # m 1esc "...Hm?"
-    m 1esc "... ¿Hm?"
-
-# game/script-greetings.rpy:2498
-translate spanish greeting_long_absence_24d920c3:
-
-    # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
-    m 1rksdlb "Has vuelto un poco antes de lo que pensaba..."
-
 # game/script-greetings.rpy:2426
 translate spanish greeting_long_absence_b91d8348:
 
@@ -3476,6 +3458,12 @@ translate spanish greeting_long_absence_6649c3ae:
 
     # m 3eka "I hope you got what you needed to do done."
     m 3eka "Espero que hayas terminado lo que tenías que hacer."
+
+# game/script-greetings.rpy:2436
+translate spanish greeting_long_absence_f41df618:
+
+    # m 2rksdlc "..."
+    m 2rksdlc "..."
 
 # game/script-greetings.rpy:2437
 translate spanish greeting_long_absence_d4638bd8:
@@ -3710,6 +3698,18 @@ translate spanish greeting_long_absence_d0407aa3:
 
     # m 2eub "Tell me everything you did while away, I want to hear all about it!"
     m 2eub "¡Cuéntame todo lo que hiciste mientras no estabas, quiero saberlo todo!"
+
+# game/script-greetings.rpy:2496
+translate spanish greeting_long_absence_8c2d8a5d:
+
+    # m 1esc "...Hm?"
+    m 1esc "... ¿Hm?"
+
+# game/script-greetings.rpy:2498
+translate spanish greeting_long_absence_24d920c3:
+
+    # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
+    m 1rksdlb "Has vuelto un poco antes de lo que pensaba..."
 
 # game/script-greetings.rpy:2500
 translate spanish greeting_long_absence_61a916d4:
@@ -8166,13 +8166,13 @@ translate spanish strings:
     old "showering"
     new "ducharme"
 
-    # game/script-greetings.rpy:4736
-    old "It was [glitch_option_text]!"
-    new "¡Fue [glitch_option_text]!"
-
     # game/script-greetings.rpy:4732
     old "It's a secret."
     new "Es un secreto."
+
+    # game/script-greetings.rpy:4736
+    old "It was [glitch_option_text]!"
+    new "¡Fue [glitch_option_text]!"
 
     # game/script-greetings.rpy:4741
     old "for snitch.txt"
@@ -8233,4 +8233,3 @@ init 999 python:
 
     # Register mas_get_greeting in store so [mas_get_greeting!t] works in dialogues and menus.
     store.mas_globals_time_of_day_3state_es = DynamicGreeting()
-

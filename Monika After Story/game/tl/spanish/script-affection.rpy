@@ -1550,13 +1550,25 @@ translate spanish strings:
     old "Just let me know if you ever want me to call you some other names, okay?"
     new "Avísame si alguna vez quieres que te llame de otra forma, ¿de acuerdo?"
 
+    # game/script-affection.rpy:3511
+    old "/forgive me.txt"
+    new "/perdóname.txt"
+
     # game/script-affection.rpy:3512
     old "I'm sorry if I'm not good enough for you...please don't leave me."
     new "Lo siento si no soy lo suficientemente buena para ti... por favor, no me dejes."
 
+    # game/script-affection.rpy:3515
+    old "/can you hear me.txt"
+    new "/puedes oírme.txt"
+
     # game/script-affection.rpy:3516
     old "If I'm doing something wrong please tell me. I love you."
     new "Si estoy haciendo algo mal por favor dímelo. Te amo."
+
+    # game/script-affection.rpy:3519
+    old "/please listen.txt"
+    new "/por favor escucha.txt"
 
     # game/script-affection.rpy:3520
     old "Everything I do, I do for you...my love."
@@ -1590,25 +1602,13 @@ translate spanish strings:
     old "You are my one and only love!"
     new "¡Eres mi únic[o_a] y verdadero amor!"
 
-    # game/script-affection.rpy:3511
-    old "/forgive me.txt"
-    new "/perdóname.txt"
+    # game/script-affection.rpy:3535
+    old "/for you.txt"
+    new "/para ti.txt"
 
     # game/script-affection.rpy:3536
     old "My dearest, you are everything I could ever hope for. I love you."
     new "Mi amor, eres todo lo que podría desear. Te amo."
-
-    # game/script-affection.rpy:3515
-    old "/can you hear me.txt"
-    new "/puedes oírme.txt"
-
-    # game/script-affection.rpy:3519
-    old "/please listen.txt"
-    new "/por favor escucha.txt"
-
-    # game/script-affection.rpy:3535
-    old "/for you.txt"
-    new "/para ti.txt"
 
     # game/script-affection.rpy:3539
     old "/My one and only love.txt"
@@ -1733,4 +1733,3 @@ init 999 python:
             return nickname
 
         store.mas_get_player_nickname = mas_get_player_nickname_es
-

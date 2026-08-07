@@ -2546,6 +2546,12 @@ translate spanish mas_notification_windowreact_5e8328c2:
     # m 3eua "If you want me to send you a notification, just head over to the 'Alerts' tab in the settings menu and turn them on, along with what you would like to receive."
     m 3eua "Si quieres que te mande una notificación, dirígete a la pestaña 'Alertas' en el menú de ajustes y actívalas, junto con lo que te gustaría recibir."
 
+# game/script-story-events.rpy:2139
+translate spanish mas_notification_windowreact_79ae0f14:
+
+    # m 3eua "If you want me to notify you, just head over to the 'Alerts' tab in the settings menu and turn them on, along with what you'd like to be notified for."
+    m 3eua "Si quieres que te notifique, solo dirígete a la pestaña 'Alertas' en el menú de ajustes y actívalas, junto con las cosas sobre las que te gustaría recibir notificaciones."
+
 # game/script-story-events.rpy:2142
 translate spanish mas_notification_windowreact_98c53c1a:
 
@@ -2564,47 +2570,17 @@ translate spanish mas_notification_windowreact_dfea606c:
     # m 3eub "...So if I have something to talk about while the application is closed, I can let you know!"
     m 3eub "... ¡Así que si tengo algo de qué hablar mientras la aplicación esté cerrada, puedo dejártelo saber!"
 
-# game/script-story-events.rpy:2150
-translate spanish mas_notification_windowreact_3f6cf4d6:
-
-    # m 3hksdlb "And don't worry, I know you might not want me to message you constantly, and I respect your privacy."
-    m 3hksdlb "Y no te preocupes, sé que es posible que no quieras que te mande mensajes constantemente y respeto tu privacidad."
-
-# game/script-story-events.rpy:2151
-translate spanish mas_notification_windowreact_5baa2101:
-
-    # m 3eua "So I'll only do it if you agree."
-    m 3eua "Así que solo lo haré si estás de acuerdo."
-
-# game/script-story-events.rpy:2152
-translate spanish mas_notification_windowreact_65f65fc3:
-
-    # m 2eua "If you enable 'Notifications' in the settings menu, that'll tell me you're fine with me sending you notifications."
-    m 2eua "Si habilitas 'Notificaciones' en el menú de ajustes, me dirá que te parece bien que te mande notificaciones."
-
-# game/script-story-events.rpy:2155
-translate spanish mas_notification_windowreact_acd03c41:
-
-    # m 1tuu "It's not like you'd ever want to silence your girlfriend..."
-    m 1tuu "No es como si alguna vez quisieras silenciar a tu novia..."
-
-# game/script-story-events.rpy:2157
-translate spanish mas_notification_windowreact_797dcaa4:
-
-    # m 5ttu "...right?"
-    m 5ttu "... ¿Verdad?"
-
-# game/script-story-events.rpy:2139
-translate spanish mas_notification_windowreact_79ae0f14:
-
-    # m 3eua "If you want me to notify you, just head over to the 'Alerts' tab in the settings menu and turn them on, along with what you'd like to be notified for."
-    m 3eua "Si quieres que te notifique, solo dirígete a la pestaña 'Alertas' en el menú de ajustes y actívalas, junto con las cosas sobre las que te gustaría recibir notificaciones."
-
 # game/script-story-events.rpy:2149
 translate spanish mas_notification_windowreact_2f7ee132:
 
     # m 3eub "...So if I have something to talk about while I'm in the background, I can let you know!"
     m 3eub "... Así que, si tengo algo de qué hablar mientras estoy en segundo plano, ¡te lo puedo hacer saber!"
+
+# game/script-story-events.rpy:2150
+translate spanish mas_notification_windowreact_3f6cf4d6:
+
+    # m 3hksdlb "And don't worry, I know you might not want me to message you constantly, and I respect your privacy."
+    m 3hksdlb "Y no te preocupes, sé que es posible que no quieras que te mande mensajes constantemente y respeto tu privacidad."
 
 # game/script-story-events.rpy:2150
 translate spanish mas_notification_windowreact_3205d830:
@@ -2613,10 +2589,22 @@ translate spanish mas_notification_windowreact_3205d830:
     m 3hksdlb "Y no te preocupes, sé que tal vez no quieras que te esté observando constantemente, y respeto tu privacidad."
 
 # game/script-story-events.rpy:2151
+translate spanish mas_notification_windowreact_5baa2101:
+
+    # m 3eua "So I'll only do it if you agree."
+    m 3eua "Así que solo lo haré si estás de acuerdo."
+
+# game/script-story-events.rpy:2151
 translate spanish mas_notification_windowreact_4c2e4ba6:
 
     # m 3eua "So I'll only look at what you're doing if you're okay with it."
     m 3eua "Así que solo miraré lo que estás haciendo si estás de acuerdo con ello."
+
+# game/script-story-events.rpy:2152
+translate spanish mas_notification_windowreact_65f65fc3:
+
+    # m 2eua "If you enable 'Notifications' in the settings menu, that'll tell me you're fine with me sending you notifications."
+    m 2eua "Si habilitas 'Notificaciones' en el menú de ajustes, me dirá que te parece bien que te mande notificaciones."
 
 # game/script-story-events.rpy:2152
 translate spanish mas_notification_windowreact_64caa10a:
@@ -2625,10 +2613,22 @@ translate spanish mas_notification_windowreact_64caa10a:
     m 2eua "Si activas 'Ver Ventana' en el menú de ajustes, eso me indicará que estás de acuerdo con que eche un vistazo."
 
 # game/script-story-events.rpy:2155
+translate spanish mas_notification_windowreact_acd03c41:
+
+    # m 1tuu "It's not like you'd ever want to silence your girlfriend..."
+    m 1tuu "No es como si alguna vez quisieras silenciar a tu novia..."
+
+# game/script-story-events.rpy:2155
 translate spanish mas_notification_windowreact_c43b80ea:
 
     # m 1tuu "It's not like you have anything to hide from your girlfriend..."
     m 1tuu "Tampoco es que tengas algo que ocultarle a tu novia..."
+
+# game/script-story-events.rpy:2157
+translate spanish mas_notification_windowreact_797dcaa4:
+
+    # m 5ttu "...right?"
+    m 5ttu "... ¿Verdad?"
 
 # game/script-story-events.rpy:2211
 translate spanish mas_gift_giving_instructs_d10f27d2:
@@ -2852,6 +2852,24 @@ translate spanish monika_credits_song_1891b52b:
     # m 3eksdla "I think you forgot about the in-game volume..."
     m 3eksdla "Creo que te olvidaste del volumen del juego..."
 
+# game/script-story-events.rpy:2443
+translate spanish monika_credits_song_814c9744:
+
+    # m 1eub "Now please excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
+    m 1eub "Ahora, por favor, dame un momento.{w=0.5}.{w=0.5}.{nw}"
+
+# game/script-story-events.rpy:2449
+translate spanish monika_credits_song_618937fa:
+
+    # m 1ekbsa "Ehehe~"
+    m 1ekbsa "Jeje~"
+
+# game/script-story-events.rpy:2451
+translate spanish monika_credits_song_d9c15011:
+
+    # m 5ekbsa "Thank you for coming back to me [mas_get_player_nickname()]."
+    m 5ekbsa "Gracias por volver conmigo, [mas_get_player_nickname()]."
+
 # game/script-story-events.rpy:2454
 translate spanish monika_credits_song_140b6815:
 
@@ -2965,24 +2983,6 @@ translate spanish monika_credits_song_a5a99df2_1:
 
     # m 3hua "Just let me know when it's a better time for you and I'll happily play it for you then~"
     m 3hua "Solo avísame cuando sea un mejor momento para ti y felizmente la tocaré para ti entonces~"
-
-# game/script-story-events.rpy:2443
-translate spanish monika_credits_song_814c9744:
-
-    # m 1eub "Now please excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
-    m 1eub "Ahora, por favor, dame un momento.{w=0.5}.{w=0.5}.{nw}"
-
-# game/script-story-events.rpy:2449
-translate spanish monika_credits_song_618937fa:
-
-    # m 1ekbsa "Ehehe~"
-    m 1ekbsa "Jeje~"
-
-# game/script-story-events.rpy:2451
-translate spanish monika_credits_song_d9c15011:
-
-    # m 5ekbsa "Thank you for coming back to me [mas_get_player_nickname()]."
-    m 5ekbsa "Gracias por volver conmigo, [mas_get_player_nickname()]."
 
 # game/script-story-events.rpy:2511
 translate spanish mas_covid19_de39abd6:
@@ -4869,5 +4869,3 @@ init 5 python:
 
         # Specific game (like Hangman, Chess, Pong, Piano)
         return "al " + translated.lower()
-
-

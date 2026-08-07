@@ -18,17 +18,17 @@ translate spanish splashscreen_e193832f:
     # "Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe"
     "Se requieren los archivos de juego de Doki Doki Literature Club para jugar a este mod, los cuales pueden descargarse gratis en: http://ddlc.moe"
 
-# game/splash.rpy:272
-translate spanish after_load_5c5510ae_1:
-
-    # "Are you trying to cheat?"
-    "¿Estás intentando hacer trampa?"
-
 # game/splash.rpy:271
 translate spanish after_load_78a4e9dc_1:
 
     # "The save file could not be loaded."
     "No se pudo cargar el archivo de guardado."
+
+# game/splash.rpy:272
+translate spanish after_load_5c5510ae_1:
+
+    # "Are you trying to cheat?"
+    "¿Estás intentando hacer trampa?"
 
 # game/splash.rpy:272
 translate spanish after_load_5c5510ae:

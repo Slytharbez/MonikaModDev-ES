@@ -221,4 +221,3 @@ init 10 python in mas_calendar:
             ),
             datetime.date.today() - _date
         )
-

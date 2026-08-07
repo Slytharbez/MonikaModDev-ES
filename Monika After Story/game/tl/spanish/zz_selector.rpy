@@ -306,10 +306,6 @@ translate spanish strings:
     old "type_name_ribbon"
     new "cinta"
 
-    # game/zz_selector.rpy:4263
-    old "hairclip"
-    new "horquilla"
-
     # game/zz_selector.rpy:3958
     old "Which {0} would you like me to wear?"
     new "¿Qué {0} te gustaría que use?"
@@ -333,6 +329,10 @@ translate spanish strings:
     # game/zz_selector.rpy:4242
     old "Which hair tie would you like me to use?"
     new "¿Qué cinta para el cabello te gustaría que usara?"
+
+    # game/zz_selector.rpy:4263
+    old "hairclip"
+    new "horquilla"
 
     # game/zz_selector.rpy:4281
     old "Which hairclip would you like me to wear?"

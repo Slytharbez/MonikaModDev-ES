@@ -2557,4 +2557,3 @@ translate spanish strings:
     # select_dlg
     old "Pretty in pink~"
     new "Bonito y rosa~"
-

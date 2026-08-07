@@ -255,4 +255,3 @@ init 999 python:
         _mas_spanish_language_callback_windowreacts(renpy.game.preferences.language)
     except Exception:
         pass
-

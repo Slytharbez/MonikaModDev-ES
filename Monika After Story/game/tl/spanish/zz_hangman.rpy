@@ -298,10 +298,6 @@ translate spanish strings:
     old "epiphany"
     new "epifanía"
 
-    # game/zz_hangman.rpy:182
-    old "despair"
-    new "desesperación"
-
     # game/zz_hangman.rpy:180
     old "wretched"
     new "miserable"
@@ -339,6 +335,10 @@ translate spanish strings:
     new "confianza"
 
     # game/zz_hangman.rpy:182
+    old "despair"
+    new "desesperación"
+
+    # game/zz_hangman.rpy:182
     old "creativity"
     new "creatividad"
 
@@ -349,14 +349,6 @@ translate spanish strings:
     # game/zz_hangman.rpy:182
     old "ai"
     new "IA"
-
-    # game/zz_hangman.rpy:348
-    old "python"
-    new "python"
-
-    # game/zz_hangman.rpy:594
-    old "renpy"
-    new "renpy"
 
     # game/zz_hangman.rpy:182
     old "programming"
@@ -369,6 +361,10 @@ translate spanish strings:
     # game/zz_hangman.rpy:187
     old "{0} would like this word the most."
     new "A {0} le gustaría más esta palabra."
+
+    # game/zz_hangman.rpy:348
+    old "python"
+    new "python"
 
     # game/zz_hangman.rpy:370
     old "Guess a letter: (Type {0}'!' to give up)"
@@ -393,6 +389,10 @@ translate spanish strings:
     # game/zz_hangman.rpy:400
     old "Missed:"
     new "Fallos:"
+
+    # game/zz_hangman.rpy:594
+    old "renpy"
+    new "renpy"
 
     # game/zz_hangman.rpy:671
     old "your name"
@@ -576,4 +576,3 @@ init 999 python:
         _mas_spanish_language_callback(renpy.game.preferences.language)
     except Exception:
         pass
-

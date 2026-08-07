@@ -1682,10 +1682,6 @@ translate spanish mas_nou_reaction_player_surrenders_a9f493be:
 
 translate spanish strings:
 
-    # game/zz_cardgames.rpy:5195
-    old "green"
-    new "verde"
-
     # game/zz_cardgames.rpy:116
     old "Oh, let me shuffle it again.{w=1.5}{nw}"
     new "Oh, déjame barajar de nuevo.{w=1.5}{nw}"
@@ -2118,10 +2114,6 @@ translate spanish strings:
     old "I read you as an open book."
     new "Te leo como un libro abierto."
 
-    # game/zz_cardgames.rpy:354
-    old "Ahaha~"
-    new "Jajaja~"
-
     # game/zz_cardgames.rpy:337
     old "I won't give up so easily~"
     new "No me rendiré tan fácilmente~"
@@ -2153,6 +2145,10 @@ translate spanish strings:
     # game/zz_cardgames.rpy:351
     old "What about this one?~"
     new "¿Qué tal esta?~"
+
+    # game/zz_cardgames.rpy:354
+    old "Ahaha~"
+    new "Jajaja~"
 
     # game/zz_cardgames.rpy:354
     old "Will you{w=0.2} still love me after this?~"
@@ -2422,13 +2418,13 @@ translate spanish strings:
     old "round"
     new "ronda"
 
-    # game/zz_cardgames.rpy:4299
-    old "game"
-    new "partida"
-
     # game/zz_cardgames.rpy:4298
     old "Can you explain NOU rules to me?"
     new "¿Puede explicarme las reglas del NOU?"
+
+    # game/zz_cardgames.rpy:4299
+    old "game"
+    new "partida"
 
     # game/zz_cardgames.rpy:4491
     old "I'd like to change some house rules."
@@ -2473,6 +2469,10 @@ translate spanish strings:
     # game/zz_cardgames.rpy:5173
     old "I'm giving up..."
     new "Me rindo..."
+
+    # game/zz_cardgames.rpy:5195
+    old "green"
+    new "verde"
 
     # game/zz_cardgames.rpy:5195
     old "Red"

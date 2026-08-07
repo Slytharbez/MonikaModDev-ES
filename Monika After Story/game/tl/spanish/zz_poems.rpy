@@ -55,4 +55,3 @@ init 999 python:
             v.text = v.text.replace("\r\n", "\n")
             if isinstance(v.title, (str, unicode)):
                 v.title = v.title.replace("\r\n", "\n")
-

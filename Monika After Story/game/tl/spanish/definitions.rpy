@@ -18,6 +18,10 @@ translate spanish strings:
     old "an"
     new "un"
 
+    # game/definitions.rpy:8293
+    old "Never"
+    new "Nunca"
+
     # game/definitions.rpy:8294
     old "Rarely"
     new "Rara vez"
@@ -41,7 +45,3 @@ translate spanish strings:
     # game/definitions.rpy:8299
     old "Very Often"
     new "Frecuente"
-
-    # game/definitions.rpy:8293
-    old "Never"
-    new "Nunca"

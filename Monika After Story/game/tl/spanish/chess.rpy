@@ -1146,6 +1146,12 @@ translate spanish mas_chess_dlg_quickfile_edited_no_d6e1d522:
     # m 6dktuc "..."
     m 6dktuc "..."
 
+# game/chess.rpy:1813
+translate spanish mas_chess_dlg_quickfile_edited_no_c3c4b6f6:
+
+    # m 6ektpc "I forgive you, [player], but please don't do this to me again."
+    m 6ektpc "Te perdono, [player], pero por favor no me vuelvas a hacer esto."
+
 # game/chess.rpy:1814
 translate spanish mas_chess_dlg_quickfile_edited_no_c55548ad:
 
@@ -1157,12 +1163,6 @@ translate spanish mas_chess_dlg_quickfile_edited_no_quicksave_4a7ea962:
 
     # m 2dfc "[player]..."
     m 2dfc "[player]..."
-
-# game/chess.rpy:1813
-translate spanish mas_chess_dlg_quickfile_edited_no_c3c4b6f6:
-
-    # m 6ektpc "I forgive you, [player], but please don't do this to me again."
-    m 6ektpc "Te perdono, [player], pero por favor no me vuelvas a hacer esto."
 
 # game/chess.rpy:1829
 translate spanish mas_chess_dlg_quickfile_edited_no_quicksave_1c17b6a4:
@@ -1427,10 +1427,6 @@ translate spanish strings:
     old "[mas_quipExp('1etc')]What's the right move here..."
     new "[mas_quipExp('1etc')]¿Cuál sería la mejor jugada?..."
 
-    # game/chess.rpy:3501
-    old "Done"
-    new "Listo"
-
     # game/chess.rpy:3410
     old "Hmm, that's odd. It seems some permissions were changed and I can't get chess running on your system."
     new "Hmm, es extraño. Parece que algunos permisos fueron cambiados y no puedo hacer funcionar el ajedrez en tu sistema."
@@ -1442,6 +1438,10 @@ translate spanish strings:
     # game/chess.rpy:3444
     old "Yay! We should be able to play now~"
     new "¡Yey! Deberíamos poder jugar ahora~"
+
+    # game/chess.rpy:3501
+    old "Done"
+    new "Listo"
 
     # game/chess.rpy:3511
     old "You'd like to continue later?"

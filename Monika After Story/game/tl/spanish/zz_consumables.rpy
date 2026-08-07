@@ -366,13 +366,13 @@ translate spanish strings:
     old "cup"
     new "taza"
 
-    # game/zz_consumables.rpy:60
-    old "a slice"
-    new "una rebanada"
-
     # game/zz_consumables.rpy:41
     old "slice"
     new "rebanada"
+
+    # game/zz_consumables.rpy:60
+    old "a slice"
+    new "una rebanada"
 
     # game/zz_consumables.rpy:1139
     old "Hi, [player],\nJust letting you know I'm running low on a couple of things.\nYou wouldn't mind getting some more for me, would you?\n\nHere's a list of what I'm running out of:\n"

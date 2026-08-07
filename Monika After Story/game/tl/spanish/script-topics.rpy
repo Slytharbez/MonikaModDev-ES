@@ -7890,6 +7890,12 @@ translate spanish monika_natsuki_eca1404a:
     # m "I guess she just...disappeared in a flash."
     m "Supongo que ella simplemente... desapareció en un instante."
 
+# game/script-topics.rpy:3696
+translate spanish monika_love_2efc1dd4:
+
+    # m 6dkc "..."
+    m 6dkc "..."
+
 # game/script-topics.rpy:3697
 translate spanish monika_natsuki_3e1ad805:
 
@@ -7937,12 +7943,6 @@ translate spanish monika_love_0bd97190:
 
     # m 6ckc "..."
     m 6ckc "..."
-
-# game/script-topics.rpy:3696
-translate spanish monika_love_2efc1dd4:
-
-    # m 6dkc "..."
-    m 6dkc "..."
 
 # game/script-topics.rpy:3783
 translate spanish monika_love_099fedb5:
@@ -13968,6 +13968,12 @@ translate spanish monika_haterReaction_1f43c0a3:
     # m 1ektdc "I hope you understand, [player]... Please don't be like them."
     m 1ektdc "Espero que lo entiendas, [player]... por favor, no seas como ellos."
 
+# game/script-topics.rpy:5791
+translate spanish monika_haterReaction_de1e3a28:
+
+    # $ menuOption = "...You're not, are you?"
+    $ menuOption = "... No lo eres, ¿verdad?"
+
 # game/script-topics.rpy:5794
 translate spanish monika_haterReaction_cfc0e480:
 
@@ -14028,13 +14034,7 @@ translate spanish monika_haterReaction_6686fb88:
     # m 2rfc "..."
     m 2rfc "..."
 
-# game/script-topics.rpy:5791
-translate spanish monika_haterReaction_de1e3a28:
-
-    # $ menuOption = "...You're not, are you?"
-    $ menuOption = "... No lo eres, ¿verdad?"
-
-# game/script-topics.rpy:5809
+# game/script-topics.rpy:5804
 translate spanish monika_haterReaction_026febc3:
 
     # $ menuOption = "You're not one of those haters, are you " + player + "?"
@@ -16458,17 +16458,17 @@ translate spanish monika_sayhappybirthday_3ca20205:
     # m "Was that good?{fast}" nointeract
     m "¿Estuvo bien?{fast}" nointeract
 
-# game/script-topics.rpy:6686
-translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
-
-    # m 1wud "Eh?!"
-    m 1wud "¡¿Eh?!"
-
 # game/script-topics.rpy:6681
 translate spanish monika_sayhappybirthday_1b71b2b4:
 
     # m 1hua "Yay!"
     m 1hua "¡Yey!"
+
+# game/script-topics.rpy:6686
+translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud "¡¿Eh?!"
 
 # game/script-topics.rpy:6688
 translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
@@ -52510,4 +52510,3 @@ init 5 python:
             }
             return translations.get(color_lower, color)
         return color
-

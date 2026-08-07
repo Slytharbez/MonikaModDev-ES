@@ -142,7 +142,7 @@ translate spanish strings:
 
     # game/screens.rpy:78
     old "Why are you here?\n Click 'No' and use the 'Goodbye' button, silly!"
-    new "¿Por qué estás aquí?\n¡Haz clic en 'No' y usa el botón de 'Adiós', tontit[o_a]!"
+    new "¿Por qué estás aquí?\n¡Haz clic en 'No' y usa el botón 'Adiós', tontit[o_a]!"
 
     # game/screens.rpy:80
     old "M"
@@ -672,13 +672,13 @@ translate spanish strings:
     old "No"
     new "No"
 
-    # game/screens.rpy:2352
-    old "No update available."
-    new "No hay actualizaciones disponibles."
-
     # game/screens.rpy:2347
     old "An update is now avalable!"
     new "¡Hay una actualización disponible!"
+
+    # game/screens.rpy:2352
+    old "No update available."
+    new "No hay actualizaciones disponibles."
 
     # game/screens.rpy:2357
     old "Checking for updates..."
@@ -688,21 +688,21 @@ translate spanish strings:
     old "Timeout occured while checking for updates. Try again later."
     new "Se agotó el tiempo al buscar actualizaciones. Inténtalo más tarde."
 
-    # game/screens.rpy:2372
-    old "Cancel"
-    new "Cancelar"
-
     # game/screens.rpy:2370
     old "Install"
     new "Instalar"
     
-    # game/screens.rpy:2398
-    old "No."
-    new "No."
+    # game/screens.rpy:2372
+    old "Cancel"
+    new "Cancelar"
 
     # game/screens.rpy:2386
     old "Updater"
     new "Actualizador"
+
+    # game/screens.rpy:2398
+    old "No."
+    new "No."
 
     # game/screens.rpy:2404
     old "An error has occured:"
@@ -816,5 +816,3 @@ translate spanish strings:
 init 999 python:
     if _preferences.language == "spanish":
         renpy.license = "Este programa contiene software libre bajo varias licencias, incluyendo la Licencia Pública General Reducida de GNU. Una lista completa de software está disponible en https://www.renpy.org/license.html."
-
-

@@ -1083,13 +1083,13 @@ translate spanish strings:
     old " again"
     new " de nuevo"
 
-    # game/script-introduction.rpy:131
-    old "is"
-    new "fuera"
-
     # game/script-introduction.rpy:38
     old "was"
     new "fuese"
+
+    # game/script-introduction.rpy:131
+    old "is"
+    new "fuera"
 
     # game/script-introduction.rpy:176
     old "Yes, I love you."
@@ -1250,4 +1250,3 @@ translate spanish strings:
     # game/script-introduction.rpy:505
     old "That really was awful... Just tell me what I'm doing wrong."
     new "Eso fue horrible... solo dime qué estoy haciendo mal."
-

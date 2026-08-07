@@ -159,4 +159,3 @@ init 5 python:
 
             return MAS_CAT_TRANS.get(cat, cat)
         return cat
-

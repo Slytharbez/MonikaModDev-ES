@@ -582,4 +582,3 @@ translate spanish strings:
     # game/zz_pianokeys.rpy:2458
     old "Press the key you'd like to set this piano key to"
     new "Pulsa la tecla a la que te gustaría asignar esta tecla del piano"
-

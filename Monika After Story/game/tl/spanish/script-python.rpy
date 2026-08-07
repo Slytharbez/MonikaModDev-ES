@@ -1178,10 +1178,6 @@ translate spanish monika_ptod_tip009_b43554c2:
 
 translate spanish strings:
 
-    # game/script-python.rpy:868
-    old "python tips"
-    new "consejos sobre python"
-
     # game/script-python.rpy:123
     old "Can you teach me about Python?"
     new "¿Puedes enseñarme algo sobre Python?"
@@ -1221,3 +1217,7 @@ translate spanish strings:
     # game/script-python.rpy:783
     old "Truth Values"
     new "Valores verdaderos"
+    
+    # game/script-python.rpy:868
+    old "python tips"
+    new "consejos sobre python"

@@ -5,4 +5,3 @@ translate spanish monika_kissing_motion_22268334:
 
     # "chu~{fast}{w=1}{nw}"
     "chu~{fast}{w=1}{nw}"
-

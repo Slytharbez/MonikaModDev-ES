@@ -4802,10 +4802,6 @@ translate spanish mas_scary_story_prison_escape_c01b3923:
 
 translate spanish strings:
 
-    # game/script-stories.rpy:1917
-    old "scary"
-    new "aterradora"
-    
     # game/script-stories.rpy:139
     old "Can you tell me a story?"
     new "¿Puedes contarme una historia?"
@@ -5028,3 +5024,8 @@ translate spanish strings:
     # game/script-stories.rpy:1879
     old "Prison Escape"
     new "Fuga de la prisión"
+
+    # game/script-stories.rpy:1917
+    old "scary"
+    new "aterradora"
+    
