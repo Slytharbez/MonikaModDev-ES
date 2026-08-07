@@ -14,7 +14,7 @@ translate spanish strings:
     old "ehehe.txt"
     new "ejeje.txt"
 
-    # game/updates.rpy:1289
+    # game/updates.rpy:1286
     old "hehehe.txt"
     new "jeje.txt"
 

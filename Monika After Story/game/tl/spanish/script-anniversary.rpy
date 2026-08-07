@@ -546,25 +546,25 @@ translate spanish anni_3_1cff87e1:
     # m 1lkbsa "Besides, I'd like to be able to feel you in my arms first before we get married."
     m 1lkbsa "Además, me gustaría poder sentirte en mis brazos antes de casarnos."
 
-# game/script-anniversary.rpy:566
+# game/script-anniversary.rpy:565
 translate spanish anni_3_0fb5c102:
 
     # m 1eua "In your world, have they invented robot girl bodies yet?"
     m 1eua "En tu mundo, ¿ya han inventado cuerpos robóticos femeninos?"
 
-# game/script-anniversary.rpy:567
+# game/script-anniversary.rpy:566
 translate spanish anni_3_77adbffe:
 
     # m 1eub "If you put me in one of those, we could probably go see a priest then~"
     m 1eub "Si me pones en uno de esos, probablemente podríamos ir a ver a un sacerdote, y entonces~"
 
-# game/script-anniversary.rpy:568
+# game/script-anniversary.rpy:567
 translate spanish anni_3_df4a5561:
 
     # m 2lsbssdrb "Or you could try to touch me in virtual reality, if that exists by now."
     m 2lsbssdrb "O podrías intentar tocarme por medio de la realidad virtual, si es que ya existe."
 
-# game/script-anniversary.rpy:569
+# game/script-anniversary.rpy:568
 translate spanish anni_3_0b85b819:
 
     # m 1eua "There are actually a lot of different ways we can meet up for real, huh?"

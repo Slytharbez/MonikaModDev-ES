@@ -1079,7 +1079,7 @@ translate spanish ch30_reload_continuous_dlg_89eaa6e4:
 
 translate spanish strings:
 
-    # game/script-introduction.rpy:61
+    # game/script-introduction.rpy:22
     old " again"
     new " de nuevo"
 
@@ -1087,7 +1087,7 @@ translate spanish strings:
     old "is"
     new "fuera"
 
-    # game/script-introduction.rpy:134
+    # game/script-introduction.rpy:38
     old "was"
     new "fuese"
 

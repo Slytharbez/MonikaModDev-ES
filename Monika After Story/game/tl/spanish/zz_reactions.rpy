@@ -2874,16 +2874,16 @@ translate spanish strings:
     old "these"
     new "éstos"
 
-    # game/zz_reactions.rpy:1387
+    # game/zz_reactions.rpy:1392
     old "those"
     new "éstos"
 
     # Colores de cintas básicas y JSON
-    # game/zz_reactions.rpy:1918
+    # game/zz_reactions.rpy:1915
     old "black"
     new "negra"
 
-    # game/zz_reactions.rpy:1927
+    # game/zz_reactions.rpy:1924
     old "blue"
     new "azul"
 
@@ -2891,11 +2891,11 @@ translate spanish strings:
     old "dark purple"
     new "morada oscura"
 
-    # game/zz_reactions.rpy:1945
+    # game/zz_reactions.rpy:1942
     old "emerald"
     new "esmeralda"
 
-    # game/zz_reactions.rpy:1954
+    # game/zz_reactions.rpy:1951
     old "gray"
     new "gris"
 
@@ -2903,39 +2903,39 @@ translate spanish strings:
     old "light purple"
     new "morada clara"
 
-    # game/zz_reactions.rpy:1981
+    # game/zz_reactions.rpy:1978
     old "peach"
     new "durazno"
 
-    # game/zz_reactions.rpy:1990
+    # game/zz_reactions.rpy:1987
     old "pink"
     new "rosada"
 
-    # game/zz_reactions.rpy:1999
+    # game/zz_reactions.rpy:1996
     old "platinum"
     new "platino"
 
-    # game/zz_reactions.rpy:2008
+    # game/zz_reactions.rpy:2005
     old "red"
     new "roja"
 
-    # game/zz_reactions.rpy:2017
+    # game/zz_reactions.rpy:2014
     old "ruby"
     new "rubí"
 
-    # game/zz_reactions.rpy:2026
+    # game/zz_reactions.rpy:2023
     old "sapphire"
     new "zafiro"
 
-    # game/zz_reactions.rpy:2035
+    # game/zz_reactions.rpy:2032
     old "silver"
     new "plateada"
 
-    # game/zz_reactions.rpy:2044
+    # game/zz_reactions.rpy:2041
     old "teal"
     new "turquesa"
 
-    # game/zz_reactions.rpy:2053
+    # game/zz_reactions.rpy:2050
     old "yellow"
     new "amarilla"
 
@@ -2943,7 +2943,7 @@ translate spanish strings:
     old "coffee colored"
     new "color café"
 
-    # game/zz_reactions.rpy:2087
+    # game/zz_reactions.rpy:2086
     old "gold"
     new "dorada"
 
@@ -2951,7 +2951,7 @@ translate spanish strings:
     old "hot pink"
     new "rosa fucsia"
 
-    # game/zz_reactions.rpy:2095
+    # game/zz_reactions.rpy:2094
     old "lilac"
     new "lila"
 
@@ -2959,11 +2959,11 @@ translate spanish strings:
     old "lime green"
     new "verde lima"
 
-    # game/zz_reactions.rpy:2103
+    # game/zz_reactions.rpy:2102
     old "navy"
     new "azul marino"
 
-    # game/zz_reactions.rpy:2107
+    # game/zz_reactions.rpy:2106
     old "orange"
     new "anaranjada"
 
@@ -2983,11 +2983,11 @@ translate spanish strings:
     old "black and white"
     new "blanca y negra"
 
-    # game/zz_reactions.rpy:2128
+    # game/zz_reactions.rpy:2127
     old "bronze"
     new "bronce"
 
-    # game/zz_reactions.rpy:2132
+    # game/zz_reactions.rpy:2131
     old "brown"
     new "marrón"
 

@@ -1800,103 +1800,103 @@ translate spanish mas_fun_fact_round_earth_8df8d080:
     # m 3hubsb "Ahaha!"
     m 3hubsb "¡Jajaja!"
 
-# game/script-fun-facts.rpy:915
+# game/script-fun-facts.rpy:914
 translate spanish mas_fun_fact_maplesyrup_fb07cb1a:
 
     # m 3hksdlb "Here's another {w=0.2}{i}sweet {/i}{w=0.2} fact for you..."
     m 3hksdlb "Aquí hay otro dato {w=0.2}{i}dulce{/i} {w=0.2}para ti..."
 
-# game/script-fun-facts.rpy:916
+# game/script-fun-facts.rpy:915
 translate spanish mas_fun_fact_maplesyrup_5a01c985:
 
     # m 1eua "Every type of maple tree produces sap that can be used to make maple syrup, {w=0.1}{nw}"
     m 1eua "Todos los tipos de arce producen savia que puede utilizarse para fabricar jarabe de arce, {w=0.1}{nw}"
 
-# game/script-fun-facts.rpy:917
+# game/script-fun-facts.rpy:916
 translate spanish mas_fun_fact_maplesyrup_24183ad4:
 
     # extend 1eud "but commercially-made syrup usually comes from the sugar maple."
     extend 1eud "pero el jarabe comercializado suele proceder del arce azucarero."
 
-# game/script-fun-facts.rpy:918
+# game/script-fun-facts.rpy:917
 translate spanish mas_fun_fact_maplesyrup_394c3f47:
 
     # m 3eua "You can most easily tell the specific type of maple tree from the shape of the leaves..."
     m 3eua "El tipo de arce que más fácilmente se distingue es el de la forma de las hojas..."
 
-# game/script-fun-facts.rpy:919
+# game/script-fun-facts.rpy:918
 translate spanish mas_fun_fact_maplesyrup_4e9c05e2:
 
     # m 3eub "You might be able to recognize a sugar maple leaf already, because it's the one featured on the Canadian flag!"
     m 3eub "Es posible que ya reconozcas una hoja de arce de azúcar, ¡porque es la que aparece en la bandera canadiense!"
 
-# game/script-fun-facts.rpy:920
+# game/script-fun-facts.rpy:919
 translate spanish mas_fun_fact_maplesyrup_185284a7:
 
     # m 1euc "That said, the sugar maple has a limited native range and doesn't grow in {i}all{/i} of Canada."
     m 1euc "Dicho esto, el arce azucarero tiene un área de distribución nativa limitada y no crece en {i}todo{/i} Canadá."
 
-# game/script-fun-facts.rpy:921
+# game/script-fun-facts.rpy:920
 translate spanish mas_fun_fact_maplesyrup_8a5da16c:
 
     # m 1wud "...Yet Canada produces over three quarters of the world's maple syrup!"
     m 1wud "... Sin embargo, ¡Canadá produce más de tres cuartas partes del jarabe de arce del mundo!"
 
-# game/script-fun-facts.rpy:922
+# game/script-fun-facts.rpy:921
 translate spanish mas_fun_fact_maplesyrup_be59603d:
 
     # m 3wud "And it may even be more surprising to learn that to make just one gallon of maple syrup it takes {i}40{/i} gallons of sap!"
     m 3wud "¡Y aún más sorprendente es saber que para hacer un solo galón de jarabe de arce se necesitan {i}40{/i} galones de savia!"
 
-# game/script-fun-facts.rpy:923
+# game/script-fun-facts.rpy:922
 translate spanish mas_fun_fact_maplesyrup_60c76c95:
 
     # m 1eua "It also takes a lot more effort to produce it than I was expecting..."
     m 1eua "También requiere mucho más esfuerzo para producirlo de lo que esperaba..."
 
-# game/script-fun-facts.rpy:924
+# game/script-fun-facts.rpy:923
 translate spanish mas_fun_fact_maplesyrup_02b11777:
 
     # m 1esc "The sap has to be boiled down to make it into syrup...which obviously takes a while, given how much is needed."
     m 1esc "La savia tiene que ser hervida para convertirla en jarabe... lo que obviamente lleva un tiempo, dada la cantidad que se necesita."
 
-# game/script-fun-facts.rpy:925
+# game/script-fun-facts.rpy:924
 translate spanish mas_fun_fact_maplesyrup_7dbc5f35:
 
     # m 3eud "Also, I've heard that if you boil it just a little bit more and then pour it out on a fresh bed of snow...{w=0.2}{nw}"
     m 3eud "Además, he oído que si se hierve un poco más y se vierte sobre una superficie fresca de nieve... {w=0.2}{nw}"
 
-# game/script-fun-facts.rpy:929
+# game/script-fun-facts.rpy:925
 translate spanish mas_fun_fact_maplesyrup_e0762ad7:
 
     # extend 3hub "you can even make a candy!"
     extend 3hub "¡puedes hacer un caramelo!"
 
-# game/script-fun-facts.rpy:930
+# game/script-fun-facts.rpy:929
 translate spanish mas_fun_fact_maplesyrup_9c83407d:
 
     # m 3euu "Sounds like a fun thing we could try together, huh [player]?"
     m 3euu "Suena como algo divertido que podríamos probar junt[o_a]s, ¿no [player]?"
 
-# game/script-fun-facts.rpy:931
+# game/script-fun-facts.rpy:930
 translate spanish mas_fun_fact_maplesyrup_defb5d0b:
 
     # m 1etc "It might be a while before we get a chance, though..."
     m 1etc "Aunque podría pasar un tiempo antes de que tengamos la oportunidad..."
 
-# game/script-fun-facts.rpy:932
+# game/script-fun-facts.rpy:931
 translate spanish mas_fun_fact_maplesyrup_2398496e:
 
     # m 1eua "But it's alright if I have to wait a bit longer...{w=0.3}{nw}"
     m 1eua "Pero está bien si tengo que esperar un poco más... {w=0.3}{nw}"
 
-# game/script-fun-facts.rpy:935
+# game/script-fun-facts.rpy:932
 translate spanish mas_fun_fact_maplesyrup_f534405d:
 
     # extend 1hublu "you're already sweet enough for me~"
     extend 1hublu "ya eres lo suficientemente dulce para mí~"
 
-# game/script-fun-facts.rpy:936
+# game/script-fun-facts.rpy:935
 translate spanish mas_fun_fact_maplesyrup_2c90dd7e:
 
     # m 1eua "Sure seems like that would be extremely sweet..."

@@ -1682,7 +1682,7 @@ translate spanish mas_nou_reaction_player_surrenders_a9f493be:
 
 translate spanish strings:
 
-    # game/zz_cardgames.rpy:85
+    # game/zz_cardgames.rpy:5195
     old "green"
     new "verde"
 
@@ -2118,7 +2118,7 @@ translate spanish strings:
     old "I read you as an open book."
     new "Te leo como un libro abierto."
 
-    # game/zz_cardgames.rpy:336
+    # game/zz_cardgames.rpy:354
     old "Ahaha~"
     new "Jajaja~"
 
@@ -2422,7 +2422,7 @@ translate spanish strings:
     old "round"
     new "ronda"
 
-    # game/zz_cardgames.rpy:4283
+    # game/zz_cardgames.rpy:4299
     old "game"
     new "partida"
 
@@ -2478,15 +2478,15 @@ translate spanish strings:
     old "Red"
     new "Rojo"
 
-    # game/zz_cardgames.rpy:5195
+    # game/zz_cardgames.rpy:5211
     old "Blue"
     new "Azul"
 
-    # game/zz_cardgames.rpy:5195
+    # game/zz_cardgames.rpy:5225
     old "Green"
     new "Verde"
 
-    # game/zz_cardgames.rpy:5195
+    # game/zz_cardgames.rpy:5239
     old "Yellow"
     new "Amarillo"
 

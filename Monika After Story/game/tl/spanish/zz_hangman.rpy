@@ -298,7 +298,7 @@ translate spanish strings:
     old "epiphany"
     new "epifanía"
 
-    # game/zz_hangman.rpy:180
+    # game/zz_hangman.rpy:182
     old "despair"
     new "desesperación"
 
@@ -350,11 +350,11 @@ translate spanish strings:
     old "ai"
     new "IA"
 
-    # game/zz_hangman.rpy:182
+    # game/zz_hangman.rpy:348
     old "python"
     new "python"
 
-    # game/zz_hangman.rpy:182
+    # game/zz_hangman.rpy:594
     old "renpy"
     new "renpy"
 

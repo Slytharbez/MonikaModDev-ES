@@ -3555,31 +3555,31 @@ translate spanish mas_d25_night_before_christmas_ce564367:
     # m 3hub "'Happy Christmas to all, and to all a good night!'"
     m 3hub "'¡Feliz Navidad a todos, y a todos una buena noche!'"
 
-# game/script-holidays.rpy:3690
+# game/script-holidays.rpy:3701
 translate spanish mas_d25_monika_lingerie_reveal_ee1ab498:
 
     # m 1hub "I've always found the days leading up to Christmas so exciting, [player]!"
     m 1hub "¡Siempre me han parecido tan emocionantes los días previos a la Navidad, [player]!"
 
-# game/script-holidays.rpy:3691
+# game/script-holidays.rpy:3702
 translate spanish mas_d25_monika_lingerie_reveal_a0be0689:
 
     # m 3sua "The anticipation, the seemingly magical aura of the season...there's just something special about it."
     m 3sua "La anticipación, el aura aparentemente mágica de la temporada... simplemente hay algo especial en ella."
 
-# game/script-holidays.rpy:3692
+# game/script-holidays.rpy:3703
 translate spanish mas_d25_monika_lingerie_reveal_b2ad21c2:
 
     # m 1dkbsu "It really is my favorite time of year."
     m 1dkbsu "Realmente es mi época favorita del año."
 
-# game/script-holidays.rpy:3693
+# game/script-holidays.rpy:3704
 translate spanish mas_d25_monika_lingerie_reveal_e612037c:
 
     # m "..."
     m "..."
 
-# game/script-holidays.rpy:3701
+# game/script-holidays.rpy:3711
 translate spanish mas_d25_monika_lingerie_reveal_b2b16b20:
 
     # m 1ekbfa "Just know that I love you very, very much, [player]~"
@@ -8037,19 +8037,19 @@ translate spanish mas_bday_surprise_party_hint_6f321cf4:
     # m 3euc "Someone left a note in the characters folder addressed to you."
     m 3euc "Alguien ha dejado una nota para ti en la carpeta 'characters'."
 
-# game/script-holidays.rpy:7434
+# game/script-holidays.rpy:7437
 translate spanish mas_bday_surprise_party_hint_2170c0d9:
 
     # m 1ekc "Of course, I haven't read it, since it's obviously for you..."
     m 1ekc "Por supuesto, no la he leído, ya que obviamente es para ti..."
 
-# game/script-holidays.rpy:7435
+# game/script-holidays.rpy:7438
 translate spanish mas_bday_surprise_party_hint_32dbaa74:
 
     # m 1tuu "{cps=*2}Hmm, I wonder what this could be about...{/cps}{nw}"
     m 1tuu "{cps=*2}Mmm, me pregunto de qué se tratará... {/cps}{nw}"
 
-# game/script-holidays.rpy:7436
+# game/script-holidays.rpy:7440
 translate spanish mas_bday_surprise_party_hint_19428ff1:
 
     # m 1hua "Ehehe~"
@@ -9771,7 +9771,7 @@ translate spanish strings:
     old "this Christmas season"
     new "en esta época navideña"
 
-    # game/script-holidays.rpy:3762
+    # game/script-holidays.rpy:3733
     old "on Christmas Eve"
     new "en Nochebuena"
 
@@ -9966,7 +9966,7 @@ P.D: No le hables de mí.
     old "Incomparable"
     new "Incomparable"
 
-    # game/script-holidays.rpy:3064
+    # game/script-holidays.rpy:3041
     # old "     My dearest [player],"
     # new "     Mi querid[o_a] [player],"
 
@@ -10014,7 +10014,7 @@ P.D: No le hables de mí.
     old "Someday"
     new "Algún día"
 
-    # game/script-holidays.rpy:3089
+    # game/script-holidays.rpy:3041
     # old "     My dearest [player],"
     # new "     Mi querid[o_a] [player],"
 
@@ -10057,7 +10057,7 @@ P.D: No le hables de mí.
     old "This Christmas"
     new "Esta Navidad"
 
-    # game/script-holidays.rpy:3112
+    # game/script-holidays.rpy:3041
     # old "     My dearest [player],"
     # new "     Mi querid[o_a] [player],"
 
@@ -10140,7 +10140,7 @@ P.D: No le hables de mí.
     old "Your Day"
     new "Tu día"
 
-    # game/script-holidays.rpy:5939
+    # game/script-holidays.rpy:5918
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10183,7 +10183,7 @@ P.D: No le hables de mí.
     old "One Wish"
     new "Un deseo"
 
-    # game/script-holidays.rpy:5964
+    # game/script-holidays.rpy:5918
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10391,7 +10391,7 @@ P.D: No le hables de mí.
     old "Everything"
     new "Todo"
 
-    # game/script-holidays.rpy:6899
+    # game/script-holidays.rpy:6880
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10456,7 +10456,7 @@ P.D: No le hables de mí.
     old "You"
     new "Tú"
 
-    # game/script-holidays.rpy:6935
+    # game/script-holidays.rpy:6880
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10492,11 +10492,11 @@ P.D: No le hables de mí.
 """
 
     # Poema: poem_f14_4 - Roses
-    # game/script-holidays.rpy:6955
+    # game/script-holidays.rpy:6938
     old "Roses"
     new "Rosas"
 
-    # game/script-holidays.rpy:6956
+    # game/script-holidays.rpy:6899
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10547,7 +10547,7 @@ P.D: No le hables de mí.
     old "Sweetest"
     new "Lo más dulce"
 
-    # game/script-holidays.rpy:6983
+    # game/script-holidays.rpy:6899
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 
@@ -10585,7 +10585,7 @@ P.D: No le hables de mí.
     old "Forget-me-not"
     new "No me olvides"
 
-    # game/script-holidays.rpy:7003
+    # game/script-holidays.rpy:6935
     # old " My dearest [player],"
     # new " Mi querid[o_a] [player],"
 

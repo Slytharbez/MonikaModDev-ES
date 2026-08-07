@@ -24,13 +24,13 @@ translate spanish monika_clothes_select_bd2a5f73:
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4098
+# game/zz_selector.rpy:4128
 translate spanish monika_event_clothes_select_74680220:
 
     # m 1hua "Sure!"
     m 1hua "¡Seguro!"
 
-# game/zz_selector.rpy:4128
+# game/zz_selector.rpy:4135
 translate spanish monika_event_clothes_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
@@ -48,25 +48,25 @@ translate spanish monika_hair_select_bd2a5f73:
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4238
+# game/zz_selector.rpy:4250
 translate spanish monika_ribbon_select_13d1eccf:
 
     # m 1eua "Sure [player]!"
     m 1eua "¡Seguro [player]!"
 
-# game/zz_selector.rpy:4242
+# game/zz_selector.rpy:4255
 translate spanish monika_ribbon_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
     m 1eka "Oh, de acuerdo."
 
-# game/zz_selector.rpy:4312
+# game/zz_selector.rpy:4320
 translate spanish monika_hairflower_select_13d1eccf:
 
     # m 1eua "Sure [player]!"
     m 1eua "¡Seguro [player]!"
 
-# game/zz_selector.rpy:4316
+# game/zz_selector.rpy:4325
 translate spanish monika_hairflower_select_bd2a5f73:
 
     # m 1eka "Oh, alright."
@@ -234,7 +234,7 @@ translate spanish strings:
     old "Remove"
     new "Quitar"
 
-    # game/zz_selector.rpy:3192
+    # game/zz_selector.rpy:3183
     old "Filter"
     new "Filtro"
 
@@ -306,7 +306,7 @@ translate spanish strings:
     old "type_name_ribbon"
     new "cinta"
 
-    # game/zz_selector.rpy:3954
+    # game/zz_selector.rpy:4263
     old "hairclip"
     new "horquilla"
 

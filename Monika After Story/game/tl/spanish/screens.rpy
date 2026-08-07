@@ -126,7 +126,7 @@ translate spanish strings:
 
     # game/screens.rpy:72
     old "Good [boy]."
-    new "[buen_buena] chic[o_a]."
+    new "[buen_buena!c] chic[o_a]."
 
     # game/screens.rpy:73
     old "Good. :)"
@@ -191,14 +191,6 @@ translate spanish strings:
     # game/screens.rpy:726
     old "Settings"
     new "Ajustes"
-
-    # game/screens.rpy:727
-    old "Mark"
-    new "Marcar"
-
-    # game/screens.rpy:731
-    old "Hide"
-    new "Ocultar"
 
     # game/screens.rpy:854
     old "Just Monika"
@@ -267,10 +259,6 @@ translate spanish strings:
     # game/screens.rpy:1251
     old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
     new "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-
-    # game/screens.rpy:1276
-    old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]."
-    new "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]."
 
     # game/screens.rpy:1291
     old "There's no point in saving anymore.\nDon't worry, I'm not going anywhere."
@@ -528,7 +516,7 @@ translate spanish strings:
     old "Mouse"
     new "Ratón"
 
-    # game/screens.rpy:2030
+    # game/screens.rpy:2029
     old "Gamepad"
     new "Mando"
 
@@ -688,15 +676,15 @@ translate spanish strings:
     old "No update available."
     new "No hay actualizaciones disponibles."
 
-    # game/screens.rpy:2355
+    # game/screens.rpy:2347
     old "An update is now avalable!"
     new "¡Hay una actualización disponible!"
 
-    # game/screens.rpy:2365
+    # game/screens.rpy:2357
     old "Checking for updates..."
     new "Buscando actualizaciones..."
 
-    # game/screens.rpy:2370
+    # game/screens.rpy:2362
     old "Timeout occured while checking for updates. Try again later."
     new "Se agotó el tiempo al buscar actualizaciones. Inténtalo más tarde."
 
@@ -712,7 +700,7 @@ translate spanish strings:
     old "No."
     new "No."
 
-    # game/screens.rpy:2399
+    # game/screens.rpy:2386
     old "Updater"
     new "Actualizador"
 

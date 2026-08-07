@@ -370,7 +370,7 @@ translate spanish strings:
     old "a slice"
     new "una rebanada"
 
-    # game/zz_consumables.rpy:60
+    # game/zz_consumables.rpy:41
     old "slice"
     new "rebanada"
 
@@ -386,7 +386,7 @@ translate spanish strings:
     old "shopping_list.txt"
     new "lista_de_compras.txt"
 
-    # game/zz_consumables.rpy:1201
+    # game/zz_consumables.rpy:1200
     old "coffee"
     new "café"
 
@@ -394,7 +394,7 @@ translate spanish strings:
     old "hot chocolate"
     new "chocolate caliente"
 
-    # game/zz_consumables.rpy:1227
+    # game/zz_consumables.rpy:1226
     old "candycane"
     new "bastones de caramelo"
 
@@ -438,7 +438,7 @@ translate spanish strings:
     old "I'm going to get another one."
     new "Voy a buscar otro."
 
-    # game/zz_consumables.rpy:1544
+    # game/zz_consumables.rpy:1504
     old "are"
     new "están"
 

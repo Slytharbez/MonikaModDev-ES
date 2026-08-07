@@ -4292,7 +4292,7 @@ translate spanish mas_monika_plays_or_0534b98f:
 
 translate spanish strings:
 
-    # game/script-songs.rpy:26
+    # game/script-songs.rpy:16
     old "short"
     new "corta"
 

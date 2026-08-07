@@ -4802,7 +4802,7 @@ translate spanish mas_scary_story_prison_escape_c01b3923:
 
 translate spanish strings:
 
-    # game/script-stories.rpy:19
+    # game/script-stories.rpy:1917
     old "scary"
     new "aterradora"
     

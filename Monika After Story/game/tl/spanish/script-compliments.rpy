@@ -48,19 +48,19 @@ translate spanish mas_compliment_beautiful_2_f583d4e3:
     # m 2lsc "Well, thanks, I guess..."
     m 2lsc "Bueno, gracias, supongo..."
 
-# game/script-compliments.rpy:173
+# game/script-compliments.rpy:174
 translate spanish mas_compliment_beautiful_3_75854caf:
 
     # m 1ekbfa "[mas_compliments.thanks_quip]"
     m 1ekbfa "[mas_compliments.thanks_quip]"
 
-# game/script-compliments.rpy:174
+# game/script-compliments.rpy:176
 translate spanish mas_compliment_beautiful_3_34d15f71:
 
     # m 5hubfb "[beautiful_quip]"
     m 5hubfb "[beautiful_quip]"
 
-# game/script-compliments.rpy:176
+# game/script-compliments.rpy:173
 translate spanish mas_compliment_beautiful_3_d81c1322:
 
     # m 1hubsa "Ehehe~"

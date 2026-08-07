@@ -60,13 +60,13 @@ translate spanish mm_movie_pausefilm_4bb8bf03:
     # m 1eub "Oh, you just paused the movie, [player]."
     m 1eub "Oh, acabas de pausar la película, [player]."
 
-# game/zz_monikamovie.rpy:296
+# game/zz_monikamovie.rpy:298
 translate spanish mm_movie_pausefilm_c50cd863:
 
     # m 1hua "Okay, [player]."
     m 1hua "Está bien, [player]."
 
-# game/zz_monikamovie.rpy:298
+# game/zz_monikamovie.rpy:301
 translate spanish mm_movie_pausefilm_ef4dc71c:
 
     # m 1eua "Oh, alright then, [player]."

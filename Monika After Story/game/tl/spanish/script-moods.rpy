@@ -2678,7 +2678,7 @@ translate spanish strings:
     old "friends and family"
     new "amigos y familiares"
 
-    # game/script-moods.rpy:994
+    # game/script-moods.rpy:993
     old "family"
     new "familiares"
 

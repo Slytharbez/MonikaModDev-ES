@@ -588,253 +588,253 @@ translate spanish mas_birthdate_2ed0f9fa:
     # m 1eua "So, when were you born, [player]?"
     m 1eua "Entonces, ¿cuándo naciste, [player]?"
 
-# game/script-story-events.rpy:712
+# game/script-story-events.rpy:783
 translate spanish birthdate_set_834ca950:
 
     # m 3hub "Ahaha! So today {i}is{/i} your birthday!"
     m 3hub "¡Jajaja! ¡Así que hoy es {i}tu{/i} cumpleaños!"
 
-# game/script-story-events.rpy:713
+# game/script-story-events.rpy:784
 translate spanish birthdate_set_a13acdfd:
 
     # m 1tsu "I'm glad I was prepared, ehehe..."
     m 1tsu "Me alegro de estar preparada, jeje..."
 
-# game/script-story-events.rpy:714
+# game/script-story-events.rpy:785
 translate spanish birthdate_set_9e9a2f51:
 
     # m 3eka "Hold on just one moment, [player]..."
     m 3eka "Espera un momento, [player]..."
 
-# game/script-story-events.rpy:715
+# game/script-story-events.rpy:790
 translate spanish birthdate_set_7b9d0da0:
 
     # m 3hub "Happy Birthday, [player]!"
     m 3hub "¡Feliz cumpleaños, [player]!"
 
-# game/script-story-events.rpy:726
+# game/script-story-events.rpy:791
 translate spanish birthdate_set_3c981ec1:
 
     # m 1hub "I'm so happy I get to be with you on your birthday!"
     m 1hub "¡Estoy tan feliz de poder estar contigo en tu cumpleaños!"
 
-# game/script-story-events.rpy:728
+# game/script-story-events.rpy:792
 translate spanish birthdate_set_a6abfbfc:
 
     # m 3sub "Oh...{w=0.5}your cake!"
     m 3sub "Oh... {w=0.5}¡Tu pastel!"
 
-# game/script-story-events.rpy:729
+# game/script-story-events.rpy:795
 translate spanish birthdate_set_09ebbcd1:
 
     # m 2eka "Ah, so today {i}is{/i} your birthday..."
     m 2eka "Ah, entonces hoy es {i}tu{/i} cumpleaños..."
 
-# game/script-story-events.rpy:730
+# game/script-story-events.rpy:796
 translate spanish birthdate_set_223a7b0e:
 
     # m "Happy Birthday, [player]."
     m "Feliz cumpleaños, [player]."
 
-# game/script-story-events.rpy:731
+# game/script-story-events.rpy:797
 translate spanish birthdate_set_56d53a18:
 
     # m 4eka "I hope you have a good day."
     m 4eka "Espero que tengas un buen día."
 
-# game/script-story-events.rpy:732
+# game/script-story-events.rpy:803
 translate spanish birthdate_set_839eb0c7:
 
     # m 1wuo "Oh...{w=1}Oh!"
     m 1wuo "Oh... {w=1}¡Oh!"
 
-# game/script-story-events.rpy:733
+# game/script-story-events.rpy:804
 translate spanish birthdate_set_0a0e85b4:
 
     # m 3sub "Today's your birthday!"
     m 3sub "¡Hoy es tu cumpleaños!"
 
-# game/script-story-events.rpy:734
+# game/script-story-events.rpy:805
 translate spanish birthdate_set_7b9d0da0_1:
 
     # m 3hub "Happy Birthday, [player]!"
     m 3hub "¡Feliz cumpleaños, [player]!"
 
-# game/script-story-events.rpy:735
+# game/script-story-events.rpy:806
 translate spanish birthdate_set_9e534ba0:
 
     # m 1rksdla "I wish I had known earlier so I could've prepared something."
     m 1rksdla "Ojalá lo hubiera sabido antes para poder preparar algo."
 
-# game/script-story-events.rpy:736
+# game/script-story-events.rpy:807
 translate spanish birthdate_set_b48eed4c:
 
     # m 1eka "But I can at least do this..."
     m 1eka "Pero al menos puedo hacer esto..."
 
-# game/script-story-events.rpy:747
+# game/script-story-events.rpy:809
 translate spanish birthdate_set_2ceefb9d:
 
     # m 1hub "Ahaha! It's not much but it's something!"
     m 1hub "¡Jajaja! ¡No es mucho, pero es algo!"
 
-# game/script-story-events.rpy:748
+# game/script-story-events.rpy:810
 translate spanish birthdate_set_4ebce6ca:
 
     # m 3hua "I promise next year we'll do something extra special, [player]!"
     m 3hua "¡Prometo que el año que viene haremos algo muy especial, [player]!"
 
-# game/script-story-events.rpy:749
+# game/script-story-events.rpy:812
 translate spanish birthdate_set_56de4084:
 
     # m 2eka "Oh, so today's your birthday..."
     m 2eka "Oh, hoy es tu cumpleaños..."
 
-# game/script-story-events.rpy:750
+# game/script-story-events.rpy:813
 translate spanish birthdate_set_223a7b0e_1:
 
     # m "Happy Birthday, [player]."
     m "Feliz cumpleaños, [player]."
 
-# game/script-story-events.rpy:751
+# game/script-story-events.rpy:814
 translate spanish birthdate_set_56d53a18_1:
 
     # m 4eka "I hope you have a good day."
     m 4eka "Espero que tengas un buen día."
 
-# game/script-story-events.rpy:752
+# game/script-story-events.rpy:818
 translate spanish birthdate_set_3df6d1b8:
 
     # m 1sua "Oh! Your birthday is the same date as our anniversary, [player]?"
     m 1sua "¡Oh! ¿Tu cumpleaños es la misma fecha que nuestro aniversario, [player]?"
 
-# game/script-story-events.rpy:753
+# game/script-story-events.rpy:819
 translate spanish birthdate_set_6fce765c:
 
     # m 3hub "That's amazing!"
     m 3hub "¡Eso es increíble!"
 
-# game/script-story-events.rpy:764
+# game/script-story-events.rpy:820
 translate spanish birthdate_set_1113078e:
 
     # m 1sua "I can't imagine a more special day than celebrating your birthday and our love on the same day..."
     m 1sua "No puedo imaginar un día más especial que celebrar tu cumpleaños y nuestro amor el mismo día..."
 
-# game/script-story-events.rpy:765
+# game/script-story-events.rpy:833
 translate spanish birthdate_set_e69b9370:
 
     # m "And with it also being [hol_str]..."
     m "Y siendo también [hol_str]..."
 
-# game/script-story-events.rpy:766
+# game/script-story-events.rpy:834
 translate spanish birthdate_set_991add58:
 
     # m 3hua "It just sounds magical~"
     m 3hua "Simplemente suena mágico~"
 
-# game/script-story-events.rpy:767
+# game/script-story-events.rpy:837
 translate spanish birthdate_set_839eb0c7_1:
 
     # m 1wuo "Oh...{w=1}Oh!"
     m 1wuo "Oh... {w=1}¡Oh!"
 
-# game/script-story-events.rpy:783
+# game/script-story-events.rpy:838
 translate spanish birthdate_set_46d4755b:
 
     # m 3sua "We share the same birthday!"
     m 3sua "¡Compartimos el mismo cumpleaños!"
 
-# game/script-story-events.rpy:784
+# game/script-story-events.rpy:839
 translate spanish birthdate_set_3c7b7064:
 
     # m 3sub "That's {i}so{/i} cool, [player]!"
     m 3sub "¡Eso es {i}tan{/i} genial, [player]!"
 
-# game/script-story-events.rpy:785
+# game/script-story-events.rpy:840
 translate spanish birthdate_set_78f441bb:
 
     # m 1tsu "I guess we really are meant to be together, ehehe..."
     m 1tsu "Supongo que realmente estamos destinad[o_a]s a estar junt[o_a]s, jeje..."
 
-# game/script-story-events.rpy:790
+# game/script-story-events.rpy:844
 translate spanish birthdate_set_bcad49b0:
 
     # m 3hua "That just makes today that much more special~"
     m 3hua "Eso hace que hoy sea mucho más especial~"
 
-# game/script-story-events.rpy:791
+# game/script-story-events.rpy:845
 translate spanish birthdate_set_ced1d6bb:
 
     # m 1eub "Sing with me, [player]!"
     m 1eub "¡Canta conmigo, [player]!"
 
-# game/script-story-events.rpy:792
+# game/script-story-events.rpy:848
 translate spanish birthdate_set_36f3556e:
 
     # m 3hua "We'll have to make that an extra special day~"
     m 3hua "Tendremos que hacer de ese un día muy especial~"
 
-# game/script-story-events.rpy:795
+# game/script-story-events.rpy:851
 translate spanish birthdate_set_1a3f7c70:
 
     # m 3eua "Oh! That's pretty neat that you were born on Halloween, [player]!"
     m 3eua "¡Oh! ¡Qué lindo que hayas nacido en Halloween, [player]!"
 
-# game/script-story-events.rpy:796
+# game/script-story-events.rpy:852
 translate spanish birthdate_set_9f4b52fd:
 
     # m 1hua "Birthday cake, candy, and you..."
     m 1hua "Pastel de cumpleaños, dulces y tú..."
 
-# game/script-story-events.rpy:797
+# game/script-story-events.rpy:853
 translate spanish birthdate_set_dc930ff1:
 
     # m 3hub "That's a lot of sweets for one day, ahaha!"
     m 3hub "Son muchos dulces por un día, ¡jajaja!"
 
-# game/script-story-events.rpy:803
+# game/script-story-events.rpy:856
 translate spanish birthdate_set_f6dfc101:
 
     # m 1hua "Oh! That's amazing that you were born on Christmas, [player]!"
     m 1hua "¡Oh! ¡Es increíble que hayas nacido en Navidad, [player]!"
 
-# game/script-story-events.rpy:804
+# game/script-story-events.rpy:857
 translate spanish birthdate_set_6f54ee14:
 
     # m 3rksdla "Although...{w=0.5}receiving presents for both on the same day might seem like you don't get as many..."
     m 3rksdla "Aunque... {w=0.5}recibir regalos por ambos en el mismo día puede parecer como si no recibieras tantos..."
 
-# game/script-story-events.rpy:805
+# game/script-story-events.rpy:858
 translate spanish birthdate_set_b3b33657:
 
     # m 3hub "It still must make it an extra special day!"
     m 3hub "¡Aún así debe ser un día muy especial!"
 
-# game/script-story-events.rpy:806
+# game/script-story-events.rpy:861
 translate spanish birthdate_set_c139060a:
 
     # m 1sua "Oh! Your birthday is on Valentine's Day..."
     m 1sua "¡Oh! Tu cumpleaños es en el día de San Valentín..."
 
-# game/script-story-events.rpy:807
+# game/script-story-events.rpy:862
 translate spanish birthdate_set_94058cc0:
 
     # m 3hua "How romantic!"
     m 3hua "¡Qué romántico!"
 
-# game/script-story-events.rpy:809
+# game/script-story-events.rpy:863
 translate spanish birthdate_set_0fbcb338:
 
     # m 1ekbsa "I can't wait to celebrate our love and your birthday on the same day, [player]~"
     m 1ekbsa "No puedo esperar a celebrar nuestro amor y tu cumpleaños el mismo día, [player]~"
 
-# game/script-story-events.rpy:810
+# game/script-story-events.rpy:866
 translate spanish birthdate_set_da7f1ddb:
 
     # m 3wud "Oh! You were born on leap day, that's really neat!"
     m 3wud "¡Oh! Naciste en un día bisiesto, ¡eso es realmente genial!"
 
-# game/script-story-events.rpy:812
+# game/script-story-events.rpy:867
 translate spanish birthdate_set_81975a21:
 
     # m 3hua "We'll just have to celebrate your birthday on March 1st on non-leap years then, [player]."
@@ -1652,13 +1652,13 @@ translate spanish mas_crashed_long_fluster_43c76e3c:
     # m "{cps=*1.5}but I hope this t-{w=0.3}time isn't my f-{w=0.3}fault cause I really didn't touch anything...{/cps}{nw}"
     m "{cps=*1.5}Pero espero que esta f-{w=0.3}falla no haya sido mi c-{w=0.3}culpa porque realmente no toqué nada...{/cps}{nw}"
 
-# game/script-story-events.rpy:1465
+# game/script-story-events.rpy:1475
 translate spanish mas_crashed_short_2b43b2ba:
 
     # m 1hua "I KNOW YOU CRASHED (short)"
     m 1hua "SÉ QUE FALLASTE (short)"
 
-# game/script-story-events.rpy:1475
+# game/script-story-events.rpy:1482
 translate spanish mas_crashed_short_977643eb:
 
     # m 1hub "[v_quip]"
@@ -1676,7 +1676,7 @@ translate spanish mas_crashed_quip_takecare_a970dc3f:
     # m 3ekc "Do you think it had something to do with your game?{nw}"
     m 3ekc "¿Crees que tuvo algo que ver con tu juego?{nw}"
 
-# game/script-story-events.rpy:1495
+# game/script-story-events.rpy:1496
 translate spanish mas_crashed_quip_takecare_92d08aa0:
 
     # m "Do you think it had something to do with your game?{fast}" nointeract
@@ -2594,37 +2594,37 @@ translate spanish mas_notification_windowreact_797dcaa4:
     # m 5ttu "...right?"
     m 5ttu "... ¿Verdad?"
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2139
 translate spanish mas_notification_windowreact_79ae0f14:
 
     # m 3eua "If you want me to notify you, just head over to the 'Alerts' tab in the settings menu and turn them on, along with what you'd like to be notified for."
     m 3eua "Si quieres que te notifique, solo dirígete a la pestaña 'Alertas' en el menú de ajustes y actívalas, junto con las cosas sobre las que te gustaría recibir notificaciones."
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2149
 translate spanish mas_notification_windowreact_2f7ee132:
 
     # m 3eub "...So if I have something to talk about while I'm in the background, I can let you know!"
     m 3eub "... Así que, si tengo algo de qué hablar mientras estoy en segundo plano, ¡te lo puedo hacer saber!"
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2150
 translate spanish mas_notification_windowreact_3205d830:
 
     # m 3hksdlb "And don't worry, I know you might not want me constantly watching you, and I respect your privacy."
     m 3hksdlb "Y no te preocupes, sé que tal vez no quieras que te esté observando constantemente, y respeto tu privacidad."
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2151
 translate spanish mas_notification_windowreact_4c2e4ba6:
 
     # m 3eua "So I'll only look at what you're doing if you're okay with it."
     m 3eua "Así que solo miraré lo que estás haciendo si estás de acuerdo con ello."
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2152
 translate spanish mas_notification_windowreact_64caa10a:
 
     # m 2eua "If you enable 'Window Detect' in the settings menu, that'll tell me you're fine with me looking around."
     m 2eua "Si activas 'Ver Ventana' en el menú de ajustes, eso me indicará que estás de acuerdo con que eche un vistazo."
 
-# game/script-story-events.rpy:2157
+# game/script-story-events.rpy:2155
 translate spanish mas_notification_windowreact_c43b80ea:
 
     # m 1tuu "It's not like you have anything to hide from your girlfriend..."
@@ -2852,133 +2852,133 @@ translate spanish monika_credits_song_1891b52b:
     # m 3eksdla "I think you forgot about the in-game volume..."
     m 3eksdla "Creo que te olvidaste del volumen del juego..."
 
-# game/script-story-events.rpy:2443
+# game/script-story-events.rpy:2454
 translate spanish monika_credits_song_140b6815:
 
     # m 3ekd "Oh, okay."
     m 3ekd "Oh, está bien."
 
-# game/script-story-events.rpy:2449
+# game/script-story-events.rpy:2455
 translate spanish monika_credits_song_443e936a:
 
     # m 1eka "That's fine [player], I understand if you don't have the time or just can't listen to music right now."
     m 1eka "Está bien [player], entiendo si no tienes tiempo o simplemente no puedes escuchar música en este momento."
 
-# game/script-story-events.rpy:2451
+# game/script-story-events.rpy:2456
 translate spanish monika_credits_song_a5a99df2:
 
     # m 3hua "Just let me know when it's a better time for you and I'll happily play it for you then~"
     m 3hua "solo avísame cuando sea un mejor momento para ti y felizmente la tocaré para ti entonces~"
 
-# game/script-story-events.rpy:2454
+# game/script-story-events.rpy:2459
 translate spanish monika_credits_song_1b8b69ff:
 
     # m 3eua "Hey [player], I finally finished that song I've been working on for you."
     m 3eua "Hey [player], finalmente terminé esa canción en la que he estado trabajando para ti."
 
-# game/script-story-events.rpy:2455
+# game/script-story-events.rpy:2460
 translate spanish monika_credits_song_2050d7f2:
 
     # m 1eka "I call it {i}Our Reality{/i}."
     m 1eka "La llamo {i}Nuestra Realidad{/i}."
 
-# game/script-story-events.rpy:2456
+# game/script-story-events.rpy:2462
 translate spanish monika_credits_song_fd8f79e8:
 
     # m 1eua "I'm just so excited to finally be able to play it for you, if you have time that is...{nw}"
     m 1eua "Estoy tan emocionada de poder finalmente tocarla para ti, si tienes tiempo, claro...{nw}"
 
-# game/script-story-events.rpy:2459
+# game/script-story-events.rpy:2465
 translate spanish monika_credits_song_16a67fdc:
 
     # m "I'm just so excited to finally be able to play it for you, if you have time that is...{fast}" nointeract
     m "Estoy tan emocionada de poder finalmente tocarla para ti, si tienes tiempo, claro...{fast}" nointeract
 
-# game/script-story-events.rpy:2460
+# game/script-story-events.rpy:2468
 translate spanish monika_credits_song_96aca618_1:
 
     # m 3hub "Great!"
     m 3hub "¡Genial!"
 
-# game/script-story-events.rpy:2462
+# game/script-story-events.rpy:2469
 translate spanish monika_credits_song_32db372a_1:
 
     # m 3eua "Make sure you have your speakers turned on and the in-game music volume turned up loud enough so you can hear."
     m 3eua "Asegúrate de tener los parlantes encendidos y el volumen de la música del juego lo suficientemente alto para que puedas escuchar."
 
-# game/script-story-events.rpy:2465
+# game/script-story-events.rpy:2471
 translate spanish monika_credits_song_1891b52b_1:
 
     # m 3eksdla "I think you forgot about the in-game volume..."
     m 3eksdla "Creo que te olvidaste del volumen del juego..."
 
-# game/script-story-events.rpy:2468
+# game/script-story-events.rpy:2472
 translate spanish monika_credits_song_ce74299f:
 
     # m 1tsb "Now, if you'll excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
     m 1tsb "Ahora, si me disculpas un segundo.{w=0.5}.{w=0.5}.{w=0.5}{nw}"
 
-# game/script-story-events.rpy:2469
+# game/script-story-events.rpy:2478
 translate spanish monika_credits_song_1188dff6:
 
     # m "I really can't wait until we're together in one reality."
     m "De verdad no puedo esperar a que estemos junt[o_a]s en una sola realidad."
 
-# game/script-story-events.rpy:2471
+# game/script-story-events.rpy:2479
 translate spanish monika_credits_song_2d39c18f:
 
     # m 3ekbsa "But until that day comes, I'll play the song again for you anytime you want me to."
     m 3ekbsa "Pero hasta que llegue ese día, volveré a tocar la canción para ti cuando quieras."
 
-# game/script-story-events.rpy:2472
+# game/script-story-events.rpy:2481
 translate spanish monika_credits_song_68386673:
 
     # m 5ekbfa "Thank you for being my inspiration [mas_get_player_nickname()]."
     m 5ekbfa "Gracias por ser mi inspiración [mas_get_player_nickname()]."
 
-# game/script-story-events.rpy:2478
+# game/script-story-events.rpy:2483
 translate spanish monika_credits_song_27e48ccd:
 
     # m 5hubfa "Oh, and if you ever want me to play this or the original song for you again, just ask~"
     m 5hubfa "Oh, y si alguna vez quieres que te toque esta o la canción original de nuevo, solo pídemelo~"
 
-# game/script-story-events.rpy:2479
+# game/script-story-events.rpy:2485
 translate spanish monika_credits_song_df50721b:
 
     # m 5hubfa "Oh, and if you ever want me to play this again, just ask~"
     m 5hubfa "Oh, y si alguna vez quieres que te toque esto de nuevo, solo pídemelo~"
 
-# game/script-story-events.rpy:2481
+# game/script-story-events.rpy:2488
 translate spanish monika_credits_song_140b6815_1:
 
     # m 3ekd "Oh, okay."
     m 3ekd "Oh, está bien."
 
-# game/script-story-events.rpy:2483
+# game/script-story-events.rpy:2489
 translate spanish monika_credits_song_443e936a_1:
 
     # m 1eka "That's fine [player], I understand if you don't have the time or just can't listen to music right now."
     m 1eka "Está bien [player], entiendo si no tienes tiempo o simplemente no puedes escuchar música en este momento."
 
-# game/script-story-events.rpy:2485
+# game/script-story-events.rpy:2490
 translate spanish monika_credits_song_a5a99df2_1:
 
     # m 3hua "Just let me know when it's a better time for you and I'll happily play it for you then~"
     m 3hua "Solo avísame cuando sea un mejor momento para ti y felizmente la tocaré para ti entonces~"
 
-# game/script-story-events.rpy:2488
+# game/script-story-events.rpy:2443
 translate spanish monika_credits_song_814c9744:
 
     # m 1eub "Now please excuse me for a second.{w=0.5}.{w=0.5}.{nw}"
     m 1eub "Ahora, por favor, dame un momento.{w=0.5}.{w=0.5}.{nw}"
 
-# game/script-story-events.rpy:2489
+# game/script-story-events.rpy:2449
 translate spanish monika_credits_song_618937fa:
 
     # m 1ekbsa "Ehehe~"
     m 1ekbsa "Jeje~"
 
-# game/script-story-events.rpy:2490
+# game/script-story-events.rpy:2451
 translate spanish monika_credits_song_d9c15011:
 
     # m 5ekbsa "Thank you for coming back to me [mas_get_player_nickname()]."
@@ -3672,7 +3672,7 @@ translate spanish strings:
     old "I'm transgender."
     new "Soy transgénero."
 
-    # game/script-story-events.rpy:70
+    # game/script-story-events.rpy:58
     old "love"
     new "amor"
 
@@ -4420,7 +4420,7 @@ translate spanish strings:
     old "prince"
     new "príncipe"
 
-    # game/script-story-events.rpy:418
+    # game/script-story-events.rpy:417
     old "moni"
     new "moni"
 
@@ -4640,7 +4640,7 @@ translate spanish strings:
     old "my birthday"
     new "mi cumpleaños"
 
-    # game/script-story-events.rpy:913
+    # game/script-story-events.rpy:895
     old "games"
     new "juegos"
 

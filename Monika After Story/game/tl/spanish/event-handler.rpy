@@ -1,12 +1,12 @@
 # TODO: Translation updated at 2026-03-31 15:02
 
-# game/event-handler.rpy:3663
+# game/event-handler.rpy:3722
 translate spanish mas_bookmarks_unbookmark_c42f8f06:
 
     # m 1dsa "Okay, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
     m 1dsa "Okey, [player].{w=0.2}.{w=0.2}.{w=0.2}{nw}"
     
-# game/event-handler.rpy:3664
+# game/event-handler.rpy:3723
 translate spanish mas_bookmarks_unbookmark_73747bba:
 
     # m 3hua "All done!"
@@ -14,7 +14,7 @@ translate spanish mas_bookmarks_unbookmark_73747bba:
 
 translate spanish strings:
 
-    # game/event-handler.rpy:3300
+    # game/event-handler.rpy:3299
     old "I would like to see 'Unseen' ([unseen_num]) again"
     new "Quisiera ver los ([unseen_num]) diálogos 'Nuevos' otra vez."
 
@@ -22,7 +22,7 @@ translate spanish strings:
     old "{b}Unseen{/b}"
     new "{b}Nuevo{/b}"
 
-    # game/event-handler.rpy:3323
+    # game/event-handler.rpy:3322
     old "Bookmarks"
     new "Marcadores"
 

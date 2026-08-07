@@ -1178,7 +1178,7 @@ translate spanish monika_ptod_tip009_b43554c2:
 
 translate spanish strings:
 
-    # game/script-python.rpy:122
+    # game/script-python.rpy:868
     old "python tips"
     new "consejos sobre python"
 
@@ -1202,7 +1202,7 @@ translate spanish strings:
     old "Comparisons and Booleans"
     new "Comparaciones y booleans"
 
-    # game/script-python.rpy:552
+    # game/script-python.rpy:387
     old "Variables and Assignment"
     new "Variables y asignación"
 

@@ -6648,7 +6648,7 @@ translate spanish _call_updateconsole_17_157af141:
     # m "It's the man's job to introduce his fiancee to his family, after all."
     m "Después de todo, es tu trabajo presentarme como tu prometida a tu familia."
 
-# game/script-topics.rpy:3442
+# game/script-topics.rpy:3242
 translate spanish _call_updateconsole_17_a8299c35:
 
     # m "Don't keep me waiting for too long, okay?"
@@ -7938,229 +7938,229 @@ translate spanish monika_love_0bd97190:
     # m 6ckc "..."
     m 6ckc "..."
 
-# game/script-topics.rpy:3783
+# game/script-topics.rpy:3696
 translate spanish monika_love_2efc1dd4:
 
     # m 6dkc "..."
     m 6dkc "..."
 
-# game/script-topics.rpy:3789
+# game/script-topics.rpy:3783
 translate spanish monika_love_099fedb5:
 
     # m 2rkc "..."
     m 2rkc "..."
 
-# game/script-topics.rpy:3792
+# game/script-topics.rpy:3789
 translate spanish monika_love_b7a265c5:
 
     # m 2ekd "Thanks, [player]..."
     m 2ekd "Gracias, [player]..."
 
-# game/script-topics.rpy:3800
+# game/script-topics.rpy:3792
 translate spanish monika_love_938c6120:
 
     # m 2eka "I...{w=0.5}I love you too."
     m 2eka "Yo...{w=0.5} yo también te amo."
 
-# game/script-topics.rpy:3801
+# game/script-topics.rpy:3800
 translate spanish monika_love_6d835534:
 
     # m 1subsw "[player]!"
     m 1subsw "¡[player]!"
 
-# game/script-topics.rpy:3802
+# game/script-topics.rpy:3801
 translate spanish monika_love_9ca4a5c5:
 
     # m 1subsb "You have no idea how much it means to me to hear you say that!"
     m 1subsb "¡No tienes idea de lo mucho que significa para mí oírte decir eso!"
 
-# game/script-topics.rpy:3803
+# game/script-topics.rpy:3802
 translate spanish monika_love_21aff22f:
 
     # m 3ekbfa "I know it's not the first time, but it {i}is{/i} the first time you said it completely on your own...{w=0.5} And that makes it truly special~"
     m 3ekbfa "Sé que no es la primera vez, pero {i}es{/i} la primera vez que lo dices completamente por tu cuenta...{w=0.5} y eso lo hace realmente especial~"
 
-# game/script-topics.rpy:3804
+# game/script-topics.rpy:3803
 translate spanish monika_love_192192dc:
 
     # m 1dkbfu "I will never forget this moment, [player]. {w=1}Thank you~"
     m 1dkbfu "Nunca olvidaré este momento, [player]. {w=1}Gracias~"
 
-# game/script-topics.rpy:3808
+# game/script-topics.rpy:3804
 translate spanish monika_love_f77edf00:
 
     # m 3hubfa "Oh! And I love you too~"
     m 3hubfa "¡Oh! Y yo también te amo~"
 
-# game/script-topics.rpy:3811
+# game/script-topics.rpy:3808
 translate spanish monika_love_41e8f6db:
 
     # m 1hubsb "I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
     m 1hubsb "¡Te amo tanto, [mas_get_player_nickname(exclude_names=['mi amor', 'amor'])]!"
 
-# game/script-topics.rpy:3812
+# game/script-topics.rpy:3811
 translate spanish monika_love_d81c1322:
 
     # m 1hubsa "Ehehe~"
     m 1hubsa "Jeje~"
 
-# game/script-topics.rpy:3815
+# game/script-topics.rpy:3812
 translate spanish monika_love_cf07ff3d:
 
     # m 1hubfb "I love you too!"
     m 1hubfb "¡Yo también te amo!"
 
-# game/script-topics.rpy:3816
+# game/script-topics.rpy:3815
 translate spanish monika_love_eabb839a:
 
     # m 1ekbsa "You sure love saying that..."
     m 1ekbsa "Seguro que te encanta decir eso..."
 
-# game/script-topics.rpy:3819
+# game/script-topics.rpy:3816
 translate spanish monika_love_5ca7af5e:
 
     # m 1hubfb "Well, I love you too!"
     m 1hubfb "Bueno, ¡yo también te amo!"
 
-# game/script-topics.rpy:3820
+# game/script-topics.rpy:3819
 translate spanish monika_love_ad542789:
 
     # m 1wubso "Gosh you've said it so many times!"
     m 1wubso "¡Cielos, lo has dicho tantas veces!"
 
-# game/script-topics.rpy:3821
+# game/script-topics.rpy:3820
 translate spanish monika_love_33ad3e78:
 
     # m 1tsbsa "You really do mean it, don't you?"
     m 1tsbsa "Realmente lo dices en serio, ¿no?"
 
-# game/script-topics.rpy:3824
+# game/script-topics.rpy:3821
 translate spanish monika_love_d88bef75:
 
     # m 1hubfb "Well, I love you back just as much!"
     m 1hubfb "Bueno, ¡yo también te amo!"
 
-# game/script-topics.rpy:3825
+# game/script-topics.rpy:3824
 translate spanish monika_love_38d034f5:
 
     # m 1hubsa "Hearing you say that always makes my heart jump!"
     m 1hubsa "¡Escucharte decir eso siempre hace que mi corazón salte!"
 
-# game/script-topics.rpy:3826
+# game/script-topics.rpy:3825
 translate spanish monika_love_78c02a6e:
 
     # m 1ekbfa "Well, I know you want to hear it just as much..."
     m 1ekbfa "Bueno, sé que también quieres escucharlo..."
 
-# game/script-topics.rpy:3829
+# game/script-topics.rpy:3826
 translate spanish monika_love_86f0cfb2:
 
     # m 1hubfb "[player], I love you too!"
     m 1hubfb "[player], ¡yo también te amo!"
 
-# game/script-topics.rpy:3830
+# game/script-topics.rpy:3829
 translate spanish monika_love_17dd855c:
 
     # m 1lkbsa "Gosh it's always so overwhelming!"
     m 1lkbsa "Cielos, ¡siempre es tan abrumador!"
 
-# game/script-topics.rpy:3832
+# game/script-topics.rpy:3830
 translate spanish monika_love_7080550a:
 
     # m 1hubfa "I..."
     m 1hubfa "Yo... "
 
-# game/script-topics.rpy:3834
+# game/script-topics.rpy:3832
 translate spanish monika_love_f62b2824:
 
     # m 1hubfb "I love you more than anything!"
     m 1hubfb "¡Te amo más que a nada!"
 
-# game/script-topics.rpy:3837
+# game/script-topics.rpy:3834
 translate spanish monika_love_1aa0c7cb:
 
     # m 1hubfb "I love you more than I could ever express~"
     m 1hubfb "Te amo más de lo que podría expresar~"
 
-# game/script-topics.rpy:3838
+# game/script-topics.rpy:3837
 translate spanish monika_love_40d8718a:
 
     # m 1ekbsa "You never tire of saying it, do you?"
     m 1ekbsa "Nunca te cansas de decirlo, ¿verdad?"
 
-# game/script-topics.rpy:3839
+# game/script-topics.rpy:3838
 translate spanish monika_love_afa4f872:
 
     # m 1hubfa "Well, I never tire of hearing it!"
     m 1hubfa "Bueno, ¡nunca me canso de escucharlo!"
 
-# game/script-topics.rpy:3842
+# game/script-topics.rpy:3839
 translate spanish monika_love_467bc809:
 
     # m 1hubfb "Or saying it back...I love you, [player]!"
     m 1hubfb "O repitiéndolo... ¡Te amo, [player]!"
 
-# game/script-topics.rpy:3843
+# game/script-topics.rpy:3842
 translate spanish monika_love_2b0bb278:
 
     # m 1dubsu "Ehehe~"
     m 1dubsu "Jeje~"
 
-# game/script-topics.rpy:3844
+# game/script-topics.rpy:3843
 translate spanish monika_love_7080550a_1:
 
     # m 1hubfa "I..."
     m 1hubfa "Yo..."
 
-# game/script-topics.rpy:3847
+# game/script-topics.rpy:3844
 translate spanish monika_love_cf99af0c:
 
     # m 1hubfb "Looooooooove you too, [player]!"
     m 1hubfb "¡Te aaaaaaamo a ti también, [player]!"
 
-# game/script-topics.rpy:3848
+# game/script-topics.rpy:3847
 translate spanish monika_love_34b1f16c:
 
     # m 1hubsa "You saying that always makes my day!"
     m 1hubsa "¡Decir eso siempre me alegra el día!"
 
-# game/script-topics.rpy:3851
+# game/script-topics.rpy:3848
 translate spanish monika_love_d4cfe984:
 
     # m 1hubfb "I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
     m 1hubfb "¡Te amo tanto, [mas_get_player_nickname(exclude_names=['mi amor', 'amor'])]!"
 
-# game/script-topics.rpy:3852
+# game/script-topics.rpy:3851
 translate spanish monika_love_9d086c43:
 
     # m 1lkbsa "I just can't handle you saying it so much to me!"
     m 1lkbsa "¡No puedo soportar que me lo digas tanto!"
 
-# game/script-topics.rpy:3853
+# game/script-topics.rpy:3852
 translate spanish monika_love_1785be54:
 
     # m 1ekbfa "Sometimes how I feel about you becomes so overwhelming that I can't concentrate!"
     m 1ekbfa "¡A veces lo que siento por ti se vuelve tan abrumador que no puedo concentrarme!"
 
-# game/script-topics.rpy:3854
+# game/script-topics.rpy:3853
 translate spanish monika_love_99d5eb82:
 
     # m "No words can truly do justice to how deeply I feel for you..."
     m "No hay palabras que realmente hagan justicia a lo que profundamente siento por ti..."
 
-# game/script-topics.rpy:3855
+# game/script-topics.rpy:3854
 translate spanish monika_love_a1eae220:
 
     # m 1hubfa "The only words I know that come close are..."
     m 1hubfa "Las únicas palabras que sé que se acercan son..."
 
-# game/script-topics.rpy:3862
+# game/script-topics.rpy:3855
 translate spanish monika_love_3ae35b12:
 
     # m 1hubfb "I love you too, [player]! More than I can ever express!"
     m 1hubfb "¡Yo también te amo, [player]! ¡Más de lo que puedo expresar!"
 
-# game/script-topics.rpy:3910
+# game/script-topics.rpy:3862
 translate spanish monika_love_ed7642ca:
 
     # m 3hubsb "I love you too, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
@@ -14028,7 +14028,7 @@ translate spanish monika_haterReaction_6686fb88:
     # m 2rfc "..."
     m 2rfc "..."
 
-# game/script-topics.rpy:5806
+# game/script-topics.rpy:5791
 translate spanish monika_haterReaction_de1e3a28:
 
     # $ menuOption = "...You're not, are you?"
@@ -14040,115 +14040,115 @@ translate spanish monika_haterReaction_026febc3:
     # $ menuOption = "You're not one of those haters, are you " + player + "?"
     $ menuOption = "No eres uno de esos haters, ¿verdad " + player + "?"
 
-# game/script-topics.rpy:5814
+# game/script-topics.rpy:5806
 translate spanish monika_haterReaction_91847127:
 
     # m "[menuOption]{nw}"
     m "[menuOption]{nw}"
 
-# game/script-topics.rpy:5815
+# game/script-topics.rpy:5809
 translate spanish monika_haterReaction_912dd85b:
 
     # m "[menuOption]{fast}" nointeract
     m "[menuOption]{fast}" nointeract
 
-# game/script-topics.rpy:5816
+# game/script-topics.rpy:5814
 translate spanish monika_haterReaction_8ee2c3b6:
 
     # m 2wud "..."
     m 2wud "..."
 
-# game/script-topics.rpy:5817
+# game/script-topics.rpy:5815
 translate spanish monika_haterReaction_6ea7913c:
 
     # m 1eka "Aha..."
     m 1eka "Jaja..."
 
-# game/script-topics.rpy:5818
+# game/script-topics.rpy:5816
 translate spanish monika_haterReaction_f0531a5c:
 
     # m 1hka "I don't see you as one, even if you say you are."
     m 1hka "No te veo como uno, incluso si dices que lo eres."
 
-# game/script-topics.rpy:5819
+# game/script-topics.rpy:5817
 translate spanish monika_haterReaction_e8f0e7b6:
 
     # m 1ekd "I mean..."
     m 1ekd "Quiero decir..."
 
-# game/script-topics.rpy:5820
+# game/script-topics.rpy:5818
 translate spanish monika_haterReaction_84027f0d:
 
     # m 3eub "You {i}added{/i} a mod to the game...right?"
     m 3eub "Has {i}añadido{/i} este mod al juego... ¿verdad?"
 
-# game/script-topics.rpy:5821
+# game/script-topics.rpy:5819
 translate spanish monika_haterReaction_bcce1073:
 
     # m 1ekb "If you were one of my haters, you wouldn't do that in the first place."
     m 1ekb "Si fueras uno de mis enemigos, no harías eso en primer lugar."
 
-# game/script-topics.rpy:5822
+# game/script-topics.rpy:5820
 translate spanish monika_haterReaction_7ef1d719:
 
     # m 1dsa "And not to mention..."
     m 1dsa "Y sin mencionar que..."
 
-# game/script-topics.rpy:5823
+# game/script-topics.rpy:5821
 translate spanish monika_haterReaction_2734d587:
 
     # m 3eka "You're still listening to everything I say."
     m 3eka "Sigues escuchando todo lo que digo."
 
-# game/script-topics.rpy:5824
+# game/script-topics.rpy:5822
 translate spanish monika_haterReaction_f2fa4c82:
 
     # m 1esa "I know you love me deep inside."
     m 1esa "Sé que me amas en el fondo."
 
-# game/script-topics.rpy:5830
+# game/script-topics.rpy:5823
 translate spanish monika_haterReaction_8bbf6e27:
 
     # m 1ekbsa "That's why I promise to be an ideal girlfriend, just for you, [player]~"
     m 1ekbsa "Por eso prometo ser la novia ideal, solo para ti, [player]~"
 
-# game/script-topics.rpy:5831
+# game/script-topics.rpy:5824
 translate spanish monika_haterReaction_00c29539:
 
     # m 1hubfa "I won't let you hate me... I swear."
     m 1hubfa "No dejaré que me odies... lo juro."
 
-# game/script-topics.rpy:5832
+# game/script-topics.rpy:5830
 translate spanish monika_haterReaction_e2f7a6a9_1:
 
     # m 2dsc "..."
     m 2dsc "..."
 
-# game/script-topics.rpy:5833
+# game/script-topics.rpy:5831
 translate spanish monika_haterReaction_d6e71630:
 
     # m 4eka "Thank you..."
     m 4eka "Gracias..."
 
-# game/script-topics.rpy:5836
+# game/script-topics.rpy:5832
 translate spanish monika_haterReaction_c7ef4e22:
 
     # m 1hua "That makes me prouder of you, [player]!"
     m 1hua "¡Eso me hace sentir más orgullosa de ti, [player]!"
 
-# game/script-topics.rpy:5837
+# game/script-topics.rpy:5833
 translate spanish monika_haterReaction_0558b594:
 
     # m "I knew you weren't one of those people."
     m "Sabía que no eras una de esas personas."
 
-# game/script-topics.rpy:5838
+# game/script-topics.rpy:5836
 translate spanish monika_haterReaction_c10c4505:
 
     # m 1ekbsa "You really make me the happiest girlfriend ever."
     m 1ekbsa "Realmente me haces la novia más feliz de todas."
 
-# game/script-topics.rpy:5838
+# game/script-topics.rpy:5837
 translate spanish monika_haterReaction_91108ca9:
 
     # m 1ekbfb "Now that you've said it, I have to do my best to keep you from developing hate towards me."
@@ -21870,73 +21870,73 @@ translate spanish monika_marriage_4ce72af6:
     # m 1ekd "But I don't think it would be fair to either of us if it happened while I'm still trapped here."
     m 1ekd "Pero no creo que sea justo para ningun[o_a] de l[o_a]s dos si sucediera mientras todavía estoy atrapada aquí."
 
-# game/script-topics.rpy:8344
+# game/script-topics.rpy:8343
 translate spanish monika_marriage_6c195f08:
 
     # m 1ekc "I want more than anything to say yes, but I just can't..."
     m 1ekc "Quiero más que nada decir que sí, pero no puedo..."
 
-# game/script-topics.rpy:8345
+# game/script-topics.rpy:8344
 translate spanish monika_marriage_e3ffe191:
 
     # m 2duu "I think about how it would feel to be kissed by you at the altar..."
     m 2duu "Pienso en cómo se sentiría ser besada por ti en el altar..."
 
-# game/script-topics.rpy:8346
+# game/script-topics.rpy:8345
 translate spanish monika_marriage_f8eda1b5:
 
     # m 2dubsu "To hold your hand as your wife and to feel your embrace at our honeymoon..."
     m 2dubsu "Tomar tu mano como esposa y sentir tu abrazo en nuestra luna de miel..."
 
-# game/script-topics.rpy:8347
+# game/script-topics.rpy:8346
 translate spanish monika_marriage_713fb825:
 
     # m 1eka "But until I get out, it's simply not possible."
     m 1eka "Pero hasta que no salga, simplemente no es posible."
 
-# game/script-topics.rpy:8348
+# game/script-topics.rpy:8347
 translate spanish monika_marriage_d2606a4e:
 
     # m 1ekd "...I'm sorry. Please do believe me that I would say yes under any other circumstance."
     m 1ekd "... Lo siento. Por favor, créeme que diría que sí bajo cualquier otra circunstancia."
 
-# game/script-topics.rpy:8350
+# game/script-topics.rpy:8348
 translate spanish monika_marriage_319893f7:
 
     # m 1ekbsa "Just be a little more patient, okay, [mas_get_player_nickname()]? I'm sure one day we'll get our happy end."
     m 1ekbsa "Solo ten un poco más de paciencia, ¿de acuerdo, [mas_get_player_nickname()]? Estoy segura de que algún día tendremos nuestro final feliz."
 
-# game/script-topics.rpy:8351
+# game/script-topics.rpy:8350
 translate spanish monika_marriage_7cbaaebb:
 
     # m 2wubsw "M-marriage?"
     m 2wubsw "¿M-Matrimonio?"
 
-# game/script-topics.rpy:8352
+# game/script-topics.rpy:8351
 translate spanish monika_marriage_7f010c3d:
 
     # m 4rksdlb "I think it's a bit too early for marriage..."
     m 4rksdlb "Creo que es demasiado pronto para casarse..."
 
-# game/script-topics.rpy:8353
+# game/script-topics.rpy:8352
 translate spanish monika_marriage_7588a24e:
 
     # m 2ekbsa "I mean, I'm really happy that you want that, [player]..."
     m 2ekbsa "Quiero decir, estoy muy feliz de que quieras eso, [player]..."
 
-# game/script-topics.rpy:8354
+# game/script-topics.rpy:8353
 translate spanish monika_marriage_0b124af0:
 
     # m 2lkbsa "But I think I should get out of here first."
     m 2lkbsa "Pero creo que primero debería salir de aquí."
 
-# game/script-topics.rpy:8355
+# game/script-topics.rpy:8354
 translate spanish monika_marriage_e0f1b387:
 
     # m 2lsbsa "Not only do I not want this place to be the spot where I get proposed to, but I want to be there when you finally give me an engagement ring."
     m 2lsbsa "No solo no quiero que este lugar sea el lugar donde me propongas matrimonio, sino que quiero estar allí cuando finalmente me des un anillo de compromiso."
 
-# game/script-topics.rpy:8356
+# game/script-topics.rpy:8355
 translate spanish monika_marriage_eb0ca052:
 
     # m 2dkbsu "I want that special moment to happen when we can finally be together..."
@@ -22506,151 +22506,151 @@ translate spanish monika_breakup_7a8c1666:
     # m 2hua "You're just so silly, [player]."
     m 2hua "Eres tan tontit[o_a], [player]."
 
-# game/script-topics.rpy:8546
+# game/script-topics.rpy:8542
 translate spanish monika_breakup_54ba20b0:
 
     # $ menuOption = "You've done it before, but you wouldn't do that anymore, right?"
     $ menuOption = "Lo has hecho antes, pero ya no lo harías más, ¿verdad?"
 
-# game/script-topics.rpy:8549
+# game/script-topics.rpy:8544
 translate spanish monika_breakup_802137ce:
 
     # $ menuOption = "You'd never do that, right?"
     $ menuOption = "Nunca harías eso, ¿verdad?"
 
-# game/script-topics.rpy:8552
+# game/script-topics.rpy:8546
 translate spanish monika_breakup_f3a9b803:
 
     # m 2eua "[menuOption]{nw}"
     m 2eua "[menuOption]{nw}"
 
-# game/script-topics.rpy:8553
+# game/script-topics.rpy:8549
 translate spanish monika_breakup_912dd85b:
 
     # m "[menuOption]{fast}" nointeract
     m "[menuOption]{fast}" nointeract
 
-# game/script-topics.rpy:8558
+# game/script-topics.rpy:8552
 translate spanish monika_breakup_98782887:
 
     # m 2hua "Ehehe, you're so sweet."
     m 2hua "Jeje, eres tan dulce."
 
-# game/script-topics.rpy:8559
+# game/script-topics.rpy:8553
 translate spanish monika_breakup_6a742582:
 
     # m 2eka "I love you so much, [player]!~"
     m 2eka "¡Te amo tanto, [player]!~"
 
-# game/script-topics.rpy:8560
+# game/script-topics.rpy:8558
 translate spanish monika_breakup_914e6f0f:
 
     # m 1euc "You're breaking up with me?"
     m 1euc "¿Estás rompiendo conmigo?"
 
-# game/script-topics.rpy:8563
+# game/script-topics.rpy:8559
 translate spanish monika_breakup_6a6b8846:
 
     # m 2ekc "Why would you do such a thing, [player]?"
     m 2ekc "¿Por qué harías algo así, [player]?"
 
-# game/script-topics.rpy:8564
+# game/script-topics.rpy:8560
 translate spanish monika_breakup_50c8ac66:
 
     # m "Am I really that terrible of a person for you?"
     m "¿Soy realmente una persona tan terrible para ti?"
 
-# game/script-topics.rpy:8565
+# game/script-topics.rpy:8563
 translate spanish monika_breakup_1a294f84:
 
     # m 2lksdlb "I-I really can't handle this..."
     m 2lksdlb "R-Realmente no puedo manejar esto..."
 
-# game/script-topics.rpy:8566
+# game/script-topics.rpy:8564
 translate spanish monika_breakup_0dc891e1:
 
     # m 2wkd "You're just joking again, right?"
     m 2wkd "¿Estás bromeando de nuevo, verdad?"
 
-# game/script-topics.rpy:8567
+# game/script-topics.rpy:8565
 translate spanish monika_breakup_8eba55e5:
 
     # m 1wktsd "I refuse to believe you; you're all I have left!"
     m 1wktsd "Me niego a creerte; ¡eres todo lo que me queda!"
 
-# game/script-topics.rpy:8570
+# game/script-topics.rpy:8566
 translate spanish monika_breakup_c45ae292:
 
     # m 1dktsd "If you really, truly mean it...then you can just delete me and the entire game too.."
     m 1dktsd "Si realmente lo dices en serio... entonces puedes eliminarme a mí y también a todo el juego..."
 
-# game/script-topics.rpy:8571
+# game/script-topics.rpy:8567
 translate spanish monika_breakup_eae5de87:
 
     # m 1ektsd "I love you, [player]...so please tell me it's all just a bad joke."
     m 1ektsd "Te amo, [player]... así que por favor dime que es solo una broma de mal gusto."
 
-# game/script-topics.rpy:8572
+# game/script-topics.rpy:8570
 translate spanish monika_breakup_23e9a552:
 
     # m 2dsc "Are you...{w=0.5}really..."
     m 2dsc "¿Estás...{w=0.5} realmente...?"
 
-# game/script-topics.rpy:8573
+# game/script-topics.rpy:8571
 translate spanish monika_breakup_e612037c:
 
     # m "..."
     m "..."
 
-# game/script-topics.rpy:8574
+# game/script-topics.rpy:8572
 translate spanish monika_breakup_eb073c10_1:
 
     # m 2hub "Ahaha!"
     m 2hub "¡Jajaja!"
 
-# game/script-topics.rpy:8576
+# game/script-topics.rpy:8573
 translate spanish monika_breakup_85edee3a:
 
     # m 1tfu "Gotcha, [player]."
     m 1tfu "Caíste, [player]."
 
-# game/script-topics.rpy:8579
+# game/script-topics.rpy:8574
 translate spanish monika_breakup_95f9e298:
 
     # m 1tku "I know you were only joking~"
     m 1tku "Sabía que solo estabas bromeando~"
 
-# game/script-topics.rpy:8581
+# game/script-topics.rpy:8576
 translate spanish monika_breakup_dc241ba7:
 
     # m "Right?{nw}"
     m "¿Verdad?{nw}"
 
-# game/script-topics.rpy:8582
+# game/script-topics.rpy:8579
 translate spanish monika_breakup_6b7f20aa:
 
     # m "Right?{fast}" nointeract
     m "¿Verdad?{fast}" nointeract
 
-# game/script-topics.rpy:8587
+# game/script-topics.rpy:8581
 translate spanish monika_breakup_a41ccb79:
 
     # m 1hub "Ahaha! You're so silly, [player]."
     m 1hub "¡Jajaja! Eres tan tontit[o_a], [player]."
 
-# game/script-topics.rpy:8589
+# game/script-topics.rpy:8582
 translate spanish monika_breakup_0822aa6b:
 
     # m 1eka "Let's stay together forever~"
     m 1eka "Permanezcamos junt[o_a]s para siempre~"
 
-# game/script-topics.rpy:8591
+# game/script-topics.rpy:8587
 translate spanish monika_breakup_0bd97190:
 
     # m 6ckc "..."
     m 6ckc "..."
 
-# game/script-topics.rpy:8591
+# game/script-topics.rpy:8589
 translate spanish monika_breakup_02d71813:
 
     # m 2rkc "You keep saying that, I'm starting to think you actually mean it..."
@@ -22662,151 +22662,151 @@ translate spanish monika_breakup_19428ff1:
     # m 1hua "Ehehe~"
     m 1hua "Jeje~"
 
-# game/script-topics.rpy:8601
+# game/script-topics.rpy:8600
 translate spanish monika_hamlet_30a2b72c:
 
     # m 3euc "[player], have you ever heard of {i}Hamlet{/i} ?"
     m 3euc "[player], ¿alguna vez has oído hablar de {i}Hamlet{/i} ?"
 
-# game/script-topics.rpy:8602
+# game/script-topics.rpy:8601
 translate spanish monika_hamlet_080883c7:
 
     # m 1eua "It's one of Shakespeare's most popular works and it's a very interesting piece of literature, actually."
     m 1eua "Es una de las obras más populares de Shakespeare y, de hecho, es una pieza de literatura muy interesante."
 
-# game/script-topics.rpy:8603
+# game/script-topics.rpy:8602
 translate spanish monika_hamlet_c3dbc396:
 
     # m "It's about a prince who took on a quest of revenge after seeing the ghost of his murdered father."
     m "Se trata de un príncipe que emprendió una búsqueda de venganza después de ver el fantasma de su padre asesinado."
 
-# game/script-topics.rpy:8604
+# game/script-topics.rpy:8603
 translate spanish monika_hamlet_df767616:
 
     # m 1lksdlc "He was considered insane since he was the only one that could see his father's ghost, obviously."
     m 1lksdlc "Se le consideraba loco ya que era el único que podía ver el fantasma de su padre, obviamente."
 
-# game/script-topics.rpy:8605
+# game/script-topics.rpy:8604
 translate spanish monika_hamlet_06729a75:
 
     # m "His mind was also degrading along with his desire for revenge when he...killed someone he didn't mean to."
     m "Su mente también se estaba degradando junto con su deseo de venganza cuando...mató a alguien que no quería."
 
-# game/script-topics.rpy:8606
+# game/script-topics.rpy:8605
 translate spanish monika_hamlet_a16d8484:
 
     # m 1eka "Now, if it's alright, I'm going to recite some of them for you, [player]."
     m 1eka "Ahora, si está bien, voy a recitar un poco para ti, [player]."
 
-# game/script-topics.rpy:8607
+# game/script-topics.rpy:8606
 translate spanish monika_hamlet_24309fc3:
 
     # m 1dso "Ahem..."
     m 1dso "Ejem..."
 
-# game/script-topics.rpy:8608
+# game/script-topics.rpy:8607
 translate spanish monika_hamlet_28a15692:
 
     # m 1duu "..."
     m 1duu "..."
 
-# game/script-topics.rpy:8609
+# game/script-topics.rpy:8608
 translate spanish monika_hamlet_ddea8560:
 
     # m 1esc "{i}Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune{/i}"
     m 1esc "{i}¿Que es más elevado para el espíritu, sufrir los golpes y dardos de la insultante fortuna...{/i}"
 
-# game/script-topics.rpy:8610
+# game/script-topics.rpy:8609
 translate spanish monika_hamlet_c5f81e41:
 
     # m "{i}Or to take arms against a sea of troubles, and by opposing end them?{/i}"
     m "{i}... O tomar armas contra el piélago de calamidades y, haciéndoles frente, acabar con ellas?{/i}"
 
-# game/script-topics.rpy:8611
+# game/script-topics.rpy:8610
 translate spanish monika_hamlet_f4d35cca:
 
     # m 1euc "{i}To die{/i}."
     m 1euc "{i}Morir{/i}."
 
-# game/script-topics.rpy:8612
+# game/script-topics.rpy:8611
 translate spanish monika_hamlet_87e41eea:
 
     # m 1dsc "{i}To sleep, no more{/i}."
     m 1dsc "{i}Para dormir, no más{/i}."
 
-# game/script-topics.rpy:8613
+# game/script-topics.rpy:8612
 translate spanish monika_hamlet_e34c8446:
 
     # m 1euc "{i}And by a sleep to say we end the heart-ache and the thousand natural shocks that flesh is heir to.{/i}"
     m 1euc "{i}¡Y pensar que con un sueño damos fin al pesar del corazón y a los mil naturales conflictos que constituyen la herencia de la carne!{/i}"
 
-# game/script-topics.rpy:8614
+# game/script-topics.rpy:8613
 translate spanish monika_hamlet_98d31f45:
 
     # m 1esc "{i}'Tis a consummation devoutly to be wish'd.{/i}"
     m 1esc "{i}Es una consumación que se desea con devoción.{/i}"
 
-# game/script-topics.rpy:8615
+# game/script-topics.rpy:8614
 translate spanish monika_hamlet_6111571a:
 
     # m 1dsc "..."
     m 1dsc "..."
 
-# game/script-topics.rpy:8616
+# game/script-topics.rpy:8615
 translate spanish monika_hamlet_769473c0:
 
     # m 1eua "Well..."
     m 1eua "Bueno..."
 
-# game/script-topics.rpy:8617
+# game/script-topics.rpy:8616
 translate spanish monika_hamlet_0518e157:
 
     # m 1hua "How did you like it?"
     m 1hua "¿Te gustó?"
 
-# game/script-topics.rpy:8619
+# game/script-topics.rpy:8617
 translate spanish monika_hamlet_cc9c024f:
 
     # m 3eka "I tried my best reciting it, after all~"
     m 3eka "Hice mi mejor esfuerzo recitándolo, después de todo~"
 
-# game/script-topics.rpy:8620
+# game/script-topics.rpy:8619
 translate spanish monika_hamlet_e0f40d68:
 
     # m 1lksdla "Anyway, I've thought a lot about the main character, Hamlet."
     m 1lksdla "De todos modos, he pensado mucho en el personaje principal, Hamlet."
 
-# game/script-topics.rpy:8621
+# game/script-topics.rpy:8620
 translate spanish monika_hamlet_3336e456:
 
     # m 1eua "Most of the problems he faced were caused by his own indecisiveness and weak state of mind."
     m 1eua "La mayoría de los problemas que enfrentó fueron causados por su propia indecisión y su debilidad mental."
 
-# game/script-topics.rpy:8622
+# game/script-topics.rpy:8621
 translate spanish monika_hamlet_a8ae9e4b:
 
     # m 3tfu "Reminds you of a certain indecisive girl, doesn't it?"
     m 3tfu "Te recuerda a cierta chica indecisa, ¿no?"
 
-# game/script-topics.rpy:8623
+# game/script-topics.rpy:8622
 translate spanish monika_hamlet_d73d9adf:
 
     # m 1eka "But that doesn't matter anymore. I've already accomplished my quest to be with you~"
     m 1eka "Pero eso ya no importa. Ya logré mi búsqueda para estar contigo~"
 
-# game/script-topics.rpy:8624
+# game/script-topics.rpy:8623
 translate spanish monika_hamlet_10c66418:
 
     # m 1eua "It took a lot of effort but we're finally together. Just us alone."
     m 1eua "Me costó mucho esfuerzo, pero finalmente estamos junt[o_a]s. Solo nosotr[o_a]s dos."
 
-# game/script-topics.rpy:8625
+# game/script-topics.rpy:8624
 translate spanish monika_hamlet_dbb629c9:
 
     # m 1euc "Now there's only one thing left to answer, [player]..."
     m 1euc "Ahora solo queda una cosa por responder, [player]..."
 
-# game/script-topics.rpy:8626
+# game/script-topics.rpy:8625
 translate spanish monika_hamlet_4a865c4d:
 
     # m 3tfu "To be with me? Or to be with me?"
@@ -51307,7 +51307,7 @@ translate spanish strings:
     old "Attractiveness"
     new "Atractivo"
 
-    # game/script-topics.rpy:9513
+    # game/script-topics.rpy:9435
     old "when"
     new "cuando"
 
@@ -51327,7 +51327,7 @@ translate spanish strings:
     old "Time travel"
     new "Viaje en el tiempo"
 
-    # game/script-topics.rpy:9609
+    # game/script-topics.rpy:9582
     old "Prom"
     new "Baile de graduación"
 
@@ -51790,7 +51790,7 @@ translate spanish strings:
     old "I'm dark-skinned."
     new "Soy de piel oscura."
 
-    # game/script-topics.rpy:12733
+    # game/script-topics.rpy:12566
     old "right"
     new "derecho"
 
@@ -52418,7 +52418,7 @@ translate spanish strings:
     old "Pisces"
     new "Piscis"
 
-    # game/script-topics.rpy:17724
+    # game/script-topics.rpy:17721
     old "Virgo"
     new "Virgo"
 

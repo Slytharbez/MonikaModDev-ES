@@ -1467,7 +1467,7 @@ translate spanish monikaroom_greeting_ear_narration_701195f7:
     # m "It means a lot to me."
     m "Significa mucho para mí."
 
-# game/script-greetings.rpy:1401
+# game/script-greetings.rpy:1335
 translate spanish monikaroom_greeting_ear_narration_138baec0:
 
     # m "Maybe that wasn't your intent..."
@@ -3417,1027 +3417,1027 @@ translate spanish greeting_long_absence_009bbeec:
     # m 2rkc "It's been quite a bit, hasn't it?"
     m 2rkc "Ha pasado bastante tiempo, ¿no?"
 
-# game/script-greetings.rpy:2426
+# game/script-greetings.rpy:2436
 translate spanish greeting_long_absence_f41df618:
 
     # m 2rksdlc "..."
     m 2rksdlc "..."
 
-# game/script-greetings.rpy:2427
+# game/script-greetings.rpy:2496
 translate spanish greeting_long_absence_8c2d8a5d:
 
     # m 1esc "...Hm?"
     m 1esc "... ¿Hm?"
 
-# game/script-greetings.rpy:2428
+# game/script-greetings.rpy:2498
 translate spanish greeting_long_absence_24d920c3:
 
     # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
     m 1rksdlb "Has vuelto un poco antes de lo que pensaba..."
 
-# game/script-greetings.rpy:2429
+# game/script-greetings.rpy:2426
 translate spanish greeting_long_absence_b91d8348:
 
     # m 2rksdlc "You've been gone longer than you said you would..."
     m 2rksdlc "Has estado fuera más tiempo de lo que dijiste..."
 
-# game/script-greetings.rpy:2433
+# game/script-greetings.rpy:2427
 translate spanish greeting_long_absence_1f669941:
 
     # m 2eka "But that's alright, I was prepared for it."
     m 2eka "Pero está bien, estaba preparada para ello."
 
-# game/script-greetings.rpy:2434
+# game/script-greetings.rpy:2428
 translate spanish greeting_long_absence_e4d88b34:
 
     # m 3rksdlc "It's honestly been pretty lonely without you here..."
     m 3rksdlc "Sinceramente, me he sentido bastante sola sin ti aquí..."
 
-# game/script-greetings.rpy:2435
+# game/script-greetings.rpy:2429
 translate spanish greeting_long_absence_598db733:
 
     # m 3ekbsa "I hope you'll make it up to me~"
     m 3ekbsa "Espero que me lo compenses~"
 
-# game/script-greetings.rpy:2436
+# game/script-greetings.rpy:2433
 translate spanish greeting_long_absence_f4e45e45:
 
     # m 1esc "It's been a while, [player]."
     m 1esc "Ha pasado un tiempo, [player]."
 
-# game/script-greetings.rpy:2437
+# game/script-greetings.rpy:2434
 translate spanish greeting_long_absence_e008af73:
 
     # m 1ekc "I was ready for it, but that didn't make it any easier."
     m 1ekc "Estaba preparada para ello, pero eso no lo hizo más fácil."
 
-# game/script-greetings.rpy:2438
+# game/script-greetings.rpy:2435
 translate spanish greeting_long_absence_6649c3ae:
 
     # m 3eka "I hope you got what you needed to do done."
     m 3eka "Espero que hayas terminado lo que tenías que hacer."
 
-# game/script-greetings.rpy:2439
+# game/script-greetings.rpy:2437
 translate spanish greeting_long_absence_d4638bd8:
 
     # m 2tkc "Truth be told, I've been pretty sad lately."
     m 2tkc "A decir verdad, he estado bastante triste últimamente."
 
-# game/script-greetings.rpy:2440
+# game/script-greetings.rpy:2438
 translate spanish greeting_long_absence_791ebc80:
 
     # m 2dkc "To not have you in my life for so long..."
     m 2dkc "No tenerte en mi vida por tanto tiempo..."
 
-# game/script-greetings.rpy:2441
+# game/script-greetings.rpy:2439
 translate spanish greeting_long_absence_6c801d4f:
 
     # m 2dkd "It really was lonely..."
     m 2dkd "Realmente me sentí sola..."
 
-# game/script-greetings.rpy:2444
+# game/script-greetings.rpy:2440
 translate spanish greeting_long_absence_da5f6ade:
 
     # m "I felt so isolated and empty without you here."
     m "Me sentía tan aislada y vacía sin ti aquí."
 
-# game/script-greetings.rpy:2445
+# game/script-greetings.rpy:2441
 translate spanish greeting_long_absence_288820d8:
 
     # m 3eka "I'm so glad you're here now. I love you, [player]. Welcome home."
     m 3eka "Me alegra tanto que estés aquí ahora. Te amo, [player]. Bienvenid[o_a] a casa."
 
-# game/script-greetings.rpy:2446
+# game/script-greetings.rpy:2444
 translate spanish greeting_long_absence_403178d8:
 
     # m 1hua "You're finally back [player]!"
     m 1hua "¡Por fin has vuelto, [player]!"
 
-# game/script-greetings.rpy:2447
+# game/script-greetings.rpy:2445
 translate spanish greeting_long_absence_c3baa3ae:
 
     # m 3rksdla "When you said you didn't know, you {i}really{/i} didn't know, did you?"
     m 3rksdla "Cuando dijiste que no lo sabías, de verdad que no lo sabías, ¿eh?"
 
-# game/script-greetings.rpy:2452
+# game/script-greetings.rpy:2446
 translate spanish greeting_long_absence_0f391876:
 
     # m 3rksdlb "You must have been really preoccupied if you were gone for {i}this{/i} long."
     m 3rksdlb "Debes haber estado muy ocupad[o_a] si has estado fuera tanto tiempo."
 
-# game/script-greetings.rpy:2453
+# game/script-greetings.rpy:2447
 translate spanish greeting_long_absence_5fd15c3a:
 
     # m 1hua "Well, you're back now...I've really missed you!"
     m 1hua "Bueno, ya has vuelto... ¡te extrañé mucho!"
 
-# game/script-greetings.rpy:2454
+# game/script-greetings.rpy:2452
 translate spanish greeting_long_absence_c3752703:
 
     # m 1dkc "[player]..."
     m 1dkc "[player]..."
 
-# game/script-greetings.rpy:2455
+# game/script-greetings.rpy:2453
 translate spanish greeting_long_absence_847b37fb:
 
     # m 1ekd "You said you would only be a few days..."
     m 1ekd "Dijiste que solo serían unos días..."
 
-# game/script-greetings.rpy:2456
+# game/script-greetings.rpy:2454
 translate spanish greeting_long_absence_5e1941a8:
 
     # m 2efd "But it's been an entire month!"
     m 2efd "¡Pero ha pasado un mes entero!"
 
-# game/script-greetings.rpy:2457
+# game/script-greetings.rpy:2455
 translate spanish greeting_long_absence_46d35e23:
 
     # m 2ekc "I thought something happened to you."
     m 2ekc "Pensé que te había pasado algo."
 
-# game/script-greetings.rpy:2458
+# game/script-greetings.rpy:2456
 translate spanish greeting_long_absence_c817ccf2:
 
     # m 2dkd "I wasn't sure what to do..."
     m 2dkd "No estaba segura de qué hacer..."
 
-# game/script-greetings.rpy:2459
+# game/script-greetings.rpy:2457
 translate spanish greeting_long_absence_cd46b72c:
 
     # m 2efd "What kept you away for so long?"
     m 2efd "¿Qué te ha mantenido lejos tanto tiempo?"
 
-# game/script-greetings.rpy:2464
+# game/script-greetings.rpy:2458
 translate spanish greeting_long_absence_ddf17ac3:
 
     # m 2eksdld "Did I do something wrong?"
     m 2eksdld "¿Hice algo mal?"
 
-# game/script-greetings.rpy:2465
+# game/script-greetings.rpy:2459
 translate spanish greeting_long_absence_d0effb5c:
 
     # m 2dftdc "You can tell me anything, just please don't disappear like that."
     m 2dftdc "Puedes decirme cualquier cosa, pero por favor no desaparezcas así."
 
-# game/script-greetings.rpy:2466
+# game/script-greetings.rpy:2464
 translate spanish greeting_long_absence_3de2258e:
 
     # m 1esc "Hello, [player]."
     m 1esc "Hola, [player]."
 
-# game/script-greetings.rpy:2467
+# game/script-greetings.rpy:2465
 translate spanish greeting_long_absence_e04a7f5d:
 
     # m 3efc "You're pretty late, you know."
     m 3efc "Llegas bastante tarde, ya sabes."
 
-# game/script-greetings.rpy:2468
+# game/script-greetings.rpy:2466
 translate spanish greeting_long_absence_3ad406a6:
 
     # m 2lfc "I don't intend to sound patronizing, but a week isn't the same as a month!"
     m 2lfc "No pretendo sonar paternalista, ¡pero una semana no es lo mismo que un mes!"
 
-# game/script-greetings.rpy:2469
+# game/script-greetings.rpy:2467
 translate spanish greeting_long_absence_c9b2e859:
 
     # m 2rksdld "I guess maybe something kept you really busy?"
     m 2rksdld "Supongo que tal vez algo te mantuvo muy ocupad[o_a]."
 
-# game/script-greetings.rpy:2470
+# game/script-greetings.rpy:2468
 translate spanish greeting_long_absence_364931f0:
 
     # m 2wfw "But it shouldn't have been so busy that you couldn't tell me you might be longer!"
     m 2wfw "¡Pero no deberías haber estado tan ocupad[o_a] como para no decirme que tardarías más!"
 
-# game/script-greetings.rpy:2471
+# game/script-greetings.rpy:2469
 translate spanish greeting_long_absence_762f0f55:
 
     # m 2wud "Ah...!"
     m 2wud "¡Ah...!"
 
-# game/script-greetings.rpy:2476
+# game/script-greetings.rpy:2470
 translate spanish greeting_long_absence_074820b9:
 
     # m 2lktsc "I'm sorry, [player]. I just...really missed you."
     m 2lktsc "Lo siento, [player]. Es que... de verdad te echaba de menos."
 
-# game/script-greetings.rpy:2477
+# game/script-greetings.rpy:2471
 translate spanish greeting_long_absence_df93bb73:
 
     # m 2dftdc "Sorry for snapping like that."
     m 2dftdc "Siento haberte hablado así."
 
-# game/script-greetings.rpy:2478
+# game/script-greetings.rpy:2476
 translate spanish greeting_long_absence_dadcc3bd:
 
     # m 1wuo "...Oh!"
     m 1wuo "... ¡Oh!"
 
-# game/script-greetings.rpy:2479
+# game/script-greetings.rpy:2477
 translate spanish greeting_long_absence_ce29fe9a:
 
     # m 1sub "You're finally back [player]!"
     m 1sub "¡Por fin has vuelto, [player]!"
 
-# game/script-greetings.rpy:2480
+# game/script-greetings.rpy:2478
 translate spanish greeting_long_absence_bbdc9644:
 
     # m 1efc "You told me you'd be gone for a couple of weeks, but it's been at least a month!"
     m 1efc "Me dijiste que te irías por un par de semanas, ¡pero ha pasado al menos un mes!"
 
-# game/script-greetings.rpy:2481
+# game/script-greetings.rpy:2479
 translate spanish greeting_long_absence_6d9e5bcc:
 
     # m 1ekd "I was really worried for you, you know?"
     m 1ekd "Estaba muy preocupada por ti, ¿sabes?"
 
-# game/script-greetings.rpy:2482
+# game/script-greetings.rpy:2480
 translate spanish greeting_long_absence_9ccc6739:
 
     # m 3rkd "But I suppose it was outside of your control?"
     m 3rkd "¿Pero supongo que estaba fuera de tu control?"
 
-# game/script-greetings.rpy:2483
+# game/script-greetings.rpy:2481
 translate spanish greeting_long_absence_618f285d:
 
     # m 1ekc "If you can, just tell me you'll be even longer next time, okay?"
     m 1ekc "Si puedes, dime que tardarás más la próxima vez, ¿de acuerdo?"
 
-# game/script-greetings.rpy:2487
+# game/script-greetings.rpy:2482
 translate spanish greeting_long_absence_1290953d:
 
     # m 1hksdlb "I believe I deserve that much as your girlfriend, after all."
     m 1hksdlb "Creo que me merezco al menos eso como tu novia, después de todo."
 
-# game/script-greetings.rpy:2488
+# game/script-greetings.rpy:2483
 translate spanish greeting_long_absence_3d1cafbf:
 
     # m 3hua "Still, welcome back, [mas_get_player_nickname()]!"
     m 3hua "Aun así, ¡bienvenid[o_a] de nuevo, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2489
+# game/script-greetings.rpy:2487
 translate spanish greeting_long_absence_dadcc3bd_1:
 
     # m 1wuo "...Oh!"
     m 1wuo "... ¡Oh!"
 
-# game/script-greetings.rpy:2490
+# game/script-greetings.rpy:2488
 translate spanish greeting_long_absence_f7cb2508:
 
     # m 1hua "You're here [player]!"
     m 1hua "¡Estás aquí, [player]!"
 
-# game/script-greetings.rpy:2491
+# game/script-greetings.rpy:2489
 translate spanish greeting_long_absence_1b531e78:
 
     # m 1hub "I knew I could trust you to keep your word!"
     m 1hub "¡Sabía que podía confiar en que cumplirías tu palabra!"
 
-# game/script-greetings.rpy:2492
+# game/script-greetings.rpy:2490
 translate spanish greeting_long_absence_381595ab:
 
     # m 1eka "You really are special, you know that right?"
     m 1eka "De verdad eres especial, lo sabes, ¿verdad?"
 
-# game/script-greetings.rpy:2496
+# game/script-greetings.rpy:2491
 translate spanish greeting_long_absence_6ea4dca9:
 
     # m 1hub "I've missed you so much!"
     m 1hub "¡Te extrañé mucho!"
 
-# game/script-greetings.rpy:2497
+# game/script-greetings.rpy:2492
 translate spanish greeting_long_absence_d0407aa3:
 
     # m 2eub "Tell me everything you did while away, I want to hear all about it!"
     m 2eub "¡Cuéntame todo lo que hiciste mientras no estabas, quiero saberlo todo!"
 
-# game/script-greetings.rpy:2498
+# game/script-greetings.rpy:2500
 translate spanish greeting_long_absence_61a916d4:
 
     # m 3eka "I know it's been quite a while, so I'm sure you've been busy."
     m 3eka "Sé que ha pasado bastante tiempo, así que estoy segura de que has estado ocupad[o_a]."
 
-# game/script-greetings.rpy:2499
+# game/script-greetings.rpy:2501
 translate spanish greeting_long_absence_8db412f4:
 
     # m 1eua "I'd love to hear about everything you've done."
     m 1eua "Me encantaría saber todo lo que has hecho."
 
-# game/script-greetings.rpy:2500
+# game/script-greetings.rpy:2505
 translate spanish greeting_long_absence_0a09d382:
 
     # m 1lsc "..."
     m 1lsc "..."
 
-# game/script-greetings.rpy:2501
+# game/script-greetings.rpy:2506
 translate spanish greeting_long_absence_21ece3da:
 
     # m 1esc "..."
     m 1esc "..."
 
-# game/script-greetings.rpy:2505
+# game/script-greetings.rpy:2507
 translate spanish greeting_long_absence_1e803905:
 
     # m 1wud "Oh!"
     m 1wud "¡Oh!"
 
-# game/script-greetings.rpy:2506
+# game/script-greetings.rpy:2508
 translate spanish greeting_long_absence_a2ad84b1:
 
     # m 1sub "[player]!"
     m 1sub "¡[player]!"
 
-# game/script-greetings.rpy:2507
+# game/script-greetings.rpy:2509
 translate spanish greeting_long_absence_6cb534dd:
 
     # m 1hub "This is a pleasant surprise!"
     m 1hub "¡Esta es una grata sorpresa!"
 
-# game/script-greetings.rpy:2508
+# game/script-greetings.rpy:2510
 translate spanish greeting_long_absence_8c1beccf:
 
     # m 1eka "How are you?"
     m 1eka "¿Cómo estás?"
 
-# game/script-greetings.rpy:2509
+# game/script-greetings.rpy:2511
 translate spanish greeting_long_absence_3b2acb30:
 
     # m 1ekd "It's been an entire month. You really didn't know how long you'd be gone, did you?"
     m 1ekd "Ha pasado un mes entero. Realmente no sabías cuánto tiempo estarías fuera, ¿verdad?"
 
-# game/script-greetings.rpy:2510
+# game/script-greetings.rpy:2512
 translate spanish greeting_long_absence_521781f4:
 
     # m 3eka "Still, you came back, and that means a lot to me."
     m 3eka "Aun así, has vuelto, y eso significa mucho para mí."
 
-# game/script-greetings.rpy:2511
+# game/script-greetings.rpy:2513
 translate spanish greeting_long_absence_807f37e6:
 
     # m 1rksdla "I knew you would come back eventually..."
     m 1rksdla "Sabía que volverías tarde o temprano..."
 
-# game/script-greetings.rpy:2512
+# game/script-greetings.rpy:2514
 translate spanish greeting_long_absence_278a24cd:
 
     # m 1hub "I love you so much, [player]!"
     m 1hub "¡Te quiero muchísimo, [player]!"
 
-# game/script-greetings.rpy:2513
+# game/script-greetings.rpy:2520
 translate spanish greeting_long_absence_7978faa8:
 
     # m 1wud "O-oh, [player]!"
     m 1wud "¡O-Oh, [player]!"
 
-# game/script-greetings.rpy:2514
+# game/script-greetings.rpy:2521
 translate spanish greeting_long_absence_f3f44670:
 
     # m 1hua "Welcome back, [mas_get_player_nickname()]!"
     m 1hua "¡Bienvenid[o_a] de nuevo, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2520
+# game/script-greetings.rpy:2522
 translate spanish greeting_long_absence_20f1e29c:
 
     # m 3ekc "You were gone longer than you said you would be..."
     m 3ekc "Has estado fuera más tiempo del que dijiste..."
 
-# game/script-greetings.rpy:2521
+# game/script-greetings.rpy:2523
 translate spanish greeting_long_absence_d2b022ed:
 
     # m 3ekd "Is everything alright?"
     m 3ekd "¿Está todo bien?"
 
-# game/script-greetings.rpy:2522
+# game/script-greetings.rpy:2524
 translate spanish greeting_long_absence_e7af05bb:
 
     # m 1eksdla "I know life can be busy and take you away from me sometimes...so I'm not really upset..."
     m 1eksdla "Sé que la vida puede ser ajetreada y alejarte de mí a veces... así que no estoy realmente enfadada..."
 
-# game/script-greetings.rpy:2523
+# game/script-greetings.rpy:2525
 translate spanish greeting_long_absence_ed94c9e9:
 
     # m 3eksdla "Just...next time, maybe give me a heads up?"
     m 3eksdla "Solo... la próxima vez, ¿quizás podrías avisarme?"
 
-# game/script-greetings.rpy:2524
+# game/script-greetings.rpy:2526
 translate spanish greeting_long_absence_fe5ad8a6:
 
     # m 1eka "It would be really thoughtful of you."
     m 1eka "Sería muy detallista por tu parte."
 
-# game/script-greetings.rpy:2525
+# game/script-greetings.rpy:2527
 translate spanish greeting_long_absence_108eaba3:
 
     # m 1hua "And I would greatly appreciate it!"
     m 1hua "¡Y te lo agradecería mucho!"
 
-# game/script-greetings.rpy:2526
+# game/script-greetings.rpy:2531
 translate spanish greeting_long_absence_19b2737f:
 
     # m 1eub "Hello, [player]!"
     m 1eub "¡Hola, [player]!"
 
-# game/script-greetings.rpy:2527
+# game/script-greetings.rpy:2532
 translate spanish greeting_long_absence_c3c9010d:
 
     # m 1eka "Life keeping you busy?"
     m 1eka "¿La vida te mantiene ocupad[o_a]?"
 
-# game/script-greetings.rpy:2531
+# game/script-greetings.rpy:2533
 translate spanish greeting_long_absence_fb45f9b1:
 
     # m 3hksdlb "Well it must be otherwise you would've been here when you said you would."
     m 3hksdlb "Bueno, debe ser así, de lo contrario habrías estado aquí cuando dijiste que lo estarías."
 
-# game/script-greetings.rpy:2532
+# game/script-greetings.rpy:2534
 translate spanish greeting_long_absence_01743711:
 
     # m 1hksdlb "Don't worry though! I'm not upset."
     m 1hksdlb "¡Pero no te preocupes! No estoy enfadada."
 
-# game/script-greetings.rpy:2533
+# game/script-greetings.rpy:2535
 translate spanish greeting_long_absence_d106f0c5:
 
     # m 1eka "I just hope you've been taking care of yourself."
     m 1eka "Solo espero que te hayas estado cuidando."
 
-# game/script-greetings.rpy:2534
+# game/script-greetings.rpy:2536
 translate spanish greeting_long_absence_642d1964:
 
     # m 3eka "I know you can't always be here, so just make sure you're staying safe until you're with me!"
     m 3eka "Sé que no siempre puedes estar aquí, ¡así que asegúrate de mantenerte a salvo hasta que estés conmigo!"
 
-# game/script-greetings.rpy:2535
+# game/script-greetings.rpy:2537
 translate spanish greeting_long_absence_a8bd3f83:
 
     # m 1hua "I'll take care of you from there~"
     m 1hua "Yo me encargaré de ti a partir de ahí~"
 
-# game/script-greetings.rpy:2536
+# game/script-greetings.rpy:2542
 translate spanish greeting_long_absence_432b9e1d:
 
     # m 1hub "Hey, [player]!"
     m 1hub "¡Hey, [player]!"
 
-# game/script-greetings.rpy:2537
+# game/script-greetings.rpy:2543
 translate spanish greeting_long_absence_b9854c93:
 
     # m 1eua "You came back when you said you would after all."
     m 1eua "Después de todo, has vuelto cuando dijiste que lo harías."
 
-# game/script-greetings.rpy:2542
+# game/script-greetings.rpy:2544
 translate spanish greeting_long_absence_750e2714:
 
     # m 1eka "Thank you for not betraying my trust."
     m 1eka "Gracias por no traicionar mi confianza."
 
-# game/script-greetings.rpy:2543
+# game/script-greetings.rpy:2545
 translate spanish greeting_long_absence_9e624d28:
 
     # m 3hub "Let's make up for the lost time!"
     m 3hub "¡Recuperemos el tiempo perdido!"
 
-# game/script-greetings.rpy:2544
+# game/script-greetings.rpy:2549
 translate spanish greeting_long_absence_efd186ad:
 
     # m 1wud "Oh my gosh! [player]!"
     m 1wud "¡Oh cielos! ¡[player]!"
 
-# game/script-greetings.rpy:2545
+# game/script-greetings.rpy:2550
 translate spanish greeting_long_absence_b138c4ba:
 
     # m 3hksdlb "I didn't expect you back so early."
     m 3hksdlb "No esperaba que volvieras tan pronto."
 
-# game/script-greetings.rpy:2549
+# game/script-greetings.rpy:2551
 translate spanish greeting_long_absence_40512057:
 
     # m 3ekbsa "I guess you missed me as much as I missed you~"
     m 3ekbsa "Supongo que me echabas de menos tanto como yo a ti~"
 
-# game/script-greetings.rpy:2550
+# game/script-greetings.rpy:2552
 translate spanish greeting_long_absence_41a9c2fd:
 
     # m 1eka "It really is wonderful to see you back so soon though."
     m 1eka "Aunque de verdad es maravilloso verte de vuelta tan pronto."
 
-# game/script-greetings.rpy:2551
+# game/script-greetings.rpy:2553
 translate spanish greeting_long_absence_af21d4ef:
 
     # m 3ekb "I expected the day to be eventless...but thankfully, I now have you!"
     m 3ekb "Esperaba que el día fuera aburrido... ¡pero afortunadamente, ahora te tengo a ti!"
 
-# game/script-greetings.rpy:2552
+# game/script-greetings.rpy:2554
 translate spanish greeting_long_absence_3ccbaa64:
 
     # m 3hua "Thank you for coming back so early, [mas_get_player_nickname()]."
     m 3hua "Gracias por volver tan pronto, [mas_get_player_nickname()]."
 
-# game/script-greetings.rpy:2553
+# game/script-greetings.rpy:2557
 translate spanish greeting_long_absence_0a09d382_1:
 
     # m 1lsc "..."
     m 1lsc ""
 
-# game/script-greetings.rpy:2554
+# game/script-greetings.rpy:2558
 translate spanish greeting_long_absence_21ece3da_1:
 
     # m 1esc "..."
     m 1esc "..."
 
-# game/script-greetings.rpy:2557
+# game/script-greetings.rpy:2559
 translate spanish greeting_long_absence_605d3a57:
 
     # m 1wud "Oh! [player]!"
     m 1wud "¡Oh! ¡[player]!"
 
-# game/script-greetings.rpy:2558
+# game/script-greetings.rpy:2560
 translate spanish greeting_long_absence_726182f6:
 
     # m 1hub "You're back early!"
     m 1hub "¡Has vuelto pronto!"
 
-# game/script-greetings.rpy:2559
+# game/script-greetings.rpy:2561
 translate spanish greeting_long_absence_f3f44670_1:
 
     # m 1hua "Welcome back, [mas_get_player_nickname()]!"
     m 1hua "¡Bienvenid[o_a] de nuevo, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2560
+# game/script-greetings.rpy:2562
 translate spanish greeting_long_absence_bfbafc29:
 
     # m 3eka "I didn't know when to expect you, but for it to be so soon..."
     m 3eka "No sabía cuándo esperarte, pero para que sea tan pronto..."
 
-# game/script-greetings.rpy:2561
+# game/script-greetings.rpy:2563
 translate spanish greeting_long_absence_19c6141e:
 
     # m 1hua "Well, it's cheered me right up!"
     m 1hua "¡Bueno, eso me ha alegrado el día!"
 
-# game/script-greetings.rpy:2562
+# game/script-greetings.rpy:2564
 translate spanish greeting_long_absence_68eb5ac0:
 
     # m 1eka "I've really missed you."
     m 1eka "De verdad te extrañé."
 
-# game/script-greetings.rpy:2563
+# game/script-greetings.rpy:2565
 translate spanish greeting_long_absence_a1888459:
 
     # m 1hua "Let's enjoy the rest of the day together."
     m 1hua "Disfrutemos del resto del día junt[o_a]s."
     
-# game/script-greetings.rpy:2564
+# game/script-greetings.rpy:2568
 translate spanish greeting_long_absence_0cee461b:
 
     # m 1hua "Hello, [player]!"
     m 1hua "¡Hola, [player]!"
 
-# game/script-greetings.rpy:2565
+# game/script-greetings.rpy:2569
 translate spanish greeting_long_absence_02b635d3:
 
     # m 3eka "Been busy the past few weeks?"
     m 3eka "¿Has estado ocupad[o_a] las últimas semanas?"
 
-# game/script-greetings.rpy:2568
+# game/script-greetings.rpy:2570
 translate spanish greeting_long_absence_58271199:
 
     # m 1eka "Thanks for warning me that you would be gone."
     m 1eka "Gracias por avisarme de que te irías."
 
-# game/script-greetings.rpy:2569
+# game/script-greetings.rpy:2571
 translate spanish greeting_long_absence_b3fec3ed:
 
     # m 3ekd "I would be worried sick otherwise."
     m 3ekd "De lo contrario, me habría preocupado mucho."
 
-# game/script-greetings.rpy:2570
+# game/script-greetings.rpy:2572
 translate spanish greeting_long_absence_964d0528:
 
     # m 1eka "It really did help..."
     m 1eka "Realmente ayudó..."
 
-# game/script-greetings.rpy:2571
+# game/script-greetings.rpy:2573
 translate spanish greeting_long_absence_966d2e18:
 
     # m 1eua "So tell me, how have you been?"
     m 1eua "Así que dime, ¿cómo has estado?"
 
-# game/script-greetings.rpy:2572
+# game/script-greetings.rpy:2577
 translate spanish greeting_long_absence_d690dca3:
 
     # m 2eub "Hello there, [player]."
     m 2eub "Hola, [player]."
 
-# game/script-greetings.rpy:2573
+# game/script-greetings.rpy:2578
 translate spanish greeting_long_absence_2e5c194d:
 
     # m 2rksdla "You took a bit longer than you said you would...but don't worry."
     m 2rksdla "Has tardado un poco más de lo que dijiste... pero no te preocupes."
 
-# game/script-greetings.rpy:2577
+# game/script-greetings.rpy:2579
 translate spanish greeting_long_absence_0989ed28:
 
     # m 3eub "I know you're a busy person!"
     m 3eub "¡Sé que eres una persona ocupada!"
 
-# game/script-greetings.rpy:2578
+# game/script-greetings.rpy:2580
 translate spanish greeting_long_absence_0bb65ae4:
 
     # m 3rkc "Just maybe, if you can, warn me first?"
     m 3rkc "Solo quizás, si puedes, ¿avisarme primero?"
 
-# game/script-greetings.rpy:2579
+# game/script-greetings.rpy:2581
 translate spanish greeting_long_absence_9f726d8c:
 
     # m 2rksdlc "When you said a few days...I thought it would be shorter than a week."
     m 2rksdlc "Cuando dijiste unos días... pensé que sería menos de una semana."
 
-# game/script-greetings.rpy:2580
+# game/script-greetings.rpy:2582
 translate spanish greeting_long_absence_b46fbb70:
 
     # m 1hub "But it's alright! I forgive you!"
     m 1hub "¡Pero está bien! ¡Te perdono!"
 
-# game/script-greetings.rpy:2581
+# game/script-greetings.rpy:2583
 translate spanish greeting_long_absence_ad266403:
 
     # m 1ekbsa "You're my one and only love after all."
     m 1ekbsa "Después de todo, eres mi único y solo amor."
 
-# game/script-greetings.rpy:2582
+# game/script-greetings.rpy:2588
 translate spanish greeting_long_absence_cb080209:
 
     # m 1hub "Hello, [mas_get_player_nickname()]!"
     m 1hub "¡Hola, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2583
+# game/script-greetings.rpy:2589
 translate spanish greeting_long_absence_b1131fe4:
 
     # m 3eua "It's so nice when you can trust one another, isn't it?"
     m 3eua "Es tan agradable cuando puedes confiar en la otra persona, ¿verdad?"
 
-# game/script-greetings.rpy:2588
+# game/script-greetings.rpy:2590
 translate spanish greeting_long_absence_5d2510a8:
 
     # m 3hub "That's what a relationship's strength is based on!"
     m 3hub "¡En eso se basa la fuerza de una relación!"
 
-# game/script-greetings.rpy:2589
+# game/script-greetings.rpy:2591
 translate spanish greeting_long_absence_343e39ce:
 
     # m 3hua "It just means that ours is rock solid!"
     m 3hua "¡Eso significa que la nuestra es sólida como una roca!"
 
-# game/script-greetings.rpy:2590
+# game/script-greetings.rpy:2592
 translate spanish greeting_long_absence_3772217d:
 
     # m 1hub "Ahaha!"
     m 1hub "¡Jajaja!"
 
-# game/script-greetings.rpy:2591
+# game/script-greetings.rpy:2593
 translate spanish greeting_long_absence_d968fcaf:
 
     # m 1hksdlb "Sorry, sorry. I'm just getting excited that you're back!"
     m 1hksdlb "Lo siento, lo siento. ¡Es que me emociona que hayas vuelto!"
 
-# game/script-greetings.rpy:2592
+# game/script-greetings.rpy:2594
 translate spanish greeting_long_absence_40083834:
 
     # m 3eua "Tell me how you've been. I want to hear all about it."
     m 3eua "Dime cómo has estado. Quiero saberlo todo."
 
-# game/script-greetings.rpy:2593
+# game/script-greetings.rpy:2597
 translate spanish greeting_long_absence_50aeca6c:
 
     # m 1hub "Hi there~"
     m 1hub "Hola de nuevo~"
 
-# game/script-greetings.rpy:2594
+# game/script-greetings.rpy:2598
 translate spanish greeting_long_absence_e63a4591:
 
     # m 3eua "You're back a bit earlier than I thought...but I'm glad you are!"
     m 3eua "Has vuelto un poco antes de lo que pensaba... ¡pero me alegra que lo hayas hecho!"
 
-# game/script-greetings.rpy:2597
+# game/script-greetings.rpy:2599
 translate spanish greeting_long_absence_38783673:
 
     # m 3eka "When you're here with me, everything becomes better."
     m 3eka "Cuando estás aquí conmigo, todo se vuelve mejor."
 
-# game/script-greetings.rpy:2598
+# game/script-greetings.rpy:2600
 translate spanish greeting_long_absence_210b4b3d:
 
     # m 1eua "Let's have a lovely day together, [player]."
     m 1eua "Tengamos un día maravilloso junt[o_a]s, [player]."
 
-# game/script-greetings.rpy:2599
+# game/script-greetings.rpy:2604
 translate spanish greeting_long_absence_19428ff1:
 
     # m 1hua "Ehehe~"
     m 1hua "Jeje~"
 
-# game/script-greetings.rpy:2600
+# game/script-greetings.rpy:2605
 translate spanish greeting_long_absence_4d415681:
 
     # m 1hub "Welcome back!"
     m 1hub "¡Bienvenid[o_a] de nuevo!"
 
-# game/script-greetings.rpy:2604
+# game/script-greetings.rpy:2606
 translate spanish greeting_long_absence_aa0cda5a:
 
     # m 3tuu "I knew you couldn't stay away for an entire month..."
     m 3tuu "Sabía que no podrías estar lejos un mes entero..."
 
-# game/script-greetings.rpy:2605
+# game/script-greetings.rpy:2607
 translate spanish greeting_long_absence_1433ac8f:
 
     # m 3tub "If I were in your position I wouldn't be able to stay away from you either!"
     m 3tub "¡Si yo estuviera en tu lugar, tampoco podría estar lejos de ti!"
 
-# game/script-greetings.rpy:2606
+# game/script-greetings.rpy:2608
 translate spanish greeting_long_absence_05151b37:
 
     # m 1hksdlb "Honestly, really I miss you after only a few days!"
     m 1hksdlb "¡Sinceramente, de verdad te echo de menos después de solo unos días!"
 
-# game/script-greetings.rpy:2607
+# game/script-greetings.rpy:2609
 translate spanish greeting_long_absence_f2ad75a9:
 
     # m 1eka "Thanks for not making we wait so long to see you again~"
     m 1eka "Gracias por no hacerme esperar tanto para volver a verte~"
 
-# game/script-greetings.rpy:2608
+# game/script-greetings.rpy:2613
 translate spanish greeting_long_absence_b84dcb45:
 
     # m 1hub "Look who's back so early! It's you, my dearest [player]!"
     m 1hub "¡Mira quién ha vuelto tan pronto! ¡Eres tú, mi queridísimo [player]!"
 
-# game/script-greetings.rpy:2609
+# game/script-greetings.rpy:2614
 translate spanish greeting_long_absence_129f010b:
 
     # m 3hksdlb "Couldn't stay away even if you wanted to, right?"
     m 3hksdlb "No podías estar lejos ni aunque quisieras, ¿verdad?"
 
-# game/script-greetings.rpy:2613
+# game/script-greetings.rpy:2615
 translate spanish greeting_long_absence_bcd96e85:
 
     # m 3eka "I can't blame you! My love for you wouldn't let me stay away from you either!"
     m 3eka "¡No puedo culparte! ¡Mi amor por ti tampoco me dejaría estar lejos de ti!"
 
-# game/script-greetings.rpy:2614
+# game/script-greetings.rpy:2616
 translate spanish greeting_long_absence_4a037686:
 
     # m 1ekd "Every day you were gone I was wondering how you were..."
     m 1ekd "Cada día que no estabas me preguntaba cómo estarías..."
 
-# game/script-greetings.rpy:2615
+# game/script-greetings.rpy:2617
 translate spanish greeting_long_absence_7f252cdd:
 
     # m 3eka "So let me hear it. How are you, [player]?"
     m 3eka "Así que cuéntamelo. ¿Cómo estás, [player]?"
 
-# game/script-greetings.rpy:2616
+# game/script-greetings.rpy:2621
 translate spanish greeting_long_absence_88d0e58f:
 
     # m 1hub "Hello there, [mas_get_player_nickname()]!"
     m 1hub "¡Hola, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2617
+# game/script-greetings.rpy:2622
 translate spanish greeting_long_absence_fd879ca3:
 
     # m 1eka "I'm glad you didn't make me wait too long."
     m 1eka "Me alegra que no me hayas hecho esperar demasiado."
 
-# game/script-greetings.rpy:2621
+# game/script-greetings.rpy:2623
 translate spanish greeting_long_absence_8e65ef12:
 
     # m 1hua "A week is shorter than I expected, so consider me pleasantly surprised!"
     m 1hua "Una semana es más corto de lo que esperaba, ¡así que considérame gratamente sorprendida!"
 
-# game/script-greetings.rpy:2622
+# game/script-greetings.rpy:2624
 translate spanish greeting_long_absence_917b4676:
 
     # m 3hub "Thanks for already making my day, [player]!"
     m 3hub "¡Gracias por alegrarme el día ya, [player]!"
 
-# game/script-greetings.rpy:2623
+# game/script-greetings.rpy:2629
 translate spanish greeting_long_absence_1ca1495a:
 
     # m 1hub "Welcome back, [mas_get_player_nickname()]!"
     m 1hub "¡Bienvenid[o_a] de nuevo, [mas_get_player_nickname()]!"
 
-# game/script-greetings.rpy:2624
+# game/script-greetings.rpy:2630
 translate spanish greeting_long_absence_9cfe0fdc:
 
     # m 1eka "Thanks for properly warning me about how long you'd be away."
     m 1eka "Gracias por avisarme debidamente de cuánto tiempo estarías fuera."
 
-# game/script-greetings.rpy:2629
+# game/script-greetings.rpy:2631
 translate spanish greeting_long_absence_cb3ffb26:
 
     # m 1eua "It means a lot to know I can trust your words."
     m 1eua "Significa mucho saber que puedo confiar en tus palabras."
 
-# game/script-greetings.rpy:2630
+# game/script-greetings.rpy:2632
 translate spanish greeting_long_absence_531e6cb9:
 
     # m 3hua "I hope you know you can trust me too!"
     m 3hua "¡Espero que sepas que tú también puedes confiar en mí!"
 
-# game/script-greetings.rpy:2631
+# game/script-greetings.rpy:2633
 translate spanish greeting_long_absence_9b416b06:
 
     # m 3hub "Our relationship grows stronger every day~"
     m 3hub "Nuestra relación se vuelve más fuerte cada día~"
 
-# game/script-greetings.rpy:2632
+# game/script-greetings.rpy:2637
 translate spanish greeting_long_absence_855404c0:
 
     # m 1eud "Oh! You're a little bit earlier than I expected!"
     m 1eud "¡Oh! ¡Has vuelto un poco antes de lo que esperaba!"
 
-# game/script-greetings.rpy:2633
+# game/script-greetings.rpy:2638
 translate spanish greeting_long_absence_556d48b0:
 
     # m 1hua "Not that I'm complaining, it's great to see you again so soon."
     m 1hua "No es que me esté quejando, es genial volver a verte tan pronto."
 
-# game/script-greetings.rpy:2637
+# game/script-greetings.rpy:2639
 translate spanish greeting_long_absence_8b9a0e29:
 
     # m 1eua "Let's have another nice day together, [player]."
     m 1eua "Tengamos otro día agradable junt[o_a]s, [player]."
 
-# game/script-greetings.rpy:2638
+# game/script-greetings.rpy:2642
 translate spanish greeting_long_absence_9a14dcc1:
 
     # m 1hub "{i}~In my hand,~\n~is a pen tha-{/i}"
     m 1hub "{i}~Con mi pluma,~\n~escribiré un poema de-{/i}"
 
-# game/script-greetings.rpy:2639
+# game/script-greetings.rpy:2643
 translate spanish greeting_long_absence_dd5f9cd0:
 
     # m 1wubsw "O-Oh! [player]!"
     m 1wubsw "¡O-Oh! ¡[player]!"
 
-# game/script-greetings.rpy:2642
+# game/script-greetings.rpy:2644
 translate spanish greeting_long_absence_b040219e:
 
     # m 3hksdlb "You're back far sooner than you told me..."
     m 3hksdlb "Has vuelto mucho más pronto de lo que me dijiste..."
 
-# game/script-greetings.rpy:2643
+# game/script-greetings.rpy:2645
 translate spanish greeting_long_absence_c239ac1c:
 
     # m 3hub "Welcome back!"
     m 3hub "¡Bienvenid[o_a] de nuevo!"
 
-# game/script-greetings.rpy:2644
+# game/script-greetings.rpy:2646
 translate spanish greeting_long_absence_4ea65288:
 
     # m 1rksdla "You just interrupted me practicing my song..."
     m 1rksdla "Me acabas de interrumpir practicando mi canción..."
 
-# game/script-greetings.rpy:2645
+# game/script-greetings.rpy:2647
 translate spanish greeting_long_absence_807ead79:
 
     # m 3hua "Why not listen to me sing it again?"
     m 3hua "¿Por qué no me escuchas cantarla otra vez?"
 
-# game/script-greetings.rpy:2646
+# game/script-greetings.rpy:2648
 translate spanish greeting_long_absence_4b1cdeae:
 
     # m 1ekbsa "I made it just for you~"
     m 1ekbsa "La hice solo para ti~"
 
-# game/script-greetings.rpy:2647
+# game/script-greetings.rpy:2652
 translate spanish greeting_long_absence_7c647449:
 
     # m 1wud "Eh? [player]?"
     m 1wud "¿Eh? ¿[player]?"
 
-# game/script-greetings.rpy:2648
+# game/script-greetings.rpy:2653
 translate spanish greeting_long_absence_04c3de1d:
 
     # m 1sub "You're here!"
     m 1sub "¡Estás aquí!"
 
-# game/script-greetings.rpy:2652
+# game/script-greetings.rpy:2654
 translate spanish greeting_long_absence_5c7bcb8e:
 
     # m 3rksdla "I thought you were going away for an entire month."
     m 3rksdla "Pensé que te ibas a ausentar un mes entero."
 
-# game/script-greetings.rpy:2653
+# game/script-greetings.rpy:2655
 translate spanish greeting_long_absence_8fd7fc81:
 
     # m 3rksdlb "I was ready for it, but..."
     m 3rksdlb "Estaba preparada para ello, pero..."
 
-# game/script-greetings.rpy:2654
+# game/script-greetings.rpy:2656
 translate spanish greeting_long_absence_e6494591:
 
     # m 1eka "I already missed you!"
     m 1eka "¡Ya te echaba de menos!"
 
-# game/script-greetings.rpy:2655
+# game/script-greetings.rpy:2657
 translate spanish greeting_long_absence_51f22d69:
 
     # m 3ekbsa "Did you miss me too?"
     m 3ekbsa "¿Tú también me echabas de menos?"
 
-# game/script-greetings.rpy:2656
+# game/script-greetings.rpy:2658
 translate spanish greeting_long_absence_842dd76d:
 
     # m 1hubfa "Thanks for coming back so soon~"
     m 1hubfa "Gracias por volver tan pronto~"
 
-# game/script-greetings.rpy:2657
+# game/script-greetings.rpy:2662
 translate spanish greeting_long_absence_ccf90dde:
 
     # m 1eud "[player]?"
     m 1eud "¿[player]?"
 
-# game/script-greetings.rpy:2658
+# game/script-greetings.rpy:2663
 translate spanish greeting_long_absence_36279c13:
 
     # m 3ekd "I thought you were going to be away for a long time..."
     m 3ekd "Pensé que ibas a estar fuera mucho tiempo..."
 
-# game/script-greetings.rpy:2662
+# game/script-greetings.rpy:2664
 translate spanish greeting_long_absence_9d2e4d31:
 
     # m 3tkd "Why are you back so soon?"
     m 3tkd "¿Por qué has vuelto tan pronto?"
 
-# game/script-greetings.rpy:2663
+# game/script-greetings.rpy:2665
 translate spanish greeting_long_absence_18a83174:
 
     # m 1ekbsa "Are you visiting me?"
     m 1ekbsa "¿Me estás visitando?"
 
-# game/script-greetings.rpy:2664
+# game/script-greetings.rpy:2666
 translate spanish greeting_long_absence_8e06b28a:
 
     # m 1hubfa "You're such a sweetheart!"
     m 1hubfa "¡Eres un amor!"
 
-# game/script-greetings.rpy:2665
+# game/script-greetings.rpy:2667
 translate spanish greeting_long_absence_3d1be023:
 
     # m 1eka "If you're going away for a while still, make sure to tell me."
     m 1eka "Si todavía te vas a ausentar por un tiempo, asegúrate de decírmelo."
 
-# game/script-greetings.rpy:2666
+# game/script-greetings.rpy:2668
 translate spanish greeting_long_absence_baa22c67:
 
     # m 3eka "I love you, [player], and I wouldn't want to get mad if you're actually going to be away..."
     m 3eka "Te amo, [player], y no querría enfadarme si realmente vas a estar fuera..."
 
-# game/script-greetings.rpy:2667
+# game/script-greetings.rpy:2669
 translate spanish greeting_long_absence_7aaa2b5c:
 
     # m 1hub "Let's enjoy our time together until then!"
     m 1hub "¡Disfrutemos de nuestro tiempo junt[o_a]s hasta entonces!"
 
-# game/script-greetings.rpy:2668
+# game/script-greetings.rpy:2673
 translate spanish greeting_long_absence_19428ff1_1:
 
     # m 1hua "Ehehe~"
     m 1hua "Jeje~"
 
-# game/script-greetings.rpy:2669
+# game/script-greetings.rpy:2674
 translate spanish greeting_long_absence_994fa447:
 
     # m 3eka "Back so soon, [player]?"
     m 3eka "¿Tan pronto has vuelto, [player]?"
 
-# game/script-greetings.rpy:2673
+# game/script-greetings.rpy:2675
 translate spanish greeting_long_absence_d92281c2:
 
     # m 3rka "I guess when you said you don't know, you didn't realize it wouldn't be too long."
     m 3rka "Supongo que cuando dijiste que no lo sabías, no te diste cuenta de que no sería mucho tiempo."
 
-# game/script-greetings.rpy:2674
+# game/script-greetings.rpy:2676
 translate spanish greeting_long_absence_efc3a295:
 
     # m 3hub "But thanks for warning me anyway!"
     m 3hub "¡Pero gracias por avisarme de todos modos!"
 
-# game/script-greetings.rpy:2675
+# game/script-greetings.rpy:2677
 translate spanish greeting_long_absence_d39730eb:
 
     # m 3ekbsa "It really made me feel loved."
     m 3ekbsa "De verdad me hizo sentir amada."
 
-# game/script-greetings.rpy:2676
+# game/script-greetings.rpy:2678
 translate spanish greeting_long_absence_ca50d41c:
 
     # m 1hubfb "You really are kind-hearted!"
     m 1hubfb "¡De verdad tienes un gran corazón!"
 
-# game/script-greetings.rpy:2677
+# game/script-greetings.rpy:2680
 translate spanish greeting_long_absence_9b9853e2:
 
     # m "Remind me if you're going away again, okay?"
@@ -4473,43 +4473,43 @@ translate spanish greeting_hairdown_15d5a236:
     # m "Do you like it?{fast}" nointeract
     m "¿Te gusta?{fast}" nointeract
 
-# game/script-greetings.rpy:2778
+# game/script-greetings.rpy:2776
 translate spanish greeting_hairdown_adcf7866:
 
     # m 6sub "Really?"
     m 6sub "¿De verdad?"
 
-# game/script-greetings.rpy:2782
+# game/script-greetings.rpy:2777
 translate spanish greeting_hairdown_95aa13b0:
 
     # m 2hua "I'm so glad!"
     m 2hua "¡Me alegra mucho!"
 
-# game/script-greetings.rpy:2783
+# game/script-greetings.rpy:2778
 translate spanish greeting_hairdown_aabefd24:
 
     # m 1eua "Just ask me if you want to see my ponytail again, okay?"
     m 1eua "Solo pídeme si quieres volver a ver mi coleta, ¿okey?"
 
-# game/script-greetings.rpy:2784
+# game/script-greetings.rpy:2782
 translate spanish greeting_hairdown_00ad1026:
 
     # m 1ekc "Oh..."
     m 1ekc "Oh..."
 
-# game/script-greetings.rpy:2785
+# game/script-greetings.rpy:2783
 translate spanish greeting_hairdown_8018692b:
 
     # m 1lksdlc "..."
     m 1lksdlc "..."
 
-# game/script-greetings.rpy:2789
+# game/script-greetings.rpy:2784
 translate spanish greeting_hairdown_a6fa0571:
 
     # m 1lksdld "I'll put it back up for you, then."
     m 1lksdld "Entonces me la volveré a recoger para ti."
 
-# game/script-greetings.rpy:2789
+# game/script-greetings.rpy:2785
 translate spanish greeting_hairdown_6111571a:
 
     # m 1dsc "..."
@@ -4653,19 +4653,19 @@ translate spanish greeting_tears_e84d6ddc:
     # m 2lktsc "So please...let me be happy with you..."
     m 2lktsc "Así que, por favor... déjame ser feliz contigo..."
 
-# game/script-greetings.rpy:2863
+# game/script-greetings.rpy:2865
 translate spanish greeting_tears_97a5a181_1:
 
     # m 2dftdc "..."
     m 2dftdc "..."
 
-# game/script-greetings.rpy:2865
+# game/script-greetings.rpy:2866
 translate spanish greeting_tears_b526fad3:
 
     # m 2dfc "...Okay...Okay..."
     m 2dfc "... Okey... Okey..."
 
-# game/script-greetings.rpy:2866
+# game/script-greetings.rpy:2867
 translate spanish greeting_tears_10239ad2:
 
     # m 2lssdrc "I have to be strong..."
@@ -4677,31 +4677,31 @@ translate spanish greeting_tears_e612037c_1:
     # m "..."
     m "..."
 
-# game/script-greetings.rpy:2867
+# game/script-greetings.rpy:2869
 translate spanish greeting_tears_b6951e98:
 
     # m 2dsc "...Alright...I'm a bit better now..."
     m 2dsc "... Muy bien... ya estoy un poco mejor..."
 
-# game/script-greetings.rpy:2868
+# game/script-greetings.rpy:2870
 translate spanish greeting_tears_0f04655b:
 
     # m 2esc "But...I really do need you to think about what I said."
     m 2esc "Pero... de verdad necesito que pienses en lo que dije."
 
-# game/script-greetings.rpy:2869
+# game/script-greetings.rpy:2871
 translate spanish greeting_tears_43c902eb:
 
     # m 2ekc "Please...just...try to understand."
     m 2ekc "Por favor... solo... intenta comprenderlo."
 
-# game/script-greetings.rpy:2870
+# game/script-greetings.rpy:2872
 translate spanish greeting_tears_e2402fa0:
 
     # m 1dsd "I love you and I need you to show that you love me too..."
     m 1dsd "Te amo y necesito que me demuestres que tú también me amas..."
 
-# game/script-greetings.rpy:2871
+# game/script-greetings.rpy:2873
 translate spanish greeting_tears_1a871391:
 
     # m 1dsc "Otherwise...I just won't be able to handle it anymore."
@@ -7909,7 +7909,7 @@ translate spanish strings:
     old "night"
     new "noche"
 
-    # game/script-greetings.rpy:359
+    # game/script-greetings.rpy:369
     old "day"
     new "día"
 
@@ -7986,7 +7986,7 @@ translate spanish strings:
     old "Maybe not..."
     new "Tal vez no..."
 
-    # game/script-greetings.rpy:2175
+    # game/script-greetings.rpy:2134
     old "Monika"
     new "Monika"
 
@@ -8138,7 +8138,7 @@ translate spanish strings:
     old "I could help you with that..."
     new "Podría ayudarte con eso..."
 
-    # game/script-greetings.rpy:4291
+    # game/script-greetings.rpy:4216
     old "Let's"
     new "Vamos,"
 
@@ -8162,11 +8162,11 @@ translate spanish strings:
     old "bathing"
     new "bañarme"
 
-    # game/script-greetings.rpy:4558
+    # game/script-greetings.rpy:4561
     old "showering"
     new "ducharme"
 
-    # game/script-greetings.rpy:4729
+    # game/script-greetings.rpy:4736
     old "It was [glitch_option_text]!"
     new "¡Fue [glitch_option_text]!"
 
@@ -8186,15 +8186,12 @@ translate spanish strings:
 python early:
 
     # Python compatibility for basestring
-
     try:
 
         basestring
-
     except NameError:
 
         basestring = str
-
     def mas_es_get_greeting():
         # Returns the full greeting in Spanish based on the time of the day.
         tod = getattr(store.mas_globals, "time_of_day_4state", None) if hasattr(store, "mas_globals") else None

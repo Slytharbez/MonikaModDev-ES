@@ -20,7 +20,7 @@ translate spanish strings:
     new "TAN VERDADERA COMO PUEDE SER"
 
     # dlg_desc
-    # game/zz_spriteobjects.rpy:1236
+    # game/zz_spriteobjects.rpy:1225
     old "necklace"
     new "este collar"
 

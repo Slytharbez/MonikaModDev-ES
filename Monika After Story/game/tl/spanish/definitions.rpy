@@ -10,7 +10,7 @@ translate spanish strings:
     old "evening"
     new "noche"
 
-    # game/definitions.rpy:6594
+    # game/definitions.rpy:6591
     old "morning"
     new "días"
 
@@ -42,6 +42,6 @@ translate spanish strings:
     old "Very Often"
     new "Frecuente"
 
-    # game/definitions.rpy:8300
+    # game/definitions.rpy:8293
     old "Never"
     new "Nunca"

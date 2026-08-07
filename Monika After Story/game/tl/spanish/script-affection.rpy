@@ -1166,7 +1166,7 @@ translate spanish mas_affection_apologydeleted_46706a56:
 
 translate spanish strings:
 
-    # game/script-affection.rpy:1091
+    # game/script-affection.rpy:1089
     old "!FREEZE!"
     new "¡DETENIDO!"
 
@@ -1590,7 +1590,7 @@ translate spanish strings:
     old "You are my one and only love!"
     new "¡Eres mi únic[o_a] y verdadero amor!"
 
-    # game/script-affection.rpy:3533
+    # game/script-affection.rpy:3511
     old "/forgive me.txt"
     new "/perdóname.txt"
 
@@ -1598,19 +1598,19 @@ translate spanish strings:
     old "My dearest, you are everything I could ever hope for. I love you."
     new "Mi amor, eres todo lo que podría desear. Te amo."
 
-    # game/script-affection.rpy:3537
+    # game/script-affection.rpy:3515
     old "/can you hear me.txt"
     new "/puedes oírme.txt"
 
-    # game/script-affection.rpy:3541
+    # game/script-affection.rpy:3519
     old "/please listen.txt"
     new "/por favor escucha.txt"
 
-    # game/script-affection.rpy:3557
+    # game/script-affection.rpy:3535
     old "/for you.txt"
     new "/para ti.txt"
 
-    # game/script-affection.rpy:3561
+    # game/script-affection.rpy:3539
     old "/My one and only love.txt"
     new "/Mi único y verdadero amor.txt"
 

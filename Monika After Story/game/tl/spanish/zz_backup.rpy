@@ -246,13 +246,13 @@ translate spanish mas_backups_incompat_start_59952f15:
     # "Hello there!{nw}"
     "¡Hola, hola!{nw}"
 
-# game/zz_backup.rpy:896
+# game/zz_backup.rpy:903
 translate spanish mas_backups_incompat_start_2316686b:
 
     # "Unfortunately, your persistent is running version v[mas_per_check.mas_per_version], which is incompatible with this build of MAS (v[config.version])."
     "Lamentablemente, tu persistent usa la versión v[mas_per_check.mas_per_version], que es incompatible con esta versión de MAS (v[config.version])."
 
-# game/zz_backup.rpy:903
+# game/zz_backup.rpy:904
 translate spanish mas_backups_incompat_start_36fb1a33:
 
     # "The only way I can fix this is if you update MAS or you restore with a compatible persistent."
@@ -450,7 +450,7 @@ translate spanish strings:
     old "Do you have your own backups?{fast}"
     new "¿Tienes tus propias copias de seguridad?{fast}"
 
-    # game/zz_backup.rpy:818
+    # game/zz_backup.rpy:808
     old "recovery.txt"
     new "recuperación.txt"
 
