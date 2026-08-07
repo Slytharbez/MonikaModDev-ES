@@ -52465,3 +52465,49 @@ translate spanish strings:
     # game/script-topics.rpy:18004
     old "Overton window"
     new "Ventana de Overton"
+
+
+init 5 python:
+
+    def mas_translate_eye_color(color):
+
+        """
+        Traduce el color de ojos del jugador al español cuando el idioma activo es 'spanish'.
+        Soporta colores estándar y heterocromía (tupla).
+        """
+
+        if not color:
+
+            return ""
+
+        if isinstance(color, tuple):
+
+            translated_components = [mas_translate_eye_color(c) for c in color]
+
+            if len(translated_components) == 2:
+
+                return " y ".join(translated_components)
+            return ", ".join(translated_components)
+
+        if _preferences.language == "spanish":
+
+            color_lower = color.lower()
+            translations = {
+                "blue": "azules",
+                "brown": "marrones",
+                "green": "verdes",
+                "hazel": "avellana",
+                "gray": "grises",
+                "black": "negros",
+                "mesmerizing": "fascinantes",
+                "beautiful": "hermosos",
+                "enchanting": "encantadores",
+                "red": "rojos",
+                "purple": "morados",
+                "violet": "violetas",
+                "amber": "ámbar",
+                "yellow": "amarillos"
+            }
+            return translations.get(color_lower, color)
+        return color
+

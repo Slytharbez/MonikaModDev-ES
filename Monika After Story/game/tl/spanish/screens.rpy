@@ -819,3 +819,9 @@ translate spanish strings:
     old "Never"
     new "Nunca"
 
+
+init 999 python:
+    if _preferences.language == "spanish":
+        renpy.license = "Este programa contiene software libre bajo varias licencias, incluyendo la Licencia Pública General Reducida de GNU. Una lista completa de software está disponible en https://www.renpy.org/license.html."
+
+

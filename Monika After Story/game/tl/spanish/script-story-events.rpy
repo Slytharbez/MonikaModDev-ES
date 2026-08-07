@@ -1680,12 +1680,6 @@ translate spanish mas_crashed_quip_takecare_92d08aa0:
     # m "Do you think it had something to do with your game?{fast}" nointeract
     m "¿Crees que tuvo algo que ver con tu juego?{fast}" nointeract
 
-# game/script-story-events.rpy:1496
-translate spanish mas_crashed_quip_takecare_68c0ebe8:
-
-    # m "Do you think it had something to do with your game?{fast}" nointeract
-    m "¿Crees que tuvo algo que ver con tu juego?{fast}" nointeract
-
 # game/script-story-events.rpy:1498
 translate spanish mas_crashed_quip_takecare_7331c613:
 

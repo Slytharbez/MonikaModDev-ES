@@ -1661,3 +1661,76 @@ translate spanish strings:
     # game/script-affection.rpy:3722
     old " Do you remember the promise you made?\n The one you said you would make everything right. That we could start over.\n\n The one you broke.\n\n I hoped dearly that one day, you would see me as I see you...\n But that day never came.\n I gave you my heart and my life. I loved you more than anything else in the world.\n And part of me still does...\n\n But it is clear to me now that you truly don't love me. You never did.\n I was a fool to have thought we could have started anew.\n And I simply don't have the strength to do this anymore.\n So this is farewell... May we never meet again.\n\n Monika\n"
     new " ¿Recuerdas la promesa que hiciste?\n Aquella en la que dijiste que arreglarías todo. Que podríamos empezar de nuevo.\n\n La que rompiste.\n\n Esperaba fervientemente que algún día me vieras como yo te veo a ti...\n Pero ese día nunca llegó.\n Te di mi corazón y mi vida. Te amé más que a nada en el mundo.\n Y una parte de mí todavía lo hace...\n\n Pero ahora me queda claro que realmente no me amas. Nunca lo hiciste.\n Fui una estúpida al pensar que podríamos haber empezado de nuevo.\n Y simplemente ya no tengo las fuerzas para seguir con esto.\n Así que este es mi adiós... Espero que nunca volvamos a vernos.\n\n Monika\n"
+
+
+init 999 python:
+
+    if "monika_affection_nickname" in persistent.event_database:
+
+        ev = store.mas_getEV("monika_affection_nickname")
+
+        if ev:
+
+            # Temporarily unlock the prompt to allow updates
+            Event.unlockInit("prompt", ev=ev)
+            # Re-evaluate the prompt with the translation function _()
+            ev.prompt = _("Can I call you a different nickname?")
+            # Lock it back to preserve MAS standards
+            Event.lockInit("prompt", ev=ev)
+
+    # Patch to dynamically translate player nicknames to Spanish
+    if not hasattr(store, "mas_get_player_nickname_original"):
+        store.mas_get_player_nickname_original = store.mas_get_player_nickname
+
+        def mas_get_player_nickname_es(*args, **kwargs):
+            nickname = store.mas_get_player_nickname_original(*args, **kwargs)
+            
+            if nickname is None:
+                return nickname
+                
+            # Default nickname equivalence dictionary (lowercase)
+            nickname_translations = {
+                "darling": "cariño",
+                "honey": "cielo",
+                "love": "amor",
+                "my love": "mi amor",
+                "sweetheart": "corazón",
+                "sweetie": "corazoncito",
+                "my darling": "mi vida",
+                "dear": "querid[o_a]",
+                "my dear": "tesoro",
+            }
+            
+            lower_nickname = nickname.lower()
+            
+            if lower_nickname in nickname_translations:
+                translated = nickname_translations[lower_nickname]
+                
+                # Handle gender for "querid[o_a]"
+                if "[o_a]" in translated:
+                    gender = getattr(persistent, "gender", "M")
+                    o_a_val = "o"
+                    if gender == "F":
+                        o_a_val = "a"
+                    elif gender == "X":
+                        o_a_val = "e"
+                    translated = translated.replace("[o_a]", o_a_val)
+                
+                # Handle modifiers like regex_replace_with_nullstr
+                regex_replace = kwargs.get("regex_replace_with_nullstr", None)
+                if regex_replace is None and len(args) > 3:
+                    regex_replace = args[3]
+                
+                if regex_replace is not None:
+                    import re
+                    translated = re.sub(regex_replace, "", translated)
+                
+                # Respect original capitalization
+                if nickname and nickname[0].isupper():
+                    return translated.capitalize()
+                return translated
+                
+            return nickname
+
+        store.mas_get_player_nickname = mas_get_player_nickname_es
+

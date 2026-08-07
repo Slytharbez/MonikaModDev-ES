@@ -2490,3 +2490,45 @@ translate spanish strings:
     old "Yellow"
     new "Amarillo"
 
+
+init 10 python:
+
+    # Register alias 'decknou' for the NOU deck in Spanish
+    import store.mas_filereacts as mas_filereacts
+
+    if hasattr(mas_filereacts, "filereact_map") and "noudeck" in mas_filereacts.filereact_map:
+
+        mas_filereacts.filereact_map["decknou"] = mas_filereacts.filereact_map["noudeck"]
+
+
+init 5 python:
+
+    def mas_nou_masc_color():
+
+        """
+        Returns the translated masculine color in Spanish for NOU dialogues.
+        For example, 'red' -> 'rojo' and 'yellow' -> 'amarillo'.
+        """
+
+        try:
+
+            color = store.mas_nou.game.monika.chosen_color
+
+        except AttributeError:
+
+            color = None
+
+        if not color:
+
+            return ""
+
+        if _preferences.language == "spanish":
+
+            return {
+                "red": "rojo",
+                "blue": "azul",
+                "green": "verde",
+                "yellow": "amarillo"
+            }.get(color, color)
+
+        return color

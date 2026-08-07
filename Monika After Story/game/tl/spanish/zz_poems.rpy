@@ -39,3 +39,14 @@ translate spanish strings:
     # game/zz_poems.rpy:330
     old "Which poem would you like to read?"
     new "¿Qué poema te gustaría leer?"
+
+
+init 999 python:
+    # Normalize line endings of all poems in memory to \n (LF)
+    # This ensures they match perfectly with Ren'Py 6 translation catalog.
+    for k, v in globals().items():
+        if hasattr(v, 'title') and hasattr(v, 'text') and isinstance(v.text, (str, unicode)):
+            v.text = v.text.replace("\r\n", "\n")
+            if isinstance(v.title, (str, unicode)):
+                v.title = v.title.replace("\r\n", "\n")
+

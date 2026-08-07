@@ -20,7 +20,7 @@ translate spanish strings:
 
     # game/event-handler.rpy:3321
     old "{b}Unseen{/b}"
-    new "{b}Nuevos{/b}"
+    new "{b}Nuevo{/b}"
 
     # game/event-handler.rpy:3323
     old "Bookmarks"
@@ -77,3 +77,75 @@ translate spanish strings:
     # game/event-handler.rpy:3705
     old "Remove selected"
     new "Eliminar seleccionados"
+
+
+init 5 python:
+
+    MAS_CAT_TRANS = {
+        # game/script-topics.rpy and others - categories with _()
+        "advice":           "consejos",
+        "affection":        "afecto",
+        "anniversary":      "aniversario",
+        "apology":          "disculpa",
+        "appearance":       "apariencia",
+        "art":              "arte",
+        "be right back":    "ya regreso",
+        "clothes":          "ropa",
+        "club members":     "integrantes del club",
+        "compliment":       "cumplidos",
+        "creepy":           "espeluznante",
+        "ddlc":             "ddlc",
+        "development":      "desarrollo",
+        "farewell":         "despedida",
+        "fashion":          "moda",
+        "food":             "comida",
+        "funny":            "divertido",
+        "games":            "juegos",
+        "grammar tips":     "consejos de gramática",
+        "holidays":         "festividades",
+        "life":             "vida",
+        "literature":       "literatura",
+        "literature club":  "club de literatura",
+        "location":         "ubicación",
+        "media":            "multimedia",
+        "misc":             "otros",
+        "mod":              "mod",
+        "monika":           "monika",
+        "music":            "música",
+        "nature":           "naturaleza",
+        "philosophy":       "filosofía",
+        "psychology":       "psicología",
+        "python tips":      "consejos de Python",
+        "romance":          "romance",
+        "school":           "escuela",
+        "science":          "ciencia",
+        "society":          "sociedad",
+        "song":             "canción",
+        "sports":           "deportes",
+        "spring":           "primavera",
+        "story":            "historia",
+        "summer":           "verano",
+        "supplies":         "suministros",
+        "technology":       "tecnología",
+        "trivia":           "curiosidades",
+        "us":               "nosotr[o_a]s",
+        "weather":          "clima",
+        "winter":           "invierno",
+        "writing":          "escritura",
+        "writing tips":     "consejos de escritura",
+        "you":              "tú"
+    }
+
+    def mas_get_cat_label(cat):
+
+        """
+        Returns the translated category label for conversations.
+        Only translates when the active language is 'spanish'.
+        If no translation is available, returns the original category.
+        """
+
+        if _preferences.language == "spanish":
+
+            return MAS_CAT_TRANS.get(cat, cat)
+        return cat
+

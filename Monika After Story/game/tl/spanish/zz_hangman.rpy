@@ -410,3 +410,170 @@ translate spanish strings:
     old "Okay. Let's play again soon!"
     new "De acuerdo. ¡Juguemos de nuevo pronto!"
 
+
+init 999 python:
+
+    # Dynamic hint translation formatter
+    import store.mas_hangman as mas_hmg
+
+    class SpanishHintFormatter(str):
+
+        def format(self, *args, **kwargs):
+
+            if _preferences.language == "spanish":
+
+                author = args[0]
+
+                if author == "I":
+
+                    return "A mí me gustaría más esta palabra."
+                translated_author = renpy.translation.translate_string(author)
+                return "A {0} le gustaría más esta palabra.".format(translated_author)
+            return str.format(self, *args, **kwargs)
+    mas_hmg.HM_HINT = SpanishHintFormatter(mas_hmg.HM_HINT)
+    # Save original builders
+    _orig_buildEasyList = mas_hmg.buildEasyList
+    _orig_buildNormalList = mas_hmg.buildNormalList
+    _orig_buildHardList = mas_hmg.buildHardList
+
+    def _strip_spanish_accents(s):
+
+        mapping = {
+            u'á': u'a', u'é': u'e', u'í': u'i', u'ó': u'o', u'ú': u'u',
+            u'ü': u'u', u'ñ': u'n'
+        }
+        res = []
+
+        for c in s:
+
+            res.append(mapping.get(c, c))
+        return "".join(res)
+
+    def _patched_build_all_lists():
+
+        # 1. Reload store.full_wordlist in Spanish using renpy.file to resolve tl/spanish/poemwords.txt
+        store.full_wordlist = []
+
+        with renpy.file('poemwords.txt') as wordfile:
+
+            for line in wordfile:
+
+                if not isinstance(line, str):
+
+                    line = line.decode('utf-8')
+                line = line.strip()
+
+                if line == '' or line[0] == '#': continue
+
+                x = line.split(',')
+                store.full_wordlist.append(store.PoemWord(x[0], float(x[1]), float(x[2]), float(x[3])))
+        # Clear the target all_hm_words lists
+        mas_hmg.all_hm_words[mas_hmg.EASY_MODE][:] = []
+        mas_hmg.all_hm_words[mas_hmg.NORM_MODE][:] = []
+        mas_hmg.all_hm_words[mas_hmg.HARD_MODE][:] = []
+        # 2. Add non-Monika words from full_wordlist to EASY_MODE (stripping accents)
+
+        for word in store.full_wordlist:
+
+            hm_tuple = store.MASPoemWord._build(word, 0)._hangman()
+            w_str = _strip_spanish_accents(hm_tuple[0])
+            mas_hmg.all_hm_words[mas_hmg.EASY_MODE].append((w_str, hm_tuple[1]))
+        # 3. Translate and add Monika words to EASY_MODE (stripping accents)
+
+        for m_word in mas_hmg.MONI_WORDS:
+
+            translated_word = renpy.translation.translate_string(m_word)
+            translated_word = _strip_spanish_accents(translated_word)
+            hm_tuple = (translated_word, "I")
+            mas_hmg.all_hm_words[mas_hmg.EASY_MODE].append(hm_tuple)
+        # 4. Load NORM_MODE words from tl/spanish/MASpoemwords.txt (stripping accents)
+        norm_wordlist = store.MASPoemWordList('tl/spanish/MASpoemwords.txt').wordlist
+
+        for word in norm_wordlist:
+
+            hm_tuple = word._hangman()
+            w_str = _strip_spanish_accents(hm_tuple[0])
+            mas_hmg.all_hm_words[mas_hmg.NORM_MODE].append((w_str, hm_tuple[1]))
+        # 5. Load HARD_MODE words from tl/spanish/1000poemwords.txt (stripping accents)
+        hard_wordlist = store.MASPoemWordList('tl/spanish/1000poemwords.txt').wordlist
+
+        for word in hard_wordlist:
+
+            hm_tuple = word._hangman()
+            w_str = _strip_spanish_accents(hm_tuple[0])
+            mas_hmg.all_hm_words[mas_hmg.HARD_MODE].append((w_str, hm_tuple[1]))
+        # 6. Copy lists
+        mas_hmg.copyWordsList(mas_hmg.EASY_MODE)
+        mas_hmg.copyWordsList(mas_hmg.NORM_MODE)
+        mas_hmg.copyWordsList(mas_hmg.HARD_MODE)
+
+    def _rebuild_words_for_current_language():
+
+        if _preferences.language == "spanish":
+
+            _patched_build_all_lists()
+
+        else:
+
+            # Rebuild English lists to support dynamic language switching back to English
+            # 1. Reload store.full_wordlist in English
+            store.full_wordlist = []
+
+            with renpy.file('poemwords.txt') as wordfile:
+
+                for line in wordfile:
+
+                    if not isinstance(line, str):
+
+                        line = line.decode('utf-8')
+                    line = line.strip()
+
+                    if line == '' or line[0] == '#': continue
+
+                    x = line.split(',')
+                    store.full_wordlist.append(store.PoemWord(x[0], float(x[1]), float(x[2]), float(x[3])))
+            # 2. Call original builders
+            _orig_buildEasyList()
+            _orig_buildNormalList()
+            _orig_buildHardList()
+
+    def _patched_buildEasyList():
+
+        _rebuild_words_for_current_language()
+
+    def _patched_buildNormalList():
+
+        _rebuild_words_for_current_language()
+
+    def _patched_buildHardList():
+
+        _rebuild_words_for_current_language()
+    mas_hmg.buildEasyList = _patched_buildEasyList
+    mas_hmg.buildNormalList = _patched_buildNormalList
+    mas_hmg.buildHardList = _patched_buildHardList
+    # Monkey-patch addPlayername to dynamically reload words in the active language at runtime when starting hangman
+    _orig_addPlayername = mas_hmg.addPlayername
+
+    def _patched_addPlayername(mode):
+
+        _rebuild_words_for_current_language()
+        _orig_addPlayername(mode)
+    mas_hmg.addPlayername = _patched_addPlayername
+
+    # If already initialized at startup under Spanish:
+
+    if _preferences.language == "spanish":
+
+        _patched_build_all_lists()
+
+    def _mas_spanish_language_callback(new_lang=None):
+        _rebuild_words_for_current_language()
+    # Register callback for dynamic language changes
+    if hasattr(config, "change_language_callbacks"):
+        config.change_language_callbacks.append(_mas_spanish_language_callback)
+    # Apply it at game start according to current preference
+    try:
+        _mas_spanish_language_callback(renpy.game.preferences.language)
+    except Exception:
+        pass
+

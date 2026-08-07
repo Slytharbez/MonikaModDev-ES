@@ -217,3 +217,42 @@ translate spanish strings:
     # game/script-windowreacts.rpy:654
     old "I can't wait to watch anime with you!~"
     new "¡No puedo esperar para ver anime contigo!~"
+
+init 999 python:
+
+    # Save original English quips for dynamic change support
+    _orig_win_notif_quips = list(store.mas_win_notif_quips)
+    _orig_other_notif_quips = list(store.mas_other_notif_quips)
+
+    def _mas_spanish_language_callback_windowreacts(new_lang=None):
+        # Translate notification quips depending on the language
+        if _preferences.language == "spanish":
+            store.mas_win_notif_quips = [
+                "[player], quiero hablar contigo de algo.",
+                "[player], ¿estás ahí?",
+                "¿Puedes venir un segundo?",
+                "[player], ¿tienes un segundo?",
+                "¡Tengo algo que decirte, [player]!",
+                "¿Tienes un minuto, [player]?",
+                "¡Tengo algo de qué hablar, [player]!"
+            ]
+            store.mas_other_notif_quips = [
+                "¡Tengo algo de qué hablar, [player]!",
+                "¡Tengo algo que decirte, [player]!",
+                "Hey [player], quiero decirte algo.",
+                "¿Tienes un minuto, [player]?"
+            ]
+        else:
+            store.mas_win_notif_quips = list(_orig_win_notif_quips)
+            store.mas_other_notif_quips = list(_orig_other_notif_quips)
+
+    # Register callback for dynamic language changes
+    if hasattr(config, "change_language_callbacks"):
+        config.change_language_callbacks.append(_mas_spanish_language_callback_windowreacts)
+
+    # Apply it at game start according to current preference
+    try:
+        _mas_spanish_language_callback_windowreacts(renpy.game.preferences.language)
+    except Exception:
+        pass
+
