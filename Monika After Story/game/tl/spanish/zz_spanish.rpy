@@ -46,66 +46,6 @@ init 1 python:
         })
 
 
-# Static Spanish Translations
-translate spanish strings:
-
-    # game/screens.rpy:718
-    old "Save"
-    new "Guardar"
-    
-    # game/screens.rpy:2289
-    old "No"
-    new "No"
-
-    # game/screens.rpy:2372
-    old "Cancel"
-    new "Cancelar"
-
-    # game/screens.rpy:2398
-    old "No."
-    new "No."
-
-    # game/chess.rpy:3274
-    old "Done"
-    new "Listo"
-
-    # game/event-handler.rpy:3334
-    old "Nevermind"
-    new "No importa"
-
-    # =========================================================================
-    # OPCIONES DE MENÚ Y DIÁLOGOS GLOBALES / DUPLICADOS
-    # =========================================================================
-
-    # game/event-handler.rpy (multiple locations)
-    old "Sure, [m_name]."
-    new "Por supuesto, [m_name]."
-
-    # game/event-handler.rpy (multiple locations)
-    old "Yeah."
-    new "Sí."
-
-    # game/screens.rpy (multiple locations)
-    old "Okay"
-    new "Okey"
-
-    # game/screens.rpy (multiple locations)
-    old "Okay."
-    new "Okey."
-
-    # game/screens.rpy (multiple locations)
-    old "Yes"
-    new "Sí"
-
-    # game/screens.rpy (multiple locations)
-    old "Yes."
-    new "Sí."
-
-    # game/script-holidays.rpy (multiple locations)
-    old "holiday"
-    new "un día festivo"
-
-
 # Spanish Python Logger Patch
 python early:
 

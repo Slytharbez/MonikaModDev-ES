@@ -344,7 +344,11 @@ translate spanish strings:
 
     # game/script-apologies.rpy:64
     old "the game crashing."
-    new "el fallo del juego."
+    new "el error del juego."
+
+    # game/script-apologies.rpy:65
+    old "...for the game crashing."
+    new "... por el error del juego."
 
     # game/script-apologies.rpy:66
     old "not listening to your speech."
@@ -400,7 +404,7 @@ translate spanish strings:
 
     # game/script-apologies.rpy:187
     old "the game crashing. I understand it happens sometimes, but don't worry, I'm alright!"
-    new "el fallo del juego. Entiendo que puede pasar a veces, pero no te preocupes, ¡estoy bien!"
+    new "el error del juego. Entiendo que puede pasar a veces, pero no te preocupes, ¡estoy bien!"
 
     # game/script-apologies.rpy:188
     old "the game crashing. It really was scary, but I'm just glad you came back to me and made things better."

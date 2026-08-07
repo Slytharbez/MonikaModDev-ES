@@ -449,7 +449,3 @@ translate spanish strings:
     # game/zz_consumables.rpy:1832
     old "Are you running out of anything?"
     new "¿Te hace falta algo?"
-
-    # game/definitions.rpy:6640
-    old "an"
-    new "un"

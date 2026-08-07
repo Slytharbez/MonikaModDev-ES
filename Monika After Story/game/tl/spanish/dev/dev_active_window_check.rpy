@@ -16,7 +16,7 @@ translate spanish monika_check_window_502cc758:
 translate spanish monika_check_window_4018f388:
 
     # m 1hub "Me, yay!"
-    m 1hub "¡Yo, yupi!"
+    m 1hub "¡Yo, yey!"
 
 # game/dev/dev_active_window_check.rpy:25
 translate spanish monika_check_window_ef95f3a7:

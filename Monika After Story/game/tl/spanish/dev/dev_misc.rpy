@@ -130,7 +130,7 @@ translate spanish dev_ev_ctx_invalid_start_64784887:
 translate spanish dev_ev_ctx_invalid_start_44d3137c:
 
     # m 1hua "Yay it worked"
-    m 1hua "Yupi, funcionó."
+    m 1hua "Yey, funcionó."
 
 # game/dev/dev_misc.rpy:132
 translate spanish dev_ev_ctx_invalid_start_08b05c70:

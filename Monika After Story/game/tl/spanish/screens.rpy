@@ -172,6 +172,10 @@ translate spanish strings:
     old "Auto"
     new "Auto"
 
+    # game/screens.rpy:718
+    old "Save"
+    new "Guardar"
+
     # game/screens.rpy:721
     old "Load"
     new "Cargar"
@@ -676,6 +680,10 @@ translate spanish strings:
     old "QUIT"
     new "SALIR"
 
+    # game/screens.rpy:2289
+    old "No"
+    new "No"
+
     # game/screens.rpy:2352
     old "No update available."
     new "No hay actualizaciones disponibles."
@@ -692,9 +700,17 @@ translate spanish strings:
     old "Timeout occured while checking for updates. Try again later."
     new "Se agotó el tiempo al buscar actualizaciones. Inténtalo más tarde."
 
+    # game/screens.rpy:2372
+    old "Cancel"
+    new "Cancelar"
+
     # game/screens.rpy:2370
     old "Install"
     new "Instalar"
+    
+    # game/screens.rpy:2398
+    old "No."
+    new "No."
 
     # game/screens.rpy:2399
     old "Updater"
@@ -792,32 +808,21 @@ translate spanish strings:
     old "Paste"
     new "Pegar"
 
-    # game/definitions.rpy:8294
-    old "Rarely"
-    new "Rara vez"
+    # game/screens.rpy (multiple locations)
+    old "Okay"
+    new "Okey"
 
-    # game/definitions.rpy:8295
-    old "Occasionally"
-    new "A veces"
+    # game/screens.rpy (multiple locations)
+    old "Okay."
+    new "Okey."
 
-    # game/definitions.rpy:8296
-    old "Less Often"
-    new "Muy Poco"
+    # game/screens.rpy (multiple locations)
+    old "Yes"
+    new "Sí"
 
-    # game/definitions.rpy:8297
-    old "Normal"
-    new "Normal"
-
-    # game/definitions.rpy:8298
-    old "Often"
-    new "A menudo"
-
-    # game/definitions.rpy:8299
-    old "Very Often"
-    new "Frecuente"
-
-    old "Never"
-    new "Nunca"
+    # game/screens.rpy (multiple locations)
+    old "Yes."
+    new "Sí."
 
 
 init 999 python:

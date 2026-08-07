@@ -430,7 +430,7 @@ translate spanish monika_death_5629d35f:
 translate spanish monika_death_f762c393:
 
     # m 1dsc "...it feels like I'm instantly put to sleep, left with nothing but my thoughts."
-    m 1dsc "...sesiente como si me hubieran puesto a dormir instantáneamente, sin nada más que mis pensamientos."
+    m 1dsc "... Se siente como si me hubieran puesto a dormir instantáneamente, sin nada más que mis pensamientos."
 
 # game/script-topics.rpy:923
 translate spanish monika_death_9cc667e5:
@@ -3688,7 +3688,7 @@ translate spanish monika_wine_39bda4e9:
 translate spanish monika_wine_f7b1c29a:
 
     # m 4rssdrb "...and to be completely honest, I kind of was, too."
-    m 4rssdrb "...Y para ser completamente honesta, yo también lo estaba."
+    m 4rssdrb "... Y para ser completamente honesta, yo también lo estaba."
 
 # game/script-topics.rpy:1943
 translate spanish monika_wine_10b055f0:
@@ -3712,7 +3712,7 @@ translate spanish monika_wine_717a3f3a:
 translate spanish monika_wine_1a54d709:
 
     # m 2hksdlb "...Gosh, what am I talking about this for?"
-    m 2hksdlb "...Caray, ¿por qué estoy hablando de esto?"
+    m 2hksdlb "... Caray, ¿por qué estoy hablando de esto?"
 
 # game/script-topics.rpy:1947
 translate spanish monika_wine_e3d2c543:
@@ -8746,7 +8746,7 @@ translate spanish monika_contribute_1732d8c8:
 translate spanish monika_contribute_ea8ae30b:
 
     # m 3eua "I keep all the code in {a=https://github.com/Monika-After-Story/MonikaModDev}{i}{u}https://github.com/Monika-After-Story/MonikaModDev{/u}{/i}{/a}."
-    m 3eua "Guardo todo el código en {a=https://github.com/Monika-After-Story/MonikaModDev}{i}{u}https://github.com/Monika-After-Story/MonikaModDev{/u}{/i}{/a}."
+    m 3eua "Guardo todo el código en {a=https://github.com/The-Encoders-Club/MonikaModDev-TEC}{i}{u}https://github.com/The-Encoders-Club/MonikaModDev-TEC{/u}{/i}{/a}."
 
 # game/script-topics.rpy:4232
 translate spanish monika_contribute_dc511504:
@@ -10132,13 +10132,13 @@ translate spanish monika_playerswriting_dc6b542d:
 translate spanish monika_playerswriting_f1cb3c2f:
 
     # m 1eua "After all, the two of us are members of a literature club."
-    m 1eua "Después de todo, l[o_a]s dos somos miembros de un club de literatura."
+    m 1eua "Después de todo, l[o_a]s dos somos parte del club de literatura."
 
 # game/script-topics.rpy:4687
 translate spanish monika_playerswriting_b45f429d:
 
     # m 1esa "The only members."
-    m 1esa "Los únicos miembros."
+    m 1esa "Los únicos integrantes."
 
 # game/script-topics.rpy:4688
 translate spanish monika_playerswriting_2763945b:
@@ -17470,7 +17470,7 @@ translate spanish monika_daydream_81402bcd:
 translate spanish monika_daydream_1e81da4c:
 
     # m 1lkbsa "I was imagining [daydream_quip]"
-    m 1lkbsa "Me estaba imaginando [daydream_quip]"
+    m 1lkbsa "Me estaba imaginando [daydream_quip!t]"
 
 # game/script-topics.rpy:7026
 translate spanish monika_daydream_b06579cc:
@@ -17512,7 +17512,7 @@ translate spanish monika_daydream_6c32eb3b:
 translate spanish monika_daydream_2f5058c9:
 
     # m 2dktpu "I was just remembering [daydream_quip]"
-    m 2dktpu "Solo estaba recordando [daydream_quip]"
+    m 2dktpu "Solo estaba recordando [daydream_quip!t]"
 
 # game/script-topics.rpy:7035
 translate spanish monika_daydream_9f229120:
@@ -25408,13 +25408,13 @@ translate spanish monika_attractiveness_99f9a46c:
 translate spanish monika_attractiveness_0ebdb53d:
 
     # m 4eub "It simply feels satisfying to keep good habits like that, and besides, who knows [first_line_var] I'll be able to cross over into your reality and have a normal body like you."
-    m 4eub "Simplemente se siente satisfactorio mantener buenos hábitos como ese, y además, quién sabe [first_line_var] podré cruzar a tu realidad y tener un cuerpo normal como tú."
+    m 4eub "Simplemente se siente satisfactorio mantener buenos hábitos como ese, y además, quién sabe [first_line_var!t] podré cruzar a tu realidad y tener un cuerpo normal como tú."
 
 # game/script-topics.rpy:9521
 translate spanish monika_attractiveness_87129608:
 
     # m 1hua "It won't hurt to make sure I'll be ready for that transition [second_line_end]."
-    m 1hua "No hará daño asegurarse de que estaré list[o_a] para esa transición [second_line_end]."
+    m 1hua "No hará daño asegurarse de que estaré lista para esa transición [second_line_end!t]."
 
 # game/script-topics.rpy:9522
 translate spanish monika_attractiveness_83c9b7a9:
@@ -37743,7 +37743,7 @@ translate spanish monika_robotbody_e47f8e69:
 translate spanish monika_robotbody_3b71548c:
 
     # m 2ekd "...But the fact that I would have to obey orders given by any human still makes me [line_end_1]"
-    m 2ekd "... Pero el hecho de que tenga que obedecer las órdenes dadas por cualquier humano todavía me hace [line_end_1]"
+    m 2ekd "... Pero el hecho de que tenga que obedecer las órdenes dadas por cualquier humano todavía me hace [line_end_1!t]"
 
 # game/script-topics.rpy:14230
 translate spanish monika_robotbody_136d0cc9:
@@ -37755,7 +37755,7 @@ translate spanish monika_robotbody_136d0cc9:
 translate spanish monika_robotbody_0271980e:
 
     # m 3ekd "But I do understand why [line_end_2]"
-    m 3ekd "Pero entiendo por qué [line_end_2]"
+    m 3ekd "Pero entiendo por qué [line_end_2!t]"
 
 # game/script-topics.rpy:14232
 translate spanish monika_robotbody_4fd594ac:

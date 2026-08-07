@@ -1427,6 +1427,10 @@ translate spanish strings:
     old "[mas_quipExp('1etc')]What's the right move here..."
     new "[mas_quipExp('1etc')]¿Cuál sería la mejor jugada?..."
 
+    # game/chess.rpy:3274
+    old "Done"
+    new "Listo"
+
     # game/chess.rpy:3410
     old "Hmm, that's odd. It seems some permissions were changed and I can't get chess running on your system."
     new "Hmm, es extraño. Parece que algunos permisos fueron cambiados y no puedo hacer funcionar el ajedrez en tu sistema."

@@ -345,8 +345,11 @@ init -1000 python:
             "Opens the errors.txt file in a text editor.": "Abre el archivo de errores 'errors.txt' en un editor de texto.",
             "Copies the errors.txt file to the clipboard.": "Copia el archivo errors.txt al portapapeles.",
             "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.": "Copia el archivo errors.txt en el portapapeles como BBcode para foros como https://lemmasoft.renai.us/.",
-            "Copies the errors.txt file to the clipboard as Markdown for Discord.": "Copia el archivo errors.txt al portapapeles como Markdown para Discord."
+            "Copies the errors.txt file to the clipboard as Markdown for Discord.": "Copia el archivo errors.txt al portapapeles como Markdown for Discord.",
         }
+
+        if not hasattr(store, "mas_early_translations"):
+            store.mas_early_translations = {}
 
         if not hasattr(store, '_original_translate_string'):
 
@@ -370,9 +373,11 @@ init -1000 python:
 
                     language = getattr(getattr(renpy.game, 'preferences', None), 'language', None)
 
-                if language == "spanish" and s in early_translations:
-
-                    return early_translations[s]
+                if language == "spanish":
+                    if s in early_translations:
+                        return early_translations[s]
+                    if s in store.mas_early_translations:
+                        return store.mas_early_translations[s]
                 return store._original_translate_string(s, language)
             renpy.translation.translate_string = _early_translate_string
 

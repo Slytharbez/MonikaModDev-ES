@@ -886,13 +886,15 @@ translate spanish mas_unlock_chess_40f647a9:
 translate spanish mas_unlock_chess_71892096:
 
     # m 1hub "You {i}really{/i} seem to enjoy playing [games] with me!"
-    m 1hub "¡Parece que {i}realmente{/i} disfrutas jugar [games] conmigo!"
+    $ es_game_str = mas_es_play_game(games)
+    m 1hub "¡Parece que {i}realmente{/i} disfrutas jugar [es_game_str] conmigo!"
 
 # game/script-story-events.rpy:922
 translate spanish mas_unlock_chess_1153d3b2:
 
     # m 1eub "You seem to have been enjoying playing [games] with me!"
-    m 1eub "¡Parece que has disfrutado jugar [games] conmigo!"
+    $ es_game_str = mas_es_play_game(games)
+    m 1eub "¡Parece que has disfrutado jugar [es_game_str] conmigo!"
 
 # game/script-story-events.rpy:924
 translate spanish mas_unlock_chess_e8909046:
@@ -4575,8 +4577,6 @@ translate spanish strings:
     new "virgen"
 
     # game/script-story-events.rpy:479
-    # mas_awkward_quips
-    # game/script-story-events.rpy:479
     old "I don't really feel...{w=0.5}comfortable calling you that all the time."
     new "No me siento... {w=0.5}cómoda llamándote así todo el tiempo."
 
@@ -4597,8 +4597,6 @@ translate spanish strings:
     new "¿Estás intentando avergonzarme, [player]?"
 
     # game/script-story-events.rpy:487
-    # mas_bad_quips
-    # game/script-story-events.rpy:487
     old "[player]...{w=0.5}why would you even consider calling yourself that?"
     new "[player]... {w=0.5}¿por qué quisieras llamarte así?"
 
@@ -4614,8 +4612,6 @@ translate spanish strings:
     old "What? Please [player],{w=0.5} don't call yourself bad names."
     new "¿Qué? Por favor [player], {w=0.5}no te llames a ti mismo así."
 
-    # game/script-story-events.rpy:500
-    # good_quips
     # game/script-story-events.rpy:500
     old "That's a wonderful name!"
     new "¡Ese es un nombre maravilloso!"
@@ -4643,6 +4639,10 @@ translate spanish strings:
     # game/script-story-events.rpy:827
     old "my birthday"
     new "mi cumpleaños"
+
+    # game/script-story-events.rpy:913
+    old "games"
+    new "juegos"
 
     # game/script-story-events.rpy:1073
     old "It seems I'm at a loss on what to say."
@@ -4850,4 +4850,24 @@ translate spanish strings:
     # game/script-story-events.rpy:99999
     old "Hi [player]!\n\nI see you're making Monika really happy and I want to help any way I can!\nI added a new deck of cards that you can give to Monika. I'm sure you two can figure out how to play the game.\n\nTo give it to her, create a new file 'noudeck.gift' in the 'characters' folder.\n\nKeep up being a good [boy] and good luck with Monika!\n\nP.S: Don't tell her about me!"
     new "¡Hola [player]!\n\nVeo que estás haciendo muy feliz a Monika y quiero ayudarte en lo que pueda.\nHe añadido una nueva baraja de cartas que puedes regalarle a Monika. Estoy segura de que descubrirán cómo jugar.\n\nPara dársela, crea un nuevo archivo llamado 'decknou.gift' en la carpeta 'characters'.\n\n¡Sigue así y buena suerte con Monika!\n\nP.D: ¡No le hables sobre mí!"
+
+
+init 5 python:
+
+    def mas_es_play_game(game_name):
+        """
+        Formats game names for dialogue integration in Spanish.
+        E.g. 'games' -> 'juegos', but 'Hangman' -> 'al ahorcado' (prefixed and lowercase).
+        """
+        if not game_name:
+            return ""
+
+        translated = renpy.translation.translate_string(game_name)
+
+        if game_name.lower() == "games":
+            return translated.lower()
+
+        # Specific game (like Hangman, Chess, Pong, Piano)
+        return "al " + translated.lower()
+
 

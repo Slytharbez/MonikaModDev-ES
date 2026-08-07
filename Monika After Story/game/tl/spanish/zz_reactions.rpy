@@ -3026,3 +3026,16 @@ translate spanish strings:
     # game/zz_reactions.rpy:2242
     old "wine colored"
     new "color vino"
+
+
+init 5 python:
+
+    # Register early translations for this module to avoid confusion
+    if not hasattr(store, "mas_early_translations"):
+
+        store.mas_early_translations = {}
+    store.mas_early_translations.update({
+        "this ": "",
+        "these ": ""
+    })
+

@@ -4291,12 +4291,11 @@ translate spanish mas_monika_plays_or_0534b98f:
     m 1ekbsa "{i}{cps=19}Te dejo ir~{/cps}{/i}{w=2}{nw}"
 
 translate spanish strings:
+
     # game/script-songs.rpy:26
     old "short"
     new "corta"
 
-
-    # Song prompts
     # game/script-songs.rpy:217
     old "Can you sing me a song?"
     new "¿Puedes cantarme una canción?"

@@ -4801,6 +4801,7 @@ translate spanish mas_scary_story_prison_escape_c01b3923:
     m 2wusdlo "¡Era el guardia muerto!"
 
 translate spanish strings:
+
     # game/script-stories.rpy:19
     old "scary"
     new "aterradora"

@@ -50,6 +50,10 @@ translate spanish strings:
     old "Goodbye"
     new "Adiós"
 
+    # game/event-handler.rpy:3334
+    old "Nevermind"
+    new "No importa"
+
     # game/event-handler.rpy:3339
     old "Android Menu"
     new "Menú para Android"
@@ -78,6 +82,13 @@ translate spanish strings:
     old "Remove selected"
     new "Eliminar seleccionados"
 
+    # game/event-handler.rpy (multiple locations)
+    old "Sure, [m_name]."
+    new "Por supuesto, [m_name]."
+
+    # game/event-handler.rpy (multiple locations)
+    old "Yeah."
+    new "Sí."
 
 init 5 python:
 

@@ -919,7 +919,7 @@ translate spanish greeting_esperanto_a747ebd3:
 translate spanish greeting_yay_b9532c80:
 
     # m 1hub "You're back! Yay!"
-    m 1hub "¡Has vuelto! ¡Yupi!"
+    m 1hub "¡Has vuelto! ¡Yey!"
 
 # game/script-greetings.rpy:865
 translate spanish greeting_yay_ed8284c7:
@@ -8181,18 +8181,6 @@ translate spanish strings:
     # game/script-greetings.rpy:4746
     old "I have no idea..."
     new "No tengo idea..."
-
-    # game/definitions.rpy:6585
-    old "afternoon"
-    new "tarde"
-
-    # game/definitions.rpy:6586
-    old "evening"
-    new "noche"
-
-    # Time of day variables (sustantivos)
-    old "morning"
-    new "días"
 
 
 python early:

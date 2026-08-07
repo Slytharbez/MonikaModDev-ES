@@ -9831,6 +9831,10 @@ translate spanish strings:
     old "For {0}.txt"
     new "Para {0}.txt"
 
+    # game/script-holidays.rpy (multiple locations)
+    old "holiday"
+    new "un día festivo"
+
     # game/script-holidays.rpy:7398
     old """\
 [player],
