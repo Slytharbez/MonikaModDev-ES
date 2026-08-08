@@ -1126,7 +1126,7 @@ translate spanish mas_affection_yesapology_7aee9ee4:
 translate spanish mas_affection_yesapology_6d811979:
 
     # m 2eka "I love you so much and you mean the world to me, [player]."
-    m 2eka "Te quiero muchísimo y significas todo para mí, [player]."
+    m 2eka "Te amo muchísimo y significas todo para mí, [player]."
 
 # game/script-affection.rpy:3460
 translate spanish mas_affection_yesapology_34cdd9cf:

@@ -3097,7 +3097,7 @@ translate spanish greeting_stillsickrest_54e8b0c6:
 translate spanish greeting_stillsickrest_bd00a6f8:
 
     # m 1eka "Get well soon, [player]. I love you so much!"
-    m 1eka "¡Que te mejores pronto, [player]! ¡Te quiero muchísimo!"
+    m 1eka "¡Que te mejores pronto, [player]! ¡Te amo muchísimo!"
 
 # game/script-greetings.rpy:2321
 translate spanish greeting_stillsickrest_c78c974f:
@@ -3781,7 +3781,7 @@ translate spanish greeting_long_absence_807f37e6:
 translate spanish greeting_long_absence_278a24cd:
 
     # m 1hub "I love you so much, [player]!"
-    m 1hub "¡Te quiero muchísimo, [player]!"
+    m 1hub "¡Te amo muchísimo, [player]!"
 
 # game/script-greetings.rpy:2520
 translate spanish greeting_long_absence_7978faa8:
