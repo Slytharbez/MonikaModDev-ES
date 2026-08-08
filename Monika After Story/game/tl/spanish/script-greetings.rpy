@@ -7745,7 +7745,7 @@ translate spanish greeting_after_bath_2fa6a288:
 translate spanish greeting_after_bath_7aeb0f12:
 
     # m 7lubsb "I just finished [bathing_showering]...{w=0.3}{nw}"
-    m 7lubsb "Acabo de terminar de [bathing_showering]... {w=0.3}{nw}"
+    m 7lubsb "Acabo de terminar de [bathing_showering!t]... {w=0.3}{nw}"
 
 # game/script-greetings.rpy:4562
 translate spanish greeting_after_bath_0ca2fe80:
@@ -7769,7 +7769,7 @@ translate spanish greeting_after_bath_57c7a9b4:
 translate spanish greeting_after_bath_98430dea:
 
     # m 7eubsb "I just finished [bathing_showering]."
-    m 7eubsb "Acabo de terminar de [bathing_showering]."
+    m 7eubsb "Acabo de terminar de [bathing_showering!t]."
 
 # game/script-greetings.rpy:4571
 translate spanish greeting_after_bath_2e519b04:
