@@ -162,6 +162,7 @@ init python:
     build.classify('**.rpa',None)
     build.classify("game/mod_assets/api_keys.json", None)
     build.classify("**.pem", None)
+    build.classify("game/tl/**", build.name)
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
