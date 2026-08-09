@@ -166,7 +166,7 @@ translate spanish monika_affection_nickname_yes_c884a2f1:
 translate spanish monika_affection_nickname_yes_d6cf160e:
 
     # m 3hua "Ehehe, back to the classics I see~"
-    m 3hua "Jeje, vuelta a los clásicos, ya veo~"
+    m 3hua "Jeje, de regreso a los clásicos, ya veo~"
 
 # game/script-affection.rpy:2902
 translate spanish monika_affection_nickname_yes_6af38485:
@@ -184,7 +184,7 @@ translate spanish monika_affection_nickname_yes_86caec7b:
 translate spanish monika_affection_nickname_yes_neutral_accept_3d6ecf03:
 
     # m 1duu "[inputname]... That's a pretty nice nickname."
-    m 1duu "[inputname]... Es un sobrenombre bastante bonito."
+    m 1duu "[inputname]... es un sobrenombre bastante bonito."
 
 # game/script-affection.rpy:2910
 translate spanish monika_affection_nickname_yes_neutral_accept_731a3439:

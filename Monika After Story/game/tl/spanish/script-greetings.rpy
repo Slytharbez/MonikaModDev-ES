@@ -1477,31 +1477,31 @@ translate spanish monikaroom_greeting_ear_narration_701195f7:
 translate spanish monikaroom_greeting_ear_loveme_7639efe8:
 
     # m "[cap_he] [loves] me.{w=0.3} [cap_he] [loves] me not."
-    m "[cap_el_ella] me [loves]. {w=0.3}[cap_el_ella] no me [loves]."
+    m "[cap_el_ella] me [get_spanish_loves(loves)]. {w=0.3}[cap_el_ella] no me [get_spanish_loves(loves)]."
 
 # game/script-greetings.rpy:1416
 translate spanish monikaroom_greeting_ear_loveme_391a2868:
 
     # m "[cap_he] {i}[loves]{/i} me.{w=0.3} [cap_he] [loves] me {i}not{/i}."
-    m "[cap_el_ella] {i}me [loves]{/i}. {w=0.3}[el_ella] {i}no{/i} me [loves]."
+    m "[cap_el_ella] {i}me [get_spanish_loves(loves)]{/i}. {w=0.3}[el_ella] {i}no{/i} me [get_spanish_loves(loves)]."
 
 # game/script-greetings.rpy:1419
 translate spanish monikaroom_greeting_ear_loveme_c2e7015b:
 
     # m "[cap_he] [loves] me."
-    m "[cap_el_ella] me [loves]."
+    m "[cap_el_ella] me [get_spanish_loves(loves)]."
 
 # game/script-greetings.rpy:1420
 translate spanish monikaroom_greeting_ear_loveme_799737b0:
 
     # m "...{w=0.5}[cap_he] [loves] me!"
-    m "... {w=0.5}¡[cap_el_ella] me [loves]!"
+    m "... {w=0.5}¡[cap_el_ella] me [get_spanish_loves(loves)]!"
 
 # game/script-greetings.rpy:1423
 translate spanish monikaroom_greeting_ear_loveme_43efd8ae:
 
     # m "...[cap_he]...{w=0.3}[cap_he]...{w=0.3}[loves] me not."
-    m "... [cap_el_ella]... {w=0.3}[el_ella]... {w=0.3}no me [loves]."
+    m "... [cap_el_ella]... {w=0.3}[el_ella]... {w=0.3}no me [get_spanish_loves(loves)]."
 
 # game/script-greetings.rpy:1424
 translate spanish monikaroom_greeting_ear_loveme_b7b95447:
@@ -1519,7 +1519,7 @@ translate spanish monikaroom_greeting_ear_loveme_8c16823c:
 translate spanish monikaroom_greeting_ear_loveme_3fa1d18c:
 
     # m "...{w=0.5}[cap_he] [loves] me not."
-    m "... {w=0.5}[cap_el_ella] no me [loves]."
+    m "... {w=0.5}[cap_el_ella] no me [get_spanish_loves(loves)]."
 
 # game/script-greetings.rpy:1429
 translate spanish monikaroom_greeting_ear_loveme_e612037c:
@@ -7962,6 +7962,10 @@ translate spanish strings:
     old "I won't."
     new "No lo haré."
 
+    # game/script-greetings.rpy:1413
+    old "loves"
+    new "ama"
+
     # game/script-greetings.rpy:1639
     old "Great! Alright, let's see..."
     new "¡Genial! De acuerdo, veamos..."
@@ -8233,3 +8237,8 @@ init 999 python:
 
     # Register mas_get_greeting in store so [mas_get_greeting!t] works in dialogues and menus.
     store.mas_globals_time_of_day_3state_es = DynamicGreeting()
+
+    def get_spanish_loves(loves_val):
+        if loves_val in ["love", "loves"]:
+            return "ama"
+        return loves_val

@@ -1912,7 +1912,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:332
     old "You'll always be more awesome!"
-    new "¡Tú siempre serás más asombrosa!"
+    new "¡Tú siempre serás más asombros[o_a]!"
 
     # game/script-compliments.rpy:333
     old "We are an awesome couple together!"
@@ -1920,7 +1920,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:334
     old "You're much more awesome!"
-    new "¡Eres mucho más asombrosa!"
+    new "¡Eres mucho más asombros[o_a]!"
 
     # game/script-compliments.rpy:348
     old "You're really intelligent!"
@@ -2072,11 +2072,11 @@ translate spanish strings:
 
     # game/script-compliments.rpy:686
     old "You'll always be my cutie~"
-    new "Para mí siempre serás la más tierna~"
+    new "Para mí siempre serás [el_la] más tiern[o_a]~"
 
     # game/script-compliments.rpy:687
     old "You can be a cutie a lot of the time too~"
-    new "También puedes ser muy tierna la mayor parte del tiempo~"
+    new "También puedes ser muy tiern[o_a] la mayor parte del tiempo~"
 
     # game/script-compliments.rpy:700
     old "You're awesome at chess!"

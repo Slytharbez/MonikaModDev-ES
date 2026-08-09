@@ -94,7 +94,7 @@ translate spanish mas_lingerie_intro_0ab1f043:
 translate spanish mas_lingerie_intro_c5b620ff:
 
     # m 2ekbfa "Anyway, something about being with you [holiday_str] seems really romantic, you know?"
-    m 2ekbfa "De todos modos, algo sobre estar contigo [holiday_str!t] parece realmente romántico, ¿sabes?"
+    m 2ekbfa "De todos modos, pasar [holiday_str!t] a tu lado parece realmente romántico, ¿sabes?"
 
 # game/script-holidays.rpy:168
 translate spanish mas_lingerie_intro_0bbbc6bc:
@@ -1468,7 +1468,7 @@ translate spanish greeting_trick_or_treat_back_costume_ed691741:
 translate spanish mas_d25_gift_starter_cb474523:
 
     # m 3wud "Oh! I [should_open] [the] [presents] you gave me!"
-    m 3wud "¡Oh! ¡[_(should_open)] [_(the)] [_(presents)] que me diste!"
+    m 3wud "¡Oh! ¡[get_d25_gift_sentence(should_open, the, presents)] que me diste!"
 
 # game/script-holidays.rpy:2439
 translate spanish mas_d25_gift_starter_e9b9aeeb:
@@ -1666,7 +1666,7 @@ translate spanish mas_d25_monika_holiday_intro_e86d1c1b:
 translate spanish mas_d25_monika_holiday_intro_35c4061b:
 
     # m 3eua "It seems like just yesterday we spent [the_last] holiday season together, and now a whole year has gone by!"
-    m 3eua "¡Parece que fue ayer cuando pasamos junt[o_a]s [_(the_last)] temporada navideña, y ahora ha pasado todo un año!"
+    m 3eua "¡Parece que fue ayer cuando pasamos junt[o_a]s [the_last!t] temporada navideña, y ahora ha pasado todo un año!"
 
 # game/script-holidays.rpy:2576
 translate spanish mas_d25_monika_holiday_intro_a7dd1558:
@@ -4177,7 +4177,7 @@ translate spanish mas_nye_monika_nyd_af911328:
 translate spanish mas_nye_monika_nyd_b047205c:
 
     # m 3eka "Do you remember the promise you made [last_year]?"
-    m 3eka "¿Recuerdas la promesa que hiciste [last_year]?"
+    m 3eka "¿Recuerdas la promesa que hiciste [last_year!t]?"
 
 # game/script-holidays.rpy:4298
 translate spanish mas_nye_monika_nyd_12c84253:
@@ -4837,19 +4837,19 @@ translate spanish monika_nye_year_review_e421d14b:
 translate spanish monika_nye_year_review_53e70cf2:
 
     # m 2eka "...[placeholder_and]I'm so happy I got to spend that time with you, [player]."
-    m 2eka "... [placeholder_and]estoy muy feliz de haber pasado ese tiempo contigo, [player]."
+    m 2eka "... [get_spanish_and(placeholder_and)] muy feliz de haber pasado ese tiempo contigo, [player]."
 
 # game/script-holidays.rpy:4615
 translate spanish monika_nye_year_review_2cf5beef:
 
     # m 2eka "...[placeholder_and]I've really enjoyed our time together."
-    m 2eka "... [placeholder_and]realmente he disfrutado nuestro tiempo junt[o_a]s."
+    m 2eka "... [get_spanish_really(placeholder_and)] he disfrutado nuestro tiempo junt[o_a]s."
 
 # game/script-holidays.rpy:4618
 translate spanish monika_nye_year_review_375b647d:
 
     # m 2euc "...[placeholder_and]the time we spent together has been fun."
-    m 2euc "... [placeholder_and]el tiempo que pasamos junt[o_a]s ha sido divertido."
+    m 2euc "... [get_spanish_the_time(placeholder_and)] tiempo que pasamos junt[o_a]s ha sido divertido."
 
 # game/script-holidays.rpy:4621
 translate spanish monika_nye_year_review_f4647034:
@@ -5035,7 +5035,7 @@ translate spanish monika_nye_year_review_863d9a17:
 translate spanish monika_nye_year_review_9ea084f8:
 
     # m 5ekbsa "Thank you for making the time we spent together[_last_year]better than I could have imagined."
-    m 5ekbsa "Gracias por hacer que el tiempo que pasamos junt[o_a]s[_last_year] fuera mejor de lo que podría haber imaginado."
+    m 5ekbsa "Gracias por hacer que el tiempo que pasamos junt[o_a]s[_last_year!t] fuera mejor de lo que podría haber imaginado."
 
 # game/script-holidays.rpy:4731
 translate spanish monika_nye_year_review_cea36ce5:
@@ -5569,7 +5569,7 @@ translate spanish greeting_pd25e_returned_nydp_e2fa1e6a:
 translate spanish greeting_pd25e_returned_nydp_babd183a:
 
     # m 5ekbsa "I always love to spend time with you, but spending both Christmas and [new_years] out together was amazing."
-    m 5ekbsa "Siempre me encanta pasar tiempo contigo, pero pasar tanto la Navidad como el [new_years] fuera junt[o_a]s ha sido increíble."
+    m 5ekbsa "Siempre me encanta pasar tiempo contigo, pero pasar tanto la Navidad como el [new_years!t] fuera junt[o_a]s ha sido increíble."
 
 # game/script-holidays.rpy:5070
 translate spanish greeting_pd25e_returned_nydp_93471267:
@@ -5815,7 +5815,7 @@ translate spanish mas_player_bday_opendoor_listened_f6a40c3b:
 translate spanish mas_player_bday_opendoor_listened_40606b06:
 
     # m "You didn't [knock]"
-    m "¡No has [knock]!"
+    m "¡No has [knock!t]"
 
 # game/script-holidays.rpy:5434
 translate spanish mas_player_bday_opendoor_listened_7a312cd3:
@@ -9739,6 +9739,14 @@ translate spanish strings:
     old "I'll open this one next!"
     new "¡Ahora abriré este!"
 
+    # game/script-holidays.rpy:2567
+    old "the last"
+    new "la última"
+
+    # game/script-holidays.rpy:2570
+    old "our first"
+    new "nuestra primera"
+
     # game/script-holidays.rpy:2786
     old ", or the decorations"
     new ", o las decoraciones"
@@ -9775,6 +9783,14 @@ translate spanish strings:
     old "on Christmas Eve"
     new "en Nochebuena"
 
+    # game/script-holidays.rpy:4291
+    old "last year"
+    new "el año pasado"
+
+    # game/script-holidays.rpy:4295
+    old "before"
+    new "antes"
+
     # game/script-holidays.rpy:4395
     old "I would love that."
     new "Me encantaría eso."
@@ -9787,9 +9803,25 @@ translate spanish strings:
     old "Since you made a resolution last year, did you accomplish it?"
     new "Ya que te pusiste una meta el año pasado, ¿lo cumpliste?"
 
+    # game/script-holidays.rpy:4725
+    old " last year "
+    new " el año pasado "
+
     # game/script-holidays.rpy:4842
     old "Can you take down the holiday decorations?"
     new "¿Puedes quitar los adornos navideños?"
+
+    # game/script-holidays.rpy:5066
+    old "New Years"
+    new "Año Nuevo"
+
+    # game/script-holidays.rpy:5427
+    old "knock, {w=0.5}{i}again{/i}."
+    new "tocado, {w=0.5}{i}de nuevo{/i}!"
+
+    # game/script-holidays.rpy:5429
+    old "knock!"
+    new "tocado!"
 
     # game/script-holidays.rpy:5734
     old "Let's go out for my birthday!"
@@ -10620,3 +10652,30 @@ P.D: No le hables de mí.
 
  No-me-olvides.
 """
+
+
+init -1 python:
+    def get_spanish_and(val):
+        return "Y estoy" if val else "Estoy"
+
+    def get_spanish_really(val):
+        return "Y realmente" if val else "Realmente"
+
+    def get_spanish_the_time(val):
+        return "Y el" if val else "El"
+
+    def get_d25_gift_sentence(should_open, the, presents):
+        is_plural = (presents == "presents")
+        if should_open == "should open":
+            verb = "Debería abrir"
+        else:
+            verb = "No he abierto"
+        if is_plural:
+            if the == "all of the":
+                noun_phrase = "todos los regalos"
+            else:
+                noun_phrase = "los regalos"
+        else:
+            noun_phrase = "el regalo"
+        return verb + " " + noun_phrase
+

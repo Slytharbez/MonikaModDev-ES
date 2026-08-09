@@ -346,7 +346,7 @@ translate spanish monika_idle_shower_callback_1a305b96:
 translate spanish monika_idle_shower_callback_2972d983:
 
     # m 3tubsb "Now that you've had your shower, would you like your dinner, or maybe{w=0.5}.{w=0.5}.{w=0.5}."
-    m 3tubsb "Ahora que te has duchado, ¿te gustaría cenar?, o tal vez{w=0.5}.{w=0.5}.{w=0.5}."
+    m 3tubsb "Ahora que te has duchado, ¿te gustaría cenar?, o tal vez.{w=0.5}.{w=0.5}.{w=0.5}"
 
 # game/script-brbs.rpy:449
 translate spanish monika_idle_shower_callback_bb31c0a4:

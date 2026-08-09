@@ -340,7 +340,7 @@ translate spanish mas_reaction_gift_generic_sprite_json_c2f9ee8b:
 translate spanish mas_reaction_gift_generic_sprite_json_0aeb08fa:
 
     # m 1hua "Thanks for [sprite_str], [acs_quip]"
-    m 1hua "Gracias por [sprite_str], [acs_quip]."
+    m 1hua "Gracias por [sprite_str], [acs_quip]"
 
 # game/zz_reactions.rpy:1149
 translate spanish mas_reaction_gift_generic_sprite_json_83b49ce5:
@@ -2824,15 +2824,15 @@ translate spanish strings:
 
     # game/zz_reactions.rpy:1129
     old "I really appreciate it!"
-    new "¡De verdad lo aprecio!"
+    new "¡de verdad lo aprecio!"
 
     # game/zz_reactions.rpy:1130
     old "[its] amazing!"
-    new "¡Que increíble!"
+    new "¡es increíble!"
 
     # game/zz_reactions.rpy:1131
     old "I just love [item_ref]!"
-    new "¡Me encanta!"
+    new "¡me encanta [item_ref]!"
 
     # game/zz_reactions.rpy:1132
     old "[its] wonderful!"

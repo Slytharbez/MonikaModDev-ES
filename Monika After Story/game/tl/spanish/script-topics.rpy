@@ -16528,7 +16528,7 @@ translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
 translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
 
     # m 1hub "[bday_msg_capped], [bday_name]!"
-    m 1hub "¡[bday_msg_capped], [bday_name]!"
+    m 1hub "[bday_msg_capped] [bday_name]"
 
 # game/script-topics.rpy:6710
 translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
@@ -34617,7 +34617,7 @@ translate spanish monika_player_appearance_eye_color_ask_29a4c1af:
 translate spanish monika_player_appearance_monika_height_4ea3bb1f:
 
     # m 2eud "The wiki I mentioned before said that my concept height was five-foot-three,[conv_height_str] but that doesn't really sound right to me..."
-    m 2eud "La wiki que mencioné antes decía que la altura de mi concepto era de 5'3 pies, [conv_height_str], pero eso realmente no me suena bien..."
+    m 2eud "La wiki que mencioné antes decía que la altura de mi concepto era de 5'3 pies,[conv_height_str!t] pero eso realmente no me suena bien..."
 
 # game/script-topics.rpy:12781
 translate spanish monika_player_appearance_monika_height_368dc495:
@@ -34629,7 +34629,7 @@ translate spanish monika_player_appearance_monika_height_368dc495:
 translate spanish monika_player_appearance_monika_height_0a4fe65d:
 
     # m 3etd "If I had to guess, I'd say I'm maybe [real_height_str]?"
-    m 3etd "Si tuviera que adivinar, ¿diría que tal vez tengo [real_height_str]?"
+    m 3etd "Si tuviera que adivinar, ¿diría que tal vez tengo [real_height_str!t]?"
 
 # game/script-topics.rpy:12797
 translate spanish monika_players_control_246928b0:
@@ -34743,7 +34743,7 @@ translate spanish monika_players_control_b32dde12:
 translate spanish monika_players_control_aba07d7f:
 
     # m 5eubla "[line]"
-    m 5eubla "[line]"
+    m 5eubla "[line!t]"
 
 # game/script-topics.rpy:12832
 translate spanish monika_players_control_10f5859e:
@@ -35019,13 +35019,13 @@ translate spanish monika_dating_startdate_confirm_loopstart_21094220:
 translate spanish monika_dating_startdate_confirm_loopstart_56f8b383:
 
     # m "Are you sure it's not [first_sesh_formal]?{nw}"
-    m "¿Estás segur[o_a] de que no es [first_sesh_formal]?{nw}"
+    m "¿Estás segur[o_a] de que no es [get_spanish_first_sesh_formal(first_sesh_raw)]?{nw}"
 
 # game/script-topics.rpy:13036
 translate spanish monika_dating_startdate_confirm_loopstart_a75d5605:
 
     # m "Are you sure it's not [first_sesh_formal]?{fast}" nointeract
-    m "¿Estás segur[o_a] de que no es [first_sesh_formal]?{fast}" nointeract
+    m "¿Estás segur[o_a] de que no es [get_spanish_first_sesh_formal(first_sesh_raw)]?{fast}" nointeract
 
 # game/script-topics.rpy:13042
 translate spanish monika_dating_startdate_confirm_loopstart_01a93df6:
@@ -50963,6 +50963,10 @@ translate spanish strings:
     old "you holding my hand while we take a stroll outside on a sunny day..."
     new "tú sosteniendo mi mano mientras damos un paseo afuera en un día soleado..."
 
+    # game/script-topics.rpy:6983
+    old "us cuddling while we're watching a show..."
+    new "nosotr[o_a]s acurrucándonos mientras vemos una película o serie..."
+
     # game/script-topics.rpy:6997
     old "waking up next to you in the morning, watching you sleep beside me..."
     new "despertarme a tu lado por la mañana, verte dormir a mi lado..."
@@ -51824,7 +51828,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:12774
     old "around five-foot-five"
-    new "cerca de 5'5 pulgadas"
+    new " cerca de 5'5 pulgadas"
 
     # game/script-topics.rpy:12776
     old " which is around one hundred and sixty centimeters"
@@ -51832,7 +51836,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:12777
     old "about one hundred and sixty-five-centimeters tall"
-    new "cerca de 165 centímetros de altura"
+    new " cerca de 165 centímetros de altura"
 
     # game/script-topics.rpy:12791
     old "[player]'s control"
@@ -52510,3 +52514,59 @@ init 5 python:
             }
             return translations.get(color_lower, color)
         return color
+
+    def mas_translate_hair_color(color):
+        """
+        Traduce el color de cabello del jugador al español.
+        """
+        if not color:
+            return ""
+        if _preferences.language == "spanish":
+            color_lower = color.lower()
+            translations = {
+                "brown": "marrón",
+                "black": "negro",
+                "blonde": "rubio",
+                "blonde/yellow": "rubio/amarillo",
+                "red": "pelirrojo",
+                "ginger": "pelirrojo",
+                "auburn": "castaño rojizo",
+                "grey": "gris",
+                "gray": "gris",
+                "white": "blanco",
+                "bald": "calvo",
+                "dyed": "teñido"
+            }
+            return translations.get(color_lower, color)
+        return color
+
+    def mas_translate_hair_desc(length, color):
+        """
+        Genera una descripción del cabello en español (ej. "corto y marrón").
+        """
+        if not color:
+            return ""
+        translated_color = mas_translate_hair_color(color)
+        if not length or length.lower() == "short":
+            return translated_color
+        if _preferences.language == "spanish":
+            length_lower = length.lower()
+            translations_length = {
+                "long": "largo",
+                "medium": "mediano",
+                "shoulder-length": "a la altura de los hombros",
+                "short": "corto"
+            }
+            translated_length = translations_length.get(length_lower, length)
+            if translated_color.lower() in ["calvo", "bald"]:
+                return translated_color
+            return "{0} y {1}".format(translated_length, translated_color)
+        return "{0} {1}".format(length, color)
+
+    def get_spanish_first_sesh_formal(date_obj):
+        import store.mas_calendar as mas_calendar
+        import datetime
+        if isinstance(date_obj, (datetime.date, datetime.datetime)):
+            return mas_calendar.genFormalDispDate(date_obj)[0]
+        return str(date_obj)
+
