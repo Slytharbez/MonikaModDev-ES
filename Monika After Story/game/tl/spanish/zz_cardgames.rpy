@@ -2504,12 +2504,10 @@ init 10 python:
 init 5 python:
 
     def mas_nou_masc_color():
-
         """
         Returns the translated masculine color in Spanish for NOU dialogues.
         For example, 'red' -> 'rojo' and 'yellow' -> 'amarillo'.
         """
-
         try:
 
             color = store.mas_nou.game.monika.chosen_color

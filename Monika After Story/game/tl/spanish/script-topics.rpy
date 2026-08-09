@@ -52476,8 +52476,8 @@ init 5 python:
     def mas_translate_eye_color(color):
 
         """
-        Traduce el color de ojos del jugador al español cuando el idioma activo es 'spanish'.
-        Soporta colores estándar y heterocromía (tupla).
+        Translates the player's eye color to Spanish when the active language preference is 'spanish'.
+        Supports translating standard colors and complex tuple inputs (e.g. heterochromia).
         """
 
         if not color:
@@ -52517,7 +52517,7 @@ init 5 python:
 
     def mas_translate_hair_color(color):
         """
-        Traduce el color de cabello del jugador al español.
+        Translates the player's hair color to Spanish when the active language preference is 'spanish'.
         """
         if not color:
             return ""
@@ -52542,7 +52542,8 @@ init 5 python:
 
     def mas_translate_hair_desc(length, color):
         """
-        Genera una descripción del cabello en español (ej. "corto y marrón").
+        Generates a localized hair description string in Spanish (e.g. "largo y marrón" / "long and brown").
+        Combines the translated length descriptor and the translated hair color.
         """
         if not color:
             return ""
@@ -52569,4 +52570,3 @@ init 5 python:
         if isinstance(date_obj, (datetime.date, datetime.datetime)):
             return mas_calendar.genFormalDispDate(date_obj)[0]
         return str(date_obj)
-

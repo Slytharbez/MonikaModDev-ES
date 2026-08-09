@@ -8229,17 +8229,17 @@ define startup_check = False
 # define temp zoom to default level in case of crash
 define mas_temp_zoom_level = store.mas_sprites.default_zoom_level
 
-define his = "his"
-define he = "he"
-define hes = "he's"
-define heis = "he is"
-define bf = "boyfriend"
-define man = "man"
-define boy = "boy"
-define guy = "guy"
-define him = "him"
-define himself = "himself"
-define hero = "hero"
+define his = _("his")
+define he = _("he")
+define hes = _("he's")
+define heis = _("he is")
+define bf = _("boyfriend")
+define man = _("man")
+define boy = _("boy")
+define guy = _("guy")
+define him = _("him")
+define himself = _("himself")
+define hero = _("hero")
 
 # Input characters filters
 define numbers_only = "0123456789"

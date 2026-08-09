@@ -41,8 +41,8 @@ python early in mas_logging:
 
     # log tags
     LT_INFO = "info"
-    LT_WARN = "Warning! ;_;"
-    LT_ERROR = "!ERROR! T_T"
+    LT_WARN = _("Warning! ;_;")
+    LT_ERROR = _("!ERROR! T_T")
 
     LT_MAP = {
         logging.INFO: LT_INFO,

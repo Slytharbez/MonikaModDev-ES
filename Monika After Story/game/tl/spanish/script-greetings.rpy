@@ -901,7 +901,7 @@ translate spanish greeting_esperanto_40926c53:
 translate spanish greeting_esperanto_19dfb015:
 
     # m 2etc "Or maybe you did...{w=0.5} I guess it makes sense something like this would interest me, given my background and all..."
-    m 2etc "O tal vez sí... Supongo que tiene sentido que algo así me interese, dado mi trasfondo y todo..."
+    m 2etc "O tal vez sí... {w=0.5}supongo que tiene sentido que algo así me interese, dado mi trasfondo y todo..."
 
 # game/script-greetings.rpy:848
 translate spanish greeting_esperanto_eb5ece36:

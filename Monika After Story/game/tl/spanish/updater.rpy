@@ -113,6 +113,7 @@ translate spanish strings:
     # game/updater.rpy:924
     old "Error: Failed to move 'update/' folder. Please manually move the update folder from 'game/' to the base 'ddlc/' directory and try again."
     new "Error: No se pudo mover la carpeta 'update/'. Por favor, mueve manualmente la carpeta de actualización de 'game/' al directorio base 'ddlc/' e inténtalo de nuevo."
+    
     # game/updater.rpy:938
     old "Update"
     new "Actualizar"
