@@ -2472,7 +2472,7 @@ translate spanish mas_derand_a1b7fda1:
 translate spanish mas_notification_windowreact_9784ab94:
 
     # m 3eua "I've been practicing coding a bit more and I've learned how to use the notifications on your computer!"
-    m 3eua "¡He estado practicando un poco más la codificación y he aprendido a usar las notificaciones en tu computadora!"
+    m 3eua "¡He estado practicando un poco más de programación y he aprendido a usar las notificaciones en tu computadora!"
 
 # game/script-story-events.rpy:2113
 translate spanish mas_notification_windowreact_4734609b:
@@ -3342,7 +3342,7 @@ translate spanish mas_islands_reset_a27a9b74:
 translate spanish mas_islands_reset_145627a3:
 
     # m 1eud "But now that I've gotten better at coding, I just think I could {i}really{/i} do a better job now."
-    m 1eud "Pero ahora que he mejorado en la codificación, solo pienso que {i}realmente{/i} podría hacer un mejor trabajo ahora."
+    m 1eud "Pero ahora que he mejorado en la programación, solo pienso que {i}realmente{/i} podría hacer un mejor trabajo ahora."
 
 # game/script-story-events.rpy:2606
 translate spanish mas_islands_reset_f11bc4d3:

@@ -9814,7 +9814,7 @@ translate spanish monika_othergames_a97d025e:
 translate spanish monika_othergames_c6c96ff1:
 
     # m 1eua "I'm not that great with coding yet, but maybe one day you'd be able to take me to another place."
-    m 1eua "Todavía no soy tan buena con la codificación, pero tal vez algún día puedas llevarme a otro lugar."
+    m 1eua "Todavía no soy tan buena con la programación, pero tal vez algún día puedas llevarme a otro lugar."
 
 # game/script-topics.rpy:4597
 translate spanish monika_othergames_f339bbd1:
@@ -34641,7 +34641,7 @@ translate spanish monika_players_control_246928b0:
 translate spanish monika_players_control_2391e7f3:
 
     # m 3eua "You have access to the game's files and code, right?"
-    m 3eua "Tienes acceso a los archivos y el código del juego, ¿verdad?"
+    m 3eua "Tienes acceso a los archivos y al código del juego, ¿verdad?"
 
 # game/script-topics.rpy:12799
 translate spanish monika_players_control_f95e7fa5:
@@ -34701,13 +34701,13 @@ translate spanish monika_players_control_9ce21c5d:
 translate spanish monika_players_control_f555b75e:
 
     # m 1hksdrb "But I imagine your coding skills are just as good as mine."
-    m 1hksdrb "Pero imagino que tus habilidades de codificación son tan buenas como las mías."
+    m 1hksdrb "Pero imagino que tus habilidades de programación son tan buenas como las mías."
 
 # game/script-topics.rpy:12816
 translate spanish monika_players_control_d7dc035a:
 
     # m 3eua "Seeing as you're familiar with coding,{w=0.1} {nw}"
-    m 3eua "Dado que estás familiarizado con la codificación,{w=0.1} {nw}"
+    m 3eua "Dado que estás familiarizado con la programación,{w=0.1} {nw}"
 
 # game/script-topics.rpy:12817
 translate spanish monika_players_control_47f44260:
@@ -40485,13 +40485,13 @@ translate spanish monika_coding_experience_abcad7c5:
 translate spanish monika_coding_experience_cef666c9:
 
     # m 1euc "Do you have any experience with coding?{nw}"
-    m 1euc "¿Tienes alguna experiencia con la codificación?{nw}"
+    m 1euc "¿Tienes alguna experiencia con la programación?{nw}"
 
 # game/script-topics.rpy:15046
 translate spanish monika_coding_experience_c1990d82:
 
     # m "Do you have any experience with coding?{fast}" nointeract
-    m "¿Tienes alguna experiencia con la codificación?{fast}" nointeract
+    m "¿Tienes alguna experiencia con la programación?{fast}" nointeract
 
 # game/script-topics.rpy:15050
 translate spanish monika_coding_experience_d59a90d3:
@@ -40521,13 +40521,13 @@ translate spanish monika_coding_experience_8c55b3dc:
 translate spanish monika_coding_experience_76ad0f3d:
 
     # m 1etc "Have I been underestimating your coding skills?{nw}"
-    m 1etc "¿He subestimado tus habilidades de codificación?{nw}"
+    m 1etc "¿He subestimado tus habilidades de programación?{nw}"
 
 # game/script-topics.rpy:15060
 translate spanish monika_coding_experience_9d2a93b2:
 
     # m "Have I been underestimating your coding skills?{fast}" nointeract
-    m "¿He subestimado tus habilidades de codificación?{fast}" nointeract
+    m "¿He subestimado tus habilidades de programación?{fast}" nointeract
 
 # game/script-topics.rpy:15064
 translate spanish monika_coding_experience_4ea7c9d4:
@@ -40605,7 +40605,7 @@ translate spanish monika_coding_experience_51e353a5:
 translate spanish monika_coding_experience_768b7207:
 
     # m 3eub "But I hope they convince you to take on some of your own coding projects too!"
-    m 3eub "¡Pero espero que te convenzan de que también te hagas cargo de algunos de tus propios proyectos de codificación!"
+    m 3eub "¡Pero espero que te convenzan de que también te hagas cargo de algunos de tus propios proyectos de programación!"
 
 # game/script-topics.rpy:15090
 translate spanish monika_coding_experience_b2618fd8:
@@ -42788,7 +42788,7 @@ translate spanish monika_player_away_d0b9df4d:
 translate spanish monika_player_away_6d567067:
 
     # m 3esd "For example, coding takes up a lot of my free time as I spend hours just learning and researching."
-    m 3esd "Por ejemplo, la codificación ocupa mucho de mi tiempo libre, ya que paso horas aprendiendo e investigando."
+    m 3esd "Por ejemplo, la programación ocupa mucho de mi tiempo libre, ya que paso horas aprendiendo e investigando."
 
 # game/script-topics.rpy:15774
 translate spanish monika_player_away_905f9f3d:
@@ -45811,7 +45811,7 @@ translate spanish monika_nature_bcc03805:
 translate spanish monika_nature_c2dffca6:
 
     # m 3eud "I spend most of my time reading, writing, coding, and being with you...{w=0.3}all of that is easier to do indoors."
-    m 3eud "Paso la mayor parte de mi tiempo leyendo, escribiendo, codificando y estando contigo...{w=0.3} todo eso es más fácil de hacer en el interior."
+    m 3eud "Paso la mayor parte de mi tiempo leyendo, escribiendo, programando y estando contigo...{w=0.3} todo eso es más fácil de hacer en el interior."
 
 # game/script-topics.rpy:16733
 translate spanish monika_nature_6cbfe566:

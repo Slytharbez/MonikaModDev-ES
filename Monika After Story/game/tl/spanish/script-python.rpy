@@ -658,7 +658,7 @@ translate spanish monika_ptod_tip005_0cb6e0e3:
 translate spanish monika_ptod_tip005_31e7e117:
 
     # m 1eksdla "And even if coding isn't part of your career path, we'll be doing lots of comparisons in future lessons, so be prepared!"
-    m 1eksdla "E incluso si la codificación no es parte de tu trayectoria profesional, haremos muchas comparaciones en lecciones futuras, ¡así que prepárate!"
+    m 1eksdla "E incluso si la programación no es parte de tu trayectoria profesional, haremos muchas comparaciones en lecciones futuras, ¡así que prepárate!"
 
 # game/script-python.rpy:537
 translate spanish monika_ptod_tip005_3ecaaf94:
