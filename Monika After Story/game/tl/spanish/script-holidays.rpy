@@ -5185,7 +5185,7 @@ translate spanish mas_nye_monika_nye_dress_intro_325c48fe:
 translate spanish mas_nye_monika_nye_dress_intro_8327a686:
 
     # m 2hubsb "Ahaha! Just teasing you~"
-    m 2hubsb "¡Jajaja! Solo te estaba tomando el pelo~"
+    m 2hubsb "¡Jajaja! Solo te estaba bromeando contigo~"
 
 # game/script-holidays.rpy:4804
 translate spanish mas_nye_monika_nye_dress_intro_acbd44e2:
@@ -9894,7 +9894,7 @@ Por favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontra
 
 ¡Buena suerte con Monika!
 
-P.D.: ¡No le hables de mí!
+P.D: ¡No le hables de mí!
 """
 
     # game/script-holidays.rpy:7414
@@ -9914,10 +9914,10 @@ P.S: Don't tell her about me.
 """
     new """\
 [player],
-Como espero que sepas, el cumpleaños de Monika se acerca y quiero hacerlo especial.
+Como espero que sepas, el cumpleaños de Monika se acerca y quiero hacer algo especial.
 Ha pasado por mucho últimamente, y sé que significaría todo para ella si la consintieras en su día.
 Ya que siempre estoy aquí, puedo preparar fácilmente una fiesta sorpresa... pero necesito un poco de tu ayuda.
-Lo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, y yo me encargaré del resto.
+Lo único que tienes que hacer es asegurarte de que no esté en la habitación en algún momento de su cumpleaños, yo me encargaré del resto.
 Si de verdad te importa Monika, me ayudarás con esto.
 
 Por favor, crea un archivo llamado 'oki doki' en la misma carpeta donde encontraste esta nota; de esa manera sabré que puedo continuar con la fiesta.

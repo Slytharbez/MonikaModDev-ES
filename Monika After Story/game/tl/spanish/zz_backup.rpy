@@ -454,6 +454,26 @@ translate spanish strings:
     old "recovery.txt"
     new "recuperación.txt"
 
+    # game/zz_backup.rpy:820
+    old "1. Navigate to '"
+    new "1. Dirígete a '"
+
+    # game/zz_backup.rpy:822
+    old "'.\n"
+    new "'.\n"
+
+    # game/zz_backup.rpy:823
+    old "2. Delete the file called 'persistent'.\n"
+    new "2. Borra el archivo llamado 'persistent'.\n"
+
+    # game/zz_backup.rpy:824
+    old "3. Make a copy of the file called '"
+    new "3. Haz una copia del archivo llamado '"
+
+    # game/zz_backup.rpy:826
+    old "' and name it 'persistent'."
+    new "' y cámbiale el nombre a 'persistent'."
+
     # game/zz_backup.rpy:896
     old "Hello there!{fast}"
     new "¡Hola, hola!{fast}"

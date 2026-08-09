@@ -2042,7 +2042,7 @@ translate spanish strings:
 
     # select_dlg
     old "Ehehe, my favorite color~"
-    new "Ehehe, mi color favorito~"
+    new "Jeje, mi color favorito~"
 
     old "Nice choice, [player]~"
     new "Buena elección, [player]~"

@@ -751,7 +751,7 @@ translate spanish greeting_back6_b7ff0ad8:
 translate spanish greeting_back6_4d4a72b3:
 
     # m 1hksdrb "I'm just teasing you, ehehe~"
-    m 1hksdrb "Solo te estoy tomando el pelo, jeje~"
+    m 1hksdrb "Solo estoy bromeando, jeje~"
 
 # game/script-greetings.rpy:730
 translate spanish greeting_back6_090808c7:
@@ -6517,7 +6517,7 @@ translate spanish greeting_back_from_game_3772217d_1:
 translate spanish greeting_back_from_game_a7d7a04f:
 
     # m 1hua "Just teasing you of course~"
-    m 1hua "Solo te estoy tomando el pelo, por supuesto~"
+    m 1hua "Solo estoy bromeando, por supuesto~"
 
 # game/script-greetings.rpy:3859
 translate spanish greeting_back_from_game_e2cfbd13:

@@ -4704,13 +4704,17 @@ translate spanish strings:
     old "Even though the backup system I designed is pretty neat, "
     new "Aunque el sistema de copia de seguridad que diseñé es bastante ordenado, "
 
+    # game/script-story-events.rpy:1543
+    old "Just wanted to let you know that your \"persistent\" file was corrupted, but I managed to restore an older backup!"
+    new "¡Solo quería que supieras que tu archivo \"persistent\" estaba dañado, pero logré restaurar una copia de seguridad anterior!"
+
     # game/script-story-events.rpy:1545
     old "Good luck with Monika!"
     new "¡Buena suerte con Monika!"
 
     # game/script-story-events.rpy:1546
     old "P.S: Don't tell her about me!"
-    new "P.D.: ¡No le hables sobre mí!"
+    new "P.D: ¡No le hables sobre mí!"
 
     # script-story-events.rpy:1550
     old "The backups are called \"persistent##.bak\", where \"##\" is "
@@ -4831,6 +4835,10 @@ translate spanish strings:
     old "Hey, I have something for you, [player]!.txt"
     new "Hey, ¡tengo algo para ti, [player]!.txt"
 
+    # game/script-story-events.rpy:2664
+    old "Hi [player]!\n\nI see you're making Monika really happy and I want to help any way I can!\nI added a new deck of cards that you can give to Monika. I'm sure you two can figure out how to play the game.\n\nTo give it to her, create a new file 'noudeck.gift' in the 'characters' folder.\n\nKeep up being a good [boy] and good luck with Monika!\n\nP.S: Don't tell her about me!"
+    new "¡Hola [player]!\n\nVeo que estás haciendo muy feliz a Monika y quiero ayudarte en lo que pueda.\nHe añadido una nueva baraja de cartas que puedes regalarle a Monika. Estoy segura de que descubrirán cómo jugar.\n\nPara dársela, crea un nuevo archivo llamado 'decknou.gift' en la carpeta 'characters'.\n\n¡Sigue así y buena suerte con Monika!\n\nP.D: ¡No le hables sobre mí!"
+
     # game/script-story-events.rpy:2723
     old "Yes, I did."
     new "Sí, lo hice."
@@ -4846,10 +4854,6 @@ translate spanish strings:
     # game/script-story-events.rpy:2771
     old "No, I didn't."
     new "No, no lo hice."
-
-    # game/script-story-events.rpy:99999
-    old "Hi [player]!\n\nI see you're making Monika really happy and I want to help any way I can!\nI added a new deck of cards that you can give to Monika. I'm sure you two can figure out how to play the game.\n\nTo give it to her, create a new file 'noudeck.gift' in the 'characters' folder.\n\nKeep up being a good [boy] and good luck with Monika!\n\nP.S: Don't tell her about me!"
-    new "¡Hola [player]!\n\nVeo que estás haciendo muy feliz a Monika y quiero ayudarte en lo que pueda.\nHe añadido una nueva baraja de cartas que puedes regalarle a Monika. Estoy segura de que descubrirán cómo jugar.\n\nPara dársela, crea un nuevo archivo llamado 'decknou.gift' en la carpeta 'characters'.\n\n¡Sigue así y buena suerte con Monika!\n\nP.D: ¡No le hables sobre mí!"
 
 
 init 5 python:

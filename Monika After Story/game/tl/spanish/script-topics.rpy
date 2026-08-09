@@ -28029,13 +28029,13 @@ translate spanish monika_dating_0f9b697f:
 translate spanish monika_dating_905be208:
 
     # m 3ekbfa "Well...{w=0.3} If you're not just messing with me and actually telling me the truth then...{w=0.3}{nw}"
-    m 3ekbfa "Bueno...{w=0.3} si no me estás tomando el pelo y me estás diciendo la verdad, entonces...{w=0.3}{nw}"
+    m 3ekbfa "Bueno... {w=0.3}si no estás bromeando y me estás diciendo la verdad, entonces... {w=0.3}{nw}"
 
 # game/script-topics.rpy:10395
 translate spanish monika_dating_61cdf754:
 
     # extend 1ekbfu "I'm honored to be your first, [player]."
-    extend 1ekbfu " es un honor para mí ser la primera, [player]."
+    extend 1ekbfu "es un honor para mí ser la primera, [player]."
 
 # game/script-topics.rpy:10397
 translate spanish monika_dating_f50738df:
