@@ -825,7 +825,7 @@ init -10 python in mas_selspr:
         RETURNS: remover ACS selectable
         """
         if remover_name is None:
-            remover_name = "Remove"
+            remover_name = renpy.translation.translate_string("Remove")
 
         # get default mux for this acs type
         template = store.mas_sprites.get_ACSTemplate_by_type(acs_type)
@@ -2887,24 +2887,26 @@ init -1 python:
                 st - st for renpy render
                 at - at for renpy render
             """
+            # translate display name via Ren'Py translation system
+            _disp_name = renpy.translation.translate_string(self.selectable.display_name)
             # lets initially check if the pure text renders nicely
             _render = self._check_display_name(
-                self.selectable.display_name,
+                _disp_name,
                 st,
                 at
             )
 
             if _render:
                 self.item_name = [
-                    self._display_name(False, self.selectable.display_name)
+                    self._display_name(False, _disp_name)
                 ]
                 self.item_name_hover = [
-                    self._display_name(True, self.selectable.display_name)
+                    self._display_name(True, _disp_name)
                 ]
                 return
 
             # if we got a None, the text is too long.
-            _lines = self._split_render(self.selectable.display_name, st, at)
+            _lines = self._split_render(_disp_name, st, at)
             # NOTE: rather than rewriting split_render, decided to just
             # use the returned lines and overwrite the render list
             self.item_name = [
@@ -3948,7 +3950,12 @@ label mas_selector_generic_sidebar_select_acs(acs_type, use_acs=None, set_compat
         if sel_group is None:
             sel_group = acs_type
         if idle_dlg is None:
-            idle_dlg = "Which {0} would you like me to wear?".format(acs_type)
+            # Search for a context-specific translation of the accessory type to avoid JSON conflicts
+            translated_acs = renpy.translation.translate_string("type_name_{0}".format(acs_type))
+            if translated_acs == "type_name_{0}".format(acs_type):
+                # Fallback to the default acs_type if no translation exists (e.g., in English)
+                translated_acs = acs_type
+            idle_dlg = renpy.translation.translate_string("Which {0} would you like me to wear?").format(translated_acs)
 
         # filter for acs
         if use_acs is None:
@@ -4008,7 +4015,7 @@ label monika_clothes_select:
     #Setup
     python:
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which clothes would you like me to wear?"
+            renpy.translation.translate_string("Which clothes would you like me to wear?")
         )
         mailbox.send_outfit_checkbox_visible(True)
         mailbox.send_outfit_checkbox_checked(persistent._mas_setting_ocb)
@@ -4156,7 +4163,7 @@ label monika_hair_select:
     python:
         sorted_hair = store.mas_selspr.HAIR_SEL_SL
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which hairstyle would you like me to wear?"
+            renpy.translation.translate_string("Which hairstyle would you like me to wear?")
         )
         sel_map = {}
 
@@ -4271,7 +4278,7 @@ init 5 python:
     )
 
 label monika_hairclip_select:
-    call mas_selector_generic_sidebar_select_acs("left-hair-clip", idle_dlg="Which hairclip would you like me to wear?")
+    call mas_selector_generic_sidebar_select_acs("left-hair-clip", idle_dlg=renpy.translation.translate_string("Which hairclip would you like me to wear?"))
     return
 
 
