@@ -570,7 +570,7 @@ image input_caret:
         linear 0.35 alpha 1
         repeat
 
-screen input(prompt, use_return_button=False, return_button_prompt="Nevermind", return_button_value="cancel_input"):
+screen input(prompt, use_return_button=False, return_button_prompt=_("Nevermind"), return_button_value="cancel_input"):
     style_prefix "input"
 
     window:
@@ -935,7 +935,7 @@ screen navigation():
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action Help("README.html")
+            textbutton _("Help") action Help("game/tl/" + _preferences.language + "/README.html" if (_preferences.language and renpy.loadable("tl/" + _preferences.language + "/README.html")) else "README.html")
 
             ## The quit button is banned on iOS and unnecessary on Android.
             #If we're on the main menu, we don't want to confirm quit as Monika isn't back yet
@@ -1615,7 +1615,7 @@ screen preferences():
                         label _("Random Chatter  ")
 
                         # display str
-                        label _("[[ " + rc_display + " ]")
+                        label "[[ " + renpy.translation.translate_string(rc_display) + " ]"
 
                     bar value FieldValue(
                         persistent,
@@ -1829,7 +1829,7 @@ style slider_pref_vbox is pref_vbox
 screen notif_settings():
     tag menu
 
-    use game_menu(("Alerts"), scroll="viewport"):
+    use game_menu(_("Alerts"), scroll="viewport"):
 
         default tooltip = Tooltip("")
 
@@ -1872,7 +1872,7 @@ screen notif_settings():
 screen hot_keys():
     tag menu
 
-    use game_menu(("Hotkeys"), scroll="viewport"):
+    use game_menu(_("Hotkeys"), scroll="viewport"):
 
         default tooltip = Tooltip("")
 
@@ -1890,7 +1890,7 @@ screen hot_keys():
                     text _("Talk")
                     text _("Bookmark")
                     text _("Derandom")
-                    text _("Fullscreen")
+                    text _("Fullscreen{#shortcut}")
                     text _("Screenshot")
                     text _("Settings")
 
@@ -1923,7 +1923,7 @@ screen hot_keys():
                     text _("Shift-M")
 
     # there are lesser used hotkeys in Help that aren't needed here
-    text "Click 'Help' for the complete list.":
+    text _("Click 'Help' for the complete list."):
         xalign 1.0 yalign 0.0
         xoffset -10
         style "main_menu_version"
@@ -1966,7 +1966,7 @@ screen history():
                         if "color" in h.who_args:
                             text_color h.who_args["color"]
 
-                text h.what.replace("[","[[")  # ]" fix syntax highlight issue
+                text h.what style "history_text"
 
         if not _history_list:
             label _("The dialogue history is empty.")
@@ -2189,7 +2189,7 @@ screen name_input(message, ok_action):
                 style "confirm_prompt"
                 xalign 0.5
 
-            input default "" value VariableInputValue("player") length 12 allow "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+            input default "" value VariableInputValue("player") length 12 allow __("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
 
             hbox:
                 xalign 0.5
@@ -2852,7 +2852,7 @@ screen twopane_scrollable_menu(prev_items, main_items, left_area, left_align, ri
                 changed store.mas_ui.twopane_menu_search_callback
 
         if flt_evs is None:
-            text "Search for a conversation...":
+            text _("Search for a conversation..."):
                 text_align 0.0
                 layout "nobreak"
                 color "#EEEEEEB2"
@@ -2999,8 +2999,8 @@ screen mas_check_scrollable_menu(
     items,
     display_area,
     scroll_align,
-    selected_button_prompt="Done",
-    default_button_prompt="Nevermind",
+    selected_button_prompt=_("Done"),
+    default_button_prompt=_("Nevermind"),
     return_all=False
 ):
     default buttons_data = {
@@ -3028,7 +3028,7 @@ screen mas_check_scrollable_menu(
 
                 vbox:
                     for button_prompt, button_key, start_selected, true_value, false_value in items:
-                        textbutton button_prompt:
+                        textbutton renpy.substitute(button_prompt):
                             selected buttons_data[button_key]["return_value"] == buttons_data[button_key]["true_value"]
                             xsize display_area[2]
                             action ToggleDict(
