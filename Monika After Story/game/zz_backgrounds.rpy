@@ -3277,7 +3277,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="monika_change_background",
             category=["location"],
-            prompt="Can we go somewhere else?",
+            prompt=_("Can we go somewhere else?"),
             pool=True,
             unlocked=False,
             rules={"no_unlock": None},
