@@ -1134,6 +1134,7 @@ label mas_chess_start_chess:
                 _("I'm happy to see you win!"),
                 _("No matter the outcome, I'll always enjoy playing with you.")
             ]
+            player_win_quip = renpy.substitute(renpy.translation.translate_string(random.choice(player_win_quips)))
             persistent._mas_chess_stats["practice_wins" if practice_mode else "wins"] += 1
 
             #Give player XP if this is their first win
@@ -1163,11 +1164,11 @@ label mas_chess_start_chess:
                 m 1eka "You undid [undo_count] moves though.{w=0.3} {nw}"
                 extend 3eua "But I'm sure if we keep practicing, we can get that number lower."
 
-            m 3hua "[renpy.substitute(random.choice(player_win_quips))]"
+            m 3hua "[player_win_quip]"
 
         else:
             m 3eub "Great job, you won!"
-            m 3hub "[renpy.substitute(random.choice(player_win_quips))]"
+            m 3hub "[player_win_quip]"
 
         m 1eua "Anyway..."
 
@@ -2436,8 +2437,10 @@ init python:
 
                 # prepare a quip before the player turn loop
                 should_update_quip = False
-                quip = renpy.random.choice(
-                    self.player_move_prompts["check"] if self.board.is_check() else self.player_move_prompts["generic"]
+                quip = renpy.translation.translate_string(
+                    renpy.random.choice(
+                        self.player_move_prompts["check"] if self.board.is_check() else self.player_move_prompts["generic"]
+                    )
                 )
 
                 # player turn actions
