@@ -38,6 +38,13 @@ default preferences.afm_time = 15
 default preferences.music_volume = 0.75
 default preferences.sfx_volume = 0.75
 
+define config.default_language = "spanish"
+
+init -990 python:
+    if _preferences.language is None:
+        _preferences.language = "spanish"
+
+
 
 #define config.gl_resize = False
 init 50 python:
