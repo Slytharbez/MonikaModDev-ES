@@ -351,7 +351,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_1week',
-            prompt=_("1 Week"),
+            prompt="1 Week",
             action=EV_ACT_QUEUE,
             category=["anniversary"],
             start_date=store.mas_anni.build_anni(weeks=1),
@@ -378,7 +378,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_1month',
-            prompt=_("1 Month"),
+            prompt="1 Month",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(months=1),
@@ -410,7 +410,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_3month',
-            prompt=_("3 Months"),
+            prompt="3 Months",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(months=3),
@@ -438,7 +438,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_6month',
-            prompt=_("6 Months"),
+            prompt="6 Months",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(months=6),
@@ -476,7 +476,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_1',
-            prompt=_("1 Year"),
+            prompt="1 Year",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=1),
@@ -509,7 +509,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_2',
-            prompt=_("2 Years"),
+            prompt="2 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=2),
@@ -547,7 +547,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_3',
-            prompt=_("3 Years"),
+            prompt="3 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=3),
@@ -576,7 +576,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_4',
-            prompt=_("4 Years"),
+            prompt="4 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=4),
@@ -603,7 +603,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_5',
-            prompt=_("5 Years"),
+            prompt="5 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=5),
@@ -631,7 +631,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_6',
-            prompt=_("6 Years"),
+            prompt="6 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=6),
@@ -657,7 +657,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_7',
-            prompt=_("7 Years"),
+            prompt="7 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=7),
@@ -683,7 +683,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_8',
-            prompt=_("8 Years"),
+            prompt="8 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=8),
@@ -747,7 +747,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_10',
-            prompt=_("10 Years"),
+            prompt="10 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=10),
@@ -771,7 +771,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_20',
-            prompt=_("20 Years"),
+            prompt="20 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=20),
@@ -802,7 +802,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_50',
-            prompt=_("50 Years"),
+            prompt="50 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=50),
@@ -832,7 +832,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_100',
-            prompt=_("100 Years"),
+            prompt="100 Years",
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=100),
