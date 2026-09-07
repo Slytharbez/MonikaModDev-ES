@@ -3705,11 +3705,23 @@ translate spanish greeting_long_absence_8c2d8a5d:
     # m 1esc "...Hm?"
     m 1esc "... ¿Hm?"
 
+# game/script-greetings.rpy:2497
+translate spanish greeting_long_absence_47c49c86:
+
+    # m 1wub "[player]!"
+    m 1wub "¡[player]!"
+
 # game/script-greetings.rpy:2498
 translate spanish greeting_long_absence_24d920c3:
 
     # m 1rksdlb "You're back a little bit earlier than I thought you would be..."
     m 1rksdlb "Has vuelto un poco antes de lo que pensaba..."
+
+# game/script-greetings.rpy:2499
+translate spanish greeting_long_absence_72ec2cd9:
+
+    # m 3hua "Welcome back, [mas_get_player_nickname()]!"
+    m 3hua "¡Bienvenid[o_a] de vuelta, [mas_get_player_nickname()]!"
 
 # game/script-greetings.rpy:2500
 translate spanish greeting_long_absence_61a916d4:
@@ -4652,6 +4664,12 @@ translate spanish greeting_tears_e84d6ddc:
 
     # m 2lktsc "So please...let me be happy with you..."
     m 2lktsc "Así que, por favor... déjame ser feliz contigo..."
+
+# game/script-greetings.rpy:2863
+translate spanish greeting_tears_e612037c:
+
+    # m "..."
+    m "..."
 
 # game/script-greetings.rpy:2865
 translate spanish greeting_tears_97a5a181_1:
@@ -8246,3 +8264,4 @@ init 999 python:
         if loves_val in ["love", "loves"]:
             return "ama"
         return loves_val
+

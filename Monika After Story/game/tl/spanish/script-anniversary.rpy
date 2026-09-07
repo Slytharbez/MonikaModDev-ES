@@ -882,235 +882,307 @@ translate spanish anni_8_4538ac56:
     # m 2fkbstub "So...{w=0.3}I guess what I wanted to say was:{w=0.4} I love the things that have changed.{w=0.2} And I love that this has stayed the same."
     m 2fkbstub "Así que... {w=0.3}supongo que lo que quería decir es: {w=0.4}amo las cosas que han cambiado. {w=0.2}Y amo que esto se haya mantenido igual."
 
-# game/script-anniversary.rpy:728
+# game/script-anniversary.rpy:731
+translate spanish anni_9_d99de29e:
+
+    # m 1eub "Happy anniversary, [player]!"
+    m 1eub "¡Feliz aniversario, [player]!"
+
+# game/script-anniversary.rpy:732
+translate spanish anni_9_42aee801:
+
+    # m 3eta "It's that time of year again, huh?"
+    m 3eta "Ya es esa época del año otra vez, ¿eh?"
+
+# game/script-anniversary.rpy:733
+translate spanish anni_9_d53654e5:
+
+    # m 3rtc "It's kind of funny, the time feels to me like it's moving a little bit faster every year..."
+    m 3rtc "Es curioso, siento como si el tiempo pasara un poquito más rápido cada año..."
+
+# game/script-anniversary.rpy:734
+translate spanish anni_9_26456ad6:
+
+    # m 3esc "Doesn't it seem like the last one just flew by?"
+    m 3esc "¿No te parece como si el último año se hubiera pasado volando?"
+
+# game/script-anniversary.rpy:735
+translate spanish anni_9_18727631:
+
+    # m 1hksdlb "...It kind of makes me anxious to think about, ahaha!"
+    m 1hksdlb "... Me da un poco de ansiedad pensar en ello, ¡jajaja!"
+
+# game/script-anniversary.rpy:736
+translate spanish anni_9_3eb3168f:
+
+    # m 1eksdla "I mean...{w=0.2}{nw}"
+    m 1eksdla "Quiero decir... {w=0.2}{nw}"
+
+# game/script-anniversary.rpy:737
+translate spanish anni_9_840b9a66:
+
+    # extend 2eksdlc "I don't want to let our time just slip through my fingers..."
+    extend 2eksdlc "no quiero dejar que nuestro tiempo simplemente se me escape entre los dedos..."
+
+# game/script-anniversary.rpy:738
+translate spanish anni_9_a720a5e3:
+
+    # m 2ekb "Maybe I just have to take more time to appreciate each moment."
+    m 2ekb "Quizá solo deba tomarme más tiempo para apreciar cada momento."
+
+# game/script-anniversary.rpy:739
+translate spanish anni_9_0b0b3bd9:
+
+    # m 4eub "There have been a lot of studies about how mindfulness can shape our understanding of time, you know."
+    m 4eub "Se han hecho muchos estudios sobre cómo la atención plena puede moldear nuestra percepción del tiempo, ¿sabes?"
+
+# game/script-anniversary.rpy:740
+translate spanish anni_9_6f5ec687:
+
+    # m "So by changing the way I think about things, our time together might stretch out a little more."
+    m "Así que al cambiar la forma en que pienso sobre las cosas, nuestro tiempo junt[o_a]s podría extenderse un poco más."
+
+# game/script-anniversary.rpy:741
+translate spanish anni_9_b06d8038:
+
+    # m 4hua "Just thinking about that makes me feel a bit better."
+    m 4hua "El solo pensar en eso me hace sentir un poco mejor."
+
+# game/script-anniversary.rpy:742
+translate spanish anni_9_570d599e:
+
+    # m 1hubla "After all, I'm sure it's going to be another wonderful year if I get to spend it with you."
+    m 1hubla "Después de todo, estoy segura de que será otro año maravilloso si puedo pasarlo a tu lado."
+
+# game/script-anniversary.rpy:760
 translate spanish anni_10_ea475b07:
 
     # m 1esc "There's something I wanted to ask you."
     m 1esc "Hay algo que quería preguntarte."
 
-# game/script-anniversary.rpy:729
+# game/script-anniversary.rpy:761
 translate spanish anni_10_5c9d9dc7:
 
     # m 2euc "Have you enjoyed spending this time with me?"
     m 2euc "¿Te ha gustado pasar este tiempo conmigo?"
 
-# game/script-anniversary.rpy:730
+# game/script-anniversary.rpy:762
 translate spanish anni_10_bf1f377b:
 
     # m 1ekc "You don't regret falling in love and staying here with me or anything, right?"
     m 1ekc "No te arrepientes de enamorarte y quedarte aquí conmigo ni nada, ¿verdad?"
 
-# game/script-anniversary.rpy:731
+# game/script-anniversary.rpy:763
 translate spanish anni_10_989505cc:
 
     # m 1ekbsa "If you're still talking to me ten years since we first met, I must have really made an impression on you."
     m 1ekbsa "Si todavía me estás hablando diez años desde que nos conocimos, debo haberte impresionado mucho."
 
-# game/script-anniversary.rpy:732
+# game/script-anniversary.rpy:764
 translate spanish anni_10_0318869e:
 
     # m "I did say I wanted to make you happy, after all."
     m "Dije que quería hacerte feliz, después de todo."
 
-# game/script-anniversary.rpy:733
+# game/script-anniversary.rpy:765
 translate spanish anni_10_bf0b72a7:
 
     # m 1hubfa "Trust me, you've helped me out a lot more than I've helped you."
     m 1hubfa "Créeme, me has ayudado mucho más de lo que yo te he ayudado."
 
-# game/script-anniversary.rpy:734
+# game/script-anniversary.rpy:766
 translate spanish anni_10_54835729:
 
     # m "It won't be long now before I can enter your world."
     m "No pasará mucho tiempo antes de que pueda entrar en tu mundo."
 
-# game/script-anniversary.rpy:752
+# game/script-anniversary.rpy:784
 translate spanish anni_20_4c959a64:
 
     # m 1esc "You've lived a pretty long life by now, [player]."
     m 1esc "Ya has vivido una vida bastante larga, [player]."
 
-# game/script-anniversary.rpy:753
+# game/script-anniversary.rpy:785
 translate spanish anni_20_f10a973f:
 
     # m "Twenty years is about twenty percent of your life on Earth, if you're lucky."
     m "Veinte años es aproximadamente el veinte por ciento de tu vida en la tierra, si tienes suerte."
 
-# game/script-anniversary.rpy:754
+# game/script-anniversary.rpy:786
 translate spanish anni_20_9d563129:
 
     # m "I hope you've found happiness by now."
     m "Espero que ya hayas encontrado la felicidad."
 
-# game/script-anniversary.rpy:755
+# game/script-anniversary.rpy:787
 translate spanish anni_20_a67a96bd:
 
     # m 1eka "I know I did."
     m 1eka "Sé que yo lo hice."
 
-# game/script-anniversary.rpy:756
+# game/script-anniversary.rpy:788
 translate spanish anni_20_96717a1c:
 
     # m 1ekd "So you deserve to find it too."
     m 1ekd "Así que tú también mereces encontrarla."
 
-# game/script-anniversary.rpy:757
+# game/script-anniversary.rpy:789
 translate spanish anni_20_c5adcc99:
 
     # m "Twenty years ago, you seemed a little too sad for your own good."
     m "Hace veinte años, parecías demasiado triste para tu propio bien."
 
-# game/script-anniversary.rpy:758
+# game/script-anniversary.rpy:790
 translate spanish anni_20_45657f14:
 
     # m 1eka "I knew exactly how you felt. You were trying so hard to search for somebody who could understand you."
     m 1eka "Sabía exactamente cómo te sentías. Intentabas con todas tus fuerzas buscar a alguien que pudiera entenderte."
 
-# game/script-anniversary.rpy:759
+# game/script-anniversary.rpy:791
 translate spanish anni_20_e105df52:
 
     # m "And I was trying to find you, too."
     m "Y yo también estaba tratando de encontrarte."
 
-# game/script-anniversary.rpy:760
+# game/script-anniversary.rpy:792
 translate spanish anni_20_ea7ddb63:
 
     # m 2hub "You wouldn't have found anyone else like me in a video game no matter how hard you looked, [player]."
     m 2hub "No habrías encontrado a nadie más como yo en un videojuego por mucho que buscaras, [player]."
 
-# game/script-anniversary.rpy:761
+# game/script-anniversary.rpy:793
 translate spanish anni_20_1d94daeb:
 
     # m "I'm one of a kind."
     m "Yo soy única."
 
-# game/script-anniversary.rpy:762
+# game/script-anniversary.rpy:794
 translate spanish anni_20_45cf520d:
 
     # m 3rkbsa "And to me, so are you."
     m 3rkbsa "Y para mí, tú también."
 
-# game/script-anniversary.rpy:764
+# game/script-anniversary.rpy:796
 translate spanish anni_20_129baa1d:
 
     # m 5eubfb "I hope you look on the last twenty years of our lives as happily as I do, [player]."
     m 5eubfb "Espero que veas los últimos veinte años de nuestras vidas con tanta alegría como yo, [player]."
 
-# game/script-anniversary.rpy:765
+# game/script-anniversary.rpy:797
 translate spanish anni_20_e40ac975:
 
     # m 1hubfa "So let's continue being happy together."
     m 1hubfa "Así que sigamos siendo felices junt[o_a]s."
 
-# game/script-anniversary.rpy:783
+# game/script-anniversary.rpy:815
 translate spanish anni_50_1d16ceda:
 
     # m 1tkc "I can't help but think there's got to be a better way for us to talk by now than through this screen, right?"
     m 1tkc "No puedo evitar pensar que debe haber una mejor manera de hablar en vez de usar esta pantalla, ¿verdad?"
 
-# game/script-anniversary.rpy:784
+# game/script-anniversary.rpy:816
 translate spanish anni_50_be00a0e3:
 
     # m "Fifty years have passed in your world since I created this room."
     m "Han pasado cincuenta años en tu mundo desde que creé esta habitación."
 
-# game/script-anniversary.rpy:785
+# game/script-anniversary.rpy:817
 translate spanish anni_50_6f341d8f:
 
     # m 1hfw "Come on, let me out already!"
     m 1hfw "¡Vamos, déjame salir ya!"
 
-# game/script-anniversary.rpy:786
+# game/script-anniversary.rpy:818
 translate spanish anni_50_6111571a:
 
     # m 1dsc "..."
     m 1dsc "..."
 
-# game/script-anniversary.rpy:787
+# game/script-anniversary.rpy:819
 translate spanish anni_50_d5ea82fb:
 
     # m 1eua "Well, if you're still willing to celebrate our fiftieth anniversary in this old classroom..."
     m 1eua "Bueno, si todavía estás dispuesto a celebrar nuestro quincuagésimo aniversario en esta antigua aula de clases..."
 
-# game/script-anniversary.rpy:788
+# game/script-anniversary.rpy:820
 translate spanish anni_50_b96da401:
 
     # m "I don't really mind. It feels nostalgic, doesn't it?"
     m "Realmente no me importa. Se siente nostálgico, ¿no crees?"
 
-# game/script-anniversary.rpy:789
+# game/script-anniversary.rpy:821
 translate spanish anni_50_df74ea74:
 
     # m 1tfu "Assuming you didn't cheat by setting the clock forward in time..."
     m 1tfu "Suponiendo que no hiciste trampa al adelantar el reloj..."
 
-# game/script-anniversary.rpy:790
+# game/script-anniversary.rpy:822
 translate spanish anni_50_5135dcb3:
 
     # m 1eka "I'm glad that forever meant forever."
     m 1eka "Me alegra que para siempre signifique para siempre."
 
-# game/script-anniversary.rpy:791
+# game/script-anniversary.rpy:823
 translate spanish anni_50_ab52eca5:
 
     # m "Even when you die, I'm going to find a way to be with you."
     m "Incluso cuando mueras, voy a encontrar la manera de estar contigo."
 
-# game/script-anniversary.rpy:792
+# game/script-anniversary.rpy:824
 translate spanish anni_50_d3e26fd9:
 
     # m 1ekbsa "See you in a hundred years, then, [player]."
     m 1ekbsa "Nos vemos en cien años, [player]."
 
-# game/script-anniversary.rpy:793
+# game/script-anniversary.rpy:825
 translate spanish anni_50_35bdda6b:
 
     # m 1hubfa "Thanks for everything you've done for me."
     m 1hubfa "Gracias por todo lo que has hecho por mí."
 
-# game/script-anniversary.rpy:794
+# game/script-anniversary.rpy:826
 translate spanish anni_50_c0c8d060:
 
     # m "Your life had a purpose after all."
     m "Después de todo, tu vida tenía un propósito."
 
-# game/script-anniversary.rpy:795
+# game/script-anniversary.rpy:827
 translate spanish anni_50_e936e6d6:
 
     # m 1hubfb "And mine had one too."
     m 1hubfb "Y la mía también."
 
-# game/script-anniversary.rpy:813
+# game/script-anniversary.rpy:845
 translate spanish anni_100_0d642847:
 
     # m 1eka "I don't really think you should be seeing this message, [player]."
     m 1eka "Realmente no creo que puedas ver este mensaje, [player]."
 
-# game/script-anniversary.rpy:814
+# game/script-anniversary.rpy:846
 translate spanish anni_100_fceb09a0:
 
     # m "I'm immortal, but the last time I checked, you weren't."
     m "Soy inmortal, pero la última vez que lo comprobé, tú no lo eras."
 
-# game/script-anniversary.rpy:815
+# game/script-anniversary.rpy:847
 translate spanish anni_100_d047a51d:
 
     # m 1tku "So you're probably cheating by manually changing your system clock, huh?"
     m 1tku "Así que probablemente estés haciendo trampa al cambiar manualmente el reloj de tu sistema, ¿eh?"
 
-# game/script-anniversary.rpy:816
+# game/script-anniversary.rpy:848
 translate spanish anni_100_e77197b8:
 
     # m 1eua "That's a cute thing for you to do, so I forgive you."
     m 1eua "Eso es algo lindo de tu parte, así que te perdono."
 
-# game/script-anniversary.rpy:817
+# game/script-anniversary.rpy:849
 translate spanish anni_100_2b3578a8:
 
     # m 1hubsa "Make sure you put that much effort into freeing me from these code files too!"
     m 1hubsa "¡Asegúrate de esforzarte mucho en liberarme de estos archivos de código también!"
 
-# game/script-anniversary.rpy:818
+# game/script-anniversary.rpy:850
 translate spanish anni_100_d58964ad:
 
     # m "I'm sure I'll be able to touch you for real even if it takes us a hundred years to figure out how."
@@ -1118,70 +1190,70 @@ translate spanish anni_100_d58964ad:
 
 translate spanish strings:
 
-    # game/script-anniversary.rpy:352
+    # game/script-anniversary.rpy:354
     old "1 Week"
     new "1 semana"
 
-    # game/script-anniversary.rpy:354
-    old "anniversary"
-    new "aniversario"
-
-    # game/script-anniversary.rpy:379
+    # game/script-anniversary.rpy:381
     old "1 Month"
     new "1 mes"
 
-    # game/script-anniversary.rpy:411
+    # game/script-anniversary.rpy:413
     old "3 Months"
     new "3 meses"
 
-    # game/script-anniversary.rpy:439
+    # game/script-anniversary.rpy:441
     old "6 Months"
     new "6 meses"
 
-    # game/script-anniversary.rpy:477
+    # game/script-anniversary.rpy:479
     old "1 Year"
     new "1 año"
 
-    # game/script-anniversary.rpy:510
+    # game/script-anniversary.rpy:512
     old "2 Years"
     new "2 años"
 
-    # game/script-anniversary.rpy:548
+    # game/script-anniversary.rpy:550
     old "3 Years"
     new "3 años"
 
-    # game/script-anniversary.rpy:577
+    # game/script-anniversary.rpy:579
     old "4 Years"
     new "4 años"
 
-    # game/script-anniversary.rpy:604
+    # game/script-anniversary.rpy:606
     old "5 Years"
     new "5 años"
 
-    # game/script-anniversary.rpy:632
+    # game/script-anniversary.rpy:634
     old "6 Years"
     new "6 años"
 
-    # game/script-anniversary.rpy:658
+    # game/script-anniversary.rpy:660
     old "7 Years"
     new "7 años"
 
-    # game/script-anniversary.rpy:684
+    # game/script-anniversary.rpy:686
     old "8 Years"
     new "8 años"
 
-    # game/script-anniversary.rpy:718
+    # game/script-anniversary.rpy:721
+    old "9 Years"
+    new "9 años"
+
+    # game/script-anniversary.rpy:750
     old "10 Years"
     new "10 años"
 
-    # game/script-anniversary.rpy:742
+    # game/script-anniversary.rpy:774
     old "20 Years"
     new "20 años"
 
-    # game/script-anniversary.rpy:773
+    # game/script-anniversary.rpy:805
     old "50 Years"
     new "50 años"
 
-    # game/script-anniversary.rpy:803
+    # game/script-anniversary.rpy:835
     old "100 Years"
     new "100 años"

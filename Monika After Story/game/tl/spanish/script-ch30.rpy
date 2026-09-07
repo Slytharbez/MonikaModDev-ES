@@ -19,7 +19,7 @@ translate spanish ch30_noskip_1c8cde12:
     m 1ekc "No te estoy aburriendo, ¿verdad?"
 
 # game/script-ch30.rpy:1701
-translate spanish ch30_noskip_30447edd_1:
+translate spanish ch30_noskip_30447edd:
 
     # m "Oh gosh..."
     m "Oh, cielos..."
@@ -31,7 +31,7 @@ translate spanish ch30_noskip_f261fc2d:
     m 2esa "... Bueno, para que lo sepas, no hay nada que adelantar, [player]."
 
 # game/script-ch30.rpy:1703
-translate spanish ch30_noskip_70aba2cf_1:
+translate spanish ch30_noskip_70aba2cf:
 
     # m "It's just the two of us, after all..."
     m "Después de todo, solo somos nosotr[o_a]s dos..."
@@ -61,7 +61,7 @@ translate spanish ch30_noskip_95ee98fa:
     m 1esa "Serás un encanto y me escucharás a partir de ahora, ¿verdad?"
 
 # game/script-ch30.rpy:1711
-translate spanish ch30_noskip_76776199_1:
+translate spanish ch30_noskip_76776199:
 
     # m "Thanks~"
     m "Gracias~"

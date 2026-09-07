@@ -463,7 +463,7 @@ translate spanish mas_preferredname_73b575b9:
     m 1esa "¿Es '[player]' realmente tu nombre?"
 
 # game/script-story-events.rpy:617
-translate spanish mas_preferredname_39b85624:
+translate spanish mas_preferredname_947321d0:
 
     # m 3esa "I mean, it's the same as your computer's name..."
     m 3esa "Quiero decir, es el mismo que el nombre de tu computadora..."
@@ -2079,7 +2079,7 @@ translate spanish monika_rpy_files_208c923a:
     m 2rsc "¿Estás {i}segur[o_a]{/i} de haber instalado la versión correcta?{nw}"
 
 # game/script-story-events.rpy:1832
-translate spanish monika_rpy_files_d757a93b:
+translate spanish monika_rpy_files_38c0871e:
 
     # m 2rsc "Are you {i}sure{/i} you installed the right version?{fast}" nointeract
     m "¿Estás {i}segur[o_a]{/i} de haber instalado la versión correcta?{fast}" nointeract
@@ -2487,7 +2487,7 @@ translate spanish mas_notification_windowreact_e978a55e:
     m 1rkc "Bueno, casi..."
 
 # game/script-story-events.rpy:2118
-translate spanish mas_notification_windowreact_b1036523:
+translate spanish mas_notification_windowreact_dc48441f:
 
     # m 3ekd "I can't send notifications on your computer because you're missing the notify-send command..."
     m 3ekd "No puedo enviar notificaciones en tu computadora porque te falta el comando notify-send..."
@@ -3511,7 +3511,7 @@ translate spanish mas_backup_restored_449aa886:
     m 1ekc "Intentemos asegurarnos de que no vuelva a suceder, ¿de acuerdo?"
 
 # game/script-story-events.rpy:2743
-translate spanish mas_backup_restored_6b6c264c:
+translate spanish mas_backup_restored_94d72937:
 
     # m 1etc "Added a {w=0.1}{i}submod{/i}?"
     m 1etc "¿Añadiste un {w=0.1}{i}submod{/i}?"
