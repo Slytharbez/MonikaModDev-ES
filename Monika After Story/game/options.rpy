@@ -140,6 +140,7 @@ init python:
     build.classify("game/*.rpyc",build.name) #Serialized scripts must be included
     build.classify("game/dev/*.*",None) #But not the dev folder
     build.classify("game/tl/**/dev/**", None)
+    build.classify("game/tl/**.rpy", None) # Exclude uncompiled translation scripts
     build.classify("game/tl/**", build.name)
     build.classify("README.html",build.name) #Included help file for mod installation
     build.classify("game/python-packages/**",build.name)#Additional python pacakges

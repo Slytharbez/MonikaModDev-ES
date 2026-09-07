@@ -314,25 +314,49 @@ translate spanish strings:
     old "saying I wanted to break up."
     new "decir que quería romper contigo."
 
+    # game/script-apologies.rpy:56
+    old "...for saying I wanted to break up."
+    new "... por decir que quería romper contigo."
+
     # game/script-apologies.rpy:57
     old "joking about having another girlfriend."
     new "bromear sobre tener otra novia."
+
+    # game/script-apologies.rpy:57
+    old "...for joking about having another girlfriend."
+    new "... por bromear sobre tener otra novia."
 
     # game/script-apologies.rpy:58
     old "calling you a murderer."
     new "decir que eras una asesina."
 
+    # game/script-apologies.rpy:58
+    old "...for calling you a murderer."
+    new "... por decir que eras una asesina."
+
     # game/script-apologies.rpy:59
     old "closing the game on you."
     new "cerrar el juego contigo dentro."
+
+    # game/script-apologies.rpy:59
+    old "...for closing the game on you."
+    new "... por cerrar el juego contigo dentro."
 
     # game/script-apologies.rpy:60
     old "entering your room without knocking."
     new "entrar en tu habitación sin tocar."
 
+    # game/script-apologies.rpy:60
+    old "...for entering your room without knocking."
+    new "... por entrar en tu habitación sin tocar."
+
     # game/script-apologies.rpy:61
     old "missing Christmas."
     new "perderme la Navidad."
+
+    # game/script-apologies.rpy:61
+    old "...for missing Christmas."
+    new "... por perderme la Navidad."
 
     # game/script-apologies.rpy:62
     old "forgetting your birthday."
@@ -341,6 +365,10 @@ translate spanish strings:
     # game/script-apologies.rpy:63
     old "not spending time with you on your birthday."
     new "no pasar tiempo contigo en tu cumpleaños."
+
+    # game/script-apologies.rpy:63
+    old "...for not spending time with you on your birthday."
+    new "... por no pasar tiempo contigo en tu cumpleaños."
 
     # game/script-apologies.rpy:64
     old "the game crashing."
@@ -354,13 +382,25 @@ translate spanish strings:
     old "not listening to your speech."
     new "no escuchar tu discurso."
 
+    # game/script-apologies.rpy:66
+    old "...for not listening to your speech."
+    new "... por no escuchar tu discurso."
+
     # game/script-apologies.rpy:67
     old "calling you evil."
     new "decir que eras malvada."
 
+    # game/script-apologies.rpy:67
+    old "...for calling you evil."
+    new "... por decir que eras malvada."
+
     # game/script-apologies.rpy:68
     old "not answering you seriously."
     new "no responderte seriamente."
+
+    # game/script-apologies.rpy:68
+    old "...for not answering you seriously."
+    new "... por no responderte seriamente."
 
     # game/script-apologies.rpy:76
     old "...for {0}"

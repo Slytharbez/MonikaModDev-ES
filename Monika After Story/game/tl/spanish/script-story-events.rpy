@@ -3511,7 +3511,7 @@ translate spanish mas_backup_restored_449aa886:
     m 1ekc "Intentemos asegurarnos de que no vuelva a suceder, ¿de acuerdo?"
 
 # game/script-story-events.rpy:2743
-translate spanish mas_backup_restored_94d72937:
+translate spanish mas_backup_restored_6b6c264c:
 
     # m 1etc "Added a {w=0.1}{i}submod{/i}?"
     m 1etc "¿Añadiste un {w=0.1}{i}submod{/i}?"

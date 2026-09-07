@@ -19,7 +19,7 @@ translate spanish splashscreen_e193832f:
     "Se requieren los archivos de juego de Doki Doki Literature Club para jugar a este mod, los cuales pueden descargarse gratis en: http://ddlc.moe"
 
 # game/splash.rpy:271
-translate spanish after_load_78a4e9dc_1:
+translate spanish after_load_78a4e9dc:
 
     # "The save file could not be loaded."
     "No se pudo cargar el archivo de guardado."

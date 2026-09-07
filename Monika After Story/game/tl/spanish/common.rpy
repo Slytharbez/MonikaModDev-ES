@@ -105,6 +105,571 @@ translate spanish strings:
     old "Full traceback:"
     new "Rastreo completo:"
 
+    # 00action_file.rpy:26
+    old "{#weekday}Monday"
+    new "{#weekday}Lunes"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Tuesday"
+    new "{#weekday}Martes"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Wednesday"
+    new "{#weekday}Miércoles"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Thursday"
+    new "{#weekday}Jueves"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Friday"
+    new "{#weekday}Viernes"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Saturday"
+    new "{#weekday}Sábado"
+
+    # 00action_file.rpy:26
+    old "{#weekday}Sunday"
+    new "{#weekday}Domingo"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Mon"
+    new "{#weekday_short}Lun"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Tue"
+    new "{#weekday_short}Mar"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Wed"
+    new "{#weekday_short}Mié"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Thu"
+    new "{#weekday_short}Jue"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Fri"
+    new "{#weekday_short}Vie"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Sat"
+    new "{#weekday_short}Sáb"
+
+    # 00action_file.rpy:37
+    old "{#weekday_short}Sun"
+    new "{#weekday_short}Dom"
+
+    # 00action_file.rpy:47
+    old "{#month}January"
+    new "{#month}Enero"
+
+    # 00action_file.rpy:47
+    old "{#month}February"
+    new "{#month}Febrero"
+
+    # 00action_file.rpy:47
+    old "{#month}March"
+    new "{#month}Marzo"
+
+    # 00action_file.rpy:47
+    old "{#month}April"
+    new "{#month}Abril"
+
+    # 00action_file.rpy:47
+    old "{#month}May"
+    new "{#month}Mayo"
+
+    # 00action_file.rpy:47
+    old "{#month}June"
+    new "{#month}Junio"
+
+    # 00action_file.rpy:47
+    old "{#month}July"
+    new "{#month}Julio"
+
+    # 00action_file.rpy:47
+    old "{#month}August"
+    new "{#month}Agosto"
+
+    # 00action_file.rpy:47
+    old "{#month}September"
+    new "{#month}Septiembre"
+
+    # 00action_file.rpy:47
+    old "{#month}October"
+    new "{#month}Octubre"
+
+    # 00action_file.rpy:47
+    old "{#month}November"
+    new "{#month}Noviembre"
+
+    # 00action_file.rpy:47
+    old "{#month}December"
+    new "{#month}Diciembre"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Jan"
+    new "{#month_short}Ene"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Feb"
+    new "{#month_short}Feb"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Mar"
+    new "{#month_short}Mar"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Apr"
+    new "{#month_short}Abr"
+
+    # 00action_file.rpy:63
+    old "{#month_short}May"
+    new "{#month_short}May"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Jun"
+    new "{#month_short}Jun"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Jul"
+    new "{#month_short}Jul"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Aug"
+    new "{#month_short}Ago"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Sep"
+    new "{#month_short}Sep"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Oct"
+    new "{#month_short}Oct"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Nov"
+    new "{#month_short}Nov"
+
+    # 00action_file.rpy:63
+    old "{#month_short}Dec"
+    new "{#month_short}Dic"
+
+    # 00action_file.rpy:235
+    old "%b %d, %H:%M"
+    new "%d de %b, %H:%M"
+
+    # 00action_file.rpy:569
+    old "Automatic saves"
+    new "Guardados automáticos"
+
+    # 00action_file.rpy:569
+    old "Quick saves"
+    new "Guardados rápidos"
+
+    # 00action_file.rpy:820
+    old "Quick save complete."
+    new "Guardado rápido completado."
+
+    # 00gui.rpy:234
+    old "Are you sure?"
+    new "¿Estás seguro?"
+
+    # 00gui.rpy:235
+    old "Are you sure you want to delete this save?"
+    new "¿Seguro que quieres borrar este archivo de guardado?"
+
+    # 00gui.rpy:236
+    old "Are you sure you want to overwrite your save?"
+    new "¿Seguro que quieres sobrescribir tu guardado?"
+
+    # 00gui.rpy:237
+    old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "Cargar la partida perderá el progreso no guardado.\n¿Seguro que quieres continuar?"
+
+    # 00gui.rpy:238
+    old "Are you sure you want to quit?"
+    new "¿Seguro que quieres salir?"
+
+    # 00gui.rpy:239
+    old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "¿Seguro que quieres volver al menú principal?\nSe perderá el progreso no guardado."
+
+    # 00gui.rpy:240
+    old "Are you sure you want to end the replay?"
+    new "¿Seguro que quieres terminar la repetición?"
+
+    # 00gui.rpy:241
+    old "Are you sure you want to begin skipping?"
+    new "¿Seguro que quieres empezar a saltar?"
+
+    # 00gui.rpy:242
+    old "Are you sure you want to skip to the next choice?"
+    new "¿Seguro que quieres saltar hasta la siguiente opción?"
+
+    # 00gui.rpy:243
+    old "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "¿Seguro que quieres saltar texto no visto hasta la siguiente opción?"
+
+    # 00keymap.rpy:259
+    old "Saved screenshot as %s."
+    new "Captura guardada como %s."
+
+    # 00library.rpy:142
+    old "Self-voicing disabled."
+    new "Voz automática desactivada."
+
+    # 00library.rpy:143
+    old "Clipboard voicing enabled. "
+    new "Voz del portapapeles activada. "
+
+    # 00library.rpy:144
+    old "Self-voicing enabled. "
+    new "Voz automática activada. "
+
+    # 00library.rpy:179
+    old "Skip Mode"
+    new "Modo de salto"
+
+    # 00library.rpy:262
+    old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    new "Este programa contiene software libre bajo diversas licencias, incluidas la Licencia MIT y la GNU Lesser General Public License. Puede consultar una lista completa del software y enlaces a su código fuente {a=https://www.renpy.org/l/license}aquí{/a}."
+
+    # 00preferences.rpy:429
+    old "Clipboard voicing enabled. Press 'shift+C' to disable."
+    new "Voz del portapapeles activada. Pulsa 'Mayús+C' para desactivarla."
+
+    # 00preferences.rpy:431
+    old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+    new "La voz automática diría \"[renpy.display.tts.last]\". Pulsa 'Alt+Mayús+V' para desactivarla."
+
+    # 00preferences.rpy:433
+    old "Self-voicing enabled. Press 'v' to disable."
+    new "Voz automática activada. Pulsa 'V' para desactivarla."
+
+    # _compat\gamemenu.rpym:198
+    old "Empty Slot."
+    new "Ranura vacía."
+
+    # _compat\gamemenu.rpym:355
+    old "Previous"
+    new "Anterior"
+
+    # _compat\gamemenu.rpym:362
+    old "Next"
+    new "Siguiente"
+
+    # _compat\preferences.rpym:428
+    old "Joystick Mapping"
+    new "Asignación de Joystick"
+
+    # _developer\developer.rpym:38
+    old "Developer Menu"
+    new "Menú de desarrollador"
+
+    # _developer\developer.rpym:43
+    old "Reload Game (Shift+R)"
+    new "Recargar juego (Mayús+R)"
+
+    # _developer\developer.rpym:45
+    old "Console (Shift+O)"
+    new "Consola (Mayús+O)"
+
+    # _developer\developer.rpym:47
+    old "Variable Viewer"
+    new "Visor de variables"
+
+    # _developer\developer.rpym:49
+    old "Theme Test"
+    new "Prueba de temas"
+
+    # _developer\developer.rpym:51
+    old "Image Location Picker"
+    new "Selector de posición de imágenes"
+
+    # _developer\developer.rpym:53
+    old "Filename List"
+    new "Lista de nombres de archivos"
+
+    # _developer\developer.rpym:57
+    old "Show Image Load Log"
+    new "Mostrar registro de carga de imágenes"
+
+    # _developer\developer.rpym:60
+    old "Hide Image Load Log"
+    new "Ocultar registro de carga de imágenes"
+
+    # _developer\developer.rpym:95
+    old "Nothing to inspect."
+    new "Nada que inspeccionar."
+
+    # _developer\developer.rpym:217
+    old "Return to the developer menu"
+    new "Volver al menú de desarrollador"
+
+    # _developer\developer.rpym:377
+    old "Rectangle: %r"
+    new "Rectángulo: %r"
+
+    # _developer\developer.rpym:382
+    old "Mouse position: %r"
+    new "Posición del ratón: %r"
+
+    # _developer\developer.rpym:387
+    old "Right-click or escape to quit."
+    new "Clic derecho o Escape para salir."
+
+    # _developer\developer.rpym:419
+    old "Rectangle copied to clipboard."
+    new "Rectángulo copiado al portapapeles."
+
+    # _developer\developer.rpym:422
+    old "Position copied to clipboard."
+    new "Posición copiada al portapapeles."
+
+    # _developer\developer.rpym:531
+    old "✔ "
+    new "✔ "
+
+    # _developer\developer.rpym:534
+    old "✘ "
+    new "✘ "
+
+    # _developer\developer.rpym:539
+    old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+    new "\n{color=#cfc}✔ imagen predicha (bien){/color}\n{color=#fcc}✘ imagen no predicha (mal){/color}\n{color=#fff}Arrastra para mover.{/color}"
+
+    # _developer\inspector.rpym:38
+    old "Displayable Inspector"
+    new "Inspector de Displayables"
+
+    # _developer\inspector.rpym:61
+    old "Size"
+    new "Tamaño"
+
+    # _developer\inspector.rpym:65
+    old "Style"
+    new "Estilo"
+
+    # _developer\inspector.rpym:71
+    old "Location"
+    new "Ubicación"
+
+    # _developer\inspector.rpym:122
+    old "Inspecting Styles of [displayable_name!q]"
+    new "Inspeccionando estilos de [displayable_name!q]"
+
+    # _developer\inspector.rpym:139
+    old "displayable:"
+    new "displayable:"
+
+    # _developer\inspector.rpym:145
+    old "        (no properties affect the displayable)"
+    new "        (ninguna propiedad afecta al displayable)"
+
+    # _developer\inspector.rpym:147
+    old "        (default properties omitted)"
+    new "        (propiedades predeterminadas omitidas)"
+
+    # _developer\inspector.rpym:185
+    old "<repr() failed>"
+    new "<repr() ha fallado>"
+
+    # _layout\classic_load_save.rpym:170
+    old "a"
+    new "a"
+
+    # _layout\classic_load_save.rpym:179
+    old "q"
+    new "r"
+
+    # 00iap.rpy:217
+    old "Contacting App Store\nPlease Wait..."
+    new "Contactando con la App Store\nPor favor, espera..."
+
+    # 00updater.rpy:373
+    old "The Ren'Py Updater is not supported on mobile devices."
+    new "El actualizador de Ren'Py no es compatible con dispositivos móviles."
+
+    # 00updater.rpy:492
+    old "An error is being simulated."
+    new "Se está simulando un error."
+
+    # 00updater.rpy:668
+    old "Either this project does not support updating, or the update status file was deleted."
+    new "O bien este proyecto no admite actualizaciones, o se eliminó el archivo de estado de actualización."
+
+    # 00updater.rpy:682
+    old "This account does not have permission to perform an update."
+    new "Esta cuenta no tiene permiso para realizar una actualización."
+
+    # 00updater.rpy:685
+    old "This account does not have permission to write the update log."
+    new "Esta cuenta no tiene permiso para escribir el registro de actualización."
+
+    # 00updater.rpy:710
+    old "Could not verify update signature."
+    new "No se pudo verificar la firma de la actualización."
+
+    # 00updater.rpy:981
+    old "The update file was not downloaded."
+    new "El archivo de actualización no se ha descargado."
+
+    # 00updater.rpy:999
+    old "The update file does not have the correct digest - it may have been corrupted."
+    new "El archivo de actualización no tiene la suma de comprobación correcta; puede estar dañado."
+
+    # 00updater.rpy:1055
+    old "While unpacking {}, unknown type {}."
+    new "Al desempaquetar {}, tipo desconocido {}."
+
+    # 00updater.rpy:1410
+    old "This program is up to date."
+    new "Este programa está actualizado."
+
+    # 00updater.rpy:1412
+    old "[u.version] is available. Do you want to install it?"
+    new "[u.version] está disponible. ¿Deseas instalarla?"
+
+    # 00updater.rpy:1416
+    old "Downloading the updates."
+    new "Descargando las actualizaciones."
+
+    # 00updater.rpy:1422
+    old "The updates have been installed. The program will restart."
+    new "Las actualizaciones se han instalado. El programa se reiniciará."
+
+    # 00gallery.rpy:563
+    old "Image [index] of [count] locked."
+    new "Imagen [index] de [count] bloqueada."
+
+    # 00gallery.rpy:583
+    old "prev"
+    new "ant"
+
+    # 00gallery.rpy:584
+    old "next"
+    new "sig"
+
+    # 00gallery.rpy:585
+    old "slideshow"
+    new "diapositivas"
+
+    # 00gallery.rpy:586
+    old "return"
+    new "volver"
+
+    # 00gltest.rpy:64
+    old "Graphics Acceleration"
+    new "Aceleración de gráficos"
+
+    # 00gltest.rpy:75
+    old "Force Angle/DirectX Renderer"
+    new "Forzar renderizador Angle/DirectX"
+
+    # 00gltest.rpy:79
+    old "Force OpenGL Renderer"
+    new "Forzar renderizador OpenGL"
+
+    # 00gltest.rpy:83
+    old "Force Software Renderer"
+    new "Forzar renderizador por software"
+
+    # 00gltest.rpy:93
+    old "Enable"
+    new "Habilitar"
+
+    # 00gltest.rpy:97
+    old "Disable"
+    new "Deshabilitar"
+
+    # 00gltest.rpy:109
+    old "Changes will take effect the next time this program is run."
+    new "Los cambios surtirán efecto la próxima vez que se ejecute el programa."
+
+    # 00gltest.rpy:141
+    old "Performance Warning"
+    new "Aviso de rendimiento"
+
+    # 00gltest.rpy:146
+    old "This computer is using software rendering."
+    new "Este equipo está usando renderizado por software."
+
+    # 00gltest.rpy:148
+    old "This computer is not using shaders."
+    new "Este equipo no está utilizando shaders."
+
+    # 00gltest.rpy:150
+    old "This computer is displaying graphics slowly."
+    new "Este equipo muestra los gráficos con lentitud."
+
+    # 00gltest.rpy:152
+    old "This computer has a problem displaying graphics: [problem]."
+    new "Este equipo tiene un problema para mostrar gráficos: [problem]."
+
+    # 00gltest.rpy:157
+    old "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display. Updating DirectX could fix this problem."
+    new "Es posible que los controladores gráficos estén obsoletos o no funcionen correctamente. Esto puede ralentizar o deformar los gráficos. Actualizar DirectX podría solucionar este problema."
+
+    # 00gltest.rpy:159
+    old "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display."
+    new "Es posible que los controladores gráficos estén obsoletos o no funcionen correctamente. Esto puede ralentizar o deformar los gráficos."
+
+    # 00gltest.rpy:164
+    old "Update DirectX"
+    new "Actualizar DirectX"
+
+    # 00gltest.rpy:170
+    old "Continue, Show this warning again"
+    new "Continuar, volver a mostrar esta advertencia"
+
+    # 00gltest.rpy:174
+    old "Continue, Don't show warning again"
+    new "Continuar, no volver a mostrar la advertencia"
+
+    # 00gltest.rpy:192
+    old "Updating DirectX."
+    new "Actualizando DirectX."
+
+    # 00gltest.rpy:196
+    old "DirectX web setup has been started. It may start minimized in the taskbar. Please follow the prompts to install DirectX."
+    new "Se ha iniciado la instalación web de DirectX. Puede iniciarse minimizada en la barra de tareas. Sigue las instrucciones para instalar DirectX."
+
+    # 00gltest.rpy:200
+    old "{b}Note:{/b} Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
+    new "{b}Nota:{/b} El instalador web de DirectX de Microsoft instalará por defecto la barra de Bing. Si no deseas esta barra, desmarca la casilla correspondiente."
+
+    # 00gltest.rpy:204
+    old "When setup finishes, please click below to restart this program."
+    new "Cuando finalice la instalación, haz clic abajo para reiniciar este programa."
+
+    # 00gamepad.rpy:32
+    old "Select Gamepad to Calibrate"
+    new "Selecciona el mando para calibrar"
+
+    # 00gamepad.rpy:35
+    old "No Gamepads Available"
+    new "No hay mandos disponibles"
+
+    # 00gamepad.rpy:54
+    old "Calibrating [name] ([i]/[total])"
+    new "Calibrando [name] ([i]/[total])"
+
+    # 00gamepad.rpy:58
+    old "Press or move the [control!r] [kind]."
+    new "Pulsa o mueve [control!r] [kind]."
+
+    # 00gamepad.rpy:66
+    old "Skip (A)"
+    new "Saltar (A)"
+
+    # 00gamepad.rpy:69
+    old "Back (B)"
+    new "Atrás (B)"
+
+
 
 init -1000 python:
 
