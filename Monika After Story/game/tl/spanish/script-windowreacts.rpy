@@ -48,7 +48,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:143
     old "I guess you need a bigger piano?\nAhaha~"
-    new "¿Supongo que necesitas un piano más grande?\n¡Jajaja~!"
+    new "¿Supongo que necesitas un piano más grande?\n¡Jajaja!~"
 
     # game/script-windowreacts.rpy:176
     old "What are you watching, [mas_get_player_nickname()]?"
@@ -60,11 +60,11 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:206
     old "Hey, [player]...what are you looking at?"
-    new "Oye, [player]... ¿qué estás mirando?"
+    new "Hey, [player]... ¿qué estás mirando?"
 
     # game/script-windowreacts.rpy:256
     old "Awww, are you doing something for me?\nYou're so sweet~"
-    new "Awww, ¿estás haciendo algo para mí?\n¡Qué dulce eres~!"
+    new "Awww, ¿estás haciendo algo para mí?\n¡Qué dulce eres!~"
 
     # game/script-windowreacts.rpy:257
     old "Are you going to help me come closer to your reality?\nYou're so sweet, [player]~"
@@ -112,7 +112,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:398
     old "I wonder if people have drawn art of me...\nMind looking for some?\nBe sure to keep it wholesome though~"
-    new "Me pregunto si la gente habrá dibujado arte mío...\n¿Te importaría buscar algo?\n¡Pero asegúrate de que sea algo bonito~!"
+    new "Me pregunto si la gente habrá dibujado arte mío...\n¿Te importaría buscar algo?\nPero asegúrate de que sea algo bonito~"
 
     # game/script-windowreacts.rpy:399
     old "This is a pretty interesting place...so many skilled people posting their work."
@@ -120,7 +120,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:405
     old "This is a pretty interesting place...so many skilled people posting their work.\nAre you one of them, [player]?"
-    new "Este es un lugar bastante interesante... hay tanta gente talentosa publicando su trabajo.\n¿Eres uno de ellos, [player]?"
+    new "Este es un lugar bastante interesante... hay tanta gente talentosa publicando su trabajo.\n¿Eres un[o_a] de ell[o_a]s, [player]?"
 
     # game/script-windowreacts.rpy:411
     old "Here to post your art of me, [player]?"
@@ -164,7 +164,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:547
     old "What are we watching today, [player]?"
-    new "¿Qué vemos hoy, [player]?"
+    new "¿Qué veremos hoy, [player]?"
 
     # game/script-windowreacts.rpy:548
     old "What are you going to watch [player]?"
